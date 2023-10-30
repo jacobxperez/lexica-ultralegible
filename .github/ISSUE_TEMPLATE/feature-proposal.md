@@ -1,8 +1,8 @@
 ---
-name: Feature Proposal
-about: A proposal for a feature that you want to implement 
+name: Proposal
+about: A proposal for a feature or an update that you want to implement
 title: 'Proposal: Title'
-labels: feature proposal
+labels: proposal
 assignees: ''
 
 ---
@@ -12,3 +12,11 @@ assignees: ''
 # Proposal
 <!-- Write down with as much details as possible, the idea that you wish to implement.
 It's up to you to convince the project's developers of the approval of this implementation. -->
+
+<!-- The following sections are not required but recommended -->
+
+<!-- ## Current Issue -->
+<!-- Please explain the current situation and the problems that come with it -->
+
+<!-- ## The Solution -->
+<!-- Explain step-by-step your approach to solve this issue -->
