@@ -1,7 +1,7 @@
 ---
 name: Feature Proposal
 about: A proposal for a feature that you want to implement 
-title: '[Proposal:] <title>'
+title: 'Proposal: Title'
 labels: feature proposal
 assignees: ''
 
