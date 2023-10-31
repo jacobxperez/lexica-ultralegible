@@ -32,7 +32,7 @@ truetype and opentype fonts. You can save fonts in many different outline format
 ## Issues
 
 When submitting an issue please try to be as detailed as possible, this will help us find the
-best solution to your issue. Use a [issue](https://github.com/jacobxperez/rams/issues/new/choose)
+best solution to your issue. Use an [issue](https://github.com/jacobxperez/rams/issues/new/choose)
 template that best describes your concern.
 
 ## Feature Requests
