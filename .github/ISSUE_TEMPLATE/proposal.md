@@ -7,11 +7,11 @@ assignees: ''
 
 ---
 
-<!-- If accepted we will assign this to you -->
+<!-- If approved we will assign this to you -->
 
 # Proposal
 <!-- Write down with as much details as possible, the idea that you wish to implement.
-It's up to you to convince the project's developers of the approval of this implementation. -->
+It's up to you to convince the project's developers to approve this implementation. -->
 
 <!-- The following sections are not required but recommended -->
 
