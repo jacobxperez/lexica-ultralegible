@@ -7,7 +7,7 @@ assignees: ''
 
 ---
 
-<!-- We will work to fix this bug as soon as possible -->
+<!-- We will work as soon as possible to fix this bug -->
 
 # Bug Report
 <!-- A clear description of what the bug is -->
