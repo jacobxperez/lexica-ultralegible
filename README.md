@@ -72,7 +72,7 @@ body {
 
 Help us improve Atkinson Hyperlegible Pro for everyone, any contribution or feedback is welcome.
 Please read our [contributing](https://github.com/jacobxperez/atkinson-hyperlegible-pro/blob/main/.github/CONTRIBUTING.md)
-guidelines before committing to any significant change.
+guidelines before embarking on any significant pull request.
 
 ## License
 

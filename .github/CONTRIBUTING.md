@@ -10,6 +10,7 @@ or feedback is welcome.
 ## Table of Contents
 
 * [Project Scope](#project-scope)
+* [Opening Up The Source Files](#opening-up-the-source-files)
 * [Issues](#issues)
 * [Feature Requests](#feature-requests)
 * [Proposals](#proposals)
@@ -23,24 +24,29 @@ and legibility for low-vision readers, this was achieve by incorporating distinc
 and unambiguous letterform’s. Our aim is to continue to improve this typeface and to
 provide a better reading experience to low-vision readers around the world.
 
+## Opening Up The Source Files
+
+We use [FontForge](https://fontforge.org/en-US/) which allows you to create and modify postscript,
+truetype and opentype fonts. You can save fonts in many different outline formats, and generate bitmaps.
+
 ## Issues
 
-When submitting an issue please try to be as detailed as possible, this will help us find
-a solution to your issue. Please use an [issue](https://github.com/jacobxperez/rams/issues/new/choose)
+When submitting an issue please try to be as detailed as possible, this will help us find the
+best solution to your issue. Use a [issue](https://github.com/jacobxperez/rams/issues/new/choose)
 template that best describes your concern.
 
 ## Feature Requests
 
-If you have an idea that would benefit the community but not necessarily want to work on it
-your self, then use the feature request template. If your idea is approved we will work on
-it as soon as we can.
+If you have an idea that you think will benefit the community but not necessarily want
+to work on it your self, then use the feature request template. If your idea is approved
+we will work on it as soon as we can.
 
 ## Proposals
 
 If you have an idea for an update or a feature that you would like to implement, then
-using the proposal template is a great way to suggest your particular solution. It's up to you
-to convince the project's maintainers to approve your implementation. If your proposal is
-approved we will assign it to you.
+using the proposal template is a great way to suggest your particular solution. Please
+be as detailed as possible because it is up to you to convince the project's maintainers
+to approve your implementation. If your proposal is approved we will assign it to you.
 
 ## Pull Requests
 
@@ -55,6 +61,6 @@ project. When contributing to this project ask yourself these questions:
 
 ## Projects
 
-If you still don't know on what to contribute there might be a couple of
-[projects](https://github.com/jacobxperez/atkinson-hyperlegible-pro/projects?query=is%3Aopen)
-that need your help.
+We might have a couple of [projects](https://github.com/jacobxperez/atkinson-hyperlegible-pro/projects?query=is%3Aopen)
+open that need your help. Let us know if you want to contribute to any of them by opening
+an [issue](https://github.com/jacobxperez/rams/issues/new/choose) or starting a [discussion](https://github.com/jacobxperez/atkinson-hyperlegible-pro/discussions).
