@@ -18,16 +18,32 @@ The original typeface was specifically designed to improve character recognition
 
 ## Issues
 
-When reporting a problem please try to be as detailed as possible in your report, this will help us fix any potential problems other users might find.
+When reporting a problem please try to be as detailed as possible in your report, this will help us fix any potential problems other users might find. Use the font issue template to report any problem you have encounter with the font. Use the bug report template to file a problem regarding with code.
 
 ## Feature Requests
 
-Before opening a feature request, please take a moment to find out whether your idea fits with the scope and aims of the project. It's up to you to convince the project's developers of the merits of this feature, a good way to do this is to start a [discussion](https://github.com/jacobxperez/atkinson-hyperlegible-pro/discussions). Please provide as much detail and context as possible
+If you have an idea that would benefit the community but not necessarily want to work
+on it your self, then use the feature request template from the [issues](https://github.com/jacobxperez/rams/issues/new/choose)
+page. If your idea is approved we will work on it as soon as we can.
+
+## Proposals
+
+If you have an idea for an update or a feature that you would like to implement, then
+using the proposal template from the [issues](https://github.com/jacobxperez/rams/issues/new/choose)
+page is a great way to suggest your particular solution. It's up to you to convince the project's
+maintainers to approve your implementation. If your proposal is approved we will assign it to you.
 
 ## Pull Requests
 
-Please ask before embarking on any significant pull request, otherwise you risk spending a lot of time working on something that the project's developers might not want to merge into the project.
+Ask first before embarking on any significant pull request (e.g. implementing features,
+refactoring code, porting to a different language), otherwise you risk spending a lot of
+time working on something that the project's maintainers might not want to merge into the
+project. When contributing to this project ask yourself these questions:
+
+* Is it essential?
+* Will it add value?
+* Is this change necessary?
 
 ## Projects
 
-If you still don't know what to contribute there might be a couple of [projects](https://github.com/jacobxperez/atkinson-hyperlegible-pro/projects?query=is%3Aopen) that need your help.
+If you still don't know on what to contribute there might be a couple of [projects](https://github.com/jacobxperez/atkinson-hyperlegible-pro/projects?query=is%3Aopen) that need your help.
