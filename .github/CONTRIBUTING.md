@@ -1,6 +1,9 @@
 # Contributing
 
-Welcome designers, help us improve Atkinson Hyperlegible Pro for everyone. Before you contribute to this project is important to read the following sections to better understand the vision of the project. Any contribution or feedback is welcome.
+Welcome designers, help us improve Atkinson Hyperlegible Pro for everyone.
+Before you contribute to this project is important to read the following
+sections to better understand the vision of the project. Any contribution
+or feedback is welcome.
 
 ---
 
@@ -9,16 +12,23 @@ Welcome designers, help us improve Atkinson Hyperlegible Pro for everyone. Befor
 * [Project Scope](#project-scope)
 * [Issues](#issues)
 * [Feature Requests](#feature-requests)
+* [Proposals](#proposals)
 * [Pull Requests](#pull-requests)
 * [Projects](#projects)
 
 ## Project Scope
 
-The original typeface was specifically designed to improve character recognition and legibility for low-vision readers, this was achieve by incorporating distinctive and unambiguous letterform’s. Our aim is to continue to improve this typeface and to provide a better reading experience to low-vision readers around the world.
+The original typeface was specifically designed to improve character recognition
+and legibility for low-vision readers, this was achieve by incorporating distinctive
+and unambiguous letterform’s. Our aim is to continue to improve this typeface and to
+provide a better reading experience to low-vision readers around the world.
 
 ## Issues
 
-When reporting a problem please try to be as detailed as possible in your report, this will help us fix any potential problems other users might find. Use the font issue template to report any problem you have encounter with the font. Use the bug report template to file a problem regarding with code.
+When reporting a problem please try to be as detailed as possible in your report,
+this will help us fix any potential problems other users might find. Use the font issue
+template to report any problem you have encounter with the font. Use the bug report
+template to file a problem regarding with code.
 
 ## Feature Requests
 
@@ -46,4 +56,6 @@ project. When contributing to this project ask yourself these questions:
 
 ## Projects
 
-If you still don't know on what to contribute there might be a couple of [projects](https://github.com/jacobxperez/atkinson-hyperlegible-pro/projects?query=is%3Aopen) that need your help.
+If you still don't know on what to contribute there might be a couple of
+[projects](https://github.com/jacobxperez/atkinson-hyperlegible-pro/projects?query=is%3Aopen)
+that need your help.
