@@ -7,7 +7,7 @@ assignees: ''
 
 ---
 
-<!-- We will work to fix this issue as soon as possible -->
+<!-- We will work as soon as possible to fix this issue -->
 
 # Font Issue
 <!-- A clear description of what the issue is -->
