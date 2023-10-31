@@ -25,23 +25,22 @@ provide a better reading experience to low-vision readers around the world.
 
 ## Issues
 
-When reporting a problem please try to be as detailed as possible in your report,
-this will help us fix any potential problems other users might find. Use the font issue
-template to report any problem you have encounter with the font. Use the bug report
-template to file a problem regarding with code.
+When submitting an issue please try to be as detailed as possible, this will help us find
+a solution to your issue. Please use an [issue](https://github.com/jacobxperez/rams/issues/new/choose)
+template that best describes your concern.
 
 ## Feature Requests
 
-If you have an idea that would benefit the community but not necessarily want to work
-on it your self, then use the feature request template from the [issues](https://github.com/jacobxperez/rams/issues/new/choose)
-page. If your idea is approved we will work on it as soon as we can.
+If you have an idea that would benefit the community but not necessarily want to work on it
+your self, then use the feature request template. If your idea is approved we will work on
+it as soon as we can.
 
 ## Proposals
 
 If you have an idea for an update or a feature that you would like to implement, then
-using the proposal template from the [issues](https://github.com/jacobxperez/rams/issues/new/choose)
-page is a great way to suggest your particular solution. It's up to you to convince the project's
-maintainers to approve your implementation. If your proposal is approved we will assign it to you.
+using the proposal template is a great way to suggest your particular solution. It's up to you
+to convince the project's maintainers to approve your implementation. If your proposal is
+approved we will assign it to you.
 
 ## Pull Requests
 
