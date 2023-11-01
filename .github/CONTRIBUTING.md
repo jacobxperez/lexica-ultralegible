@@ -57,7 +57,8 @@ it as soon as possible.
 If you have an idea for an update or a feature that you would like to implement. Then, using
 the proposal template is a great way to suggest your respective solution. Please provide us
 with as much detail as possible because it is up to you to convince the project maintainers
-to approve your implementation. If your proposal is approved, we will assign it to you.
+to approve your implementation. Be ready to answer any questions the project maintainers
+might have. If your proposal is approved, we will assign it to you.
 
 ## Projects
 
