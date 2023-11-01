@@ -1,9 +1,6 @@
 # Contributing
 
-Welcome designers, help us improve Atkinson Hyperlegible Pro for everyone.
-Before you contribute to this project is important to read the following
-sections to better understand the vision of the project. Any contribution
-or feedback is welcome.
+Welcome designers, help us improve Atkinson Hyperlegible Pro for everyone. Before you start contributing to this project, it's important to read the following sections to better understand its vision. If you come across any [bugs](#bug-reports) or have any [feature requests](#feature-requests), please use the [issue tracker](https://github.com/jacobxperez/atkinson-hyperlegible-pro/issues). You can also submit a project [proposal](#proposals) and engage with the community and project maintainers through [discussions](https://github.com/jacobxperez/atkinson-hyperlegible-pro/discussions). Any contribution or feedback is welcome.
 
 ---
 
@@ -45,6 +42,10 @@ to merge into the project. When contributing to this project, ask yourself these
 
 When submitting an issue, it is crucial to provide us with as much detail as possible so
 that we can find the best solution to your problem. Please use the [issue](https://github.com/jacobxperez/atkinson-hyperlegible-pro/issues/new/choose) template that best describes your concern.
+
+## Bug Reports
+
+Use the bug report template to report any bugs that you have encountered.
 
 ## Feature Requests
 
