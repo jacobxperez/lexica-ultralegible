@@ -1,6 +1,6 @@
 # Contributing
 
-Welcome designers, help us improve Atkinson Hyperlegible Pro for everyone. Before you start contributing to this project, it's important to read the following sections to better understand its vision. If you come across any [bugs](#bug-reports) or have any [feature requests](#feature-requests), please use the [issue tracker](https://github.com/jacobxperez/atkinson-hyperlegible-pro/issues). You can also submit a project [proposal](#proposals) and engage with the community and project maintainers through [discussions](https://github.com/jacobxperez/atkinson-hyperlegible-pro/discussions). Any contribution or feedback is welcome.
+Welcome designers, help us improve Atkinson Hyperlegible Pro for everyone. Before you start contributing to this project, it's important to read the following sections to better understand its vision. If you come across any [bugs](#bug-reports) or have any [feature requests](#feature-requests), please use the [issue tracker](https://github.com/jacobxperez/atkinson-hyperlegible-pro/issues). You can also submit a project [proposal](#proposals) and engage with the community by opening a [discussion](https://github.com/jacobxperez/atkinson-hyperlegible-pro/discussions). Any contribution or feedback is welcome.
 
 ---
 
@@ -10,6 +10,7 @@ Welcome designers, help us improve Atkinson Hyperlegible Pro for everyone. Befor
 * [Opening Up The Source Files](#opening-up-the-source-files)
 * [Pull Requests](#pull-requests)
 * [Issues](#issues)
+  * [Bug Reports](#bug-reports)
   * [Feature Requests](#feature-requests)
   * [Proposals](#proposals)
 * [Projects](#projects)
