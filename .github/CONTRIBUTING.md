@@ -31,29 +31,27 @@ truetype and opentype fonts. You can save fonts in many different outline format
 
 ## Issues
 
-When submitting an issue please try to be as detailed as possible, this will help us find the
-best solution to your issue. Use a [issue](https://github.com/jacobxperez/rams/issues/new/choose)
-template that best describes your concern.
+When submitting an issue, it is crucial to provide us with as much detail as possible so
+that we can find the best solution to your problem. Please use the [issue](https://github.com/jacobxperez/atkinson-hyperlegible-pro/issues/new/choose) template that best describes your concern.
 
 ## Feature Requests
 
-If you have an idea that you think will benefit the community but not necessarily want
-to work on it your self, then use the feature request template. If your idea is approved
-we will work on it as soon as we can.
+If you have an idea that you think will benefit the community but do not want to work on it
+yourself, then use the feature request template. If your idea is approved, we will work on
+it as soon as possible.
 
 ## Proposals
 
-If you have an idea for an update or a feature that you would like to implement, then
-using the proposal template is a great way to suggest your particular solution. Please
-be as detailed as possible because it is up to you to convince the project's maintainers
-to approve your implementation. If your proposal is approved we will assign it to you.
+If you have an idea for an update or a feature that you would like to implement. Then, using
+the proposal template is a great way to suggest your respective solution. Please provide us
+with as much detail as possible because it is up to you to convince the project maintainers
+to approve your implementation. If your proposal is approved, we will assign it to you.
 
 ## Pull Requests
 
-Ask first before embarking on any significant pull request (e.g. implementing features,
-refactoring code, porting to a different language), otherwise you risk spending a lot of
-time working on something that the project's maintainers might not want to merge into the
-project. When contributing to this project ask yourself these questions:
+Before embarking on any significant pull request, ask first. Otherwise, you may end up spending
+a lot of time working on something that we might not want to merge into the project. When
+contributing to this project, ask yourself these questions:
 
 * Is it essential?
 * Will it add value?
@@ -63,4 +61,4 @@ project. When contributing to this project ask yourself these questions:
 
 We might have a couple of [projects](https://github.com/jacobxperez/atkinson-hyperlegible-pro/projects?query=is%3Aopen)
 open that need your help. Let us know if you want to contribute to any of them by opening
-an [issue](https://github.com/jacobxperez/rams/issues/new/choose) or starting a [discussion](https://github.com/jacobxperez/atkinson-hyperlegible-pro/discussions).
+an [issue](https://github.com/jacobxperez/atkinson-hyperlegible-pro/issues/new/choose) or starting a [discussion](https://github.com/jacobxperez/atkinson-hyperlegible-pro/discussions).
