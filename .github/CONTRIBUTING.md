@@ -30,10 +30,13 @@ truetype and opentype fonts. You can save fonts in many different outline format
 ## Pull Requests
 
 Before embarking on any significant pull request, ask first by submitting an
-[issue](https://github.com/jacobxperez/atkinson-hyperlegible-pro/issues/new/choose)
-or starting a [discussion](https://github.com/jacobxperez/atkinson-hyperlegible-pro/discussions).
-Otherwise, you may end up spending a lot of time working on something that we might not want
-to merge into the project. When contributing to this project, ask yourself these questions:
+[issue](https://github.com/jacobxperez/atkinson-hyperlegible-pro/issues/new/choose) or starting a
+[discussion](https://github.com/jacobxperez/atkinson-hyperlegible-pro/discussions). Otherwise, you
+may end up spending a lot of time working on something that we might not want
+to merge into the project. Any contribution to this project will be subject to
+the same terms and conditions of the [license agreement](https://github.com/jacobxperez/atkinson-hyperlegible-pro#license).
+Be precise on your pull request, and do **not** try to submit changes that were
+not agreed upon. When contributing to this project, ask yourself these questions:
 
 * Is it essential?
 * Will it add value?
@@ -42,11 +45,22 @@ to merge into the project. When contributing to this project, ask yourself these
 ## Issues
 
 When submitting an issue, it is crucial to provide us with as much detail as possible so
-that we can find the best solution to your problem. Please use the [issue](https://github.com/jacobxperez/atkinson-hyperlegible-pro/issues/new/choose) template that best describes your concern.
+that we can find the best solution to your problem. Please use the
+[issue](https://github.com/jacobxperez/atkinson-hyperlegible-pro/issues/new/choose)
+template that best describes your concern.
+
+**note**: submitting an issue does **not** guarantee that your issue will be solved.
+
+## Help Us Fix An Issue
+
+There might be a couple of [issues](https://github.com/jacobxperez/atkinson-hyperlegible-pro/issues) that need
+your help. If no one is working on an issue, you can ask to get assigned one.
 
 ## Bug Reports
 
-Use the bug report template to report any bugs that you have encountered.
+Before submitting a bug report make sure your bug is not already reported on the
+[issue](https://github.com/jacobxperez/atkinson-hyperlegible-pro/issues) tracker. If not, use the bug report
+template to report any bugs that you have encountered.
 
 ## Feature Requests
 
