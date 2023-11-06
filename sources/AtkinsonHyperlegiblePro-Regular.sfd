@@ -23,7 +23,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1615339189
-ModificationTime: 1699099202
+ModificationTime: 1699252610
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -96,7 +96,7 @@ KernClass2: 47+ 32 "'kern' Horizontal Kerning lookup 0 kerning class 1"
  156 E AE Egrave Eacute Ecircumflex Edieresis Emacron Ebreve Edotaccent Eogonek Ecaron OE AEacute uni1EB8 uni1EBA uni1EBC uni1EBE uni1EC0 uni1EC2 uni1EC4 uni1EC6
  124 e ae egrave eacute ecircumflex edieresis emacron ebreve edotaccent eogonek ecaron oe aeacute uni1EB9 uni1EBB uni1EBD uni1EC7
  9 F uni1E1E
- 32 f uni1E1F florin dcroat f_f dong
+ 38 f dcroat longs florin uni1E1F dong f_f
  46 G Gbreve Gdotaccent uni0122 Gcircumflex Gcaron
  46 g gbreve gdotaccent uni0123 gcircumflex gcaron
  94 I Igrave Iacute Icircumflex Idieresis Itilde Imacron Ibreve Iogonek Idotaccent uni1EC8 uni1ECA
@@ -138,7 +138,7 @@ KernClass2: 47+ 32 "'kern' Horizontal Kerning lookup 0 kerning class 1"
  188 a agrave aacute acircumflex atilde adieresis aring ae amacron abreve aogonek uni01CE aeacute uni1EA1 uni1EA3 uni1EA5 uni1EA7 uni1EA9 uni1EAB uni1EAD uni1EAF uni1EB1 uni1EB3 uni1EB5 uni1EB7
  287 C G O Q Ccedilla Ograve Oacute Ocircumflex Otilde Odieresis Oslash Cacute Ccircumflex Cdotaccent Ccaron Gcircumflex Gbreve Gdotaccent uni0122 Omacron Obreve Ohungarumlaut OE Ohorn Oslashacute uni1ECC uni1ECE uni1ED0 uni1ED2 uni1ED4 uni1ED6 uni1ED8 uni1EDA uni1EDC uni1EDE uni1EE0 uni1EE2
  435 c d e o q ccedilla egrave eacute ecircumflex edieresis eth ograve oacute ocircumflex otilde odieresis oslash cacute ccircumflex cdotaccent ccaron dcaron dcroat emacron ebreve edotaccent eogonek ecaron omacron obreve ohungarumlaut oe ohorn oslashacute uni1E0B uni1EB9 uni1EBB uni1EBD uni1EBF uni1EC1 uni1EC3 uni1EC5 uni1EC7 uni1ECD uni1ECF uni1ED1 uni1ED3 uni1ED5 uni1ED7 uni1ED9 uni1EDB uni1EDD uni1EDF uni1EE1 uni1EE3 dong partialdiff
- 33 f uni1E1F f_i f_f_i f_l f_f_l f_f
+ 31 f longs uni1E1F f_f f_f_i f_f_l
  46 g gbreve gdotaccent uni0123 gcircumflex gcaron
  36 h k hbar uni0137 hcircumflex uni021F
  97 I Igrave Iacute Icircumflex Idieresis Itilde Imacron Ibreve Iogonek Idotaccent IJ uni1EC8 uni1ECA
@@ -4044,22 +4044,22 @@ ShortTable: maxp 16
 EndShort
 LangName: 1033 "" "" "" "" "" "Version 1.4.0-prerelease" "" "" "Braille Institute" "Elliott Scott, Megan Eiswerth, Linus Boman, Theodore Petrosky, Jacob Perez" "" "https://www.BrailleInstitute.org/" "http://helloapplied.com" "This Font Software is licensed under the SIL Open Font License, Version 1.1.+AAoA-This license is copied below, and is also available with a FAQ at:+AAoA-http://scripts.sil.org/OFL+AAoACgAK------------------------------------------------------------+AAoA-SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007+AAoA------------------------------------------------------------+AAoACgAA-PREAMBLE+AAoA-The goals of the Open Font License (OFL) are to stimulate worldwide+AAoA-development of collaborative font projects, to support the font creation+AAoA-efforts of academic and linguistic communities, and to provide a free and+AAoA-open framework in which fonts may be shared and improved in partnership+AAoA-with others.+AAoACgAA-The OFL allows the licensed fonts to be used, studied, modified and+AAoA-redistributed freely as long as they are not sold by themselves. The+AAoA-fonts, including any derivative works, can be bundled, embedded, +AAoA-redistributed and/or sold with any software provided that any reserved+AAoA-names are not used by derivative works. The fonts and derivatives,+AAoA-however, cannot be released under any other type of license. The+AAoA-requirement for fonts to remain under this license does not apply+AAoA-to any document created using the fonts or their derivatives.+AAoACgAA-DEFINITIONS+AAoAIgAA-Font Software+ACIA refers to the set of files released by the Copyright+AAoA-Holder(s) under this license and clearly marked as such. This may+AAoA-include source files, build scripts and documentation.+AAoACgAi-Reserved Font Name+ACIA refers to any names specified as such after the+AAoA-copyright statement(s).+AAoACgAi-Original Version+ACIA refers to the collection of Font Software components as+AAoA-distributed by the Copyright Holder(s).+AAoACgAi-Modified Version+ACIA refers to any derivative made by adding to, deleting,+AAoA-or substituting -- in part or in whole -- any of the components of the+AAoA-Original Version, by changing formats or by porting the Font Software to a+AAoA-new environment.+AAoACgAi-Author+ACIA refers to any designer, engineer, programmer, technical+AAoA-writer or other person who contributed to the Font Software.+AAoACgAA-PERMISSION & CONDITIONS+AAoA-Permission is hereby granted, free of charge, to any person obtaining+AAoA-a copy of the Font Software, to use, study, copy, merge, embed, modify,+AAoA-redistribute, and sell modified and unmodified copies of the Font+AAoA-Software, subject to the following conditions:+AAoACgAA-1) Neither the Font Software nor any of its individual components,+AAoA-in Original or Modified Versions, may be sold by itself.+AAoACgAA-2) Original or Modified Versions of the Font Software may be bundled,+AAoA-redistributed and/or sold with any software, provided that each copy+AAoA-contains the above copyright notice and this license. These can be+AAoA-included either as stand-alone text files, human-readable headers or+AAoA-in the appropriate machine-readable metadata fields within text or+AAoA-binary files as long as those fields can be easily viewed by the user.+AAoACgAA-3) No Modified Version of the Font Software may use the Reserved Font+AAoA-Name(s) unless explicit written permission is granted by the corresponding+AAoA-Copyright Holder. This restriction only applies to the primary font name as+AAoA-presented to the users.+AAoACgAA-4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font+AAoA-Software shall not be used to promote, endorse or advertise any+AAoA-Modified Version, except to acknowledge the contribution(s) of the+AAoA-Copyright Holder(s) and the Author(s) or with their explicit written+AAoA-permission.+AAoACgAA-5) The Font Software, modified or unmodified, in part or in whole,+AAoA-must be distributed entirely under this license, and must not be+AAoA-distributed under any other license. The requirement for fonts to+AAoA-remain under this license does not apply to any document created+AAoA-using the Font Software.+AAoACgAA-TERMINATION+AAoA-This license becomes null and void if any of the above conditions are+AAoA-not met.+AAoACgAA-DISCLAIMER+AAoA-THE FONT SOFTWARE IS PROVIDED +ACIA-AS IS+ACIA, WITHOUT WARRANTY OF ANY KIND,+AAoA-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF+AAoA-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT+AAoA-OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE+AAoA-COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,+AAoA-INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL+AAoA-DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING+AAoA-FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM+AAoA-OTHER DEALINGS IN THE FONT SOFTWARE." "http://scripts.sil.org/OFL"
 GaspTable: 1 65535 15 1
-Encoding: UnicodeBmp
+Encoding: UnicodeFull
 Compacted: 1
 UnicodeInterp: none
 NameList: AGL For New Fonts
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 275 25 5
+WinInfo: 125 25 17
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 293601 146800 97867 519045 1048576 97867 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "Anchor-0" "'mark' Mark Positioning lookup 1 subtable" "Anchor-1" "'mark' Mark Positioning lookup 1 subtable" "Anchor-2" "'mark' Mark Positioning lookup 1 subtable" "Anchor-3" "'mkmk' Mark to Mark lookup 2 subtable" "Anchor-4" "'mkmk' Mark to Mark lookup 3 subtable"
-BeginChars: 65563 546
+BeginChars: 1114138 547
 
 StartChar: .notdef
-Encoding: 65536 -1 0
+Encoding: 1114112 -1 0
 Width: 523
 GlyphClass: 1
 Flags: W
@@ -4094,7 +4094,7 @@ EndSplineSet
 EndChar
 
 StartChar: NULL
-Encoding: 65537 -1 1
+Encoding: 1114113 -1 1
 Width: 596
 GlyphClass: 1
 Flags: W
@@ -10355,7 +10355,7 @@ EndSplineSet
 EndChar
 
 StartChar: zero.tf
-Encoding: 65538 -1 249
+Encoding: 1114114 -1 249
 Width: 639
 GlyphClass: 1
 Flags: W
@@ -10371,7 +10371,7 @@ Substitution2: "'zero' Slashed Zero lookup 0-1" zero.alt1
 EndChar
 
 StartChar: one.tf
-Encoding: 65539 -1 250
+Encoding: 1114115 -1 250
 Width: 639
 GlyphClass: 1
 Flags: W
@@ -10398,7 +10398,7 @@ Substitution2: "'aalt' Access All Alternates lookup 0 subtable" one
 EndChar
 
 StartChar: two.tf
-Encoding: 65540 -1 251
+Encoding: 1114116 -1 251
 Width: 639
 GlyphClass: 1
 Flags: W
@@ -10412,7 +10412,7 @@ Substitution2: "'aalt' Access All Alternates lookup 0 subtable" two
 EndChar
 
 StartChar: three.tf
-Encoding: 65541 -1 252
+Encoding: 1114117 -1 252
 Width: 639
 GlyphClass: 1
 Flags: W
@@ -10426,7 +10426,7 @@ Substitution2: "'aalt' Access All Alternates lookup 0 subtable" three
 EndChar
 
 StartChar: four.tf
-Encoding: 65542 -1 253
+Encoding: 1114118 -1 253
 Width: 639
 GlyphClass: 1
 Flags: W
@@ -10441,7 +10441,7 @@ Substitution2: "'aalt' Access All Alternates lookup 0 subtable" four
 EndChar
 
 StartChar: five.tf
-Encoding: 65543 -1 254
+Encoding: 1114119 -1 254
 Width: 639
 GlyphClass: 1
 Flags: W
@@ -10456,7 +10456,7 @@ Substitution2: "'aalt' Access All Alternates lookup 0 subtable" five
 EndChar
 
 StartChar: six.tf
-Encoding: 65544 -1 255
+Encoding: 1114120 -1 255
 Width: 639
 GlyphClass: 1
 Flags: W
@@ -10470,7 +10470,7 @@ Substitution2: "'aalt' Access All Alternates lookup 0 subtable" six
 EndChar
 
 StartChar: seven.tf
-Encoding: 65545 -1 256
+Encoding: 1114121 -1 256
 Width: 639
 GlyphClass: 1
 Flags: W
@@ -10483,7 +10483,7 @@ Substitution2: "'aalt' Access All Alternates lookup 0 subtable" seven
 EndChar
 
 StartChar: eight.tf
-Encoding: 65546 -1 257
+Encoding: 1114122 -1 257
 Width: 639
 GlyphClass: 1
 Flags: W
@@ -10497,7 +10497,7 @@ Substitution2: "'aalt' Access All Alternates lookup 0 subtable" eight
 EndChar
 
 StartChar: nine.tf
-Encoding: 65547 -1 258
+Encoding: 1114123 -1 258
 Width: 639
 GlyphClass: 1
 Flags: W
@@ -12005,7 +12005,7 @@ Substitution2: "'aalt' Access All Alternates lookup 0 subtable" acutecomb.case
 EndChar
 
 StartChar: acutecomb.case
-Encoding: 65548 -1 333
+Encoding: 1114124 -1 333
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -12057,7 +12057,7 @@ Substitution2: "'aalt' Access All Alternates lookup 0 subtable" uni0306.case
 EndChar
 
 StartChar: uni0306.case
-Encoding: 65549 -1 335
+Encoding: 1114125 -1 335
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -12104,7 +12104,7 @@ Substitution2: "'aalt' Access All Alternates lookup 0 subtable" uni030C.case
 EndChar
 
 StartChar: uni030C.alt
-Encoding: 65550 -1 337
+Encoding: 1114126 -1 337
 Width: 0
 GlyphClass: 1
 Flags: W
@@ -12124,7 +12124,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni030C.case
-Encoding: 65551 -1 338
+Encoding: 1114127 -1 338
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -12204,7 +12204,7 @@ Substitution2: "'aalt' Access All Alternates lookup 0 subtable" uni0302.case
 EndChar
 
 StartChar: uni0302.case
-Encoding: 65552 -1 341
+Encoding: 1114128 -1 341
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -12285,7 +12285,7 @@ Substitution2: "'aalt' Access All Alternates lookup 0 subtable" uni0308.case
 EndChar
 
 StartChar: uni0308.case
-Encoding: 65553 -1 344
+Encoding: 1114129 -1 344
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -12327,7 +12327,7 @@ Substitution2: "'aalt' Access All Alternates lookup 0 subtable" uni0307.case
 EndChar
 
 StartChar: uni0307.case
-Encoding: 65554 -1 346
+Encoding: 1114130 -1 346
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -12438,7 +12438,7 @@ Substitution2: "'aalt' Access All Alternates lookup 0 subtable" gravecomb.case
 EndChar
 
 StartChar: gravecomb.case
-Encoding: 65555 -1 350
+Encoding: 1114131 -1 350
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -12497,7 +12497,7 @@ Substitution2: "'aalt' Access All Alternates lookup 0 subtable" uni030B.case
 EndChar
 
 StartChar: uni030B.case
-Encoding: 65556 -1 352
+Encoding: 1114132 -1 352
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -12562,7 +12562,7 @@ Substitution2: "'aalt' Access All Alternates lookup 0 subtable" uni0304.case
 EndChar
 
 StartChar: uni0304.case
-Encoding: 65557 -1 355
+Encoding: 1114133 -1 355
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -12639,7 +12639,7 @@ Substitution2: "'aalt' Access All Alternates lookup 0 subtable" uni0328.case
 EndChar
 
 StartChar: uni0328.case
-Encoding: 65558 -1 358
+Encoding: 1114134 -1 358
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -12695,7 +12695,7 @@ Substitution2: "'aalt' Access All Alternates lookup 0 subtable" uni030A.case
 EndChar
 
 StartChar: uni030A.case
-Encoding: 65559 -1 360
+Encoding: 1114135 -1 360
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -12839,7 +12839,7 @@ Substitution2: "'aalt' Access All Alternates lookup 0 subtable" tildecomb.case
 EndChar
 
 StartChar: tildecomb.case
-Encoding: 65560 -1 366
+Encoding: 1114136 -1 366
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -12854,7 +12854,7 @@ Refer: 171 732 N 1 0 0 1 -53 172 2
 EndChar
 
 StartChar: zero.alt1
-Encoding: 65561 -1 367
+Encoding: 1114137 -1 367
 Width: 648
 Flags: W
 HStem: -12 74<242.264 406.23> 606 74<241.691 406.209>
@@ -12886,7 +12886,7 @@ Substitution2: "'zero' Slashed Zero lookup 0-1" zero
 EndChar
 
 StartChar: copyleft
-Encoding: 65562 127279 368
+Encoding: 127279 127279 368
 Width: 798
 Flags: W
 HStem: -12 62<295.298 502.702> 150 59<332.642 455.532> 473 58<337.969 456.805> 618 62<295.298 502.702>
@@ -15322,6 +15322,32 @@ SplineSet
  30 571 l 1
  78 610 87 626.130182184 87 646.98828125 c 0
  87 670.795870447 68.0850397884 686 38.466796875 686 c 0x60
+EndSplineSet
+EndChar
+
+StartChar: longs
+Encoding: 383 383 546
+Width: 311
+Flags: W
+HStem: 0 21G<99 183> 429 67<15 99> 635 71<188.355 286>
+VStem: 99 84<0 429 496 629.834>
+AnchorPoint: "Anchor-0" 90 668 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+234 635 m 2
+ 193.107742963 635 183 622.315773537 183 571 c 0
+ 183 0 l 1
+ 99 0 l 1
+ 99 429 l 1
+ 15 429 l 1
+ 15 496 l 1
+ 99 496 l 1
+ 99 570 l 2
+ 99 677.747794635 126.628994953 706 232 706 c 2
+ 286 706 l 1
+ 286 635 l 1
+ 234 635 l 2
 EndSplineSet
 EndChar
 EndChars
