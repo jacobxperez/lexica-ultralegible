@@ -4051,13 +4051,11 @@ NameList: AGL For New Fonts
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 0
-
 WinInfo: 50 25 17
 BeginPrivate: 0
 EndPrivate
 AnchorClass2: "Anchor-0" "'mark' Mark Positioning lookup 1 subtable" "Anchor-1" "'mark' Mark Positioning lookup 1 subtable" "Anchor-2" "'mark' Mark Positioning lookup 1 subtable" "Anchor-3" "'mkmk' Mark to Mark lookup 2 subtable" "Anchor-4" "'mkmk' Mark to Mark lookup 3 subtable"
 BeginChars: 1114139 548
-
 
 StartChar: .notdef
 Encoding: 1114112 -1 0
@@ -5200,7 +5198,7 @@ SplineSet
  297 0 l 1x78
  292 59 l 1
 EndSplineSet
-Kerns2: 39 -56 "'kern' Horizontal Kerning lookup 0 per glyph data 0"
+Kerns2: 34 -84 "'kern' Horizontal Kerning lookup 0 per glyph data 0" 39 -56 "'kern' Horizontal Kerning lookup 0 per glyph data 0"
 Substitution2: "Single Substitution lookup 12 subtable" ordfeminine
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" ordfeminine
 EndChar
