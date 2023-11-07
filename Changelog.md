@@ -19,6 +19,15 @@
 
 ## Added Characters and Glyphs
 
+* Combining Horn `U+031B`
+* Combining Hook Above `U+0309`
+* Combining Dot Below `U+0323`
+* Long S `ſ` `U+017F`
+* Replacement Character `U+FFFD`
+* I With Hook Above `Ỉ` `U+1EC8` and `ỉ` `U+1EC9`
+* Letter I With Dot Below `Ị` `U+1ECA` and `ị` `U+1ECB`
+* Y With Dot Below `Ỵ` `U+1EF4` and `ỵ` `U+1EF5`
+* Y With Hook Above `Ỷ` `U+1EF6` and `ỷ` `U+1EF7`
 * E With Dot Below `Ẹ` `U+1EB8` and `ẹ` `U+1EB9`
 * E With Hook Above `Ẻ` `U+1EBA` and `ẻ` `U+1EBB`
 * E With Circumflex And Acute `Ế` `U+1EBE` and `ế` `U+1EBF`
