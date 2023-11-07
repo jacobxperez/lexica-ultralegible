@@ -1,5 +1,6 @@
 # Change Log
 
+* Breve mark has been thickened and slightly made wider
 * Added auto hint using FontForge AutoHint tool
 * Harmonized curves using FontForge balance tool
 * Change curve type from quadratic to cubic
@@ -18,6 +19,55 @@
 
 ## Added Characters and Glyphs
 
+* Combining Horn `U+031B`
+* Combining Hook Above `U+0309`
+* Combining Dot Below `U+0323`
+* Long S `ſ` `U+017F`
+* Replacement Character `U+FFFD`
+* I With Hook Above `Ỉ` `U+1EC8` and `ỉ` `U+1EC9`
+* Letter I With Dot Below `Ị` `U+1ECA` and `ị` `U+1ECB`
+* Y With Dot Below `Ỵ` `U+1EF4` and `ỵ` `U+1EF5`
+* Y With Hook Above `Ỷ` `U+1EF6` and `ỷ` `U+1EF7`
+* E With Dot Below `Ẹ` `U+1EB8` and `ẹ` `U+1EB9`
+* E With Hook Above `Ẻ` `U+1EBA` and `ẻ` `U+1EBB`
+* E With Circumflex And Acute `Ế` `U+1EBE` and `ế` `U+1EBF`
+* E With Circumflex And Grave `Ề` `U+1EC0` and `ề` `U+1EC1`
+* E With Circumflex And Hook Above `Ể` `U+1EC2` and `ể` `U+1EC3`
+* E With Circumflex And Tilde `Ễ` `U+1EC4` and `ễ` `U+1EC5`
+* E With Circumflex And Dot Below `Ệ` `U+1EC6` and `ệ` `U+1EC7`
+* U With Horn `Ư` `U+01AF` and `ư` `U+01B0`
+* U With Dot Below `Ụ` `U+1EE4` and `ụ` `U+1EE5`
+* U With Hook Above `Ủ` `U+1EE6` and `ủ` `U+1EE7`
+* U With Horn And Acute `Ứ` `U+1EE8` and `ứ` `U+1EE9`
+* U With Horn And Grave `Ừ` `U+1EEA` and `ừ` `U+1EEB`
+* U With Horn And Hook Above `Ử` `U+1EEC` and `ử` `U+1EED`
+* U With Horn And Tilde `Ữ` `U+1EEE` and `ữ` `U+1EEF`
+* U With Horn And Dot Below `Ự` `U+1EF0` and `ự` `U+1EF1`
+* O With Horn `Ơ` `U+01A0` and `ơ` `U+01A1`
+* O With Dot Below `Ọ` `U+1ECC` and `ọ` `U+1ECD`
+* O With Hook Above `Ỏ` `U+1ECE` and `ỏ` `U+1ECF`
+* O With Circumflex And Acute `Ố` `U+1ED0` and `ố` `U+1ED1`
+* O With Circumflex And Grave `Ồ` `U+1ED2` and `ồ` `U+1ED3`
+* O With Circumflex And Hook Above `Ổ` `U+1ED4` and `ổ` `U+1ED5`
+* O With Circumflex And Tilde `Ỗ` `U+1ED6` and `ỗ` `U+1ED7`
+* O With Circumflex And Dot Below `Ộ` `U+1ED8` and `ộ` `U+1ED9`
+* O With Horn And Acute `Ớ` `U+1EDA` and `ớ` `U+1EDB`
+* O With Horn And Grave `Ờ` `U+1EDC` and `ờ` `U+1EDD`
+* O With Horn And Hook Above `Ở` `U+1EDE` and `ở` `U+1EDF`
+* O With Horn And Tilde `Ỡ` `U+1EE0` and `ỡ` `U+1EE1`
+* O With Horn And Dot Below `Ợ` `U+1EE2` and `ợ` `U+1EE3`
+* A With Breve And Dot Below `Ặ` `U+1EB6` and `ặ` `U+1EB7`
+* A With Breve And Tilde `Ẵ` `U+1EB4` and `ẵ` `U+1EB5`
+* A With Breve And Hook Above `Ẳ` `U+1EB2` and `ẳ` `U+1EB3`
+* A With Breve And Grave `Ằ` `U+1EB0` and `ằ` `U+1EB1`
+* A With Breve And Acute `Ắ` `U+1EAE` and `ắ` `U+1EAF`
+* A With Circumflex And Dot Below `Ậ` `U+1EAC` and `ậ` `U+1EAD`
+* A With Circumflex And Tilde `Ẫ` `U+1EAA` and `ẫ` `U+1EAB`
+* A With Circumflex And Hook Above `Ẩ` `U+1EA8` and `ẩ` `U+1EA9`
+* A With Circumflex And Grave `Ầ` `U+1EA6` and `ầ` `U+1EA7`
+* A With Circumflex And Acute `Ấ` `U+1EA4` and `ấ` `U+1EA5`
+* A With Hook Above `Ả` `U+1EA2` and `ả ``U+1EA3`
+* A With Dot Below `Ạ` `U+1EA0` and `ạ` `U+1EA1`
 * Modifier letter apostrophe `ʼ` `U+02BC`
 * U with caron `Ǔ` `U+01D3` and `ǔ` `U+01D4`
 * H with caron `Ȟ` `U+021E` and `ȟ` `U+021F`
