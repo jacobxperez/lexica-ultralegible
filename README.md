@@ -45,7 +45,7 @@ Angled spurs and differentiated tails: Increase recognition and define distincti
 
 ## Installing the Font
 
-* **[Download](https://github.com/jacobxperez/atkinson-hyperlegible-pro/archive/refs/heads/main.zip)** the font from this Github repository.
+* [Download](https://github.com/jacobxperez/atkinson-hyperlegible-pro/archive/refs/heads/main.zip) the font from the main branch or from the [release](https://github.com/jacobxperez/atkinson-hyperlegible-pro/archive/refs/heads/release.zip) branch.
 * Extract the file to reveal additional folders inside. Find the Open Type Format (.otf) files for the four Atkinson Hyperlegible Pro fonts (regular, italic, bold, bold italic) inside the “[fonts/otf](https://github.com/jacobxperez/atkinson-hyperlegible-pro/tree/main/fonts/otf)” folder.
 * Note: Only the otf files are needed to install the font on a computer.
 * On Windows 10: Double-click the font file, then click the “Install” button in the font preview window that opens. The font will be installed. Alternatively, right-click on the file and choose “Install” from the pop-up menu.
@@ -68,7 +68,7 @@ body {
 }
 ```
 
-## [Contributing](https://github.com/jacobxperez/atkinson-hyperlegible-pro/blob/main/.github/CONTRIBUTING.md)
+## Contributing
 
 Help us improve Atkinson Hyperlegible Pro for everyone, any contribution or feedback is welcome.
 Please read our [contributing](https://github.com/jacobxperez/atkinson-hyperlegible-pro/blob/main/.github/CONTRIBUTING.md)
@@ -80,4 +80,4 @@ SIL Open Font License, v1.1. See [LICENSE.txt](LICENSE.txt) for details.
 
 ---
 
-Learn more at [brailleinstitute.org/freefont](https://brailleinstitute.org/freefont).
+Learn more at [The Braille Institute](https://brailleinstitute.org/freefont).
