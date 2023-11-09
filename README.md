@@ -71,8 +71,8 @@ body {
 ## Contributing
 
 Help us improve Atkinson Hyperlegible Pro for everyone, any contribution or feedback is welcome.
-Please read our [contributing](https://github.com/jacobxperez/atkinson-hyperlegible-pro/blob/main/.github/CONTRIBUTING.md)
-guidelines before embarking on any significant pull request.
+Please read our [contributing guidelines](https://github.com/jacobxperez/atkinson-hyperlegible-pro/blob/main/.github/CONTRIBUTING.md)
+before embarking on any significant pull request.
 
 ## License
 
