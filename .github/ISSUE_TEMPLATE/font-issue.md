@@ -12,16 +12,16 @@ assignees: ''
 # Font Issue
 <!-- A clear description of what the issue is -->
 
-<!-- The following sections are not required but recommended -->
+<!-- The following sections are not required, only recommended -->
 
-<!-- ## Expected behavior -->
+## Expected behavior
 <!-- Tell us what should happen -->
 
-<!-- ## Current behavior -->
+## Current behavior
 <!-- Tell us what happens instead of the expected behavior -->
 
-<!-- ## Possible solution -->
+## Possible solution
 <!-- If you can suggest a fix for this issue -->
 
-<!-- ## Additional context -->
+## Additional context
 <!-- Add any additional context about this issue -->
