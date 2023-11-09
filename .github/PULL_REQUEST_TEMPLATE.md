@@ -7,9 +7,9 @@
 - [ ] Bug fix (non-breaking change which fixes an issue)
 - [ ] New feature (non-breaking change which adds functionality)
 - [ ] Update (non-breaking change that updates something)
-- [ ] Upgrade (This will brake something but it is worth it)
+- [ ] Upgrade (this will brake something but it is worth it)
 
-<!-- The following sections are not required but recommended -->
+<!-- The following sections are not required, only recommended -->
 
-<!-- ## Additional context -->
+## Additional context
 <!-- Add any other information about the fix, feature or update. If this is an upgrade explain what has change. -->
