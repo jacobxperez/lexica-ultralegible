@@ -16,7 +16,7 @@ assignees: ''
 this will hep us keep track of them. -->
 
 ## Glyph(s) checklist
-<!-- Include character name and unicode -->
+<!-- Include character name and Unicode -->
 
 - [ ] Name `U+0000`
 - [ ] Name `U+0000`
