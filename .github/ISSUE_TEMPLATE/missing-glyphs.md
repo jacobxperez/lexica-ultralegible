@@ -17,6 +17,6 @@ assignees: ''
 ## Glyph(s) checklist
 <!-- Include character, name and Unicode -->
 
-- [ ] `U+0000` character and name
-- [ ] `U+0000` character and name
-- [ ] `U+0000` character and name
+* [ ] `U+0000` character and name
+* [ ] `U+0000` character and name
+* [ ] `U+0000` character and name
