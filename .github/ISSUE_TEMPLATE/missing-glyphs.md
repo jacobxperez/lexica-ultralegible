@@ -15,8 +15,8 @@ assignees: ''
 <!-- Create a list of the missing glyph(s), this will help us keep track of them -->
 
 ## Glyph(s) checklist
-<!-- Include character name and Unicode -->
+<!-- Include character, name and Unicode -->
 
-- [ ] Name `U+0000`
-- [ ] Name `U+0000`
-- [ ] Name `U+0000`
+- [ ] `U+0000` character and name
+- [ ] `U+0000` character and name
+- [ ] `U+0000` character and name
