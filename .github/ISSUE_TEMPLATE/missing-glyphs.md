@@ -1,7 +1,7 @@
 ---
 name: Missing Glyph(s)
 about: Glyph(s) are missing
-title: ''
+title: 'Missing: Title'
 labels: missing glyph(s)
 assignees: ''
 
