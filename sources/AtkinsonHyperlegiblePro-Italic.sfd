@@ -23,7 +23,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1618935638
-ModificationTime: 1699598628
+ModificationTime: 1699602224
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -4051,12 +4051,12 @@ NameList: AGL For New Fonts
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 50 25 17
+WinInfo: 150 25 17
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 -562637 293601 146800 97867 520094 1048576 97867 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "Anchor-0" "'mark' Mark Positioning lookup 1 subtable" "Anchor-1" "'mark' Mark Positioning lookup 1 subtable" "Anchor-2" "'mark' Mark Positioning lookup 1 subtable" "Anchor-3" "'mkmk' Mark to Mark lookup 2 subtable" "Anchor-4" "'mkmk' Mark to Mark lookup 3 subtable"
-BeginChars: 1114139 562
+BeginChars: 1114139 563
 
 StartChar: .notdef
 Encoding: 1114112 -1 0
@@ -15623,6 +15623,17 @@ LayerCount: 2
 Fore
 Refer: 331 769 N 1 0 0 1 286 341 2
 Refer: 192 197 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: aringacute
+Encoding: 507 507 562
+Width: 521
+HStem: -12 69<117.816 256.344> 0 21G<327.73 410.48> 436 68<205.891 355.459> 552 58<304.226 388.087> 712 58<304.161 388.087> 846 135
+VStem: 5 94<76.5144 182.013> 237 57<620.25 701.812> 329 79<0 63> 329 184 377 85<309.295 413.947> 398 57<619.952 702.048>
+LayerCount: 2
+Fore
+Refer: 331 769 N 1 0 0 1 228 274 2
+Refer: 201 229 N 1 0 0 1 0 0 3
 EndChar
 EndChars
 EndSplineFont
