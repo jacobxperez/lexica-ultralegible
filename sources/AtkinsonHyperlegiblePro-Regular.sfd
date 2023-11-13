@@ -23,7 +23,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1615339189
-ModificationTime: 1699851204
+ModificationTime: 1699915097
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -86,13 +86,13 @@ MarkAttachSets: 2
 "MarkSet-1" 242 acutecomb acutecomb.case uni0306 uni0306.case uni030C uni030C.case uni0302 uni0302.case uni0308 uni0308.case uni0307 uni0307.case gravecomb gravecomb.case uni030B uni030B.case uni0304 uni0304.case uni030A uni030A.case tildecomb tildecomb.case
 DEI: 91125
 KernClass2: 47+ 32 "'kern' Horizontal Kerning lookup 0 kerning class 1"
- 254 h m n amacron agrave acircumflex atilde adieresis aring aacute ntilde abreve aogonek nacute ncaron hbar uni0146 hcircumflex uni01CE uni021F uni1EA1 uni1EA3 uni1EA5 uni1EA7 uni1EA9 uni1EAB uni1EAD uni1EAF uni1EB1 uni1EB3 uni1EB5 uni1EB7 aringacute uni1E27
+ 262 h m n amacron agrave acircumflex atilde adieresis aring aacute ntilde abreve aogonek nacute ncaron hbar uni0146 hcircumflex uni01CE uni021F uni1EA1 uni1EA3 uni1EA5 uni1EA7 uni1EA9 uni1EAB uni1EAD uni1EAF uni1EB1 uni1EB3 uni1EB5 uni1EB7 aringacute uni1E27 uni1E25
  188 A Acircumflex Atilde Adieresis Aring Agrave Aacute Amacron Abreve Aogonek uni01CD uni1EA0 uni1EA2 uni1EA4 uni1EA6 uni1EA8 uni1EAA uni1EAC uni1EAE uni1EB0 uni1EB2 uni1EB4 uni1EB6 Aringacute
- 9 B uni1E02
- 144 b o p ograve oacute ocircumflex otilde odieresis oslash omacron obreve ohungarumlaut oslashacute uni1E03 uni1E57 uni1ECD uni1ECF uni1ED7 uni1ED9
+ 17 B uni1E02 uni1E04
+ 152 b o p oslash ograve oacute ocircumflex otilde odieresis ohungarumlaut uni1E03 uni1E57 omacron obreve oslashacute uni1ECD uni1ECF uni1ED7 uni1ED9 uni1E05
  47 C Ccedilla Cacute Cdotaccent Ccaron Ccircumflex
  47 c ccedilla cacute cdotaccent ccaron ccircumflex
- 180 D O Eth Ograve Oacute Ocircumflex Otilde Odieresis Oslash eth Dcaron Dcroat Omacron Obreve Ohungarumlaut Oslashacute uni1E0A uni1ECC uni1ECE uni1ED0 uni1ED2 uni1ED4 uni1ED6 uni1ED8
+ 181 D O Eth Ograve Oacute Ocircumflex Otilde Odieresis Oslash eth Dcaron Omacron Obreve Ohungarumlaut Oslashacute uni1E0A uni1E0C uni1ECC uni1ECE uni1ED0 uni1ED2 uni1ED4 uni1ED6 uni1ED8
  156 E AE Egrave Eacute Ecircumflex Edieresis Emacron Ebreve Edotaccent Eogonek Ecaron OE AEacute uni1EB8 uni1EBA uni1EBC uni1EBE uni1EC0 uni1EC2 uni1EC4 uni1EC6
  124 e ae egrave eacute ecircumflex edieresis emacron ebreve edotaccent eogonek ecaron oe aeacute uni1EB9 uni1EBB uni1EBD uni1EC7
  9 F uni1E1E
@@ -104,8 +104,8 @@ KernClass2: 47+ 32 "'kern' Horizontal Kerning lookup 0 kerning class 1"
  56 j ij uni0237 jcircumflex uni01C8 uni01C9 uni01CB uni01CC
  9 K uni0136
  9 k uni0137
- 28 L Lslash uni013B Lacute Ldot
- 25 l uni013C fl f_f_l lacute
+ 36 L Lslash uni013B Lacute Ldot uni1E36
+ 33 l uni013C fl f_f_l lacute uni1E37
  20 lcaron tcaron dcaron
  9 P uni1E56
  1 Q
@@ -137,15 +137,15 @@ KernClass2: 47+ 32 "'kern' Horizontal Kerning lookup 0 kerning class 1"
  10 AE AEacute
  199 a ae amacron agrave acircumflex atilde adieresis aring aacute abreve aogonek aeacute uni01CE uni1EA1 uni1EA3 uni1EA5 uni1EA7 uni1EA9 uni1EAB uni1EAD uni1EAF uni1EB1 uni1EB3 uni1EB5 uni1EB7 aringacute
  287 C G O Q Oslash OE Ccedilla Ograve Oacute Ocircumflex Otilde Odieresis Ohungarumlaut Cacute Cdotaccent Gbreve Gdotaccent uni0122 Ccaron Omacron Ccircumflex Gcircumflex Obreve Oslashacute Ohorn uni1ECC uni1ECE uni1ED0 uni1ED2 uni1ED4 uni1ED6 uni1ED8 uni1EDA uni1EDC uni1EDE uni1EE0 uni1EE2
- 451 c d e o q partialdiff oslash eth oe ccedilla egrave eacute ecircumflex edieresis ograve oacute ocircumflex otilde odieresis emacron edotaccent eogonek ecaron ohungarumlaut cacute cdotaccent dcroat dcaron ccaron dong uni1E0B omacron ccircumflex ebreve obreve oslashacute uni1EBD ohorn uni1EB9 uni1EBB uni1EBF uni1EC1 uni1EC3 uni1EC5 uni1EC7 uni1ECD uni1ECF uni1ED1 uni1ED3 uni1ED5 uni1ED7 uni1ED9 uni1EDB uni1EDD uni1EDF uni1EE1 uni1EE3 uni01C6 uni01F3
+ 459 c d e o q partialdiff oslash eth oe ccedilla egrave eacute ecircumflex edieresis ograve oacute ocircumflex otilde odieresis emacron edotaccent eogonek ecaron ohungarumlaut cacute cdotaccent dcroat dcaron ccaron dong uni1E0B omacron ccircumflex ebreve obreve oslashacute uni1EBD ohorn uni1EB9 uni1EBB uni1EBF uni1EC1 uni1EC3 uni1EC5 uni1EC7 uni1ECD uni1ECF uni1ED1 uni1ED3 uni1ED5 uni1ED7 uni1ED9 uni1EDB uni1EDD uni1EDF uni1EE1 uni1EE3 uni01C6 uni01F3 uni1E0D
  31 f longs uni1E1F f_f f_f_i f_f_l
  46 g gbreve gdotaccent uni0123 gcircumflex gcaron
- 44 h k hbar uni0137 hcircumflex uni021F uni1E27
+ 52 h k hcircumflex hbar uni0137 uni021F uni1E25 uni1E27
  97 I Igrave Iacute Icircumflex Idieresis Itilde Imacron Ibreve Iogonek Idotaccent IJ uni1EC8 uni1ECA
  95 i igrave iacute icircumflex idieresis itilde imacron ibreve iogonek dotlessi ij uni1EC9 uni1ECB
  13 J Jcircumflex
  21 j uni0237 jcircumflex
- 43 l lacute uni013C lcaron ldot lslash uni01C9
+ 51 l lslash uni013C lcaron lacute ldot uni01C9 uni1E37
  82 m n p r ntilde nacute uni0146 ncaron racute uni0157 rcaron uni01CC uni1E41 uni1E57
  52 S Scaron Sacute Scedilla uni0218 uni1E60 Scircumflex
  52 s scaron sacute scedilla uni0219 uni1E61 scircumflex
@@ -4051,12 +4051,12 @@ NameList: AGL For New Fonts
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 50 25 17
+WinInfo: 150 25 17
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 293601 146800 97867 519045 1048576 97867 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "Anchor-0" "'mark' Mark Positioning lookup 1 subtable" "Anchor-1" "'mark' Mark Positioning lookup 1 subtable" "Anchor-2" "'mark' Mark Positioning lookup 1 subtable" "Anchor-3" "'mkmk' Mark to Mark lookup 2 subtable" "Anchor-4" "'mkmk' Mark to Mark lookup 3 subtable"
-BeginChars: 1114138 566
+BeginChars: 1114138 574
 
 StartChar: .notdef
 Encoding: 1114112 -1 0
@@ -4470,6 +4470,7 @@ GlyphClass: 1
 Flags: W
 HStem: 0 79<170 434.519> 308 74<170 418.857> 589 79<170 416.112>
 VStem: 76 94<79 308 382 589> 457 95<419.523 550.519> 484 97<126.073 263.746>
+AnchorPoint: "Anchor-1" 288 0 basechar 0
 AnchorPoint: "Anchor-0" 290 668 basechar 0
 LayerCount: 2
 Fore
@@ -4489,8 +4490,8 @@ SplineSet
 581 192 m 0xf4
  581 79.2896249506 490.147304744 0 361 0 c 2
  76 0 l 1
- 76 668 l 1
- 345 668 l 2
+ 76 668 l 5
+ 345 668 l 6
  471.522410512 668 552 603.462416159 552 502 c 0xf8
  552 446.865886432 526.211317484 392.709653148 482 355 c 1
  544.093784975 322.711231812 581 261.946453538 581 192 c 0xf4
@@ -5207,6 +5208,7 @@ GlyphClass: 1
 Flags: W
 HStem: -12 72<221.777 366.449> 0 21G<70 137.867> 432 72<220.583 366.557> 648 20G<70 154>
 VStem: 70 84<132.781 359.499 418 668> 70 62<0 23.8636> 434 94<136.178 355.963>
+AnchorPoint: "Anchor-1" 315 0 basechar 0
 AnchorPoint: "Anchor-0" 315 496 basechar 0
 LayerCount: 2
 Fore
@@ -10327,7 +10329,7 @@ EndChar
 
 StartChar: Eth
 Encoding: 208 208 248
-AltUni2: 000189.ffffffff.0 000110.ffffffff.0
+AltUni2: 000110.ffffffff.0 000189.ffffffff.0
 Width: 712
 GlyphClass: 2
 Flags: W
@@ -15617,6 +15619,95 @@ LayerCount: 2
 Fore
 Refer: 343 776 N 1 0 0 1 70 0 2
 Refer: 64 120 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni1E04
+Encoding: 7684 7684 566
+Width: 619
+HStem: -207 129<240.747 335.253> 0 79<170 434.519> 308 74<170 418.857> 589 79<170 416.112>
+VStem: 76 94<79 308 382 589> 224 128<-190.15 -94.3971> 457 95<419.523 550.519> 484 97<126.073 263.746>
+LayerCount: 2
+Fore
+Refer: 544 803 N 1 0 0 1 198 0 2
+Refer: 16 66 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni1E05
+Encoding: 7685 7685 567
+Width: 566
+HStem: -207 129<267.747 362.253> -12 72<221.777 366.449> 0 21G<70 137.867> 432 72<220.583 366.557> 648 20G<70 154>
+VStem: 70 62<0 23.8636> 70 84<132.781 359.499 418 668> 251 128<-190.15 -94.3971> 434 94<136.178 355.963>
+LayerCount: 2
+Fore
+Refer: 544 803 N 1 0 0 1 225 0 2
+Refer: 42 98 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni1E0C
+Encoding: 7692 7692 568
+Width: 673
+HStem: -207 129<289.747 384.253> 0 79<170 398.755> 589 79<170 398.626>
+VStem: 76 94<79 589> 273 128<-190.15 -94.3971> 527 96<201.678 467.33>
+LayerCount: 2
+Fore
+Refer: 544 803 N 1 0 0 1 247 0 2
+Refer: 18 68 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni1E0D
+Encoding: 7693 7693 569
+Width: 564
+HStem: -207 129<234.747 329.253> -12 72<199.594 344.747> 0 21G<428.133 513> 432 72<199.486 345.947> 648 20G<412 496>
+VStem: 38 94<136.25 355.891> 218 128<-190.15 -94.3971> 412 84<132.781 359.499 418 668>
+LayerCount: 2
+Fore
+Refer: 544 803 N 1 0 0 1 192 0 2
+Refer: 44 100 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni1E24
+Encoding: 7716 7716 570
+Width: 690
+HStem: -207 129<297.747 392.253> 0 21G<76 170 520 614> 303 81<170 520> 648 20G<76 170 520 614>
+VStem: 76 94<0 303 384 668> 281 128<-190.15 -94.3971> 520 94<0 303 384 668>
+CounterMasks: 1 0e
+LayerCount: 2
+Fore
+Refer: 544 803 N 1 0 0 1 255 0 2
+Refer: 22 72 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni1E25
+Encoding: 7717 7717 571
+Width: 546
+HStem: -207 129<225.747 320.253> 0 21G<70 154 394 478> 432 72<218.193 357.504> 648 20G<70 154>
+VStem: 70 84<0 369.542 421 668> 209 128<-190.15 -94.3971> 394 84<0 392.605>
+LayerCount: 2
+Fore
+Refer: 544 803 N 1 0 0 1 183 0 2
+Refer: 48 104 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni1E36
+Encoding: 7734 7734 572
+Width: 539
+HStem: -207 129<257.747 352.253> 0 81<170 529> 648 20G<76 170>
+VStem: 76 94<81 668> 241 128<-190.15 -94.3971>
+LayerCount: 2
+Fore
+Refer: 544 803 N 1 0 0 1 215 0 2
+Refer: 26 76 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni1E37
+Encoding: 7735 7735 573
+Width: 239
+HStem: -207 129<97.7473 192.253> 0 74<158.416 224> 647 20G<70 154>
+VStem: 70 84<78.6045 667> 81 128<-190.15 -94.3971>
+LayerCount: 2
+Fore
+Refer: 544 803 N 1 0 0 1 55 0 2
+Refer: 52 108 N 1 0 0 1 0 0 3
 EndChar
 EndChars
 EndSplineFont
