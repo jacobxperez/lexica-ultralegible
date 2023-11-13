@@ -19,6 +19,17 @@
 
 ## Added Characters and Glyphs
 
+* X With Diaeresis `Ẍ` `U+1E8C` and `ẍ` `U+1E8D`
+* H With Diaeresis `Ḧ` `U+1E26` and `ḧ` `U+1E27`
+* A With Ring Above And Acute Ǻ `U+01FA` and `ǻ` `U+01FB`
+* N With Small Letter J `ǋ` `U+01CB`
+* Nj `Ǌ` `U+01CA` and `ǌ` `U+01CC`
+* L With Small Letter J `ǈ` `U+01C8`
+* Lj `Ǉ` `U+01C7` and `ǉ` `U+01C9`
+* D With Small Letter Z With Caron `ǅ` `U+01C5`
+* Dz With Caron `Ǆ` `U+01C4` and `ǆ` `U+01C6`
+* D With Small Letter Z `ǲ` `U+01F2`
+* Dz `Ǳ` `U+01F1` and `ǳ` `U+01F3`
 * Combining Horn `U+031B`
 * Combining Hook Above `U+0309`
 * Combining Dot Below `U+0323`

@@ -20,9 +20,9 @@ An updated and extended version of [Atkinson Hyperlegible](https://github.com/go
 Atkinson Hyperlegible Pro is an updated and extended version of the original typeface, which was initially designed for The Braille Institute and named after its founder, J. Robert Atkinson. It was specifically designed to improve character recognition and legibility for low-vision readers by incorporating distinctive and unambiguous letterform’s. The typeface was a Winner of Fast Company’s 2019 Innovation By Design Award.
 
 * Four fonts, including two weights (regular, italic, bold, bold italic)
-* An additional 181 glyphs supporting 91 languages
-* 302 orthographies according to [Hyperglot](https://hyperglot.rosettatype.com/)
-* 2,192 total glyphs across all fonts, 548 per font
+* An additional 199 glyphs supporting 91 languages
+* Supports 303 orthographies according to [Hyperglot](https://hyperglot.rosettatype.com/)
+* 2,192 total glyphs across all fonts, 566 per font
 * Improve legibility and readability for low vision readers
 * Updated kerning for visual harmony and readability
 * Includes common use ligatures `fi ff ffi fl ffl`
