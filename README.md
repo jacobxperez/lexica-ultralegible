@@ -22,7 +22,7 @@ Atkinson Hyperlegible Pro is an updated and extended version of the original typ
 * Four fonts, including two weights (regular, italic, bold, bold italic)
 * An additional 199 glyphs supporting 91 languages
 * Supports 303 orthographies according to [Hyperglot](https://hyperglot.rosettatype.com/)
-* 2,192 total glyphs across all fonts, 566 per font
+* 2,264 total glyphs across all fonts, 566 per font
 * Improve legibility and readability for low vision readers
 * Updated kerning for visual harmony and readability
 * Includes common use ligatures `fi ff ffi fl ffl`
