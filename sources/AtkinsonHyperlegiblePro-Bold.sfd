@@ -23,7 +23,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1615339189
-ModificationTime: 1699690532
+ModificationTime: 1699850918
 PfmFamily: 81
 TTFWeight: 700
 TTFWidth: 5
@@ -86,10 +86,10 @@ MarkAttachSets: 2
 "MarkSet-1" 242 acutecomb acutecomb.case uni0306 uni0306.case uni030C uni030C.case uni0302 uni0302.case uni0308 uni0308.case uni0307 uni0307.case gravecomb gravecomb.case uni030B uni030B.case uni0304 uni0304.case uni030A uni030A.case tildecomb tildecomb.case
 DEI: 91125
 KernClass2: 47+ 32 "'kern' Horizontal Kerning lookup 0 kerning class 1"
- 163 h m n agrave aacute acircumflex atilde adieresis aring ntilde amacron abreve aogonek hcircumflex hbar nacute uni0146 ncaron uni01CE uni021F uni1EA1 uni1EAD uni1EB7
- 177 A Agrave Aacute Acircumflex Atilde Adieresis Aring Amacron Abreve Aogonek uni01CD uni1EA0 uni1EA2 uni1EA4 uni1EA6 uni1EA8 uni1EAA uni1EAC uni1EAE uni1EB0 uni1EB2 uni1EB4 uni1EB6
+ 254 h m n amacron agrave acircumflex atilde adieresis aring aacute ntilde abreve aogonek nacute ncaron hbar uni0146 hcircumflex uni01CE uni021F uni1EA1 uni1EA3 uni1EA5 uni1EA7 uni1EA9 uni1EAB uni1EAD uni1EAF uni1EB1 uni1EB3 uni1EB5 uni1EB7 aringacute uni1E27
+ 177 A Acircumflex Atilde Adieresis Aring Agrave Aacute Amacron Abreve Aogonek uni01CD uni1EA0 uni1EA2 uni1EA4 uni1EA6 uni1EA8 uni1EAA uni1EAC uni1EAE uni1EB0 uni1EB2 uni1EB4 uni1EB6
  9 B uni1E02
- 128 b o p ograve oacute ocircumflex otilde odieresis oslash omacron obreve ohungarumlaut oslashacute uni1E03 uni1E57 uni1ECD uni1ED9
+ 144 b o p oslash ograve oacute ocircumflex otilde odieresis ohungarumlaut uni1E03 uni1E57 omacron obreve oslashacute uni1ECD uni1ECF uni1ED7 uni1ED9
  47 C Ccedilla Cacute Cdotaccent Ccaron Ccircumflex
  47 c ccedilla cacute cdotaccent ccaron ccircumflex
  180 D O Eth Ograve Oacute Ocircumflex Otilde Odieresis Oslash eth Dcaron Dcroat Omacron Obreve Ohungarumlaut Oslashacute uni1E0A uni1ECC uni1ECE uni1ED0 uni1ED2 uni1ED4 uni1ED6 uni1ED8
@@ -100,8 +100,8 @@ KernClass2: 47+ 32 "'kern' Horizontal Kerning lookup 0 kerning class 1"
  46 G Gbreve Gdotaccent uni0122 Gcircumflex Gcaron
  46 g gbreve gdotaccent uni0123 gcircumflex gcaron
  94 I Igrave Iacute Icircumflex Idieresis Itilde Imacron Ibreve Iogonek Idotaccent uni1EC8 uni1ECA
- 16 J IJ Jcircumflex
- 24 j ij uni0237 jcircumflex
+ 32 J IJ Jcircumflex uni01C7 uni01CA
+ 56 j ij uni0237 jcircumflex uni01C8 uni01C9 uni01CB uni01CC
  9 K uni0136
  9 k uni0137
  28 L Lslash uni013B Lacute Ldot
@@ -125,28 +125,28 @@ KernClass2: 47+ 32 "'kern' Horizontal Kerning lookup 0 kerning class 1"
  1 X
  1 x
  69 Y Yacute Ycircumflex Ydieresis uni0232 Ygrave uni1EF4 uni1EF6 uni1EF8
- 26 Z Zcaron Zacute Zdotaccent
- 26 z zcaron zacute zdotaccent
+ 42 Z Zcaron Zacute Zdotaccent uni01C4 uni01F1
+ 58 z zcaron zacute zdotaccent uni01C5 uni01C6 uni01F2 uni01F3
  24 quoteright quotedblright
  49 quotesinglbase quotedblbase ellipsis comma period
  45 Ohorn uni1EDA uni1EDC uni1EDE uni1EE0 uni1EE2
  45 ohorn uni1EDB uni1EDD uni1EDF uni1EE1 uni1EE3
  45 Uhorn uni1EE8 uni1EEA uni1EEC uni1EEE uni1EF0
  45 uhorn uni1EE9 uni1EEB uni1EED uni1EEF uni1EF1
- 177 A Agrave Aacute Acircumflex Atilde Adieresis Aring Amacron Abreve Aogonek uni01CD uni1EA0 uni1EA2 uni1EA4 uni1EA6 uni1EA8 uni1EAA uni1EAC uni1EAE uni1EB0 uni1EB2 uni1EB4 uni1EB6
+ 188 A Acircumflex Atilde Adieresis Aring Agrave Aacute Amacron Abreve Aogonek uni01CD uni1EA0 uni1EA2 uni1EA4 uni1EA6 uni1EA8 uni1EAA uni1EAC uni1EAE uni1EB0 uni1EB2 uni1EB4 uni1EB6 Aringacute
  10 AE AEacute
- 188 a agrave aacute acircumflex atilde adieresis aring ae amacron abreve aogonek uni01CE aeacute uni1EA1 uni1EA3 uni1EA5 uni1EA7 uni1EA9 uni1EAB uni1EAD uni1EAF uni1EB1 uni1EB3 uni1EB5 uni1EB7
- 287 C G O Q Ccedilla Ograve Oacute Ocircumflex Otilde Odieresis Oslash Cacute Ccircumflex Cdotaccent Ccaron Gcircumflex Gbreve Gdotaccent uni0122 Omacron Obreve Ohungarumlaut OE Ohorn Oslashacute uni1ECC uni1ECE uni1ED0 uni1ED2 uni1ED4 uni1ED6 uni1ED8 uni1EDA uni1EDC uni1EDE uni1EE0 uni1EE2
+ 199 a ae amacron agrave acircumflex atilde adieresis aring aacute abreve aogonek aeacute uni01CE uni1EA1 uni1EA3 uni1EA5 uni1EA7 uni1EA9 uni1EAB uni1EAD uni1EAF uni1EB1 uni1EB3 uni1EB5 uni1EB7 aringacute
+ 287 C G O Q Oslash OE Ccedilla Ograve Oacute Ocircumflex Otilde Odieresis Ohungarumlaut Cacute Cdotaccent Gbreve Gdotaccent uni0122 Ccaron Omacron Ccircumflex Gcircumflex Obreve Oslashacute Ohorn uni1ECC uni1ECE uni1ED0 uni1ED2 uni1ED4 uni1ED6 uni1ED8 uni1EDA uni1EDC uni1EDE uni1EE0 uni1EE2
  435 c d e o q ccedilla egrave eacute ecircumflex edieresis eth ograve oacute ocircumflex otilde odieresis oslash cacute ccircumflex cdotaccent ccaron dcaron dcroat emacron ebreve edotaccent eogonek ecaron omacron obreve ohungarumlaut oe ohorn oslashacute uni1E0B uni1EB9 uni1EBB uni1EBD uni1EBF uni1EC1 uni1EC3 uni1EC5 uni1EC7 uni1ECD uni1ECF uni1ED1 uni1ED3 uni1ED5 uni1ED7 uni1ED9 uni1EDB uni1EDD uni1EDF uni1EE1 uni1EE3 dong partialdiff
  46 f longs florin uni1E1F f_f f_i f_l f_f_i f_f_l
  46 g gbreve gdotaccent uni0123 gcircumflex gcaron
- 36 h k hbar uni0137 hcircumflex uni021F
+ 44 h k hbar uni0137 hcircumflex uni021F uni1E27
  97 I Igrave Iacute Icircumflex Idieresis Itilde Imacron Ibreve Iogonek Idotaccent IJ uni1EC8 uni1ECA
  95 i igrave iacute icircumflex idieresis itilde imacron ibreve iogonek dotlessi ij uni1EC9 uni1ECB
  13 J Jcircumflex
  21 j uni0237 jcircumflex
- 35 l lslash uni013C lcaron lacute ldot
- 74 m n p r ntilde nacute ncaron uni0146 racute rcaron uni1E41 uni1E57 uni0157
+ 43 l lslash uni013C lcaron lacute ldot uni01C9
+ 82 m n p r ntilde nacute ncaron uni0146 racute rcaron uni1E41 uni1E57 uni0157 uni01CC
  52 S Scaron Sacute Scedilla uni0218 uni1E60 Scircumflex
  52 s scaron sacute scedilla uni0219 uni1E61 scircumflex
  32 T uni1E6A Tcaron uni0162 uni021A
@@ -157,8 +157,8 @@ KernClass2: 47+ 32 "'kern' Horizontal Kerning lookup 0 kerning class 1"
  71 v y yacute ydieresis ycircumflex uni0233 ygrave uni1EF5 uni1EF7 uni1EF9
  25 W Wgrave Wacute Wdieresis
  25 w wgrave wacute wdieresis
- 1 X
- 1 x
+ 9 X uni1E8C
+ 9 x uni1E8D
  69 Y Yacute Ycircumflex Ydieresis uni0232 Ygrave uni1EF4 uni1EF6 uni1EF8
  26 Z Zcaron Zacute Zdotaccent
  26 z zcaron zacute zdotaccent
@@ -4051,7 +4051,7 @@ NameList: AGL For New Fonts
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 26 17
+WinInfo: 130 26 17
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 335544 167772 111848 520094 1048576 111848 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
