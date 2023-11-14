@@ -23,7 +23,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1618935638
-ModificationTime: 1699933147
+ModificationTime: 1699950457
 PfmFamily: 81
 TTFWeight: 700
 TTFWidth: 5
@@ -105,7 +105,7 @@ KernClass2: 47+ 32 "'kern' Horizontal Kerning lookup 0 kerning class 1"
  9 K uni0136
  9 k uni0137
  36 L Lslash uni013B Lacute Ldot uni1E36
- 30 l uni013C f_f_l lacute uni1E37
+ 49 l lacute uni013C lslash uni0256 uni1E37 f_l f_f_l
  20 lcaron tcaron dcaron
  9 P uni1E56
  1 Q
@@ -137,7 +137,7 @@ KernClass2: 47+ 32 "'kern' Horizontal Kerning lookup 0 kerning class 1"
  10 AE AEacute
  199 a ae amacron agrave acircumflex atilde adieresis aring aacute abreve aogonek aeacute uni01CE uni1EA1 uni1EA3 uni1EA5 uni1EA7 uni1EA9 uni1EAB uni1EAD uni1EAF uni1EB1 uni1EB3 uni1EB5 uni1EB7 aringacute
  287 C G O Q Oslash OE Ccedilla Ograve Oacute Ocircumflex Otilde Odieresis Ohungarumlaut Cacute Cdotaccent Gbreve Gdotaccent Ccaron uni0122 Omacron Ccircumflex Gcircumflex Obreve Oslashacute Ohorn uni1ECC uni1ECE uni1ED0 uni1ED2 uni1ED4 uni1ED6 uni1ED8 uni1EDA uni1EDC uni1EDE uni1EE0 uni1EE2
- 443 c d e o q partialdiff oslash eth oe ccedilla egrave eacute ecircumflex edieresis ograve oacute ocircumflex otilde odieresis emacron edotaccent eogonek ecaron ohungarumlaut cacute cdotaccent dcroat dcaron ccaron dong uni1E0B omacron ccircumflex ebreve obreve oslashacute uni1EBD ohorn uni1EB9 uni1EBB uni1EBF uni1EC1 uni1EC3 uni1EC5 uni1EC7 uni1ECD uni1ECF uni1ED1 uni1ED3 uni1ED5 uni1ED7 uni1ED9 uni1EDB uni1EDD uni1EDF uni1EE1 uni1EE3 uni1E0D
+ 451 c d e o q ccedilla egrave eacute ecircumflex edieresis eth ograve oacute ocircumflex otilde odieresis oslash cacute ccircumflex cdotaccent ccaron dcaron dcroat emacron ebreve edotaccent eogonek ecaron omacron obreve ohungarumlaut oe ohorn oslashacute uni0256 uni1E0B uni1E0D uni1EB9 uni1EBB uni1EBD uni1EBF uni1EC1 uni1EC3 uni1EC5 uni1EC7 uni1ECD uni1ECF uni1ED1 uni1ED3 uni1ED5 uni1ED7 uni1ED9 uni1EDB uni1EDD uni1EDF uni1EE1 uni1EE3 dong partialdiff
  46 f longs florin uni1E1F f_f f_i f_l f_f_i f_f_l
  46 g gbreve gdotaccent uni0123 gcircumflex gcaron
  52 h k hcircumflex hbar uni0137 uni021F uni1E25 uni1E27
@@ -4051,11 +4051,11 @@ NameList: AGL For New Fonts
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 175 25 17
+WinInfo: 75 25 17
 BeginPrivate: 0
 EndPrivate
 AnchorClass2: "Anchor-0" "'mark' Mark Positioning lookup 1 subtable" "Anchor-1" "'mark' Mark Positioning lookup 1 subtable" "Anchor-2" "'mark' Mark Positioning lookup 1 subtable" "Anchor-3" "'mkmk' Mark to Mark lookup 2 subtable" "Anchor-4" "'mkmk' Mark to Mark lookup 3 subtable"
-BeginChars: 1114139 577
+BeginChars: 1114139 578
 
 StartChar: .notdef
 Encoding: 1114112 -1 0
@@ -5529,17 +5529,17 @@ AnchorPoint: "Anchor-0" 108 0 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-172 159 m 0xe0
- 172 134.13000301 187.918576159 124 227 124 c 2
- 270 124 l 1
- 244 0 l 1
- 147 0 l 2
- 49.8758492231 0 4 31.7602033083 4 99 c 0xe0
- 4 108.76631206 5.38284738528 120.10566062 9 140 c 2
+172 159 m 4xe0
+ 172 134.13000301 187.918576159 124 227 124 c 6
+ 270 124 l 5
+ 244 0 l 5
+ 147 0 l 6
+ 49.8758492231 0 4 31.7602033083 4 99 c 4xe0
+ 4 108.76631206 5.38284738528 120.10566062 9 140 c 6
  121 668 l 1
  277 668 l 1xd0
- 179 204 l 2
- 174.098368152 182.759595323 172 169.270085776 172 159 c 0xe0
+ 179 204 l 6
+ 174.098368152 182.759595323 172 169.270085776 172 159 c 4xe0
 EndSplineSet
 Kerns2: 56 12 "'kern' Horizontal Kerning lookup 0 per glyph data 0" 388 12 "'kern' Horizontal Kerning lookup 0 per glyph data 0"
 EndChar
@@ -15697,6 +15697,41 @@ LayerCount: 2
 Fore
 Refer: 545 803 N 1 0 0 1 125 0 2
 Refer: 59 115 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni0256
+Encoding: 598 598 577
+Width: 606
+Flags: W
+HStem: -204 124<465.031 555> -12 117<130.956 271.9> 392 118<224.806 347.561> 648 20G<453.709 613>
+VStem: 3 159<139.848 318.125> 295 168<-138.62 -2.81142> 458 155<513 668>
+DStem2: 277.247 -204 426.638 -204 0.207912 0.978148<194.431 272.965 637.904 890.525>
+AnchorPoint: "Anchor-1" 266 496 basechar 0
+AnchorPoint: "Anchor-0" 188 0 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+613 668 m 1xfa
+ 470 0 l 2
+ 466 -20 463 -38.9836758159 463 -45 c 0
+ 463 -69.869939631 478.918666294 -80 518 -80 c 2
+ 581 -80 l 5
+ 555 -204 l 5
+ 438 -204 l 2
+ 340.875596788 -204 295 -172.239971455 295 -105 c 0xfc
+ 295 -82.6764705882 295 -82.6764705882 334 63 c 1
+ 295.770550196 13.6716776725 245.454061958 -12 187 -12 c 0
+ 74.9119135535 -12 3 67.3376002791 3 191 c 0
+ 3 374.226125727 114.938962175 510 266 510 c 0
+ 330.326800871 510 383.572780248 475.907250615 405 421 c 1
+ 458 668 l 1
+ 613 668 l 1xfa
+162 216 m 0
+ 162 146.564445768 195.326447508 105 251 105 c 0
+ 324.085941664 105 382 186.3449369 382 289 c 0
+ 382 350.876433669 346.466044626 392 293 392 c 0
+ 214.377036802 392 162 321.63085132 162 216 c 0
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont
