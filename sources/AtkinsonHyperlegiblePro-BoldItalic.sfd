@@ -23,7 +23,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1618935638
-ModificationTime: 1699915171
+ModificationTime: 1699933147
 PfmFamily: 81
 TTFWeight: 700
 TTFWidth: 5
@@ -112,8 +112,8 @@ KernClass2: 47+ 32 "'kern' Horizontal Kerning lookup 0 kerning class 1"
  1 q
  23 R Racute Rcaron uni0156
  23 r racute rcaron uni0157
- 52 S Scaron Sacute Scedilla uni0218 uni1E60 Scircumflex
- 52 s scaron sacute scedilla uni0219 uni1E61 scircumflex
+ 60 S Sacute Scircumflex Scedilla Scaron uni0218 uni1E60 uni1E62
+ 60 s sacute scircumflex scedilla scaron uni0219 uni1E61 uni1E63
  32 T uni1E6A Tcaron uni0162 uni021A
  25 t uni1E6B uni0163 uni021B
  95 U Ugrave Uacute Ucircumflex Udieresis Umacron Uring Uhungarumlaut Uogonek Ubreve Utilde uni01D3
@@ -147,8 +147,8 @@ KernClass2: 47+ 32 "'kern' Horizontal Kerning lookup 0 kerning class 1"
  21 j uni0237 jcircumflex
  43 l lslash lcaron uni013C lacute ldot uni01C9
  82 m n p r ntilde nacute ncaron uni0146 racute rcaron uni1E41 uni1E57 uni0157 uni01CC
- 52 S Scaron Sacute Scedilla uni0218 uni1E60 Scircumflex
- 52 s scaron sacute scedilla uni0219 uni1E61 scircumflex
+ 60 S Sacute Scircumflex Scedilla Scaron uni0218 uni1E60 uni1E62
+ 60 s sacute scircumflex scedilla scaron uni0219 uni1E61 uni1E63
  32 T uni1E6A Tcaron uni0162 uni021A
  32 t uni1E6B tcaron uni0163 uni021B
  151 U Ugrave Uacute Ucircumflex Udieresis Utilde Umacron Ubreve Uring Uhungarumlaut Uogonek uni01D3 uni1EE4 uni1EE6 uni1EE8 uni1EEA uni1EEC uni1EEE uni1EF0
@@ -4055,7 +4055,7 @@ WinInfo: 175 25 17
 BeginPrivate: 0
 EndPrivate
 AnchorClass2: "Anchor-0" "'mark' Mark Positioning lookup 1 subtable" "Anchor-1" "'mark' Mark Positioning lookup 1 subtable" "Anchor-2" "'mark' Mark Positioning lookup 1 subtable" "Anchor-3" "'mkmk' Mark to Mark lookup 2 subtable" "Anchor-4" "'mkmk' Mark to Mark lookup 3 subtable"
-BeginChars: 1114139 575
+BeginChars: 1114139 577
 
 StartChar: .notdef
 Encoding: 1114112 -1 0
@@ -10397,7 +10397,7 @@ EndChar
 
 StartChar: Eth
 Encoding: 208 208 249
-AltUni2: 000110.ffffffff.0 000189.ffffffff.0
+AltUni2: 000189.ffffffff.0 000110.ffffffff.0
 Width: 738
 GlyphClass: 1
 Flags: W
@@ -15675,6 +15675,28 @@ LayerCount: 2
 Fore
 Refer: 545 803 N 1 0 0 1 18 0 2
 Refer: 52 108 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni1E62
+Encoding: 7778 7778 575
+Width: 642
+HStem: -247 179<189.595 307.215> -12 126<222.854 396.214> 551 129<243.997 410.957>
+VStem: 61 163<447.33 530.598> 159 179<-216.061 -98.4877> 424 164<141.133 221.354>
+LayerCount: 2
+Fore
+Refer: 545 803 N 1 0 0 1 198 0 2
+Refer: 33 83 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni1E63
+Encoding: 7779 7779 576
+Width: 515
+HStem: -247 179<116.595 234.215> -13 109<149.843 293.729> 399 111<179.572 323.343>
+VStem: 30 144<331.688 390.045> 86 179<-216.061 -98.4877> 306 148<110.763 169.09>
+LayerCount: 2
+Fore
+Refer: 545 803 N 1 0 0 1 125 0 2
+Refer: 59 115 N 1 0 0 1 0 0 3
 EndChar
 EndChars
 EndSplineFont

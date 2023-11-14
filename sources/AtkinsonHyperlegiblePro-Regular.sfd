@@ -23,7 +23,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1615339189
-ModificationTime: 1699915097
+ModificationTime: 1699932718
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -112,8 +112,8 @@ KernClass2: 47+ 32 "'kern' Horizontal Kerning lookup 0 kerning class 1"
  1 q
  23 R Racute Rcaron uni0156
  23 r racute rcaron uni0157
- 52 S Scaron Sacute Scedilla uni0218 uni1E60 Scircumflex
- 52 s scaron sacute scedilla uni0219 uni1E61 scircumflex
+ 60 S Sacute Scircumflex Scedilla Scaron uni0218 uni1E60 uni1E62
+ 60 s sacute scircumflex scedilla scaron uni0219 uni1E61 uni1E63
  32 T uni1E6A Tcaron uni0162 uni021A
  25 t uni1E6B uni0163 uni021B
  95 U Ugrave Uacute Ucircumflex Udieresis Umacron Uring Uhungarumlaut Uogonek Ubreve Utilde uni01D3
@@ -147,8 +147,8 @@ KernClass2: 47+ 32 "'kern' Horizontal Kerning lookup 0 kerning class 1"
  21 j uni0237 jcircumflex
  51 l lslash uni013C lcaron lacute ldot uni01C9 uni1E37
  82 m n p r ntilde nacute uni0146 ncaron racute uni0157 rcaron uni01CC uni1E41 uni1E57
- 52 S Scaron Sacute Scedilla uni0218 uni1E60 Scircumflex
- 52 s scaron sacute scedilla uni0219 uni1E61 scircumflex
+ 60 S Sacute Scircumflex Scedilla Scaron uni0218 uni1E60 uni1E62
+ 60 s sacute scircumflex scedilla scaron uni0219 uni1E61 uni1E63
  32 T uni1E6A Tcaron uni0162 uni021A
  32 t uni1E6B tcaron uni0163 uni021B
  151 U Ugrave Uacute Ucircumflex Udieresis Utilde Umacron Ubreve Uring Uhungarumlaut Uogonek uni01D3 uni1EE4 uni1EE6 uni1EE8 uni1EEA uni1EEC uni1EEE uni1EF0
@@ -4051,12 +4051,12 @@ NameList: AGL For New Fonts
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 150 25 17
+WinInfo: 100 25 17
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 293601 146800 97867 519045 1048576 97867 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "Anchor-0" "'mark' Mark Positioning lookup 1 subtable" "Anchor-1" "'mark' Mark Positioning lookup 1 subtable" "Anchor-2" "'mark' Mark Positioning lookup 1 subtable" "Anchor-3" "'mkmk' Mark to Mark lookup 2 subtable" "Anchor-4" "'mkmk' Mark to Mark lookup 3 subtable"
-BeginChars: 1114138 574
+BeginChars: 1114138 576
 
 StartChar: .notdef
 Encoding: 1114112 -1 0
@@ -10329,7 +10329,7 @@ EndChar
 
 StartChar: Eth
 Encoding: 208 208 248
-AltUni2: 000110.ffffffff.0 000189.ffffffff.0
+AltUni2: 000189.ffffffff.0 000110.ffffffff.0
 Width: 712
 GlyphClass: 2
 Flags: W
@@ -15708,6 +15708,30 @@ LayerCount: 2
 Fore
 Refer: 544 803 N 1 0 0 1 55 0 2
 Refer: 52 108 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni1E62
+Encoding: 7778 7778 574
+Width: 596
+HStem: -207 129<250.747 345.253> -12 79<201.951 393.737> 601 79<197.405 381.666>
+VStem: 46 97<442.017 553.071> 234 128<-190.15 -94.3971> 457 99<122.38 241.096>
+DStem2: 286 392 238 313 0.975916 -0.218146<-126.854 168.178>
+LayerCount: 2
+Fore
+Refer: 544 803 N 1 0 0 1 208 0 2
+Refer: 33 83 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni1E63
+Encoding: 7779 7779 575
+Width: 471
+HStem: -207 129<182.747 277.253> -12 71<157.799 320.887> 434 71<150.377 305.652>
+VStem: 41 85<325.463 410.053> 166 128<-190.15 -94.3971> 356 85<90.2805 182.837>
+DStem2: 218 299 177 231 0.980031 -0.198847<-87.386 145.017>
+LayerCount: 2
+Fore
+Refer: 544 803 N 1 0 0 1 140 0 2
+Refer: 59 115 N 1 0 0 1 0 0 3
 EndChar
 EndChars
 EndSplineFont
