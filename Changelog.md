@@ -22,8 +22,8 @@
 ## Added Characters and Glyphs
 
 * `U+0166` `Ŧ` T With Stroke and `U+0167` `ŧ`
-* `U+0197` I With Stroke and `U+0268` `ɨ`
-* `U+01EA` O With Ogonek and `U+01EB` `ǫ`
+* `U+0197` `Ɨ` I With Stroke and `U+0268` `ɨ`
+* `U+01EA` `Ǫ` O With Ogonek and `U+01EB` `ǫ`
 * `U+019E` `ƞ` N With Long Right Leg
 * `U+019D` `Ɲ` N With Left Hook `U+0272` `ɲ`
 * `U+014A` `Ŋ` Letter Eng and `U+014B` `ŋ`
