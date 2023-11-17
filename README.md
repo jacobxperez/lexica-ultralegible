@@ -20,9 +20,9 @@ An updated and extended version of [Atkinson Hyperlegible](https://github.com/go
 Atkinson Hyperlegible Pro is an updated and extended version of the original typeface, which was initially designed for The Braille Institute and named after its founder, J. Robert Atkinson. It was specifically designed to improve character recognition and legibility for low-vision readers by incorporating distinctive and unambiguous letterform’s. The typeface was a Winner of Fast Company’s 2019 Innovation By Design Award.
 
 * Four fonts, including two weights (regular, italic, bold, bold italic)
-* An additional 199 glyphs supporting 91 languages
-* Supports 303 orthographies according to [Hyperglot](https://hyperglot.rosettatype.com/)
-* 2,264 total glyphs across all fonts, 566 per font
+* An additional 222 glyphs supporting 102 languages
+* Supports 340 orthographies according to [Hyperglot](https://hyperglot.rosettatype.com/)
+* 2,356 total glyphs across all fonts, 589 per font
 * Improve legibility and readability for low vision readers
 * Updated kerning for visual harmony and readability
 * Includes standard ligatures `fi ff ffi fl ffl`
@@ -54,7 +54,7 @@ Angled spurs and differentiated tails: Increase recognition and define distincti
 
 ## Language Support
 
-Afrikaans Albanian Asu Basque Bemba Bena Breton Catalan Chiga Colognian Cornish Croatian Czech Danish Dutch Embu English Esperanto Estonian Faroese Filipino Finnish French Friulian Galician German Gusii Hungarian Icelandic Indonesian Irish Italian Kabuverdianu Kalenjin Kamba Kikuyu Kinyarwanda Latvian Lithuanian Lower Sorbian Luo Luxembourgish Luyia Machame Makhuwa-Meetto Makonde Malagasy Maltese Manx Meru Morisyen North Ndebele Norwegian Bokmål Norwegian Nynorsk Nyankole Oromo Polish Portuguese Quechua Romanian Romansh Rombo Rundi Rwa Samburu Sango Sangu Scottish Gaelic Sena Serbian Shambala Shona Slovak Soga Somali Spanish Swahili Swedish Swiss German Taita Teso Turkish Upper Sorbian Uzbek (Latin) Vietnamese Volapük Vunjo Walser Welsh Western Frisian Zulu.
+Afrikaans Albanian Asturian Asu Basque Bemba Bena Breton Catalan Chiga Colognian Cornish Croatian Czech Danish Dutch Embu English Esperanto Estonian Faroese Filipino Finnish French Friulian Galician Ganda German Gusii Hungarian Icelandic Inari Sami Indonesian Irish Italian Jola-Fonyi Kabuverdianu Kalenjin Kamba Kikuyu Kinyarwanda Koyraboro Senni Koyra Chiini Lakota Latvian Lithuanian Lower Sorbian Luo Luxembourgish Luyia Machame Makhuwa-Meetto Makonde Malagasy Maltese Manx Meru Morisyen Northern Sami North Ndebele Norwegian Bokmål Norwegian Nynorsk Nyankole Oromo Polish Portuguese Quechua Romanian Romansh Rombo Rundi Rwa Samburu Sango Sangu Scottish Gaelic Sena Serbian Shambala Shona Slovak Soga Somali Spanish Swahili Swedish Swiss German Taita Tasawaq Teso Turkish Upper Sorbian Uzbek (Latin) Vietnamese Volapük Vunjo Walser Welsh Western Frisian Yoruba Zarma Zulu.
 
 ## Flipping the Zero
 

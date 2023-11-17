@@ -1,5 +1,7 @@
 # Change Log
 
+* Fix all non-integral coordinates
+* Round all points to integer coordinates
 * Breve mark has been thickened and slightly made wider
 * Added auto hint using FontForge AutoHint tool
 * Harmonized curves using FontForge balance tool
@@ -19,109 +21,122 @@
 
 ## Added Characters and Glyphs
 
-* X With Diaeresis `Ẍ` `U+1E8C` and `ẍ` `U+1E8D`
-* H With Diaeresis `Ḧ` `U+1E26` and `ḧ` `U+1E27`
-* A With Ring Above And Acute Ǻ `U+01FA` and `ǻ` `U+01FB`
-* N With Small Letter J `ǋ` `U+01CB`
-* Nj `Ǌ` `U+01CA` and `ǌ` `U+01CC`
-* L With Small Letter J `ǈ` `U+01C8`
-* Lj `Ǉ` `U+01C7` and `ǉ` `U+01C9`
-* D With Small Letter Z With Caron `ǅ` `U+01C5`
-* Dz With Caron `Ǆ` `U+01C4` and `ǆ` `U+01C6`
-* D With Small Letter Z `ǲ` `U+01F2`
-* Dz `Ǳ` `U+01F1` and `ǳ` `U+01F3`
-* Combining Horn `U+031B`
-* Combining Hook Above `U+0309`
-* Combining Dot Below `U+0323`
-* Long S `ſ` `U+017F`
-* Replacement Character `U+FFFD`
-* I With Hook Above `Ỉ` `U+1EC8` and `ỉ` `U+1EC9`
-* Letter I With Dot Below `Ị` `U+1ECA` and `ị` `U+1ECB`
-* Y With Dot Below `Ỵ` `U+1EF4` and `ỵ` `U+1EF5`
-* Y With Hook Above `Ỷ` `U+1EF6` and `ỷ` `U+1EF7`
-* E With Dot Below `Ẹ` `U+1EB8` and `ẹ` `U+1EB9`
-* E With Hook Above `Ẻ` `U+1EBA` and `ẻ` `U+1EBB`
-* E With Circumflex And Acute `Ế` `U+1EBE` and `ế` `U+1EBF`
-* E With Circumflex And Grave `Ề` `U+1EC0` and `ề` `U+1EC1`
-* E With Circumflex And Hook Above `Ể` `U+1EC2` and `ể` `U+1EC3`
-* E With Circumflex And Tilde `Ễ` `U+1EC4` and `ễ` `U+1EC5`
-* E With Circumflex And Dot Below `Ệ` `U+1EC6` and `ệ` `U+1EC7`
-* U With Horn `Ư` `U+01AF` and `ư` `U+01B0`
-* U With Dot Below `Ụ` `U+1EE4` and `ụ` `U+1EE5`
-* U With Hook Above `Ủ` `U+1EE6` and `ủ` `U+1EE7`
-* U With Horn And Acute `Ứ` `U+1EE8` and `ứ` `U+1EE9`
-* U With Horn And Grave `Ừ` `U+1EEA` and `ừ` `U+1EEB`
-* U With Horn And Hook Above `Ử` `U+1EEC` and `ử` `U+1EED`
-* U With Horn And Tilde `Ữ` `U+1EEE` and `ữ` `U+1EEF`
-* U With Horn And Dot Below `Ự` `U+1EF0` and `ự` `U+1EF1`
-* O With Horn `Ơ` `U+01A0` and `ơ` `U+01A1`
-* O With Dot Below `Ọ` `U+1ECC` and `ọ` `U+1ECD`
-* O With Hook Above `Ỏ` `U+1ECE` and `ỏ` `U+1ECF`
-* O With Circumflex And Acute `Ố` `U+1ED0` and `ố` `U+1ED1`
-* O With Circumflex And Grave `Ồ` `U+1ED2` and `ồ` `U+1ED3`
-* O With Circumflex And Hook Above `Ổ` `U+1ED4` and `ổ` `U+1ED5`
-* O With Circumflex And Tilde `Ỗ` `U+1ED6` and `ỗ` `U+1ED7`
-* O With Circumflex And Dot Below `Ộ` `U+1ED8` and `ộ` `U+1ED9`
-* O With Horn And Acute `Ớ` `U+1EDA` and `ớ` `U+1EDB`
-* O With Horn And Grave `Ờ` `U+1EDC` and `ờ` `U+1EDD`
-* O With Horn And Hook Above `Ở` `U+1EDE` and `ở` `U+1EDF`
-* O With Horn And Tilde `Ỡ` `U+1EE0` and `ỡ` `U+1EE1`
-* O With Horn And Dot Below `Ợ` `U+1EE2` and `ợ` `U+1EE3`
-* A With Breve And Dot Below `Ặ` `U+1EB6` and `ặ` `U+1EB7`
-* A With Breve And Tilde `Ẵ` `U+1EB4` and `ẵ` `U+1EB5`
-* A With Breve And Hook Above `Ẳ` `U+1EB2` and `ẳ` `U+1EB3`
-* A With Breve And Grave `Ằ` `U+1EB0` and `ằ` `U+1EB1`
-* A With Breve And Acute `Ắ` `U+1EAE` and `ắ` `U+1EAF`
-* A With Circumflex And Dot Below `Ậ` `U+1EAC` and `ậ` `U+1EAD`
-* A With Circumflex And Tilde `Ẫ` `U+1EAA` and `ẫ` `U+1EAB`
-* A With Circumflex And Hook Above `Ẩ` `U+1EA8` and `ẩ` `U+1EA9`
-* A With Circumflex And Grave `Ầ` `U+1EA6` and `ầ` `U+1EA7`
-* A With Circumflex And Acute `Ấ` `U+1EA4` and `ấ` `U+1EA5`
-* A With Hook Above `Ả` `U+1EA2` and `ả ``U+1EA3`
-* A With Dot Below `Ạ` `U+1EA0` and `ạ` `U+1EA1`
-* Modifier letter apostrophe `ʼ` `U+02BC`
-* U with caron `Ǔ` `U+01D3` and `ǔ` `U+01D4`
-* H with caron `Ȟ` `U+021E` and `ȟ` `U+021F`
-* A with caron `Ǎ` `U+01CD` and `ǎ` `U+01CE`
-* Y with tilde `Ỹ` `U+1EF8` and `ỹ` `U+1EF9`
-* Y with macron `Ȳ` `U+0232` and `ȳ` `U+0233`
-* G with caron `Ǧ` `U+01E6` and `ǧ` `U+01E7`
-* E with tilde `Ẽ` `U+1EBC` and `ẽ` `U+1EBD`
-* O with stroke and acute `Ǿ` `U+01FE` and `ǿ` `U+01FF`
-* Ae with acute `Ǽ` `U+01FC` and `ǽ` `U+01FD`
-* O with breve `Ŏ` `U+014E` and `ŏ` `U+014F`
-* L with middle dot `Ŀ` `U+013F` and `ŀ` `U+0140`
-* I with breve `Ĭ` `U+012C` and `ĭ` `U+012D`
-* I with tilde `Ĩ` `U+0128` and `ĩ` `U+0129`
-* E with breve `Ĕ` `U+0114` and `ĕ` `U+0115`
-* Hyphen `‐` `U+2010`
-* U with tilde `Ũ` `U+0168` and `ũ` `U+0169`
-* U with breve `Ŭ` `U+016C` and `ŭ` `U+016D`
-* S with circumflex `Ŝ` `U+015C` and `ŝ` `U+015D`
-* H with circumflex `Ĥ` `U+0124` and `ĥ` `U+0125`
-* G with circumflex `Ĝ` `U+011C` and `ĝ` `U+011D`
-* C with circumflex `Ĉ` `U+0108` and `ĉ` `U+0109`
-* J with circumflex `Ĵ` `U+0134` and `ĵ` `U+0135`
-* Dottles J `ȷ` `U+0237`
-* Ligature Ij `Ij` `U+0132` and `ĳ` `U+0133`
-* L with acute `Ĺ` `U+0139` and `ĺ` `U+013A`
-* I with dot above `İ` `U+0130`
-* O with Macron `Ō` `U+014C` and `ō` `U+014D`
-* R with cedilla `Ŗ` `U+0156` and `ŗ` `U+0157`
-* T with dot above `Ṫ` `U+1E6A` and `ṫ` `U+1E6B`
-* S with dot above `Ṡ` `U+1E60` and `ṡ` `U+1E61`
-* P with dot above `Ṗ` `U+1E56` and `ṗ` `U+1E57`
-* M with dot above `Ṁ` `U+1E40` and `ṁ` `U+1E41`
-* Y with circumflex `Ŷ` `U+0176` and `ŷ` `U+0177`
-* Y with grave `Ỳ` `U+1EF2` and `ỳ` `U+1EF3`
-* W with circumflex `Ŵ` `U+0174` and `ŵ` `U+0175`
-* W with diaeresis `Ẅ` `U+1E84` and `ẅ` `U+1E85`
-* W with grave `Ẁ` `U+1E80` and `ẁ` `U+1E81`
-* W with acute `Ẃ` `U+1E82` and `ẃ` `U+1E83`
-* F with dot above `Ḟ` `U+1E1E` and `ḟ` `U+1E1F`
-* D with dot above `Ḋ` `U+1E0A` and `ḋ` `U+1E0B`
-* B with dot above `Ḃ` `U+1E02` and `ḃ` `U+1E03`
-* Dong `₫` `U+20AB`
+* `U+0166` `Ŧ` T With Stroke and `U+0167` `ŧ`
+* `U+0197` I With Stroke and `U+0268` `ɨ`
+* `U+01EA` O With Ogonek and `U+01EB` `ǫ`
+* `U+019E` `ƞ` N With Long Right Leg
+* `U+019D` `Ɲ` N With Left Hook `U+0272` `ɲ`
+* `U+014A` `Ŋ` Letter Eng and `U+014B` `ŋ`
+* `U+0149` `ŉ` N Preceded By Apostrophe
+* `U+0256` `ɖ` D With Tail
+* `U+1E62` `Ṣ` S With Dot Below and `U+1E63` `ṣ`
+* `U+1E36` `Ḷ` L With Dot Below and `U+1E37` `ḷ`
+* `U+1E24` `Ḥ` H with Dot Below and `U+1E25` `ḥ`
+* `U+1E0C` `Ḍ` D With Dot Below and `U+1E0D` `ḍ`
+* `U+1E04` `Ḅ` B With Dot Below and `U+1E05` `ḅ`
+* `U+1E8C` `Ẍ` X With Diaeresis and `U+1E8D` `ẍ`
+* `U+1E26` `Ḧ`  H With Diaeresis and `U+1E27` `ḧ`
+* `U+01FA` `Ǻ`  A With Ring Above And Acute and `U+01FB` `ǻ`
+* `U+01CB` `ǋ`  N With Small Letter J
+* `U+01CA` `Ǌ`  Nj and nj `U+01CC` `ǌ`
+* `U+01C8` `ǈ`  L With Small Letter J
+* `U+01C7` `Ǉ`  Lj and `U+01C9` `ǉ`
+* `U+01C5` `ǅ`  D With Small Letter Z With Caron
+* `U+01C4` `Ǆ`  Dz With Caron and `U+01C6` `ǆ`
+* `U+01F2` `ǲ` D With Small Letter Z
+* `U+01F1` `Ǳ`  Dz and `U+01F3` `ǳ`
+* `U+031B` Combining Horn
+* `U+0309` Combining Hook Above
+* `U+0323` Combining Dot Below
+* `U+017F` `ſ` Long S
+* `U+FFFD` Replacement Character
+* `U+1EC8` `Ỉ`  I With Hook Above and `U+1EC9` `ỉ`
+* `U+1ECA` `Ị` Letter I With Dot Below and `U+1ECB` `ị`
+* `U+1EF4` `Ỵ` Y With Dot Below and `U+1EF5` `ỵ`
+* `U+1EF6` `Ỷ` Y With Hook Above and `U+1EF7` `ỷ`
+* `U+1EB8` `Ẹ` E With Dot Below and `U+1EB9` `ẹ`
+* `U+1EBA` `Ẻ` E With Hook Above and `U+1EBB` `ẻ`
+* `U+1EBE` `Ế` E With Circumflex And Acute and `U+1EBF` `ế`
+* `U+1EC0` `Ề` E With Circumflex And Grave and `U+1EC1` `ề`
+* `U+1EC2` `Ể` E With Circumflex And Hook Above and `U+1EC3` `ể`
+* `U+1EC4` `Ễ` E With Circumflex And Tilde and `U+1EC5` `ễ`
+* `U+1EC6` `Ệ` E With Circumflex And Dot Below and `U+1EC7` `ệ`
+* `U+01AF` `Ư` U With Horn and `U+01B0` `ư`
+* `U+1EE4` `Ụ` U With Dot Below and `U+1EE5` `ụ`
+* `U+1EE6` `Ủ` U With Hook Above and `U+1EE7` `ủ`
+* `U+1EE8` `Ứ` U With Horn And Acute and `U+1EE9` `ứ`
+* `U+1EEA` `Ừ` U With Horn And Grave and `U+1EEB` `ừ`
+* `U+1EEC` `Ử` U With Horn And Hook Above and `U+1EED` `ử`
+* `U+1EEE` `Ữ` U With Horn And Tilde and `U+1EEF` `ữ`
+* `U+1EF0` `Ự` U With Horn And Dot Below and `U+1EF1` `ự`
+* `U+01A0` `Ơ` O With Horn and `U+01A1` `ơ`
+* `U+1ECC` `Ọ` O With Dot Below and `U+1ECD` `ọ`
+* `U+1ECE` `Ỏ` O With Hook Above and `U+1ECF` `ỏ`
+* `U+1ED0` `Ố` O With Circumflex And Acute and `U+1ED1` `ố`
+* `U+1ED2` `Ồ` O With Circumflex And Grave and `U+1ED3` `ồ`
+* `U+1ED4` `Ổ` O With Circumflex And Hook Above and `U+1ED5` `ổ`
+* `U+1ED6` `Ỗ` O With Circumflex And Tilde and `U+1ED7` `ỗ`
+* `U+1ED8` `Ộ` O With Circumflex And Dot Below and `U+1ED9` `ộ`
+* `U+1EDA` `Ớ` O With Horn And Acute and `U+1EDB` `ớ`
+* `U+1EDC` `Ờ` O With Horn And Grave and `U+1EDD` `ờ`
+* `U+1EDE` `Ở` O With Horn And Hook Above and `U+1EDF` `ở`
+* `U+1EE0` `Ỡ` O With Horn And Tilde and `U+1EE1` `ỡ`
+* `U+1EE2` `Ợ` O With Horn And Dot Below and `U+1EE3` `ợ`
+* `U+1EB6` `Ặ` A With Breve And Dot Below and `U+1EB7` `ặ`
+* `U+1EB4` `Ẵ` A With Breve And Tilde and `U+1EB5` `ẵ`
+* `U+1EB2` `Ẳ` A With Breve And Hook Above and `U+1EB3` `ẳ`
+* `U+1EB0` `Ằ` A With Breve And Grave and `U+1EB1` `ằ`
+* `U+1EAE` `Ắ` A With Breve And Acute and `U+1EAF` `ắ`
+* `U+1EAC` `Ậ` A With Circumflex And Dot Below and `U+1EAD` `ậ`
+* `U+1EAA` `Ẫ` A With Circumflex And Tilde and `U+1EAB` `ẫ`
+* `U+1EA8` `Ẩ` A With Circumflex And Hook Above and `U+1EA9` `ẩ`
+* `U+1EA6` `Ầ` A With Circumflex And Grave and `U+1EA7` `ầ`
+* `U+1EA4` `Ấ` A With Circumflex And Acute and `U+1EA5` `ấ`
+* `U+1EA2` `Ả` A With Hook Above and `U+1EA3` `ả`
+* `U+1EA0` `Ạ` A With Dot Below and `U+1EA1` `ạ`
+* `U+02BC` `ʼ` Modifier letter apostrophe
+* `U+01D3` `Ǔ` U with caron and `U+01D4` `ǔ`
+* `U+021E` `Ȟ` H with caron and `U+021F` `ȟ`
+* `U+01CD` `Ǎ` A with caron and `U+01CE` `ǎ`
+* `U+1EF8` `Ỹ` Y with tilde and `U+1EF9` `ỹ`
+* `U+0232` `Ȳ` Y with macron and `U+0233` `ȳ`
+* `U+01E6` `Ǧ` G with caron and `U+01E7` `ǧ`
+* `U+1EBC` `Ẽ` E with tilde and `U+1EBD` `ẽ`
+* `U+01FE` `Ǿ` O with stroke and acute and `U+01FF` `ǿ`
+* `U+01FC` `Ǽ` Ae with acute and `U+01FD` `ǽ`
+* `U+014E` `Ŏ` O with breve and `U+014F` `ŏ`
+* `U+013F` `Ŀ` L with middle dot and `U+0140` `ŀ`
+* `U+012C` `Ĭ` I with breve and `U+012D` `ĭ`
+* `U+0128` `Ĩ` I with tilde and `U+0129` `ĩ`
+* `U+0114` `Ĕ` E with breve and `U+0115` `ĕ`
+* `U+2010` `‐` Hyphen
+* `U+0168` `Ũ` U with tilde and `U+0169` `ũ`
+* `U+016C` `Ŭ` U with breve and `U+016D` `ŭ`
+* `U+015C` `Ŝ` S with circumflex and `U+015D` `ŝ`
+* `U+0124` `Ĥ` H with circumflex and `U+0125` `ĥ`
+* `U+011C` `Ĝ` G with circumflex and `U+011D` `ĝ`
+* `U+0108` `Ĉ` C with circumflex and `U+0109` `ĉ`
+* `U+0134` `Ĵ` J with circumflex and `U+0135` `ĵ`
+* `U+0237` `ȷ` Dottles J
+* `U+0132` `Ij` Ligature Ij  and `U+0133` `ĳ`
+* `U+0139` `Ĺ` L with acute and `U+013A` `ĺ`
+* `U+0130` `İ` I with dot above
+* `U+014C` `Ō` O with Macron and `U+014D` `ō`
+* `U+0156` `Ŗ` R with cedilla and `U+0157` `ŗ`
+* `U+1E6A` `Ṫ` T with dot above and `U+1E6B` `ṫ`
+* `U+1E60` `Ṡ` S with dot above and `U+1E61` `ṡ`
+* `U+1E56` `Ṗ` P with dot above and `U+1E57` `ṗ`
+* `U+1E40` `Ṁ` M with dot above and `U+1E41` `ṁ`
+* `U+0176` `Ŷ` Y with circumflex and `U+0177` `ŷ`
+* `U+1EF2` `Ỳ` Y with grave and `U+1EF3` `ỳ`
+* `U+0174` `Ŵ` W with circumflex and `U+0175` `ŵ`
+* `U+1E84` `Ẅ` W with diaeresis and `U+1E85` `ẅ`
+* `U+1E80` `Ẁ` W with grave and `U+1E81` `ẁ`
+* `U+1E82` `Ẃ` W with acute and `U+1E83` `ẃ`
+* `U+1E1E` `Ḟ` F with dot above and `U+1E1F` `ḟ`
+* `U+1E0A` `Ḋ` D with dot above and `U+1E0B` `ḋ`
+* `U+1E02` `Ḃ` B with dot above and `U+1E03` `ḃ`
+* `U+20AB` `₫` Dong
+* `U+1F12F` `🄯` Copyleft
 * Ligatures for `fi ff ffi fl ffl`
-* Copyleft `🄯` `U+1F12F`
 * Alternative reversed number zero `0`
