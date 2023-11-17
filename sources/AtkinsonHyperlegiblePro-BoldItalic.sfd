@@ -23,7 +23,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1618935638
-ModificationTime: 1700114458
+ModificationTime: 1700211727
 PfmFamily: 81
 TTFWeight: 700
 TTFWidth: 5
@@ -99,7 +99,7 @@ KernClass2: 47+ 32 "'kern' Horizontal Kerning lookup 0 kerning class 1"
  38 f dcroat longs florin uni1E1F dong f_f
  46 G Gbreve Gdotaccent uni0122 Gcircumflex Gcaron
  46 g gbreve gdotaccent uni0123 gcircumflex gcaron
- 94 I Igrave Iacute Icircumflex Idieresis Itilde Imacron Ibreve Iogonek Idotaccent uni1EC8 uni1ECA
+ 102 I Igrave Iacute Icircumflex Idieresis Imacron Iogonek Idotaccent Itilde Ibreve uni1EC8 uni1ECA uni0197
  32 J IJ Jcircumflex uni01C7 uni01CA
  56 j ij uni0237 jcircumflex uni01C8 uni01C9 uni01CB uni01CC
  9 K uni0136
@@ -114,8 +114,8 @@ KernClass2: 47+ 32 "'kern' Horizontal Kerning lookup 0 kerning class 1"
  23 r racute rcaron uni0157
  60 S Sacute Scircumflex Scedilla Scaron uni0218 uni1E60 uni1E62
  60 s sacute scircumflex scedilla scaron uni0219 uni1E61 uni1E63
- 32 T uni1E6A Tcaron uni0162 uni021A
- 25 t uni1E6B uni0163 uni021B
+ 37 T Tcaron uni0162 uni021A uni1E6A Tbar
+ 30 t uni0163 uni021B uni1E6B tbar
  95 U Ugrave Uacute Ucircumflex Udieresis Umacron Uring Uhungarumlaut Uogonek Ubreve Utilde uni01D3
  95 u ugrave uacute ucircumflex udieresis umacron uring uhungarumlaut uogonek ubreve utilde uni01D4
  1 V
@@ -141,16 +141,16 @@ KernClass2: 47+ 32 "'kern' Horizontal Kerning lookup 0 kerning class 1"
  46 f longs florin uni1E1F f_f f_i f_l f_f_i f_f_l
  46 g gbreve gdotaccent uni0123 gcircumflex gcaron
  52 h k hcircumflex hbar uni0137 uni021F uni1E25 uni1E27
- 97 I Igrave Iacute Icircumflex Idieresis Itilde Imacron Ibreve Iogonek Idotaccent IJ uni1EC8 uni1ECA
- 95 i igrave iacute icircumflex idieresis itilde imacron ibreve iogonek dotlessi ij uni1EC9 uni1ECB
+ 105 I Igrave Iacute Icircumflex Idieresis Imacron Iogonek Idotaccent IJ Itilde Ibreve uni1EC8 uni1ECA uni0197
+ 103 i igrave iacute icircumflex idieresis imacron iogonek dotlessi ij itilde ibreve uni1EC9 uni1ECB uni0268
  13 J Jcircumflex
  21 j uni0237 jcircumflex
  43 l lslash lcaron uni013C lacute ldot uni01C9
  102 m n p r ntilde nacute ncaron uni0146 racute rcaron uni1E41 uni1E57 uni0157 uni01CC eng uni019E uni0272
  60 S Sacute Scircumflex Scedilla Scaron uni0218 uni1E60 uni1E62
  60 s sacute scircumflex scedilla scaron uni0219 uni1E61 uni1E63
- 32 T uni1E6A Tcaron uni0162 uni021A
- 32 t uni1E6B tcaron uni0163 uni021B
+ 37 T Tcaron uni0162 uni021A uni1E6A Tbar
+ 37 t tcaron uni0163 uni021B uni1E6B tbar
  151 U Ugrave Uacute Ucircumflex Udieresis Utilde Umacron Ubreve Uring Uhungarumlaut Uogonek uni01D3 uni1EE4 uni1EE6 uni1EE8 uni1EEA uni1EEC uni1EEE uni1EF0
  151 u ugrave uacute ucircumflex udieresis utilde umacron ubreve uring uhungarumlaut uogonek uni01D4 uni1EE5 uni1EE7 uni1EE9 uni1EEB uni1EED uni1EEF uni1EF1
  1 V
@@ -4051,11 +4051,11 @@ NameList: AGL For New Fonts
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 25 25 17
+WinInfo: 175 25 17
 BeginPrivate: 0
 EndPrivate
 AnchorClass2: "Anchor-0" "'mark' Mark Positioning lookup 1 subtable" "Anchor-1" "'mark' Mark Positioning lookup 1 subtable" "Anchor-2" "'mark' Mark Positioning lookup 1 subtable" "Anchor-3" "'mkmk' Mark to Mark lookup 2 subtable" "Anchor-4" "'mkmk' Mark to Mark lookup 3 subtable"
-BeginChars: 1114139 586
+BeginChars: 1114139 590
 
 StartChar: .notdef
 Encoding: 1114112 -1 0
@@ -6567,11 +6567,11 @@ VStem: 104 320
 LayerCount: 2
 Fore
 SplineSet
-104 570 m 1
- 125 668 l 1
- 424 668 l 1
- 403 570 l 1
- 104 570 l 1
+104 570 m 5
+ 125 668 l 5
+ 424 668 l 5
+ 403 570 l 5
+ 104 570 l 5
 EndSplineSet
 EndChar
 
@@ -10393,7 +10393,7 @@ EndChar
 
 StartChar: Eth
 Encoding: 208 208 249
-AltUni2: 000189.ffffffff.0 000110.ffffffff.0
+AltUni2: 000110.ffffffff.0 000189.ffffffff.0
 Width: 738
 GlyphClass: 1
 Flags: W
@@ -11730,9 +11730,9 @@ StartChar: Dcroat
 Encoding: 272 272 317
 Width: 746
 GlyphClass: 1
-Flags: HW
-HStem: 0 133<222 401.837> 275 137<44 90 281 407> 537 131<308 483.267>
-VStem: 546 168<280.418 484.649>
+Flags: W
+HStem: 0 133<222 401.803> 275 137<44 90 281 407> 537 131<308 483.11>
+VStem: 546 168<283.555 484.585>
 DStem2: 32 0 193.73 0 0.207912 0.978148<169.597 281.049 454.767 582.649>
 LayerCount: 2
 Fore
@@ -15953,6 +15953,150 @@ SplineSet
  327 105 381 180 381 292 c 0
  381 360 352 392 292 392 c 0
  212 392 159 317 159 206 c 0xe8
+EndSplineSet
+EndChar
+
+StartChar: uni0197
+Encoding: 407 407 586
+Width: 459
+Flags: W
+HStem: 0 124<13 105 267 331> 272 124<72 136.714 323.99 389> 544 124<129 195 355 447>
+DStem2: 78.643 0 240.643 0 0.207912 0.978148<160.452 278.13 438.357 556.304>
+CounterMasks: 1 e0
+AnchorPoint: "Anchor-2" 242 0 basechar 0
+AnchorPoint: "Anchor-1" 301 668 basechar 0
+AnchorPoint: "Anchor-0" 151 0 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+-13 0 m 1
+ 13 124 l 1
+ 105 124 l 1
+ 136.714285714 272 l 1
+ 46 272 l 1
+ 72 396 l 1
+ 163.285714286 396 l 1
+ 195 544 l 1
+ 103 544 l 1
+ 129 668 l 1
+ 474 668 l 1
+ 447 544 l 1
+ 355 544 l 1
+ 323.99047619 396 l 1
+ 415 396 l 1
+ 389 272 l 1
+ 298.00952381 272 l 1
+ 267 124 l 1
+ 358 124 l 1
+ 331 0 l 1
+ -13 0 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni0268
+Encoding: 616 616 587
+Width: 338
+Flags: W
+HStem: 0 21G<48 208.234> 205 98<10 91.6974 268.143 330> 380 116<51 129> 578 179<207.412 323.786>
+VStem: 48 156<0 156> 177 179<608.982 726.588>
+DStem2: 48 0 204 0 0.207912 0.978148<32.4342 209.605 342.149 388.537>
+AnchorPoint: "Anchor-2" 204 0 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+356 668 m 0xf4
+ 356 618 316 578 266 578 c 0
+ 216 578 177 618 177 668 c 0
+ 177 718 216 757 266 757 c 0
+ 317 757 356 718 356 668 c 0xf4
+-11 205 m 1
+ 10 303 l 1
+ 112.586842105 303 l 1
+ 129 380 l 1
+ 26 380 l 1
+ 51 496 l 1
+ 309 496 l 1
+ 268.143145161 303 l 1
+ 351 303 l 1
+ 330 205 l 1
+ 247.397177419 205 l 1
+ 204 0 l 1
+ 48 0 l 1xf8
+ 91.6973684211 205 l 1
+ -11 205 l 1
+EndSplineSet
+EndChar
+
+StartChar: Tbar
+Encoding: 358 358 588
+Width: 617
+Flags: W
+HStem: 0 21G<158 323.197> 272 124<144 215.588 402.093 471> 529 139<87 270 430 644>
+VStem: 158 161<0 161>
+DStem2: 158 0 319 0 0.207912 0.978148<33.4738 278.029 438.096 540.726>
+AnchorPoint: "Anchor-1" 395 668 basechar 0
+AnchorPoint: "Anchor-0" 253 0 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+118 272 m 1
+ 144 396 l 1
+ 241.84120983 396 l 1
+ 270 529 l 1
+ 57 529 l 1
+ 87 668 l 1
+ 673 668 l 1
+ 644 529 l 1
+ 430 529 l 1
+ 402.092627599 396 l 1
+ 497 396 l 1
+ 471 272 l 1
+ 376.073724008 272 l 1
+ 319 0 l 1
+ 158 0 l 1
+ 215.587901701 272 l 1
+ 118 272 l 1
+EndSplineSet
+EndChar
+
+StartChar: tbar
+Encoding: 359 359 589
+Width: 391
+Flags: W
+HStem: 0 124<219.37 289> 205 98<12 68.7174 244.72 333> 380 116<53 106 286 370>
+VStem: 50 167<79.5 204.104>
+AnchorPoint: "Anchor-1" 230 620 basechar 0
+AnchorPoint: "Anchor-0" 143 0 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+217 160 m 0
+ 217 135 233 124 272 124 c 2
+ 315 124 l 1
+ 289 0 l 1
+ 193 0 l 2
+ 151 0 116 8 89 22 c 0
+ 63 36 50 61 50 98 c 0
+ 50 111 52 129 57 150 c 2
+ 68.7173913043 205 l 1
+ -9 205 l 1
+ 12 303 l 1
+ 89.5956521739 303 l 1
+ 106 380 l 1
+ 28 380 l 1
+ 53 496 l 1
+ 131 496 l 1
+ 157 620 l 1
+ 312 620 l 1
+ 286 496 l 1
+ 394 496 l 1
+ 370 380 l 1
+ 261 380 l 1
+ 244.72 303 l 1
+ 354 303 l 1
+ 333 205 l 1
+ 224 205 l 1
+ 219 185 217 171 217 160 c 0
 EndSplineSet
 EndChar
 EndChars
