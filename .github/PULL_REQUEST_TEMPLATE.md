@@ -11,5 +11,5 @@
 
 <!-- The following sections are not required, only recommended -->
 
-## Additional context
+<!-- ## Additional context -->
 <!-- Add any other information about the fix, feature or update. If this is an upgrade explain what has change. -->
