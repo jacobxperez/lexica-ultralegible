@@ -98,6 +98,7 @@ $link-underline-offset: 0.3125em;
 $headings-font-family: var(--font-sans);
 $headings-font-weight: 400;
 $headings-color: false;
+$headings-ligatures: no-common-ligatures;
 
 $h1-font-size: clamp(2.488rem, 5vw + 1rem, 4.209rem);
 $h1-line-height: 1.2;

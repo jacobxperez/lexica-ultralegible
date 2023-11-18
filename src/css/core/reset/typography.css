@@ -1,6 +1,7 @@
 :--headings {
     font-family: $headings-font-family;
     font-weight: $headings-font-weight;
+    font-variant-ligatures: $headings-ligatures;
     @if $headings-color != false {
         color: $headings-color;
     }
