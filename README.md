@@ -14,8 +14,10 @@ An updated and extended version of [Atkinson Hyperlegible](https://github.com/go
 * [Flip the Zero](#flipping-the-zero)
 * [Contributing](#contributing)
 * [License](#license)
+  * [Font](#font)
+  * [Code](#code)
 
-Install devDependencies on your machine with [npm](https://www.npmjs.com/)
+## Overview
 
 Atkinson Hyperlegible Pro is an updated and extended version of the original typeface, which was initially designed for The Braille Institute and named after its founder, J. Robert Atkinson. It was specifically designed to improve character recognition and legibility for low-vision readers by incorporating distinctive and unambiguous letterform’s. The typeface was a Winner of Fast Company’s 2019 Innovation By Design Award.
 
@@ -75,10 +77,22 @@ Help us improve Atkinson Hyperlegible Pro for everyone, any contribution or feed
 Please read our [contributing guidelines](https://github.com/jacobxperez/atkinson-hyperlegible-pro/blob/main/.github/CONTRIBUTING.md)
 before embarking on any significant pull request.
 
-## License
+## LICENSE
 
-SIL Open Font License, v1.1. See [LICENSE.txt](LICENSE.txt) for details.
+### Font
 
----
+Copyright (C) 2020 [Braille Institute of America, Inc](https://brailleinstitute.org/).
 
-Learn more at [The Braille Institute](https://brailleinstitute.org/freefont).
+Licensed under the SIL Open Font License, v1.1. See [LICENSE.txt](LICENSE.txt) for details.
+
+### Code
+
+Copyright (C) 2023 [Jacob Perez](https://jacobxperez.github.io/blog/)
+
+Licensed under the [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0) (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+<http://www.apache.org/licenses/LICENSE-2.0>
+
+Unless required by applicable law or agreed to in writing, software
