@@ -32,11 +32,13 @@ We use [FontForge](https://fontforge.org/en-US/) which allows you to create and
 modify postscript, truetype and opentype fonts. You can save fonts in many different
 outline formats, and generate bitmaps.
 
-Install devDependencies on your machine with [npm](https://www.npmjs.com/)
-
-    npm install
-
 ## Compile Website
+
+Install dependencies on your machine with [npm](https://www.npmjs.com/)
+
+```bash
+npm install
+```
 
 On your terminal run these scripts to compile
 
@@ -46,7 +48,7 @@ On your terminal run these scripts to compile
 
 ### Framework
 
-We are using [Rams](https://github.com/jacobxperez/rams) as our website framework. Do **not** edit the [core](https://github.com/jacobxperez/atkinson-hyperlegible-pro/tree/main/src/css/core) files because they are part of the Rams core framework files. However, you can edit the [custom](https://github.com/jacobxperez/atkinson-hyperlegible-pro/tree/main/src/css/custom) folder files the [main.css](https://github.com/jacobxperez/atkinson-hyperlegible-pro/blob/main/src/css/main.css) or the [var.css](https://github.com/jacobxperez/atkinson-hyperlegible-pro/blob/main/src/css/var.css) if any change is accepted by the maintainers. Any new CSS file should be added in the [custom](https://github.com/jacobxperez/atkinson-hyperlegible-pro/tree/main/src/css/custom) folder then linked in the [main.css](https://github.com/jacobxperez/atkinson-hyperlegible-pro/blob/main/src/css/main.css) file for compiling.
+We are using [Rams](https://github.com/jacobxperez/rams) as our website framework. Do **not** edit the [core](https://github.com/jacobxperez/atkinson-hyperlegible-pro/tree/main/website/css/core) files because they are part of the Rams core framework files. However, you can edit the [custom](https://github.com/jacobxperez/atkinson-hyperlegible-pro/tree/main/website/css/custom) folder files the [main.css](https://github.com/jacobxperez/atkinson-hyperlegible-pro/blob/main/website/css/main.css) or the [var.css](https://github.com/jacobxperez/atkinson-hyperlegible-pro/blob/main/website/css/var.css) if any change is accepted by the maintainers. Any new CSS file should be added in the [custom](https://github.com/jacobxperez/atkinson-hyperlegible-pro/tree/main/website/css/custom) folder then linked in the [main.css](https://github.com/jacobxperez/atkinson-hyperlegible-pro/blob/main/website/css/main.css) file for compiling.
 
 ### CSS Files
 
