@@ -50,11 +50,11 @@ We are using [Rams](https://github.com/jacobxperez/rams) as our website framewor
 
 ### CSS Files
 
-* [/css](https://github.com/jacobxperez/atkinson-hyperlegible-pro/tree/master/src/css/)
-  * [core](https://github.com/jacobxperez/atkinson-hyperlegible-pro/tree/master/src/css/core) (important files for compiling)
-  * [custom](https://github.com/jacobxperez/atkinson-hyperlegible-pro/tree/master/src/css/custom) (add custom modules here)
-  * [main.css](https://github.com/jacobxperez/atkinson-hyperlegible-pro/blob/master/src/css/main.css) (compile to produce the final CSS)
-  * [var.css](https://github.com/jacobxperez/atkinson-hyperlegible-pro/blob/master/src/css/var.css) (variables for font, colors, and more)
+* [/css](https://github.com/jacobxperez/atkinson-hyperlegible-pro/tree/main/website/css/)
+  * [core](https://github.com/jacobxperez/atkinson-hyperlegible-pro/tree/main/website/css/core) (important files for compiling)
+  * [custom](https://github.com/jacobxperez/atkinson-hyperlegible-pro/tree/main/website/css/custom) (add custom modules here)
+  * [main.css](https://github.com/jacobxperez/atkinson-hyperlegible-pro/blob/main/website/css/main.css) (compile to produce the final CSS)
+  * [var.css](https://github.com/jacobxperez/atkinson-hyperlegible-pro/blob/main/website/css/var.css) (variables for font, colors, and more)
 
 ## Pull Requests
 

@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "description": "A Class-Less CSS Design System Framework",
     "source": [
-        "src/index.html"
+        "website/index.html"
     ],
     "scripts": {
         "docs": "parcel docs/index.html --no-source-maps",
