@@ -12,6 +12,7 @@ An updated and extended version of [Atkinson Hyperlegible](https://github.com/go
   * [Installing](#installing-the-font)
   * [Language Support](#language-support)
 * [Flip the Zero](#flipping-the-zero)
+* [Locally Run Website](#locally-run-website)
 * [Contributing](#contributing)
 * [License](#license)
   * [Font](#font)
@@ -70,6 +71,20 @@ body {
   font-variant-numeric: slashed-zero;
 }
 ```
+
+## Locally Run Website
+
+1) Install dependencies on your machine with [npm](https://www.npmjs.com/)
+
+    ```bash
+    npm install
+    ```
+
+2) Then run website locally with this scripts
+
+    ```bash
+    npm run dev
+    ```
 
 ## Contributing
 
