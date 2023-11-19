@@ -1,0 +1,13 @@
+$rams-menu: true;
+
+[data-dropbox~="menu"] {
+    background-color: $dropbox-menu-background-color;
+    border: $dropbox-menu-border;
+}
+
+@mixin _anchor-menu {
+    [data-anchor~="menu"]:where([data-state="active"], :hover, :active) {
+        background-color: $anchor-menu-background-color;
+        color: $anchor-menu-color;
+    }
+}

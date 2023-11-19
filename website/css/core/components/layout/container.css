@@ -1,0 +1,18 @@
+[data-container] {
+    margin: 0 auto;
+    padding-left: $container-gap;
+    padding-right: $container-gap;
+    width: $container-width;
+
+    :where(body) > &:first-child {
+        margin-top: $container-margin-top;
+    }
+
+    :where(body) > &:last-child {
+        margin-bottom: $container-margin-bottom;
+    }
+}
+
+[data-container~="full"] {
+    width: 100%;
+}

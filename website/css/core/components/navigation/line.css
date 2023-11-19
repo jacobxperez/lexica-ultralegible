@@ -1,0 +1,29 @@
+[data-flex~="line-top"] {
+    border-top: $anchor-line-border-width solid $anchor-line-border-color;
+
+    :where(&) [data-anchor~="line"] {
+        bottom: $anchor-line-border-width;
+        border-top: $anchor-line-border-width solid transparent;
+    }
+}
+
+[data-flex~="line-bottom"] {
+    border-bottom: $anchor-line-border-width solid $anchor-line-border-color;
+
+    :where(&) [data-anchor~="line"] {
+        top: $anchor-line-border-width;
+        border-bottom: $anchor-line-border-width solid transparent;
+    }
+}
+
+[data-anchor~="line"] {
+    position: relative;
+    z-index: 1;
+    color: $anchor-line-text;
+
+    &:where([data-state="active"], :hover, :active) {
+        z-index: 5;
+        border-color: $anchor-line-border-active;
+        color: $anchor-line-text-active;
+    }
+}

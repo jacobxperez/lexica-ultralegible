@@ -1,0 +1,19 @@
+:where(a) {
+    text-decoration: none;
+    background-color: transparent;
+    @if $link-color != false {
+        color: $link-color;
+    }
+    text-decoration: $link-text-decoration;
+    text-underline-offset: $link-underline-offset;
+    cursor: pointer;
+}
+
+:where(a:hover, a:active) {
+    text-decoration: $link-text-decoration-hover;
+}
+
+:where(a:focus) {
+    outline: thin dotted;
+    outline-offset: -0.125rem;
+}

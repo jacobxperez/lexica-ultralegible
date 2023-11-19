@@ -1,0 +1,9 @@
+[data-dropbox] {
+    z-index: -10;
+    display: none;
+    visibility: hidden;
+    min-width: $dropbox-min-width;
+    color: $body-font-color;
+    transition: $dropbox-transition;
+    opacity: 0;
+}

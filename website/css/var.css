@@ -1,0 +1,263 @@
+:root {
+    --font-sans: "Atkinson Hyperlegible Pro", "Atkinson Hyperlegible", Helvetica,
+        Arial, sans-serif;
+    --font-serif: Xcharter, Charter, Georgia, Times, "Times New Roman", serif;
+    --font-mono: "Fira Code", "Fira Mono", "Lucida Console", "Lucida Sans Typewriter", monaco,
+        "Bitstream Vera Sans Mono", monospace;
+    --font-ui: "Atkinson Hyperlegible Pro", "Atkinson Hyperlegible", system-ui,
+        "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+
+    --neutral-100: hsl(0, 0%, 100%);
+    --neutral-090: hsl(0, 0%, 90%);
+    --neutral-080: hsl(0, 0%, 80%);
+    --neutral-070: hsl(0, 0%, 70%);
+    --neutral-060: hsl(0, 0%, 60%);
+    --neutral-050: hsl(0, 0%, 50%);
+    --neutral-040: hsl(0, 0%, 40%);
+    --neutral-030: hsl(0, 0%, 30%);
+    --neutral-020: hsl(0, 0%, 20%);
+    --neutral-010: hsl(0, 0%, 10%);
+    --neutral-000: hsl(0, 0%, 0%);
+
+    --primary-050: hsl(206, 33%, 22%);
+    --primary-040: hsl(206, 33%, 20%);
+    --primary-030: hsl(206, 33%, 18%);
+    --primary-020: hsl(206, 33%, 16%);
+    --primary-010: hsl(206, 33%, 14%);
+    --primary-000: hsl(206, 33%, 12%);
+
+    --success-020: hsl(145, 80%, 30%);
+    --success-010: hsl(145, 80%, 25%);
+    --success-000: hsl(145, 80%, 20%);
+
+    --warning-020: hsl(40, 100%, 60%);
+    --warning-010: hsl(40, 100%, 55%);
+    --warning-000: hsl(40, 100%, 45%);
+
+    --danger-020: hsl(0, 75%, 55%);
+    --danger-010: hsl(0, 75%, 50%);
+    --danger-000: hsl(0, 75%, 45%);
+}
+
+/* @media (prefers-color-scheme: dark) {
+    :root {
+        --neutral-000: hsl(0, 0%, 100%);
+        --neutral-010: hsl(0, 0%, 90%);
+        --neutral-020: hsl(0, 0%, 80%);
+        --neutral-030: hsl(0, 0%, 70%);
+        --neutral-040: hsl(0, 0%, 60%);
+        --neutral-050: hsl(0, 0%, 50%);
+        --neutral-060: hsl(0, 0%, 40%);
+        --neutral-070: hsl(0, 0%, 30%);
+        --neutral-080: hsl(0, 0%, 20%);
+        --neutral-090: hsl(0, 0%, 10%);
+        --neutral-100: hsl(0, 0%, 0%);
+    }
+} */
+
+/* Colors */
+$background: var(--neutral-100);
+$background-gradient: false;
+
+$primary: var(--neutral-000);
+$primary-active: var(--neutral-020);
+$primary-text: var(--neutral-100);
+
+$secondary: var(--neutral-020);
+$secondary-active: var(--neutral-030);
+$secondary-text: var(--neutral-100);
+
+$tertiary: var(--neutral-040);
+$tertiary-active: var(--neutral-050);
+$tertiary-text: var(--neutral-100);
+
+/* Box Model */
+$space-y: 0.5rem;
+$space-x: 0.75rem;
+$border-width: 0.0625em;
+$border-color: var(--neutral-050);
+$border-radius: 0.25rem;
+
+/* Typography */
+$root-font-size: clamp(100%, 5vw + 1rem, 110%);
+$body-font-size: 1rem;
+$body-font-color: var(--primary-000);
+$body-font-family: var(--font-sans);
+$body-font-weight: 400;
+$body-line-height: 1.5;
+$body-font-variant-numeric: false;
+$leading: 1.5rem;
+
+/* link */
+$link-color: false;
+$link-text-decoration: underline solid 0.125rem;
+$link-text-decoration-hover: none;
+$link-underline-offset: 0.3125em;
+
+/* headings */
+$headings-font-family: var(--font-sans);
+$headings-font-weight: 400;
+$headings-color: false;
+$headings-ligatures: no-common-ligatures;
+
+$h1-font-size: clamp(2.488rem, 5vw + 1rem, 4.209rem);
+$h1-line-height: 1.2;
+
+$h2-font-size: clamp(2.074rem, 5vw + 1rem, 3.157rem);
+$h2-line-height: 1.2;
+
+$h3-font-size: clamp(1.728rem, 4vw + 1rem, 2.369rem);
+$h3-line-height: 1.3;
+
+$h4-font-size: clamp(1.44rem, 3vw + 1rem, 1.777rem);
+$h4-line-height: 1.4;
+
+$h5-font-size: clamp(1.2rem, 3vw + 1rem, 1.333rem);
+$h5-line-height: 1.45;
+
+$h6-font-size: $body-font-size;
+$h6-line-height: 1.5;
+
+/* small */
+$small-font-size: 0.833rem;
+
+/* blockquote */
+$blockquote-font-family: var(--font-serif);
+$blockquote-font-style: italic;
+
+/* pre/code/kdb/samp */
+$pre-font-family: var(--font-mono);
+
+/* mark */
+$mark-background: var(--warning-010);
+$mark-text: var(--neutral-000);
+
+/* hr */
+$hr-border-style: solid;
+$hr-border-width: 0.125rem;
+$hr-border-color: var(--neutral-000);
+
+/* Lists */
+$ol-list-style-type: decimal;
+$ol-list-style-type-child: lower-alpha;
+$ul-list-style-type: disc;
+$ul-list-style-type-child: circle;
+
+/* Table */
+$table-cell-padding: $space-y $space-x;
+
+/* Form */
+$form-font-family: var(--font-ui);
+$form-padding: $space-y $space-x;
+$form-border-width: $border-width;
+$form-border-color: $border-color;
+$form-border-active: $body-font-color;
+$form-border-radius: $border-radius;
+$form-background: transparent;
+$form-text: var(--neutral-050);
+$form-text-active: $body-font-color;
+$form-text-area-min-height: 6.25rem;
+$form-transition:
+    color 0.2s ease,
+    border-color 0.2s ease,
+    background-color 0.2s ease;
+
+/* Button */
+$button-font-family: var(--font-ui);
+$button-padding: $space-y $space-x;
+$button-border-width: $border-width;
+$button-border-color: transparent;
+$button-border-radius: $border-radius;
+$button-background: var(--neutral-090);
+$button-background-active: var(--neutral-080);
+$button-text-color: $body-font-color;
+$button-transition:
+    color 0.2s ease,
+    border-color 0.2s ease,
+    background-color 0.2s ease;
+
+/* Feedback */
+$success: var(--success-010);
+$success-active: var(--success-000);
+$success-text: var(--neutral-100);
+
+$warning: var(--warning-010);
+$warning-active: var(--warning-020);
+$warning-text: var(--neutral-000);
+
+$danger: var(--danger-010);
+$danger-active: var(--danger-000);
+$danger-text: var(--neutral-100);
+
+/* Disabled */
+$disabled: var(--neutral-090);
+$disabled-text: var(--neutral-050);
+
+/* Navbar */
+$navbar-background: var(--primary-000);
+$navbar-dropbox-background: var(--primary-020);
+$navbar-anchor-text: var(--neutral-100);
+$navbar-anchor-text-active: var(--neutral-070);
+
+/* Anchor */
+$anchor-font-family: var(--font-ui);
+$anchor-padding: $space-y $space-x;
+$anchor-color: $primary;
+$anchor-active-color: var(--neutral-050);
+$anchor-transition:
+    color 0.2s ease,
+    border-color 0.2s ease,
+    background-color 0.2s ease;
+
+/* Line Tab */
+$anchor-line-border-width: 0.125em;
+$anchor-line-border-color: $border-color;
+$anchor-line-text: var(--neutral-050);
+$anchor-line-text-active: $body-font-color;
+$anchor-line-border-active: $primary;
+
+/* Breadcrumb */
+$breadcrumb-separator: "/";
+$breadcrumb-gap: 0.375em;
+
+/* Dropbox */
+$dropbox-min-width: 10rem;
+$dropbox-transition:
+    opacity 0.3s ease,
+    visibility 0.3s ease;
+
+/* Dropbox Menu */
+$dropbox-menu-background-color: var(--neutral-100);
+$dropbox-menu-border: $border-width solid var(--neutral-000);
+$anchor-menu-background-color: var(--neutral-000);
+$anchor-menu-color: var(--neutral-100);
+
+/* Tooltip */
+$tooltip-min-width: 25ch;
+$tooltip-background: var(--neutral-000);
+$tooltip-text: var(--neutral-100);
+$tooltip-text-decoration: underline dotted 0.125rem;
+$tooltip-underline-offset: $link-underline-offset;
+
+/* Grid */
+$grid-name: main;
+$grid-gap: 1.25rem;
+$grid-small-columns: 4;
+$grid-medium-columns: 12;
+$grid-large-columns: 12;
+
+/* Container */
+$container-width: clamp(20rem, 100%, 60rem);
+$container-margin-top: calc($leading * 3);
+$container-margin-bottom: calc($leading * 2);
+$container-gap: 1.25rem;
+
+/* Breakpoints */
+$screen-small-max-width: 42.5em; /* 680px */
+$screen-medium-min-width: 42.5625em; /* 681px*/
+$screen-medium-max-width: 61.1875em; /* 979px */
+$screen-large-min-width: 61.25em; /* 980px */
+
+/* Selection */
+$selection: hsl(40, 80%, 80%);
+$selection-text: var(--neutral-000);

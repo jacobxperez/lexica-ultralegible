@@ -1,0 +1,13 @@
+[data-toggle~="tooltip"] {
+    text-decoration: $tooltip-text-decoration;
+    text-underline-offset: $tooltip-underline-offset;
+    cursor: help;
+}
+
+[data-dropbox="tooltip"] {
+    bottom: 100%;
+    min-width: $tooltip-min-width;
+    padding: $space-y $space-x;
+    background-color: $tooltip-background;
+    color: $tooltip-text;
+}

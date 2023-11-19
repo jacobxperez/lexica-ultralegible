@@ -1,0 +1,5 @@
+::selection {
+    background-color: $selection;
+    color: $selection-text;
+    text-shadow: none;
+}

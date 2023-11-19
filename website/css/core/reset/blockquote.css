@@ -1,0 +1,23 @@
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote {
+    font-family: $blockquote-font-family;
+    font-style: $blockquote-font-style;
+
+    &:before,
+    &:after {
+        content: "";
+        content: none;
+    }
+
+    :where(&) small {
+        display: block;
+    }
+
+    :where(&) small:before {
+        content: "— ";
+    }
+}

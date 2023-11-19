@@ -1,0 +1,66 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0 none;
+    background: transparent;
+    color: inherit;
+    font: inherit;
+    text-align: inherit;
+    vertical-align: baseline;
+    outline: 0;
+}
+
+@custom-selector :--headings h1, h2, h3, h4, h5, h6;
+
+@custom-selector :--lists
+    [data-list~="ol"],
+    [data-list~="ul"],
+    [data-list~="dl"];
+
+html {
+    @if $background-gradient == false {
+        background: $background;
+    } @else  {
+        background: $background-gradient;
+    }
+    font-size: $root-font-size;
+    text-align: left;
+    overflow-wrap: break-word;
+    scroll-behavior: smooth;
+}
+
+body {
+    color: $body-font-color;
+    font-size: $body-font-size;
+    font-family: $body-font-family;
+    font-weight: $body-font-weight;
+    line-height: $body-line-height;
+    @if $body-font-variant-numeric != false {
+        font-variant-numeric: $body-font-variant-numeric;
+    }
+}
+
+img,
+svg,
+picture,
+video,
+canvas,
+audio,
+iframe,
+embed,
+object {
+    display: block;
+    max-width: 100%;
+}
+
+p,
+pre,
+table,
+blockquote,
+:--headings,
+:--lists {
+    margin: calc($leading / 2) 0;
+}

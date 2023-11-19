@@ -1,0 +1,21 @@
+/* Modify print styles to your project specifications */
+@media print {
+    html,
+    body {
+        height: auto;
+    }
+
+    nav {
+        display: none;
+    }
+
+    [data-container] {
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    [data-grid] {
+        display: block;
+    }
+}

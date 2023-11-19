@@ -1,0 +1,45 @@
+[data-section~="header"] {
+    margin-bottom: $leading;
+    padding-top: calc($leading * 4);
+    padding-bottom: calc($leading * 2);
+    background-color: var(--primary-040);
+    color: var(--neutral-100);
+
+    & :--headings, a {
+        color: var(--neutral-100);
+    }
+
+    & h1 {
+        margin-bottom: $leading;
+    }
+}
+
+[data-section="footer"] {
+    margin-bottom: $container-margin-bottom;
+}
+
+[data-filter="blur"] {
+    filter: blur(.3rem);
+}
+
+[data-text="flip-zero"] {
+    font-variant-numeric: slashed-zero;
+}
+
+[data-text~="h0"] {
+    font-size: clamp(3.15rem, 8vw + 1rem, 7.8rem);
+    line-height: 1;
+}
+
+[data-text~="uppercase"] {
+    text-transform: uppercase;
+}
+
+/* :where([data-section~="header"]) a {
+    color: inherit;
+    text-decoration: underline solid 0.125rem;
+}
+
+:where([data-section~="header"]) a:hover {
+    text-decoration: none;
+} */

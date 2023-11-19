@@ -1,0 +1,48 @@
+[data-flex] {
+    display: flex;
+}
+
+[data-flex~="reverse"] {
+    flex-direction: row-reverse;
+}
+
+[data-flex~="column"] {
+    flex-direction: column;
+}
+
+[data-flex*="column reverse"] {
+    flex-direction: column-reverse;
+}
+
+[data-flex~="wrap"] {
+    flex-wrap: wrap;
+}
+
+[data-flex~="grow"] > *,
+[data-item~="grow"] {
+    flex-grow: 1;
+}
+
+[data-flex~="gap"] {
+    gap: $grid-gap;
+}
+
+[data-flex~="end"] {
+    justify-content: flex-end;
+}
+
+[data-flex~="center"] {
+    justify-content: center;
+}
+
+[data-flex~="between"] {
+    justify-content: space-between;
+}
+
+[data-flex~="around"] {
+    justify-content: space-around;
+}
+
+[data-flex~="even"] {
+    justify-content: space-evenly;
+}

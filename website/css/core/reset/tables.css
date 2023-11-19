@@ -1,0 +1,12 @@
+table {
+    display: table;
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+td,
+th {
+    display: table-cell;
+    padding: $table-cell-padding;
+}

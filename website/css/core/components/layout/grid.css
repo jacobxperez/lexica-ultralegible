@@ -1,0 +1,44 @@
+[data-grid] {
+    display: grid;
+    column-gap: $grid-gap;
+}
+
+[data-column="all"] {
+    grid-column: 1 / -1;
+}
+
+@mixin _small-grid() {
+    [data-grid="$(grid-name)"] {
+        grid-template-columns: repeat($(grid-small-columns), 1fr);
+
+        @for $i from 1 to $grid-small-columns {
+            [data-column~="small-$(i)"] {
+                grid-column: span $(i);
+            }
+        }
+    }
+}
+
+@mixin _medium-grid() {
+    [data-grid="$(grid-name)"] {
+        grid-template-columns: repeat($(grid-medium-columns), 1fr);
+
+        @for $i from 1 to $grid-medium-columns {
+            [data-column~="medium-$(i)"] {
+                grid-column: span $(i);
+            }
+        }
+    }
+}
+
+@mixin _large-grid() {
+    [data-grid="$(grid-name)"] {
+        grid-template-columns: repeat($(grid-large-columns), 1fr);
+
+        @for $i from 1 to $grid-large-columns {
+            [data-column~="large-$(i)"] {
+                grid-column: span $(i);
+            }
+        }
+    }
+}

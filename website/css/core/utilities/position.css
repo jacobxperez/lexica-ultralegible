@@ -1,0 +1,27 @@
+[data-position~="relative"] {
+    position: relative;
+}
+
+[data-position~="absolute"] {
+    position: absolute;
+}
+
+[data-position~="fixed"] {
+    position: fixed;
+}
+
+[data-position~="top"] {
+    top: 0;
+}
+
+[data-position~="bottom"] {
+    bottom: 0;
+}
+
+[data-position~="left"] {
+    left: 0;
+}
+
+[data-position~="right"] {
+    right: 0;
+}

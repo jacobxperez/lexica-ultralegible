@@ -1,0 +1,10 @@
+[data-toggle] {
+    position: relative;
+}
+
+[data-toggle~="tooltip"] > [data-dropbox],
+[data-toggle~="pop"] > [data-dropbox],
+[data-toggle~="pop"] + [data-dropbox] {
+    position: absolute;
+    display: block;
+}

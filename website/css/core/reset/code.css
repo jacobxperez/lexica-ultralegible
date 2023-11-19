@@ -1,0 +1,11 @@
+code,
+kbd,
+pre,
+samp {
+    font-family: $pre-font-family;
+}
+
+pre {
+    overflow: auto;
+    white-space: pre-wrap;
+}

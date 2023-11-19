@@ -1,0 +1,26 @@
+{
+    "printWidth": 80,
+    "proseWrap": "always",
+    "trailingComma": "es5",
+    "useTabs": false,
+    "tabWidth": 4,
+    "semi": true,
+    "singleQuote": false,
+    "bracketSpacing": false,
+    "singleAttributePerLine": false,
+    "arrowParens": "always",
+    "overrides": [
+        {
+            "files": "*.js",
+            "options": {
+                "singleQuote": true
+            }
+        },
+        {
+            "files": "*.html",
+            "options": {
+                "printWidth": 100
+            }
+        }
+    ]
+}
