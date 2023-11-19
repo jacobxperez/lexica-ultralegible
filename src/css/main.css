@@ -41,14 +41,8 @@
 
 /* Custom Modules */
 @import "custom/sections.css";
-
+@import "custom/atkinson-hyperlegible-pro.css";
 /* -------------- */
-
-/* Fonts */
-@import "core/fonts/atkinson-hyperlegible-pro.css";
-@import "core/fonts/xcharter.css";
-@import "core/fonts/fira-mono.css";
-@import "core/fonts/icons.css";
 
 /* Utilities */
 @import "core/utilities/position.css";
