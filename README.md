@@ -37,7 +37,7 @@ Atkinson Hyperlegible Pro is an updated and extended version of the original typ
 
 Designed for low-vision readers, certain letters and numbers can be hard to distinguish from one another. Atkinson Hyperlegible Pro differentiates common misinterpreted letters and numbers using various design techniques: B vs. 8, 1 vs. L vs. l vs. I. Recognizable Footprints: Character boundaries are clearly defined, ensuring understanding across the visual-ability spectrum.
 
-Unless required by applicable law or agreed to in writing, software
+> `Q vs G, E vs F, p vs q, i vs r, O vs 0`
 
 Differentiated letterform’s: Similar letter pairs are differentiated from each other to dramatically increase legibility. Unambiguous Characters: designed to increase legibility and distinction.
 
@@ -67,7 +67,7 @@ OpenType features refer to different glyphs or character styles contained within
 
 ### Flip the Zero
 
-By default the zero remains with a backslash `\` this was done to prevent confusion with the Danish Ø however, when pairing the typeface with a monospace that only supports a forwardslash `/` zero, this may create a cognitive dissonance problem. On that occasion you might want to flip the zero by adding `font-variant-numeric: slashed-zero;` to your CSS file.
+By default the zero remains with a backslash `\` this was done to prevent confusion with the Danish Ø however, when pairing the typeface with a monospace that only supports a forwardslash `/` zero, this may create a cognitive dissonance problem. On that occasion you might want to flip the zero:
 
 ```css
 body {
