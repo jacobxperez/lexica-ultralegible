@@ -35,6 +35,10 @@
     text-transform: uppercase;
 }
 
+[data-text~="lowercase"] {
+    text-transform: lowercase;
+}
+
 /* :where([data-section~="header"]) a {
     color: inherit;
     text-decoration: underline solid 0.125rem;
