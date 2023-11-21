@@ -23,8 +23,8 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1615339189
-ModificationTime: 1700212307
-PfmFamily: 81
+ModificationTime: 1700549929
+PfmFamily: 33
 TTFWeight: 700
 TTFWidth: 5
 LineGap: 0
@@ -55,6 +55,7 @@ OS2StrikeYSize: 49
 OS2StrikeYPos: 258
 OS2CapHeight: 668
 OS2XHeight: 496
+OS2FamilyClass: 2048
 OS2Vendor: 'NONE'
 OS2CodePages: 20000003.00000000
 OS2UnicodeRanges: 800000ef.0000204b.00000000.00000000
@@ -10281,7 +10282,7 @@ EndChar
 
 StartChar: Eth
 Encoding: 208 208 248
-AltUni2: 000110.ffffffff.0 000189.ffffffff.0
+AltUni2: 000189.ffffffff.0 000110.ffffffff.0
 Width: 773
 GlyphClass: 2
 Flags: W
