@@ -5,7 +5,7 @@ FamilyName: Atkinson Hyperlegible Pro
 Weight: Bold
 Copyright: Copyright 2020 Braille Institute of America, Inc.
 UComments: "Update by Jacob Perez+AAoA-https://jacobxperez.github.io/atkinson-hyperlegible-pro/"
-Version: 1.5.0
+Version: 1.5.1
 ItalicAngle: 0
 UnderlinePosition: -106
 UnderlineWidth: 57
@@ -23,7 +23,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1615339189
-ModificationTime: 1700549929
+ModificationTime: 1700621630
 PfmFamily: 33
 TTFWeight: 700
 TTFWidth: 5
@@ -223,3827 +223,7 @@ ChainSub2: coverage "'ccmp' Glyph Composition/Decomposition lookup 2 contextual 
  1
   SeqLookup: 0 "Single Substitution lookup 3"
 EndFPST
-TtTable: prep
-SVTCA[y-axis]
-MPPEM
-PUSHW_1
- 200
-GT
-IF
-PUSHB_2
- 1
- 1
-INSTCTRL
-EIF
-PUSHB_1
- 1
-PUSHW_2
- 2048
- 2048
-MUL
-WCVTF
-PUSHB_2
- 0
- 7
-WS
-PUSHB_5
- 0
- 43
- 27
- 3
- 0
-LOOPCALL
-PUSHB_2
- 0
- 7
-WS
-PUSHB_8
- 48
- 4
- 32
- 8
- 18
- 7
- 3
- 10
-LOOPCALL
-PUSHB_2
- 0
- 7
-WS
-PUSHB_8
- 52
- 2
- 40
- 6
- 25
- 5
- 3
- 10
-LOOPCALL
-PUSHB_2
- 0
- 10
-WS
-PUSHW_5
- 3136
- 2112
- 1216
- 3
- 11
-LOOPCALL
-PUSHB_2
- 0
- 13
-WS
-PUSHW_5
- 64
- 64
- 64
- 3
- 11
-LOOPCALL
-PUSHW_2
- 3
- 0
-WCVTP
-PUSHB_2
- 36
- 1
-GETINFO
-LTEQ
-IF
-PUSHB_1
- 64
-GETINFO
-IF
-PUSHW_2
- 3
- 100
-WCVTP
-PUSHB_2
- 40
- 1
-GETINFO
-LTEQ
-IF
-PUSHW_1
- 2048
-GETINFO
-IF
-PUSHW_2
- 3
- 0
-WCVTP
-EIF
-ELSE
-PUSHB_2
- 39
- 1
-GETINFO
-LTEQ
-IF
-PUSHW_3
- 2176
- 1
- 1088
-GETINFO
-MUL
-EQ
-IF
-PUSHW_2
- 3
- 0
-WCVTP
-EIF
-EIF
-EIF
-EIF
-EIF
-PUSHB_8
- 50
- 2
- 34
- 6
- 20
- 5
- 3
- 14
-LOOPCALL
-PUSHW_1
- 511
-SCANCTRL
-PUSHB_1
- 4
-SCANTYPE
-PUSHB_2
- 2
- 0
-WCVTP
-PUSHB_4
- 5
- 100
- 6
- 0
-WCVTP
-WCVTP
-EndTTInstrs
-TtTable: fpgm
-PUSHB_1
- 0
-FDEF
-DUP
-PUSHB_1
- 0
-NEQ
-IF
-RCVT
-EIF
-DUP
-DUP
-MPPEM
-PUSHW_1
- 14
-LTEQ
-MPPEM
-PUSHB_1
- 6
-GTEQ
-AND
-IF
-PUSHB_1
- 52
-ELSE
-PUSHB_1
- 40
-EIF
-ADD
-FLOOR
-DUP
-ROLL
-NEQ
-IF
-PUSHB_1
- 2
-CINDEX
-SUB
-PUSHW_2
- 2048
- 2048
-MUL
-MUL
-SWAP
-DIV
-ELSE
-POP
-POP
-PUSHB_1
- 0
-EIF
-PUSHB_1
- 0
-RS
-SWAP
-WCVTP
-PUSHB_3
- 0
- 1
- 0
-RS
-ADD
-WS
-ENDF
-PUSHB_1
- 1
-FDEF
-PUSHB_1
- 32
-ADD
-FLOOR
-ENDF
-PUSHB_1
- 2
-FDEF
-SWAP
-POP
-SWAP
-POP
-ENDF
-PUSHB_1
- 3
-FDEF
-DUP
-ABS
-PUSHB_4
- 3
- 20
- 21
- 0
-WS
-RS
-PUSHB_1
- 19
-RS
-DUP
-ADD
-ADD
-WS
-PUSHB_2
- 2
- 20
-RS
-WS
-PUSHB_2
- 37
- 3
-RS
-PUSHB_1
- 2
-RS
-EQ
-JROT
-DUP
-PUSHB_1
- 12
-SWAP
-PUSHB_1
- 2
-RS
-RS
-SUB
-ABS
-PUSHB_1
- 4
-LT
-JROT
-PUSHB_3
- 2
- 2
- 2
-RS
-ADD
-WS
-PUSHB_1
- 33
-NEG
-JMPR
-POP
-PUSHB_1
- 2
-RS
-RS
-PUSHB_3
- 14
- 21
- 1
-WS
-JMPR
-DUP
-PUSHB_1
- 2
-RS
-SWAP
-WS
-PUSHB_3
- 19
- 1
- 19
-RS
-ADD
-WS
-SWAP
-PUSHB_1
- 0
-LT
-IF
-NEG
-EIF
-PUSHB_3
- 22
- 1
- 2
-RS
-ADD
-WS
-ENDF
-PUSHB_1
- 4
-FDEF
-PUSHB_1
- 3
-CALL
-PUSHB_1
- 21
-RS
-IF
-SWAP
-POP
-SWAP
-POP
-PUSHB_1
- 22
-RS
-RS
-SWAP
-PUSHB_1
- 0
-LT
-IF
-NEG
-EIF
-ELSE
-DUP
-ABS
-DUP
-PUSHB_1
- 192
-LT
-PUSHB_1
- 4
-MINDEX
-AND
-PUSHB_3
- 40
- 1
- 13
-RS
-RCVT
-MUL
-RCVT
-PUSHB_1
- 6
-RCVT
-IF
-POP
-PUSHB_1
- 3
-CINDEX
-EIF
-GT
-OR
-IF
-POP
-SWAP
-POP
-ELSE
-ROLL
-IF
-DUP
-PUSHB_1
- 80
-LT
-IF
-POP
-PUSHB_1
- 64
-EIF
-ELSE
-DUP
-PUSHB_1
- 56
-LT
-IF
-POP
-PUSHB_1
- 56
-EIF
-EIF
-DUP
-PUSHB_2
- 1
- 13
-RS
-RCVT
-MUL
-RCVT
-SUB
-ABS
-PUSHB_1
- 40
-LT
-IF
-POP
-PUSHB_2
- 1
- 13
-RS
-RCVT
-MUL
-RCVT
-DUP
-PUSHB_1
- 48
-LT
-IF
-POP
-PUSHB_1
- 48
-EIF
-ELSE
-DUP
-PUSHB_1
- 192
-LT
-IF
-DUP
-FLOOR
-DUP
-ROLL
-ROLL
-SUB
-DUP
-PUSHB_1
- 10
-LT
-IF
-ADD
-ELSE
-DUP
-PUSHB_1
- 32
-LT
-IF
-POP
-PUSHB_1
- 10
-ADD
-ELSE
-DUP
-PUSHB_1
- 54
-LT
-IF
-POP
-PUSHB_1
- 54
-ADD
-ELSE
-ADD
-EIF
-EIF
-EIF
-ELSE
-PUSHB_1
- 2
-CINDEX
-PUSHB_1
- 12
-RS
-MUL
-PUSHB_1
- 0
-GT
-IF
-PUSHB_1
- 0
-MPPEM
-PUSHB_1
- 10
-LT
-IF
-POP
-PUSHB_1
- 12
-RS
-ELSE
-MPPEM
-PUSHB_1
- 30
-LT
-IF
-POP
-PUSHB_1
- 30
-MPPEM
-SUB
-PUSHW_1
- 4096
-MUL
-PUSHB_1
- 12
-RS
-MUL
-PUSHW_1
- 1280
-DIV
-EIF
-EIF
-ABS
-SUB
-EIF
-PUSHB_1
- 1
-CALL
-EIF
-EIF
-SWAP
-PUSHB_1
- 0
-LT
-IF
-NEG
-EIF
-EIF
-DUP
-ABS
-PUSHB_1
- 22
-RS
-SWAP
-WS
-EIF
-ENDF
-PUSHB_1
- 5
-FDEF
-DUP
-RCVT
-DUP
-PUSHB_1
- 4
-CINDEX
-SUB
-ABS
-DUP
-PUSHB_1
- 7
-RS
-LT
-IF
-PUSHB_1
- 7
-SWAP
-WS
-PUSHB_1
- 8
-SWAP
-WS
-ELSE
-POP
-POP
-EIF
-PUSHB_1
- 1
-ADD
-ENDF
-PUSHB_1
- 6
-FDEF
-SWAP
-POP
-SWAP
-POP
-PUSHB_1
- 3
-CALL
-DUP
-ABS
-PUSHB_2
- 7
- 98
-WS
-DUP
-PUSHB_1
- 8
-SWAP
-WS
-PUSHB_1
- 6
-RCVT
-IF
-ELSE
-PUSHB_2
- 1
- 13
-RS
-RCVT
-MUL
-PUSHB_2
- 1
- 13
-RS
-PUSHB_1
- 3
-ADD
-RCVT
-MUL
-PUSHB_1
- 5
-LOOPCALL
-POP
-DUP
-PUSHB_1
- 8
-RS
-DUP
-ROLL
-DUP
-ROLL
-PUSHB_1
- 1
-CALL
-PUSHB_2
- 48
- 5
-CINDEX
-PUSHB_1
- 4
-MINDEX
-LTEQ
-IF
-ADD
-LT
-ELSE
-SUB
-GT
-EIF
-IF
-SWAP
-EIF
-POP
-EIF
-DUP
-PUSHB_1
- 64
-GTEQ
-IF
-PUSHB_1
- 1
-CALL
-ELSE
-POP
-PUSHB_1
- 64
-EIF
-SWAP
-PUSHB_1
- 0
-LT
-IF
-NEG
-EIF
-ENDF
-PUSHB_1
- 7
-FDEF
-PUSHB_1
- 9
-RS
-CALL
-PUSHB_3
- 0
- 2
- 0
-RS
-ADD
-WS
-ENDF
-PUSHB_1
- 8
-FDEF
-PUSHB_1
- 9
-SWAP
-WS
-SWAP
-DUP
-PUSHB_1
- 0
-SWAP
-WS
-SUB
-PUSHB_1
- 2
-DIV
-FLOOR
-PUSHB_1
- 1
-MUL
-PUSHB_1
- 1
-ADD
-PUSHB_1
- 7
-LOOPCALL
-ENDF
-PUSHB_1
- 9
-FDEF
-DUP
-DUP
-RCVT
-DUP
-PUSHB_1
- 14
-RS
-MUL
-PUSHW_1
- 1024
-DIV
-DUP
-PUSHB_1
- 0
-LT
-IF
-PUSHB_1
- 64
-ADD
-EIF
-FLOOR
-PUSHB_1
- 1
-MUL
-ADD
-WCVTP
-PUSHB_1
- 1
-ADD
-ENDF
-PUSHB_1
- 10
-FDEF
-PUSHB_3
- 9
- 14
- 0
-RS
-RCVT
-WS
-LOOPCALL
-POP
-PUSHB_3
- 0
- 1
- 0
-RS
-ADD
-WS
-ENDF
-PUSHB_1
- 11
-FDEF
-PUSHB_1
- 0
-RS
-SWAP
-WCVTP
-PUSHB_3
- 0
- 1
- 0
-RS
-ADD
-WS
-ENDF
-PUSHB_1
- 12
-FDEF
-DUP
-DUP
-RCVT
-DUP
-PUSHB_1
- 1
-CALL
-SWAP
-PUSHB_1
- 0
-RS
-PUSHB_1
- 4
-CINDEX
-ADD
-DUP
-RCVT
-ROLL
-SWAP
-SUB
-DUP
-ABS
-DUP
-PUSHB_1
- 32
-LT
-IF
-POP
-PUSHB_1
- 0
-ELSE
-PUSHB_1
- 48
-LT
-IF
-PUSHB_1
- 32
-ELSE
-PUSHB_1
- 64
-EIF
-EIF
-SWAP
-PUSHB_1
- 0
-LT
-IF
-NEG
-EIF
-PUSHB_1
- 3
-CINDEX
-SWAP
-SUB
-WCVTP
-WCVTP
-PUSHB_1
- 1
-ADD
-ENDF
-PUSHB_1
- 13
-FDEF
-DUP
-DUP
-RCVT
-DUP
-PUSHB_1
- 1
-CALL
-SWAP
-PUSHB_1
- 0
-RS
-PUSHB_1
- 4
-CINDEX
-ADD
-DUP
-RCVT
-ROLL
-SWAP
-SUB
-DUP
-ABS
-PUSHB_1
- 36
-LT
-IF
-PUSHB_1
- 0
-ELSE
-PUSHB_1
- 64
-EIF
-SWAP
-PUSHB_1
- 0
-LT
-IF
-NEG
-EIF
-PUSHB_1
- 3
-CINDEX
-SWAP
-SUB
-WCVTP
-WCVTP
-PUSHB_1
- 1
-ADD
-ENDF
-PUSHB_1
- 14
-FDEF
-DUP
-PUSHB_1
- 0
-SWAP
-WS
-PUSHB_4
- 13
- 12
- 0
- 3
-RCVT
-LT
-IF
-POP
-ELSE
-SWAP
-POP
-EIF
-LOOPCALL
-POP
-ENDF
-PUSHB_1
- 15
-FDEF
-PUSHB_2
- 2
- 2
-RCVT
-PUSHB_1
- 100
-SUB
-WCVTP
-ENDF
-PUSHB_1
- 16
-FDEF
-PUSHB_1
- 1
-ADD
-DUP
-DUP
-PUSHB_1
- 15
-RS
-MD[orig]
-PUSHB_1
- 0
-LT
-IF
-DUP
-PUSHB_1
- 15
-SWAP
-WS
-EIF
-PUSHB_1
- 16
-RS
-MD[orig]
-PUSHB_1
- 0
-GT
-IF
-DUP
-PUSHB_1
- 16
-SWAP
-WS
-EIF
-ENDF
-PUSHB_1
- 17
-FDEF
-DUP
-PUSHB_1
- 16
-DIV
-FLOOR
-PUSHB_1
- 1
-MUL
-DUP
-PUSHW_1
- 1024
-MUL
-ROLL
-SWAP
-SUB
-PUSHB_1
- 17
-RS
-ADD
-DUP
-ROLL
-ADD
-DUP
-PUSHB_1
- 17
-SWAP
-WS
-SWAP
-ENDF
-PUSHB_1
- 18
-FDEF
-MPPEM
-EQ
-IF
-PUSHB_2
- 4
- 100
-WCVTP
-EIF
-DEPTH
-PUSHB_1
- 13
-NEG
-SWAP
-JROT
-ENDF
-PUSHB_1
- 19
-FDEF
-MPPEM
-LTEQ
-IF
-MPPEM
-GTEQ
-IF
-PUSHB_2
- 4
- 100
-WCVTP
-EIF
-ELSE
-POP
-EIF
-DEPTH
-PUSHB_1
- 19
-NEG
-SWAP
-JROT
-ENDF
-PUSHB_1
- 20
-FDEF
-PUSHB_2
- 0
- 18
-RS
-NEQ
-IF
-PUSHB_2
- 18
- 18
-RS
-PUSHB_1
- 1
-SUB
-WS
-PUSHB_1
- 17
-CALL
-EIF
-PUSHB_1
- 0
-RS
-PUSHB_1
- 2
-CINDEX
-WS
-PUSHB_2
- 15
- 2
-CINDEX
-WS
-PUSHB_2
- 16
- 2
-CINDEX
-WS
-PUSHB_1
- 1
-SZPS
-SWAP
-DUP
-PUSHB_1
- 3
-CINDEX
-LT
-IF
-PUSHB_2
- 1
- 0
-RS
-ADD
-PUSHB_1
- 4
-CINDEX
-WS
-ROLL
-ROLL
-DUP
-ROLL
-SWAP
-SUB
-PUSHB_1
- 16
-LOOPCALL
-POP
-SWAP
-PUSHB_1
- 1
-SUB
-DUP
-ROLL
-SWAP
-SUB
-PUSHB_1
- 16
-LOOPCALL
-POP
-ELSE
-PUSHB_2
- 1
- 0
-RS
-ADD
-PUSHB_1
- 2
-CINDEX
-WS
-PUSHB_1
- 2
-CINDEX
-SUB
-PUSHB_1
- 16
-LOOPCALL
-POP
-EIF
-PUSHB_1
- 15
-RS
-GC[orig]
-PUSHB_1
- 16
-RS
-GC[orig]
-ADD
-PUSHB_1
- 2
-DIV
-DUP
-PUSHB_1
- 0
-LT
-IF
-PUSHB_1
- 64
-ADD
-EIF
-FLOOR
-PUSHB_1
- 1
-MUL
-DUP
-PUSHB_1
- 14
-RS
-MUL
-PUSHW_1
- 1024
-DIV
-DUP
-PUSHB_1
- 0
-LT
-IF
-PUSHB_1
- 64
-ADD
-EIF
-FLOOR
-PUSHB_1
- 1
-MUL
-ADD
-PUSHB_2
- 0
- 0
-SZP0
-SWAP
-WCVTP
-PUSHB_1
- 1
-RS
-PUSHB_1
- 0
-MIAP[no-rnd]
-PUSHB_3
- 1
- 1
- 1
-RS
-ADD
-WS
-ENDF
-PUSHB_1
- 21
-FDEF
-SVTCA[y-axis]
-PUSHB_2
- 0
- 2
-RCVT
-EQ
-IF
-PUSHB_1
- 18
-SWAP
-WS
-DUP
-RCVT
-PUSHB_1
- 14
-SWAP
-WS
-PUSHB_1
- 13
-SWAP
-PUSHB_1
- 3
-ADD
-WS
-DUP
-ADD
-PUSHB_8
- 24
- 24
- 1
- 0
- 17
- 0
- 19
- 0
-WS
-WS
-WS
-ROLL
-ADD
-DUP
-PUSHB_1
- 20
-SWAP
-WS
-PUSHB_1
- 1
-SUB
-PUSHB_2
- 20
- 8
-CALL
-PUSHB_1
- 139
-CALL
-ELSE
-CLEAR
-EIF
-ENDF
-PUSHB_1
- 22
-FDEF
-PUSHB_2
- 0
- 21
-CALL
-ENDF
-PUSHB_1
- 23
-FDEF
-PUSHB_2
- 1
- 21
-CALL
-ENDF
-PUSHB_1
- 24
-FDEF
-PUSHB_2
- 2
- 21
-CALL
-ENDF
-PUSHB_1
- 25
-FDEF
-PUSHB_2
- 3
- 21
-CALL
-ENDF
-PUSHB_1
- 26
-FDEF
-PUSHB_2
- 4
- 21
-CALL
-ENDF
-PUSHB_1
- 27
-FDEF
-PUSHB_2
- 5
- 21
-CALL
-ENDF
-PUSHB_1
- 28
-FDEF
-PUSHB_2
- 6
- 21
-CALL
-ENDF
-PUSHB_1
- 29
-FDEF
-PUSHB_2
- 7
- 21
-CALL
-ENDF
-PUSHB_1
- 30
-FDEF
-PUSHB_2
- 8
- 21
-CALL
-ENDF
-PUSHB_1
- 31
-FDEF
-PUSHB_2
- 9
- 21
-CALL
-ENDF
-PUSHB_1
- 43
-FDEF
-SWAP
-DUP
-PUSHB_1
- 16
-DIV
-FLOOR
-PUSHB_1
- 1
-MUL
-PUSHB_1
- 6
-ADD
-MPPEM
-EQ
-IF
-SWAP
-DUP
-MDAP[no-rnd]
-PUSHB_1
- 1
-DELTAP1
-ELSE
-POP
-POP
-EIF
-ENDF
-PUSHB_1
- 44
-FDEF
-SWAP
-DUP
-PUSHB_1
- 16
-DIV
-FLOOR
-PUSHB_1
- 1
-MUL
-PUSHB_1
- 22
-ADD
-MPPEM
-EQ
-IF
-SWAP
-DUP
-MDAP[no-rnd]
-PUSHB_1
- 1
-DELTAP2
-ELSE
-POP
-POP
-EIF
-ENDF
-PUSHB_1
- 45
-FDEF
-SWAP
-DUP
-PUSHB_1
- 16
-DIV
-FLOOR
-PUSHB_1
- 1
-MUL
-PUSHB_1
- 38
-ADD
-MPPEM
-EQ
-IF
-SWAP
-DUP
-MDAP[no-rnd]
-PUSHB_1
- 1
-DELTAP3
-ELSE
-POP
-POP
-EIF
-ENDF
-PUSHB_1
- 32
-FDEF
-SVTCA[y-axis]
-PUSHB_1
- 15
-CALL
-PUSHB_2
- 0
- 2
-RCVT
-EQ
-IF
-PUSHB_1
- 18
-SWAP
-WS
-DUP
-RCVT
-PUSHB_1
- 14
-SWAP
-WS
-PUSHB_1
- 13
-SWAP
-PUSHB_1
- 3
-ADD
-WS
-DUP
-ADD
-PUSHB_1
- 1
-SUB
-PUSHB_6
- 24
- 24
- 1
- 0
- 17
- 0
-WS
-WS
-ROLL
-ADD
-PUSHB_2
- 20
- 8
-CALL
-PUSHB_1
- 139
-CALL
-ELSE
-CLEAR
-EIF
-ENDF
-PUSHB_1
- 33
-FDEF
-PUSHB_2
- 0
- 32
-CALL
-ENDF
-PUSHB_1
- 34
-FDEF
-PUSHB_2
- 1
- 32
-CALL
-ENDF
-PUSHB_1
- 35
-FDEF
-PUSHB_2
- 2
- 32
-CALL
-ENDF
-PUSHB_1
- 36
-FDEF
-PUSHB_2
- 3
- 32
-CALL
-ENDF
-PUSHB_1
- 37
-FDEF
-PUSHB_2
- 4
- 32
-CALL
-ENDF
-PUSHB_1
- 38
-FDEF
-PUSHB_2
- 5
- 32
-CALL
-ENDF
-PUSHB_1
- 39
-FDEF
-PUSHB_2
- 6
- 32
-CALL
-ENDF
-PUSHB_1
- 40
-FDEF
-PUSHB_2
- 7
- 32
-CALL
-ENDF
-PUSHB_1
- 41
-FDEF
-PUSHB_2
- 8
- 32
-CALL
-ENDF
-PUSHB_1
- 42
-FDEF
-PUSHB_2
- 9
- 32
-CALL
-ENDF
-PUSHB_1
- 46
-FDEF
-DUP
-ALIGNRP
-PUSHB_1
- 1
-ADD
-ENDF
-PUSHB_1
- 47
-FDEF
-DUP
-ADD
-PUSHB_1
- 24
-ADD
-DUP
-RS
-SWAP
-PUSHB_1
- 1
-ADD
-RS
-PUSHB_1
- 2
-CINDEX
-SUB
-PUSHB_1
- 1
-ADD
-PUSHB_1
- 46
-LOOPCALL
-POP
-ENDF
-PUSHB_1
- 48
-FDEF
-PUSHB_1
- 47
-CALL
-PUSHB_1
- 47
-LOOPCALL
-ENDF
-PUSHB_1
- 49
-FDEF
-DUP
-DUP
-GC[orig]
-DUP
-DUP
-PUSHB_1
- 14
-RS
-MUL
-PUSHW_1
- 1024
-DIV
-DUP
-PUSHB_1
- 0
-LT
-IF
-PUSHB_1
- 64
-ADD
-EIF
-FLOOR
-PUSHB_1
- 1
-MUL
-ADD
-SWAP
-SUB
-SHPIX
-SWAP
-DUP
-ROLL
-NEQ
-IF
-DUP
-GC[orig]
-DUP
-DUP
-PUSHB_1
- 14
-RS
-MUL
-PUSHW_1
- 1024
-DIV
-DUP
-PUSHB_1
- 0
-LT
-IF
-PUSHB_1
- 64
-ADD
-EIF
-FLOOR
-PUSHB_1
- 1
-MUL
-ADD
-SWAP
-SUB
-SHPIX
-ELSE
-POP
-EIF
-ENDF
-PUSHB_1
- 50
-FDEF
-SVTCA[y-axis]
-PUSHB_2
- 0
- 2
-RCVT
-EQ
-IF
-PUSHB_2
- 14
- 6
-RCVT
-WS
-PUSHB_1
- 1
-SZPS
-PUSHB_1
- 49
-LOOPCALL
-PUSHB_2
- 5
- 1
-SZP2
-RCVT
-IF
-IUP[y]
-EIF
-ELSE
-CLEAR
-EIF
-ENDF
-PUSHB_1
- 51
-FDEF
-SVTCA[y-axis]
-PUSHB_1
- 15
-CALL
-PUSHB_2
- 0
- 2
-RCVT
-EQ
-IF
-PUSHB_2
- 14
- 6
-RCVT
-WS
-PUSHB_1
- 1
-SZPS
-PUSHB_1
- 49
-LOOPCALL
-PUSHB_2
- 5
- 1
-SZP2
-RCVT
-IF
-IUP[y]
-EIF
-ELSE
-CLEAR
-EIF
-ENDF
-PUSHB_1
- 52
-FDEF
-DUP
-SHC[rp1]
-PUSHB_1
- 1
-ADD
-ENDF
-PUSHB_1
- 53
-FDEF
-SVTCA[y-axis]
-PUSHB_2
- 14
- 6
-RCVT
-WS
-PUSHB_1
- 1
-RCVT
-MUL
-PUSHW_1
- 1024
-DIV
-DUP
-PUSHB_1
- 0
-LT
-IF
-PUSHB_1
- 64
-ADD
-EIF
-FLOOR
-PUSHB_1
- 1
-MUL
-PUSHB_1
- 1
-CALL
-PUSHB_1
- 14
-RS
-MUL
-PUSHW_1
- 1024
-DIV
-DUP
-PUSHB_1
- 0
-LT
-IF
-PUSHB_1
- 64
-ADD
-EIF
-FLOOR
-PUSHB_1
- 1
-MUL
-PUSHB_1
- 1
-CALL
-PUSHB_1
- 0
-SZPS
-PUSHB_5
- 0
- 0
- 0
- 0
- 0
-WCVTP
-MIAP[no-rnd]
-SWAP
-SHPIX
-PUSHB_2
- 52
- 1
-SZP2
-LOOPCALL
-POP
-ENDF
-PUSHB_1
- 54
-FDEF
-DUP
-ALIGNRP
-DUP
-GC[orig]
-DUP
-PUSHB_1
- 14
-RS
-MUL
-PUSHW_1
- 1024
-DIV
-DUP
-PUSHB_1
- 0
-LT
-IF
-PUSHB_1
- 64
-ADD
-EIF
-FLOOR
-PUSHB_1
- 1
-MUL
-ADD
-PUSHB_1
- 0
-RS
-SUB
-SHPIX
-ENDF
-PUSHB_1
- 55
-FDEF
-MDAP[no-rnd]
-SLOOP
-ALIGNRP
-ENDF
-PUSHB_1
- 56
-FDEF
-DUP
-ALIGNRP
-DUP
-GC[orig]
-DUP
-PUSHB_1
- 14
-RS
-MUL
-PUSHW_1
- 1024
-DIV
-DUP
-PUSHB_1
- 0
-LT
-IF
-PUSHB_1
- 64
-ADD
-EIF
-FLOOR
-PUSHB_1
- 1
-MUL
-ADD
-PUSHB_1
- 0
-RS
-SUB
-PUSHB_1
- 1
-RS
-MUL
-SHPIX
-ENDF
-PUSHB_1
- 57
-FDEF
-PUSHB_2
- 2
- 0
-SZPS
-CINDEX
-DUP
-MDAP[no-rnd]
-DUP
-GC[orig]
-PUSHB_1
- 0
-SWAP
-WS
-PUSHB_1
- 2
-CINDEX
-MD[grid]
-ROLL
-ROLL
-GC[orig]
-SWAP
-GC[orig]
-SWAP
-SUB
-DUP
-IF
-DIV
-ELSE
-POP
-EIF
-PUSHB_1
- 1
-SWAP
-WS
-PUSHB_3
- 56
- 1
- 1
-SZP2
-SZP1
-LOOPCALL
-ENDF
-PUSHB_1
- 58
-FDEF
-PUSHB_1
- 0
-SZPS
-PUSHB_1
- 23
-SWAP
-WS
-PUSHB_1
- 4
-CINDEX
-PUSHB_1
- 4
-CINDEX
-GC[orig]
-SWAP
-GC[orig]
-SWAP
-SUB
-PUSHB_2
- 12
- 0
-WS
-PUSHB_1
- 11
-RS
-CALL
-NEG
-ROLL
-MDAP[no-rnd]
-SWAP
-DUP
-DUP
-ALIGNRP
-ROLL
-SHPIX
-ENDF
-PUSHB_1
- 59
-FDEF
-PUSHB_1
- 0
-SZPS
-PUSHB_1
- 23
-SWAP
-WS
-PUSHB_1
- 4
-CINDEX
-PUSHB_1
- 4
-CINDEX
-DUP
-MDAP[no-rnd]
-GC[orig]
-SWAP
-GC[orig]
-SWAP
-SUB
-DUP
-PUSHB_1
- 6
-SWAP
-WS
-PUSHB_2
- 12
- 0
-WS
-PUSHB_1
- 11
-RS
-CALL
-DUP
-PUSHB_1
- 96
-LT
-IF
-DUP
-PUSHB_1
- 64
-LTEQ
-IF
-PUSHB_4
- 4
- 32
- 5
- 32
-ELSE
-PUSHB_4
- 4
- 38
- 5
- 26
-EIF
-WS
-WS
-SWAP
-DUP
-PUSHB_1
- 10
-RS
-DUP
-ROLL
-SWAP
-GC[orig]
-SWAP
-GC[orig]
-SWAP
-SUB
-SWAP
-GC[cur]
-ADD
-PUSHB_1
- 6
-RS
-PUSHB_1
- 2
-DIV
-DUP
-PUSHB_1
- 0
-LT
-IF
-PUSHB_1
- 64
-ADD
-EIF
-FLOOR
-PUSHB_1
- 1
-MUL
-ADD
-DUP
-PUSHB_1
- 1
-CALL
-DUP
-ROLL
-ROLL
-SUB
-DUP
-PUSHB_1
- 4
-RS
-ADD
-ABS
-SWAP
-PUSHB_1
- 5
-RS
-SUB
-ABS
-LT
-IF
-PUSHB_1
- 4
-RS
-SUB
-ELSE
-PUSHB_1
- 5
-RS
-ADD
-EIF
-PUSHB_1
- 3
-CINDEX
-PUSHB_1
- 2
-DIV
-DUP
-PUSHB_1
- 0
-LT
-IF
-PUSHB_1
- 64
-ADD
-EIF
-FLOOR
-PUSHB_1
- 1
-MUL
-SUB
-SWAP
-DUP
-DUP
-PUSHB_1
- 4
-MINDEX
-SWAP
-GC[cur]
-SUB
-SHPIX
-ELSE
-SWAP
-PUSHB_1
- 10
-RS
-GC[cur]
-PUSHB_1
- 2
-CINDEX
-PUSHB_1
- 10
-RS
-GC[orig]
-SWAP
-GC[orig]
-SWAP
-SUB
-ADD
-DUP
-PUSHB_1
- 6
-RS
-PUSHB_1
- 2
-DIV
-DUP
-PUSHB_1
- 0
-LT
-IF
-PUSHB_1
- 64
-ADD
-EIF
-FLOOR
-PUSHB_1
- 1
-MUL
-ADD
-SWAP
-DUP
-PUSHB_1
- 1
-CALL
-SWAP
-PUSHB_1
- 6
-RS
-ADD
-PUSHB_1
- 1
-CALL
-PUSHB_1
- 5
-CINDEX
-SUB
-PUSHB_1
- 5
-CINDEX
-PUSHB_1
- 2
-DIV
-DUP
-PUSHB_1
- 0
-LT
-IF
-PUSHB_1
- 64
-ADD
-EIF
-FLOOR
-PUSHB_1
- 1
-MUL
-PUSHB_1
- 4
-MINDEX
-SUB
-DUP
-PUSHB_1
- 4
-CINDEX
-ADD
-ABS
-SWAP
-PUSHB_1
- 3
-CINDEX
-ADD
-ABS
-LT
-IF
-POP
-ELSE
-SWAP
-POP
-EIF
-SWAP
-DUP
-DUP
-PUSHB_1
- 4
-MINDEX
-SWAP
-GC[cur]
-SUB
-SHPIX
-EIF
-ENDF
-PUSHB_1
- 60
-FDEF
-PUSHB_1
- 0
-SZPS
-PUSHB_1
- 23
-SWAP
-WS
-DUP
-DUP
-DUP
-PUSHB_1
- 5
-MINDEX
-DUP
-MDAP[no-rnd]
-GC[orig]
-SWAP
-GC[orig]
-SWAP
-SUB
-SWAP
-ALIGNRP
-SHPIX
-ENDF
-PUSHB_1
- 61
-FDEF
-PUSHB_1
- 0
-SZPS
-PUSHB_1
- 23
-SWAP
-WS
-DUP
-PUSHB_1
- 10
-SWAP
-WS
-DUP
-DUP
-DUP
-GC[cur]
-SWAP
-GC[orig]
-PUSHB_1
- 1
-CALL
-SWAP
-SUB
-SHPIX
-ENDF
-PUSHB_1
- 62
-FDEF
-PUSHB_1
- 0
-SZPS
-PUSHB_1
- 23
-SWAP
-WS
-PUSHB_1
- 3
-CINDEX
-PUSHB_1
- 2
-CINDEX
-GC[orig]
-SWAP
-GC[orig]
-SWAP
-SUB
-PUSHB_1
- 0
-EQ
-IF
-MDAP[no-rnd]
-DUP
-ALIGNRP
-SWAP
-POP
-ELSE
-PUSHB_1
- 2
-CINDEX
-PUSHB_1
- 2
-CINDEX
-GC[orig]
-SWAP
-GC[orig]
-SWAP
-SUB
-DUP
-PUSHB_1
- 5
-CINDEX
-PUSHB_1
- 4
-CINDEX
-GC[orig]
-SWAP
-GC[orig]
-SWAP
-SUB
-PUSHB_1
- 6
-CINDEX
-PUSHB_1
- 5
-CINDEX
-MD[grid]
-PUSHB_1
- 2
-CINDEX
-SUB
-PUSHW_2
- 2048
- 2048
-MUL
-MUL
-SWAP
-DUP
-IF
-DIV
-ELSE
-POP
-EIF
-MUL
-PUSHW_1
- 1024
-DIV
-DUP
-PUSHB_1
- 0
-LT
-IF
-PUSHB_1
- 64
-ADD
-EIF
-FLOOR
-PUSHB_1
- 1
-MUL
-ADD
-SWAP
-MDAP[no-rnd]
-SWAP
-DUP
-DUP
-ALIGNRP
-ROLL
-SHPIX
-SWAP
-POP
-EIF
-ENDF
-PUSHB_1
- 63
-FDEF
-PUSHB_1
- 0
-SZPS
-PUSHB_1
- 23
-SWAP
-WS
-DUP
-PUSHB_1
- 10
-RS
-DUP
-MDAP[no-rnd]
-GC[orig]
-SWAP
-GC[orig]
-SWAP
-SUB
-DUP
-ADD
-PUSHB_1
- 32
-ADD
-FLOOR
-PUSHB_1
- 2
-DIV
-DUP
-PUSHB_1
- 0
-LT
-IF
-PUSHB_1
- 64
-ADD
-EIF
-FLOOR
-PUSHB_1
- 1
-MUL
-SWAP
-DUP
-DUP
-ALIGNRP
-ROLL
-SHPIX
-ENDF
-PUSHB_1
- 64
-FDEF
-SWAP
-DUP
-MDAP[no-rnd]
-GC[cur]
-PUSHB_1
- 2
-CINDEX
-GC[cur]
-PUSHB_1
- 23
-RS
-IF
-LT
-ELSE
-GT
-EIF
-IF
-DUP
-ALIGNRP
-EIF
-MDAP[no-rnd]
-PUSHB_2
- 48
- 1
-SZP1
-CALL
-ENDF
-PUSHB_1
- 65
-FDEF
-SWAP
-DUP
-MDAP[no-rnd]
-GC[cur]
-PUSHB_1
- 2
-CINDEX
-GC[cur]
-PUSHB_1
- 23
-RS
-IF
-GT
-ELSE
-LT
-EIF
-IF
-DUP
-ALIGNRP
-EIF
-MDAP[no-rnd]
-PUSHB_2
- 48
- 1
-SZP1
-CALL
-ENDF
-PUSHB_1
- 66
-FDEF
-SWAP
-DUP
-MDAP[no-rnd]
-GC[cur]
-PUSHB_1
- 2
-CINDEX
-GC[cur]
-PUSHB_1
- 23
-RS
-IF
-LT
-ELSE
-GT
-EIF
-IF
-DUP
-ALIGNRP
-EIF
-SWAP
-DUP
-MDAP[no-rnd]
-GC[cur]
-PUSHB_1
- 2
-CINDEX
-GC[cur]
-PUSHB_1
- 23
-RS
-IF
-GT
-ELSE
-LT
-EIF
-IF
-DUP
-ALIGNRP
-EIF
-MDAP[no-rnd]
-PUSHB_2
- 48
- 1
-SZP1
-CALL
-ENDF
-PUSHB_1
- 67
-FDEF
-PUSHB_1
- 58
-CALL
-SWAP
-DUP
-MDAP[no-rnd]
-GC[cur]
-PUSHB_1
- 2
-CINDEX
-GC[cur]
-PUSHB_1
- 23
-RS
-IF
-LT
-ELSE
-GT
-EIF
-IF
-DUP
-ALIGNRP
-EIF
-MDAP[no-rnd]
-PUSHB_2
- 48
- 1
-SZP1
-CALL
-ENDF
-PUSHB_1
- 68
-FDEF
-PUSHB_1
- 59
-CALL
-ROLL
-DUP
-DUP
-ALIGNRP
-PUSHB_1
- 6
-SWAP
-WS
-ROLL
-SHPIX
-SWAP
-DUP
-MDAP[no-rnd]
-GC[cur]
-PUSHB_1
- 2
-CINDEX
-GC[cur]
-PUSHB_1
- 23
-RS
-IF
-LT
-ELSE
-GT
-EIF
-IF
-DUP
-ALIGNRP
-EIF
-MDAP[no-rnd]
-PUSHB_2
- 48
- 1
-SZP1
-CALL
-PUSHB_1
- 6
-RS
-MDAP[no-rnd]
-PUSHB_1
- 48
-CALL
-ENDF
-PUSHB_1
- 69
-FDEF
-PUSHB_1
- 0
-SZPS
-PUSHB_1
- 4
-CINDEX
-PUSHB_1
- 4
-MINDEX
-DUP
-DUP
-DUP
-GC[cur]
-SWAP
-GC[orig]
-SUB
-PUSHB_1
- 12
-SWAP
-WS
-MDAP[no-rnd]
-GC[orig]
-SWAP
-GC[orig]
-SWAP
-SUB
-PUSHB_1
- 11
-RS
-CALL
-SWAP
-DUP
-ALIGNRP
-DUP
-MDAP[no-rnd]
-SWAP
-SHPIX
-PUSHB_2
- 48
- 1
-SZP1
-CALL
-ENDF
-PUSHB_1
- 70
-FDEF
-PUSHB_2
- 10
- 4
-CINDEX
-WS
-PUSHB_1
- 0
-SZPS
-PUSHB_1
- 4
-CINDEX
-PUSHB_1
- 4
-CINDEX
-DUP
-MDAP[no-rnd]
-GC[orig]
-SWAP
-GC[orig]
-SWAP
-SUB
-DUP
-PUSHB_1
- 6
-SWAP
-WS
-PUSHB_2
- 12
- 0
-WS
-PUSHB_1
- 11
-RS
-CALL
-DUP
-PUSHB_1
- 96
-LT
-IF
-DUP
-PUSHB_1
- 64
-LTEQ
-IF
-PUSHB_4
- 4
- 32
- 5
- 32
-ELSE
-PUSHB_4
- 4
- 38
- 5
- 26
-EIF
-WS
-WS
-SWAP
-DUP
-GC[orig]
-PUSHB_1
- 6
-RS
-PUSHB_1
- 2
-DIV
-DUP
-PUSHB_1
- 0
-LT
-IF
-PUSHB_1
- 64
-ADD
-EIF
-FLOOR
-PUSHB_1
- 1
-MUL
-ADD
-DUP
-PUSHB_1
- 1
-CALL
-DUP
-ROLL
-ROLL
-SUB
-DUP
-PUSHB_1
- 4
-RS
-ADD
-ABS
-SWAP
-PUSHB_1
- 5
-RS
-SUB
-ABS
-LT
-IF
-PUSHB_1
- 4
-RS
-SUB
-ELSE
-PUSHB_1
- 5
-RS
-ADD
-EIF
-PUSHB_1
- 3
-CINDEX
-PUSHB_1
- 2
-DIV
-DUP
-PUSHB_1
- 0
-LT
-IF
-PUSHB_1
- 64
-ADD
-EIF
-FLOOR
-PUSHB_1
- 1
-MUL
-SUB
-PUSHB_1
- 2
-CINDEX
-GC[cur]
-SUB
-SHPIX
-SWAP
-DUP
-ALIGNRP
-SWAP
-SHPIX
-ELSE
-POP
-DUP
-DUP
-GC[cur]
-SWAP
-GC[orig]
-PUSHB_1
- 1
-CALL
-SWAP
-SUB
-SHPIX
-POP
-EIF
-PUSHB_2
- 48
- 1
-SZP1
-CALL
-ENDF
-PUSHB_1
- 71
-FDEF
-PUSHB_2
- 0
- 58
-CALL
-MDAP[no-rnd]
-PUSHB_2
- 48
- 1
-SZP1
-CALL
-ENDF
-PUSHB_1
- 72
-FDEF
-PUSHB_2
- 0
- 59
-CALL
-POP
-SWAP
-DUP
-DUP
-ALIGNRP
-PUSHB_1
- 6
-SWAP
-WS
-SWAP
-SHPIX
-PUSHB_2
- 48
- 1
-SZP1
-CALL
-PUSHB_1
- 6
-RS
-MDAP[no-rnd]
-PUSHB_1
- 48
-CALL
-ENDF
-PUSHB_1
- 73
-FDEF
-PUSHB_1
- 0
-SZP2
-DUP
-GC[orig]
-PUSHB_1
- 0
-SWAP
-WS
-PUSHB_3
- 0
- 1
- 1
-SZP2
-SZP1
-SZP0
-MDAP[no-rnd]
-PUSHB_1
- 54
-LOOPCALL
-ENDF
-PUSHB_1
- 74
-FDEF
-PUSHB_1
- 0
-SZP2
-DUP
-GC[orig]
-PUSHB_1
- 0
-SWAP
-WS
-PUSHB_3
- 0
- 1
- 1
-SZP2
-SZP1
-SZP0
-MDAP[no-rnd]
-PUSHB_1
- 54
-LOOPCALL
-ENDF
-PUSHB_1
- 75
-FDEF
-PUSHB_2
- 0
- 1
-SZP1
-SZP0
-PUSHB_1
- 55
-LOOPCALL
-ENDF
-PUSHB_1
- 76
-FDEF
-PUSHB_1
- 57
-LOOPCALL
-ENDF
-PUSHB_1
- 77
-FDEF
-PUSHB_1
- 0
-SZPS
-RCVT
-SWAP
-DUP
-MDAP[no-rnd]
-DUP
-GC[cur]
-ROLL
-SWAP
-SUB
-SHPIX
-PUSHB_2
- 48
- 1
-SZP1
-CALL
-ENDF
-PUSHB_1
- 78
-FDEF
-PUSHB_1
- 10
-SWAP
-WS
-PUSHB_1
- 77
-CALL
-ENDF
-PUSHB_1
- 79
-FDEF
-PUSHB_3
- 0
- 0
- 70
-CALL
-ENDF
-PUSHB_1
- 80
-FDEF
-PUSHB_3
- 0
- 1
- 70
-CALL
-ENDF
-PUSHB_1
- 81
-FDEF
-PUSHB_3
- 1
- 0
- 70
-CALL
-ENDF
-PUSHB_1
- 82
-FDEF
-PUSHB_3
- 1
- 1
- 70
-CALL
-ENDF
-PUSHB_1
- 83
-FDEF
-PUSHB_3
- 0
- 0
- 71
-CALL
-ENDF
-PUSHB_1
- 84
-FDEF
-PUSHB_3
- 0
- 1
- 71
-CALL
-ENDF
-PUSHB_1
- 85
-FDEF
-PUSHB_3
- 1
- 0
- 71
-CALL
-ENDF
-PUSHB_1
- 86
-FDEF
-PUSHB_3
- 1
- 1
- 71
-CALL
-ENDF
-PUSHB_1
- 87
-FDEF
-PUSHB_4
- 0
- 0
- 0
- 67
-CALL
-ENDF
-PUSHB_1
- 88
-FDEF
-PUSHB_4
- 0
- 1
- 0
- 67
-CALL
-ENDF
-PUSHB_1
- 89
-FDEF
-PUSHB_4
- 1
- 0
- 0
- 67
-CALL
-ENDF
-PUSHB_1
- 90
-FDEF
-PUSHB_4
- 1
- 1
- 0
- 67
-CALL
-ENDF
-PUSHB_1
- 91
-FDEF
-PUSHB_4
- 0
- 0
- 1
- 67
-CALL
-ENDF
-PUSHB_1
- 92
-FDEF
-PUSHB_4
- 0
- 1
- 1
- 67
-CALL
-ENDF
-PUSHB_1
- 93
-FDEF
-PUSHB_4
- 1
- 0
- 1
- 67
-CALL
-ENDF
-PUSHB_1
- 94
-FDEF
-PUSHB_4
- 1
- 1
- 1
- 67
-CALL
-ENDF
-PUSHB_1
- 95
-FDEF
-PUSHB_3
- 0
- 0
- 69
-CALL
-ENDF
-PUSHB_1
- 96
-FDEF
-PUSHB_3
- 0
- 1
- 69
-CALL
-ENDF
-PUSHB_1
- 97
-FDEF
-PUSHB_3
- 1
- 0
- 69
-CALL
-ENDF
-PUSHB_1
- 98
-FDEF
-PUSHB_3
- 1
- 1
- 69
-CALL
-ENDF
-PUSHB_1
- 99
-FDEF
-PUSHB_3
- 0
- 0
- 72
-CALL
-ENDF
-PUSHB_1
- 100
-FDEF
-PUSHB_3
- 0
- 1
- 72
-CALL
-ENDF
-PUSHB_1
- 101
-FDEF
-PUSHB_3
- 1
- 0
- 72
-CALL
-ENDF
-PUSHB_1
- 102
-FDEF
-PUSHB_3
- 1
- 1
- 72
-CALL
-ENDF
-PUSHB_1
- 103
-FDEF
-PUSHB_4
- 0
- 0
- 0
- 68
-CALL
-ENDF
-PUSHB_1
- 104
-FDEF
-PUSHB_4
- 0
- 1
- 0
- 68
-CALL
-ENDF
-PUSHB_1
- 105
-FDEF
-PUSHB_4
- 1
- 0
- 0
- 68
-CALL
-ENDF
-PUSHB_1
- 106
-FDEF
-PUSHB_4
- 1
- 1
- 0
- 68
-CALL
-ENDF
-PUSHB_1
- 107
-FDEF
-PUSHB_4
- 0
- 0
- 1
- 68
-CALL
-ENDF
-PUSHB_1
- 108
-FDEF
-PUSHB_4
- 0
- 1
- 1
- 68
-CALL
-ENDF
-PUSHB_1
- 109
-FDEF
-PUSHB_4
- 1
- 0
- 1
- 68
-CALL
-ENDF
-PUSHB_1
- 110
-FDEF
-PUSHB_4
- 1
- 1
- 1
- 68
-CALL
-ENDF
-PUSHB_1
- 111
-FDEF
-PUSHB_2
- 0
- 60
-CALL
-MDAP[no-rnd]
-PUSHB_2
- 48
- 1
-SZP1
-CALL
-ENDF
-PUSHB_1
- 112
-FDEF
-PUSHB_2
- 0
- 60
-CALL
-PUSHB_1
- 64
-CALL
-ENDF
-PUSHB_1
- 113
-FDEF
-PUSHB_2
- 0
- 60
-CALL
-PUSHB_1
- 65
-CALL
-ENDF
-PUSHB_1
- 114
-FDEF
-PUSHB_1
- 0
-SZPS
-PUSHB_2
- 0
- 60
-CALL
-PUSHB_1
- 66
-CALL
-ENDF
-PUSHB_1
- 115
-FDEF
-PUSHB_2
- 1
- 60
-CALL
-PUSHB_1
- 64
-CALL
-ENDF
-PUSHB_1
- 116
-FDEF
-PUSHB_2
- 1
- 60
-CALL
-PUSHB_1
- 65
-CALL
-ENDF
-PUSHB_1
- 117
-FDEF
-PUSHB_1
- 0
-SZPS
-PUSHB_2
- 1
- 60
-CALL
-PUSHB_1
- 66
-CALL
-ENDF
-PUSHB_1
- 118
-FDEF
-PUSHB_2
- 0
- 61
-CALL
-MDAP[no-rnd]
-PUSHB_2
- 48
- 1
-SZP1
-CALL
-ENDF
-PUSHB_1
- 119
-FDEF
-PUSHB_2
- 0
- 61
-CALL
-PUSHB_1
- 64
-CALL
-ENDF
-PUSHB_1
- 120
-FDEF
-PUSHB_2
- 0
- 61
-CALL
-PUSHB_1
- 65
-CALL
-ENDF
-PUSHB_1
- 121
-FDEF
-PUSHB_2
- 0
- 61
-CALL
-PUSHB_1
- 66
-CALL
-ENDF
-PUSHB_1
- 122
-FDEF
-PUSHB_2
- 1
- 61
-CALL
-PUSHB_1
- 64
-CALL
-ENDF
-PUSHB_1
- 123
-FDEF
-PUSHB_2
- 1
- 61
-CALL
-PUSHB_1
- 65
-CALL
-ENDF
-PUSHB_1
- 124
-FDEF
-PUSHB_2
- 1
- 61
-CALL
-PUSHB_1
- 66
-CALL
-ENDF
-PUSHB_1
- 125
-FDEF
-PUSHB_2
- 0
- 62
-CALL
-MDAP[no-rnd]
-PUSHB_2
- 48
- 1
-SZP1
-CALL
-ENDF
-PUSHB_1
- 126
-FDEF
-PUSHB_2
- 0
- 62
-CALL
-PUSHB_1
- 64
-CALL
-ENDF
-PUSHB_1
- 127
-FDEF
-PUSHB_2
- 0
- 62
-CALL
-PUSHB_1
- 65
-CALL
-ENDF
-PUSHB_1
- 128
-FDEF
-PUSHB_2
- 0
- 62
-CALL
-PUSHB_1
- 66
-CALL
-ENDF
-PUSHB_1
- 129
-FDEF
-PUSHB_2
- 1
- 62
-CALL
-PUSHB_1
- 64
-CALL
-ENDF
-PUSHB_1
- 130
-FDEF
-PUSHB_2
- 1
- 62
-CALL
-PUSHB_1
- 65
-CALL
-ENDF
-PUSHB_1
- 131
-FDEF
-PUSHB_2
- 1
- 62
-CALL
-PUSHB_1
- 66
-CALL
-ENDF
-PUSHB_1
- 132
-FDEF
-PUSHB_2
- 0
- 63
-CALL
-MDAP[no-rnd]
-PUSHB_2
- 48
- 1
-SZP1
-CALL
-ENDF
-PUSHB_1
- 133
-FDEF
-PUSHB_2
- 0
- 63
-CALL
-PUSHB_1
- 64
-CALL
-ENDF
-PUSHB_1
- 134
-FDEF
-PUSHB_2
- 0
- 63
-CALL
-PUSHB_1
- 65
-CALL
-ENDF
-PUSHB_1
- 135
-FDEF
-PUSHB_2
- 0
- 63
-CALL
-PUSHB_1
- 66
-CALL
-ENDF
-PUSHB_1
- 136
-FDEF
-PUSHB_2
- 1
- 63
-CALL
-PUSHB_1
- 64
-CALL
-ENDF
-PUSHB_1
- 137
-FDEF
-PUSHB_2
- 1
- 63
-CALL
-PUSHB_1
- 65
-CALL
-ENDF
-PUSHB_1
- 138
-FDEF
-PUSHB_2
- 1
- 63
-CALL
-PUSHB_1
- 66
-CALL
-ENDF
-PUSHB_1
- 139
-FDEF
-PUSHB_3
- 11
- 0
- 3
-RCVT
-LT
-IF
-PUSHB_1
- 6
-ELSE
-PUSHB_3
- 4
- 2
- 3
-RCVT
-IF
-SWAP
-POP
-ELSE
-POP
-EIF
-EIF
-WS
-CALL
-PUSHB_1
- 8
-NEG
-PUSHB_1
- 3
-DEPTH
-LT
-JROT
-PUSHB_2
- 5
- 1
-SZP2
-RCVT
-IF
-IUP[y]
-EIF
-ENDF
-EndTTInstrs
-ShortTable: cvt  54
-  0
-  0
-  0
-  0
-  0
-  0
-  0
-  0
-  0
-  0
-  0
-  0
-  0
-  0
-  0
-  0
-  24
-  24
-  24
-  24
-  680
-  0
-  496
-  0
-  -162
-  680
-  0
-  496
-  0
-  -162
-  155
-  155
-  118
-  118
-  668
-  0
-  668
-  496
-  0
-  -161
-  680
-  -12
-  758
-  510
-  -12
-  -172
-  24
-  24
-  24
-  24
-  785
-  403
-  785
-  395
-EndShort
-ShortTable: maxp 16
-  1
-  0
-  367
-  88
-  7
-  82
-  4
-  2
-  42
-  87
-  141
-  0
-  152
-  3596
-  2
-  1
-EndShort
-LangName: 1033 "" "" "" "" "" "Version 1.5.0" "" "" "Braille Institute" "Elliott Scott, Megan Eiswerth, Linus Boman, Theodore Petrosky, Jacob Perez" "" "https://www.BrailleInstitute.org/" "http://helloapplied.com" "This Font Software is licensed under the SIL Open Font License, Version 1.1.+AAoA-This license is copied below, and is also available with a FAQ at:+AAoA-http://scripts.sil.org/OFL+AAoACgAK------------------------------------------------------------+AAoA-SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007+AAoA------------------------------------------------------------+AAoACgAA-PREAMBLE+AAoA-The goals of the Open Font License (OFL) are to stimulate worldwide+AAoA-development of collaborative font projects, to support the font creation+AAoA-efforts of academic and linguistic communities, and to provide a free and+AAoA-open framework in which fonts may be shared and improved in partnership+AAoA-with others.+AAoACgAA-The OFL allows the licensed fonts to be used, studied, modified and+AAoA-redistributed freely as long as they are not sold by themselves. The+AAoA-fonts, including any derivative works, can be bundled, embedded, +AAoA-redistributed and/or sold with any software provided that any reserved+AAoA-names are not used by derivative works. The fonts and derivatives,+AAoA-however, cannot be released under any other type of license. The+AAoA-requirement for fonts to remain under this license does not apply+AAoA-to any document created using the fonts or their derivatives.+AAoACgAA-DEFINITIONS+AAoAIgAA-Font Software+ACIA refers to the set of files released by the Copyright+AAoA-Holder(s) under this license and clearly marked as such. This may+AAoA-include source files, build scripts and documentation.+AAoACgAi-Reserved Font Name+ACIA refers to any names specified as such after the+AAoA-copyright statement(s).+AAoACgAi-Original Version+ACIA refers to the collection of Font Software components as+AAoA-distributed by the Copyright Holder(s).+AAoACgAi-Modified Version+ACIA refers to any derivative made by adding to, deleting,+AAoA-or substituting -- in part or in whole -- any of the components of the+AAoA-Original Version, by changing formats or by porting the Font Software to a+AAoA-new environment.+AAoACgAi-Author+ACIA refers to any designer, engineer, programmer, technical+AAoA-writer or other person who contributed to the Font Software.+AAoACgAA-PERMISSION & CONDITIONS+AAoA-Permission is hereby granted, free of charge, to any person obtaining+AAoA-a copy of the Font Software, to use, study, copy, merge, embed, modify,+AAoA-redistribute, and sell modified and unmodified copies of the Font+AAoA-Software, subject to the following conditions:+AAoACgAA-1) Neither the Font Software nor any of its individual components,+AAoA-in Original or Modified Versions, may be sold by itself.+AAoACgAA-2) Original or Modified Versions of the Font Software may be bundled,+AAoA-redistributed and/or sold with any software, provided that each copy+AAoA-contains the above copyright notice and this license. These can be+AAoA-included either as stand-alone text files, human-readable headers or+AAoA-in the appropriate machine-readable metadata fields within text or+AAoA-binary files as long as those fields can be easily viewed by the user.+AAoACgAA-3) No Modified Version of the Font Software may use the Reserved Font+AAoA-Name(s) unless explicit written permission is granted by the corresponding+AAoA-Copyright Holder. This restriction only applies to the primary font name as+AAoA-presented to the users.+AAoACgAA-4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font+AAoA-Software shall not be used to promote, endorse or advertise any+AAoA-Modified Version, except to acknowledge the contribution(s) of the+AAoA-Copyright Holder(s) and the Author(s) or with their explicit written+AAoA-permission.+AAoACgAA-5) The Font Software, modified or unmodified, in part or in whole,+AAoA-must be distributed entirely under this license, and must not be+AAoA-distributed under any other license. The requirement for fonts to+AAoA-remain under this license does not apply to any document created+AAoA-using the Font Software.+AAoACgAA-TERMINATION+AAoA-This license becomes null and void if any of the above conditions are+AAoA-not met.+AAoACgAA-DISCLAIMER+AAoA-THE FONT SOFTWARE IS PROVIDED +ACIA-AS IS+ACIA, WITHOUT WARRANTY OF ANY KIND,+AAoA-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF+AAoA-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT+AAoA-OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE+AAoA-COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,+AAoA-INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL+AAoA-DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING+AAoA-FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM+AAoA-OTHER DEALINGS IN THE FONT SOFTWARE." "http://scripts.sil.org/OFL"
+LangName: 1033 "" "" "" "" "" "Version 1.5.1" "" "" "Braille Institute" "Elliott Scott, Megan Eiswerth, Linus Boman, Theodore Petrosky, Jacob Perez" "" "https://www.BrailleInstitute.org/" "http://helloapplied.com" "This Font Software is licensed under the SIL Open Font License, Version 1.1.+AAoA-This license is copied below, and is also available with a FAQ at:+AAoA-http://scripts.sil.org/OFL+AAoACgAK------------------------------------------------------------+AAoA-SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007+AAoA------------------------------------------------------------+AAoACgAA-PREAMBLE+AAoA-The goals of the Open Font License (OFL) are to stimulate worldwide+AAoA-development of collaborative font projects, to support the font creation+AAoA-efforts of academic and linguistic communities, and to provide a free and+AAoA-open framework in which fonts may be shared and improved in partnership+AAoA-with others.+AAoACgAA-The OFL allows the licensed fonts to be used, studied, modified and+AAoA-redistributed freely as long as they are not sold by themselves. The+AAoA-fonts, including any derivative works, can be bundled, embedded, +AAoA-redistributed and/or sold with any software provided that any reserved+AAoA-names are not used by derivative works. The fonts and derivatives,+AAoA-however, cannot be released under any other type of license. The+AAoA-requirement for fonts to remain under this license does not apply+AAoA-to any document created using the fonts or their derivatives.+AAoACgAA-DEFINITIONS+AAoAIgAA-Font Software+ACIA refers to the set of files released by the Copyright+AAoA-Holder(s) under this license and clearly marked as such. This may+AAoA-include source files, build scripts and documentation.+AAoACgAi-Reserved Font Name+ACIA refers to any names specified as such after the+AAoA-copyright statement(s).+AAoACgAi-Original Version+ACIA refers to the collection of Font Software components as+AAoA-distributed by the Copyright Holder(s).+AAoACgAi-Modified Version+ACIA refers to any derivative made by adding to, deleting,+AAoA-or substituting -- in part or in whole -- any of the components of the+AAoA-Original Version, by changing formats or by porting the Font Software to a+AAoA-new environment.+AAoACgAi-Author+ACIA refers to any designer, engineer, programmer, technical+AAoA-writer or other person who contributed to the Font Software.+AAoACgAA-PERMISSION & CONDITIONS+AAoA-Permission is hereby granted, free of charge, to any person obtaining+AAoA-a copy of the Font Software, to use, study, copy, merge, embed, modify,+AAoA-redistribute, and sell modified and unmodified copies of the Font+AAoA-Software, subject to the following conditions:+AAoACgAA-1) Neither the Font Software nor any of its individual components,+AAoA-in Original or Modified Versions, may be sold by itself.+AAoACgAA-2) Original or Modified Versions of the Font Software may be bundled,+AAoA-redistributed and/or sold with any software, provided that each copy+AAoA-contains the above copyright notice and this license. These can be+AAoA-included either as stand-alone text files, human-readable headers or+AAoA-in the appropriate machine-readable metadata fields within text or+AAoA-binary files as long as those fields can be easily viewed by the user.+AAoACgAA-3) No Modified Version of the Font Software may use the Reserved Font+AAoA-Name(s) unless explicit written permission is granted by the corresponding+AAoA-Copyright Holder. This restriction only applies to the primary font name as+AAoA-presented to the users.+AAoACgAA-4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font+AAoA-Software shall not be used to promote, endorse or advertise any+AAoA-Modified Version, except to acknowledge the contribution(s) of the+AAoA-Copyright Holder(s) and the Author(s) or with their explicit written+AAoA-permission.+AAoACgAA-5) The Font Software, modified or unmodified, in part or in whole,+AAoA-must be distributed entirely under this license, and must not be+AAoA-distributed under any other license. The requirement for fonts to+AAoA-remain under this license does not apply to any document created+AAoA-using the Font Software.+AAoACgAA-TERMINATION+AAoA-This license becomes null and void if any of the above conditions are+AAoA-not met.+AAoACgAA-DISCLAIMER+AAoA-THE FONT SOFTWARE IS PROVIDED +ACIA-AS IS+ACIA, WITHOUT WARRANTY OF ANY KIND,+AAoA-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF+AAoA-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT+AAoA-OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE+AAoA-COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,+AAoA-INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL+AAoA-DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING+AAoA-FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM+AAoA-OTHER DEALINGS IN THE FONT SOFTWARE." "http://scripts.sil.org/OFL"
 GaspTable: 1 65535 15 1
 Encoding: UnicodeFull
 Compacted: 1
@@ -4052,7 +232,7 @@ NameList: AGL For New Fonts
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 26 26 17
+WinInfo: 0 26 17
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 335544 167772 111848 520094 1048576 111848 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
@@ -4066,32 +246,9 @@ GlyphClass: 1
 Flags: W
 HStem: 0 21<79 449> 680 20<78 449>
 VStem: 50 21<49 650> 457 20<47 652>
-DStem2: 78 680 71 650 0.513698 -0.857971<22.1432 360.147 396.696 737.787> 71 49 79 21 0.513896 0.857853<0 339.381 374.897 715.649>
 LayerCount: 2
 Fore
-SplineSet
-79 21 m 1
- 449 21 l 1
- 264 329 l 1
- 79 21 l 1
-71 49 m 1
- 251 350 l 1
- 71 650 l 1
- 71 49 l 1
-457 47 m 1
- 457 652 l 1
- 276 350 l 1
- 457 47 l 1
-263 371 m 1
- 449 680 l 1
- 78 680 l 1
- 263 371 l 1
-50 0 m 1
- 50 700 l 1
- 477 700 l 1
- 477 0 l 1
- 50 0 l 1
-EndSplineSet
+Refer: 547 65533 S 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NULL
@@ -4133,7 +290,6 @@ GlyphClass: 1
 Flags: W
 HStem: -12 113<266.594 395.355> 567 113<266.252 396.078>
 VStem: 45 156<189.019 425.999> 461 157<247.51 482.783>
-DStem2: 254 534 209 431 0.570817 -0.821077<58.8842 351.204>
 LayerCount: 2
 Fore
 SplineSet
@@ -4251,7 +407,6 @@ GlyphClass: 1
 Flags: W
 HStem: 0 21G<348 500> 141 134<188 348 500 592> 648 20G<332.375 500>
 VStem: 348 152<0 141 275 469>
-DStem2: 23 252 188 275 0.615644 0.788024<119.706 371.086>
 LayerCount: 2
 Fore
 SplineSet
@@ -4435,7 +590,6 @@ Width: 690
 GlyphClass: 2
 Flags: W
 HStem: 0 21G<5 183.723 506.277 685> 119 128<260 430> 648 20G<250.425 439.575>
-DStem2: 5 0 177 0 0.35419 0.935173<60.9207 186.374 321.306 484.629> 432 668 344 501 0.35419 -0.935173<125.005 393> 685 0 473 119 0.35419 -0.935173<-558.903 -321.306 -186.374 -60.9207>
 AnchorPoint: "Anchor-2" 685 0 basechar 0
 AnchorPoint: "Anchor-1" 345 0 basechar 0
 AnchorPoint: "Anchor-0" 345 668 basechar 0
@@ -4720,26 +874,25 @@ Width: 659
 GlyphClass: 2
 Flags: W
 HStem: 0 21G<44 202 451.588 649> 648 20G<44 202 424.811 636>
-VStem: 44 158<0 197 403 668> 443 193<475 668> 466 183<0 183>
-DStem2: 202 403 372 382 0.677631 0.735402<99.7539 358.191> 372 382 270 272 0.587037 -0.80956<29.1738 364.433>
+VStem: 44 158<0 197 403 668>
 AnchorPoint: "Anchor-1" 319 0 basechar 0
 AnchorPoint: "Anchor-0" 330 668 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-44 0 m 1xe8
+44 0 m 1
  44 668 l 1
  202 668 l 1
  202 403 l 1
  443 668 l 1
- 636 668 l 1xf0
+ 636 668 l 1
  372 382 l 1
  649 0 l 1
  466 0 l 1
  270 272 l 1
  202 197 l 1
  202 0 l 1
- 44 0 l 1xe8
+ 44 0 l 1
 EndSplineSet
 EndChar
 
@@ -4772,7 +925,6 @@ GlyphClass: 1
 Flags: W
 HStem: 0 21G<44 197 348.981 491.057 644 798> 648 20G<44 286.804 555.113 798>
 VStem: 44 153<0 525> 644 154<0 525>
-DStem2: 281 668 197 525 0.288184 -0.957575<112.726 498.736> 420 189 485 0 0.289856 0.95707<0 386.503>
 AnchorPoint: "Anchor-0" 420 668 basechar 0
 LayerCount: 2
 Fore
@@ -4801,7 +953,6 @@ GlyphClass: 2
 Flags: W
 HStem: 0 21G<44 196 443.16 656> 648 20G<44 255.84 503 656>
 VStem: 44 152<0 476> 503 153<192 668>
-DStem2: 245 668 196 476 0.476521 -0.879163<145.45 541.424>
 AnchorPoint: "Anchor-1" 322 0 basechar 0
 AnchorPoint: "Anchor-0" 365 668 basechar 0
 LayerCount: 2
@@ -4884,7 +1035,6 @@ GlyphClass: 1
 Flags: W
 HStem: -12 130<296.694 465.541> 550 130<296.694 465.841>
 VStem: 35 167<223.465 444.535> 561 168<252.812 444.535>
-DStem2: 421 372 338 285 0.727013 -0.686624<0 176.866 342.494 493.803>
 LayerCount: 2
 Fore
 SplineSet
@@ -4915,23 +1065,22 @@ Width: 654
 GlyphClass: 2
 Flags: W
 HStem: 0 21G<44 202 439.635 637> 252 132<202 273> 535 133<202 406.943>
-VStem: 44 158<0 252 384 535> 437 167<409.621 507.976> 454 183<0 183>
-DStem2: 443 269 273 252 0.58494 -0.811077<0 224.614>
+VStem: 44 158<0 252 384 535> 437 167<409.621 507.976>
 AnchorPoint: "Anchor-1" 327 0 basechar 0
 AnchorPoint: "Anchor-0" 307 668 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-202 384 m 1xf8
+202 384 m 1
  306 384 l 2
  397 384 437 407 437 459 c 0
  437 512 398 535 306 535 c 2
  202 535 l 1
- 202 384 l 1xf8
+ 202 384 l 1
 604 461 m 0
  604 364 548 297 443 269 c 1
  637 0 l 1
- 454 0 l 1xf4
+ 454 0 l 1
  273 252 l 1
  202 252 l 1
  202 0 l 1
@@ -4949,7 +1098,6 @@ GlyphClass: 2
 Flags: W
 HStem: -12 127<225.087 406.039> 553 127<214.341 383.39>
 VStem: 28 162<446.124 528.51> 434 162<141.32 229.246>
-DStem2: 266 421 231 285 0.980581 -0.196116<-67.5686 186.398>
 AnchorPoint: "Anchor-1" 329 0 basechar 0
 AnchorPoint: "Anchor-0" 304 668 basechar 0
 LayerCount: 2
@@ -5033,7 +1181,6 @@ GlyphClass: 1
 Flags: W
 HStem: 0 21G<229.234 425.796> 648 20G<10 180.232 474.727 646>
 VStem: 10 164<504 668> 481 165<503 668>
-DStem2: 174 668 10 668 0.320479 -0.947256<0 514.136> 327 177 419 0 0.32175 0.946825<0 514.44>
 LayerCount: 2
 Fore
 SplineSet
@@ -5055,7 +1202,6 @@ GlyphClass: 1
 Flags: W
 HStem: 0 21G<166.18 344.298 538.66 716.82> 648 20G<10 172.017 354.767 527.276 710.983 873>
 VStem: 10 158<510 668> 715 158<510 668>
-DStem2: 261 205 340 0 0.210097 0.97768<0 296.903> 523 668 441 470 0.212084 -0.977251<176.105 473.464>
 AnchorPoint: "Anchor-0" 441 668 basechar 0
 LayerCount: 2
 Fore
@@ -5083,26 +1229,24 @@ Width: 699
 GlyphClass: 1
 Flags: W
 HStem: 0 21G<10 214.123 484.782 689> 648 20G<24 227.167 471.729 675>
-VStem: 10 190<0 190> 24 189<479 668> 486 189<479 668> 499 190<0 190>
-DStem2: 10 0 200 0 0.580315 0.814392<110.26 368.564 584.377 820.244> 213 668 24 668 0.580315 -0.814392<0 235.286 451.1 709.984>
 AnchorPoint: "Anchor-1" 349 0 basechar 0
 AnchorPoint: "Anchor-0" 349 668 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-10 0 m 1xe4
+10 0 m 1
  255 343 l 1
  24 668 l 1
  213 668 l 1
  349 476 l 1
  486 668 l 1
- 675 668 l 1xd8
+ 675 668 l 1
  444 343 l 1
  689 0 l 1
  499 0 l 1
  349 211 l 1
  200 0 l 1
- 10 0 l 1xe4
+ 10 0 l 1
 EndSplineSet
 EndChar
 
@@ -5112,8 +1256,7 @@ Width: 687
 GlyphClass: 2
 Flags: W
 HStem: 0 21G<265 422> 648 20G<10 205.595 480.405 677>
-VStem: 10 184<484 668> 265 157<0 260> 492 185<483 668>
-DStem2: 194 668 10 668 0.529999 -0.847998<0 296.905> 343 411 422 260 0.529999 0.847998<0 296.905>
+VStem: 265 157<0 260>
 AnchorPoint: "Anchor-1" 344 0 basechar 0
 AnchorPoint: "Anchor-0" 344 668 basechar 0
 LayerCount: 2
@@ -5138,7 +1281,6 @@ Width: 621
 GlyphClass: 2
 Flags: W
 HStem: 0 139<240 589> 529 139<47 369>
-DStem2: 32 121 240 139 0.636833 0.771002<146.339 529.181>
 AnchorPoint: "Anchor-1" 311 0 basechar 0
 AnchorPoint: "Anchor-0" 311 668 basechar 0
 LayerCount: 2
@@ -5424,12 +1566,8 @@ SplineSet
  271 496 l 1
  271 0 l 1
  118 0 l 1xe8
-285 668 m 0xf0
- 285 618 245 578 195 578 c 0
- 145 578 105 618 105 668 c 0
- 105 718 145 758 195 758 c 0
- 246 758 285 719 285 668 c 0xf0
 EndSplineSet
+Refer: 544 803 S 1 0 0 1 105 826 2
 Substitution2: "Single Substitution lookup 4 subtable" dotlessi
 Substitution2: "Single Substitution lookup 3 subtable" dotlessi
 EndChar
@@ -5444,21 +1582,13 @@ VStem: 42 180<608.982 727.018> 55 152<-37.0977 496>
 LayerCount: 2
 Fore
 SplineSet
-207 -24 m 2xe8
- 207 -121 151 -161 17 -161 c 2
- -70 -161 l 1
- -70 -41 l 1
- -11 -41 l 2
- 43 -41 55 -34 55 -2 c 2
- 55 496 l 1
- 207 496 l 1
- 207 -24 l 2xe8
 222 668 m 0xf0
  222 618 182 578 132 578 c 0
  82 578 42 618 42 668 c 0
  42 718 82 758 132 758 c 0
  182 758 222 718 222 668 c 0xf0
 EndSplineSet
+Refer: 410 567 S 1 0 0 1 0 0 2
 EndChar
 
 StartChar: k
@@ -5467,26 +1597,25 @@ Width: 567
 GlyphClass: 2
 Flags: W
 HStem: 0 21G<50 202 368.667 563> 476 20G<350.34 548> 648 20G<50 202>
-VStem: 50 152<0 125 308 668> 368 180<316 496> 383 180<0 180>
-DStem2: 354 289 254 180 0.586002 -0.810309<29.7235 251.173>
+VStem: 50 152<0 125 308 668>
 AnchorPoint: "Anchor-1" 284 0 basechar 0
 AnchorPoint: "Anchor-0" 284 796 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-50 0 m 1xf4
+50 0 m 1
  50 668 l 1
  202 668 l 1
  202 308 l 1
  368 496 l 1
- 548 496 l 1xf8
+ 548 496 l 1
  354 289 l 1
  563 0 l 1
  383 0 l 1
  254 180 l 1
  202 125 l 1
  202 0 l 1
- 50 0 l 1xf4
+ 50 0 l 1
 EndSplineSet
 EndChar
 
@@ -5700,7 +1829,6 @@ GlyphClass: 2
 Flags: W
 HStem: -12 111<181.583 348.656> 399 111<186.224 337.56>
 VStem: 33 145<331.088 388.379> 361 146<114.359 173.732>
-DStem2: 239 319 195 205 0.983353 -0.181706<-64.6669 148.388>
 AnchorPoint: "Anchor-1" 267 0 basechar 0
 AnchorPoint: "Anchor-0" 268 496 basechar 0
 LayerCount: 2
@@ -5815,7 +1943,6 @@ GlyphClass: 1
 Flags: W
 HStem: 0 21G<119 293.989 428.955 604> 476 20G<0 154.464 285.19 436.81 567.536 723>
 VStem: 0 150<346 496> 572 151<345 496>
-DStem2: 150 496 0 496 0.242536 -0.970143<0 344.158> 225 160 290 0 0.195586 0.980686<0 218.814> 433 496 361 356 0.198234 -0.980155<122.949 342.019> 497 160 599 0 0.242536 0.970143<0 344.158>
 LayerCount: 2
 Fore
 SplineSet
@@ -5842,8 +1969,6 @@ Width: 533
 GlyphClass: 1
 Flags: W
 HStem: 0 21G<0 180.126 353.014 533> 476 20G<15 195.215 337.95 518>
-VStem: 0 166<0 166> 367 166<0 166>
-DStem2: 0 0 166 0 0.578747 0.815507<96.072 271.143 460.341 608.21> 181 496 15 496 0.578747 -0.815507<0 148.449 337.646 512.138>
 AnchorPoint: "Anchor-1" 267 0 basechar 0
 AnchorPoint: "Anchor-0" 267 496 basechar 0
 LayerCount: 2
@@ -5871,7 +1996,6 @@ Width: 518
 GlyphClass: 2
 Flags: W
 HStem: -161 110<65 175.51> 476 20G<0 169.258 348.871 518>
-DStem2: 190 3 328 0 0.357717 0.93383<-59.2602 0 195.931 384.733>
 AnchorPoint: "Anchor-1" 429 0 basechar 0
 AnchorPoint: "Anchor-0" 260 496 basechar 0
 LayerCount: 2
@@ -5898,7 +2022,6 @@ Width: 516
 GlyphClass: 2
 Flags: W
 HStem: 0 121<226 496> 375 121<44 287>
-DStem2: 30 121 226 121 0.711246 0.702943<139.404 361.338>
 AnchorPoint: "Anchor-1" 258 0 basechar 0
 AnchorPoint: "Anchor-0" 268 496 basechar 0
 LayerCount: 2
@@ -6050,7 +2173,6 @@ GlyphClass: 1
 Flags: W
 HStem: 339 329<124 158.672>
 VStem: 41 195<376.548 496.5>
-DStem2: 48 472 161 531 0.361528 0.932361<95.862 210.219>
 LayerCount: 2
 Fore
 SplineSet
@@ -6072,7 +2194,6 @@ GlyphClass: 1
 Flags: W
 HStem: 351 329<116.595 153>
 VStem: 41 195<522.5 642.875>
-DStem2: 63 351 153 351 0.365652 0.930751<32.9087 145.962>
 LayerCount: 2
 Fore
 SplineSet
@@ -6094,7 +2215,6 @@ GlyphClass: 1
 Flags: W
 HStem: -146 330<116.595 153>
 VStem: 41 195<26.375 146.875>
-DStem2: 63 -146 153 -146 0.364043 0.931382<32.7639 146.894>
 LayerCount: 2
 Fore
 SplineSet
@@ -6116,7 +2236,6 @@ GlyphClass: 1
 Flags: W
 HStem: 339 329<124 158.672 345 379.672>
 VStem: 41 195<376.548 497.5> 263 194<376.548 496.5>
-DStem2: 51 480 161 531 0.361968 0.932191<87.3582 201.675> 270 472 382 531 0.357382 0.933958<95.1303 209.859>
 LayerCount: 2
 Fore
 SplineSet
@@ -6146,27 +2265,10 @@ GlyphClass: 1
 Flags: W
 HStem: 351 329<116.595 153 337.595 374>
 VStem: 41 195<522.5 642.875> 262 195<522.5 642.875>
-DStem2: 63 351 153 351 0.365652 0.930751<32.9087 145.962> 284 351 374 351 0.365652 0.930751<32.9087 145.962>
 LayerCount: 2
 Fore
-SplineSet
-360 680 m 0
- 414 680 457 637 457 582 c 0
- 457 570 455 558 451 547 c 2
- 374 351 l 1
- 284 351 l 1
- 337 487 l 1
- 293 498 262 537 262 582 c 0
- 262 637 305 680 360 680 c 0
-139 680 m 0
- 193 680 236 637 236 582 c 0
- 236 570 234 558 230 547 c 2
- 153 351 l 1
- 63 351 l 1
- 116 487 l 1
- 72 498 41 537 41 582 c 0
- 41 637 84 680 139 680 c 0
-EndSplineSet
+Refer: 74 8217 S 1 0 0 1 0 0 2
+Refer: 74 8217 S 1 0 0 1 221 0 2
 EndChar
 
 StartChar: quotedblbase
@@ -6176,7 +2278,6 @@ GlyphClass: 1
 Flags: W
 HStem: -146 330<116.595 153 340.328 374>
 VStem: 41 195<26.375 146.875> 263 194<26.375 146.875>
-DStem2: 63 -146 153 -146 0.364043 0.931382<32.7639 146.894> 285 -146 374 -146 0.364043 0.931382<32.3998 146.894>
 LayerCount: 2
 Fore
 SplineSet
@@ -6188,15 +2289,8 @@ SplineSet
  338 -9 l 1
  294 2 263 41 263 86 c 0
  263 141 306 184 360 184 c 0
-139 184 m 0
- 193 184 236 141 236 86 c 0
- 236 74 234 62 230 51 c 2
- 153 -146 l 1
- 63 -146 l 1
- 116 -9 l 1
- 72 2 41 41 41 86 c 0
- 41 141 84 184 139 184 c 0
 EndSplineSet
+Refer: 75 8218 S 1 0 0 1 0 0 2
 EndChar
 
 StartChar: dagger
@@ -6311,21 +2405,20 @@ Width: 1406
 GlyphClass: 1
 Flags: W
 HStem: -12 119<701.675 810.325 1130.68 1238.89> 0 21G<192 332.012> 264 118<701.868 810.309 1130.68 1236.71> 286 118<167.107 275.325> 561 119<169.291 275.502> 648 20G<645.018 786>
-VStem: 24 119<428.675 534.709> 192 126<0 126> 300 118<428.675 534.709> 559 118<131.636 236.824> 659 127<541 668> 835 118<131.636 236.824> 988 118<131.636 239.854> 1263 119<131.636 239.854>
-DStem2: 192 0 318 0 0.573791 0.819001<72.2977 815.054>
+VStem: 24 119<428.675 534.709> 300 118<428.675 534.709> 559 118<131.636 236.824> 835 118<131.636 236.824> 988 118<131.636 239.854> 1263 119<131.636 239.854>
 LayerCount: 2
 Fore
 SplineSet
-1106 186 m 0xa21c
+1106 186 m 0xa3f0
  1106 142 1141 107 1185 107 c 0
  1228 107 1263 142 1263 186 c 0
  1263 229 1228 264 1185 264 c 0
- 1141 264 1106 229 1106 186 c 0xa21c
-677 186 m 0xa25c
+ 1141 264 1106 229 1106 186 c 0xa3f0
+677 186 m 0
  677 142 712 107 756 107 c 0
  800 107 835 142 835 186 c 0
  835 229 799 264 756 264 c 0
- 713 264 677 229 677 186 c 0xa25c
+ 713 264 677 229 677 186 c 0
 1382 186 m 0
  1382 77 1294 -12 1185 -12 c 0
  1076 -12 988 77 988 186 c 0
@@ -6339,18 +2432,18 @@ SplineSet
 143 483 m 0
  143 439 178 404 221 404 c 0
  265 404 300 439 300 483 c 0
- 300 526 265 561 221 561 c 0x1a9c
+ 300 526 265 561 221 561 c 0x1bf0
  178 561 143 526 143 483 c 0
-192 0 m 1x473c
+192 0 m 1x47f0
  659 668 l 1
  786 668 l 1
  318 0 l 1
- 192 0 l 1x473c
-418 483 m 0x1a9c
+ 192 0 l 1x47f0
+418 483 m 0
  418 374 330 286 221 286 c 0
  112 286 24 374 24 483 c 0
- 24 593 111 680 221 680 c 0
- 331 680 418 593 418 483 c 0x1a9c
+ 24 593 111 680 221 680 c 0x1bf0
+ 331 680 418 593 418 483 c 0
 EndSplineSet
 EndChar
 
@@ -6359,7 +2452,7 @@ Encoding: 8249 8249 84
 Width: 404
 GlyphClass: 1
 Flags: W
-VStem: 189 174<40 214 287 461>
+VStem: 41 321
 LayerCount: 2
 Fore
 SplineSet
@@ -6378,7 +2471,7 @@ Encoding: 8250 8250 85
 Width: 404
 GlyphClass: 1
 Flags: W
-VStem: 41 175<40 215 285 460>
+VStem: 41 322
 LayerCount: 2
 Fore
 SplineSet
@@ -6398,8 +2491,6 @@ Width: 624
 GlyphClass: 1
 Flags: W
 HStem: 0 21G<15 155.982> 648 20G<468.988 609>
-VStem: 15 127<0 127> 483 126<542 668>
-DStem2: 15 0 142 0 0.573791 0.819001<72.8715 815.627>
 LayerCount: 2
 Fore
 SplineSet
@@ -6450,7 +2541,6 @@ Encoding: 171 171 88
 Width: 669
 GlyphClass: 1
 Flags: W
-VStem: 201 174<40 214 287 461> 440 176<40 216 285 461>
 LayerCount: 2
 Fore
 SplineSet
@@ -6497,21 +2587,20 @@ Width: 798
 GlyphClass: 1
 Flags: W
 HStem: -12 69<293.257 503.574> 300 75<338 370> 453 76<338 454.125> 610 69<293.468 503.574>
-VStem: 53 70<228.658 438.821> 241 97<161 300 375 453> 458 101<381.961 446.055> 471 108<161 269> 675 70<228.658 439.032>
-DStem2: 472 310 370 300 0.583299 -0.812258<0 120.443>
+VStem: 53 70<228.658 438.821> 241 97<161 300 375 453> 458 101<381.961 446.055> 675 70<228.658 439.032>
 LayerCount: 2
 Fore
 SplineSet
-458 414 m 0xfe80
+458 414 m 0
  458 441 438 453 390 453 c 2
  338 453 l 1
  338 375 l 1
  390 375 l 2
- 438 375 458 387 458 414 c 0xfe80
+ 438 375 458 387 458 414 c 0
 559 415 m 0
  559 361 530 326 472 310 c 1
  579 161 l 1
- 471 161 l 1xfd80
+ 471 161 l 1
  370 300 l 1
  338 300 l 1
  338 161 l 1
@@ -6583,11 +2672,6 @@ VStem: 245 128<180 283 391 495>
 LayerCount: 2
 Fore
 SplineSet
-53 0 m 1
- 53 128 l 1
- 565 128 l 1
- 565 0 l 1
- 53 0 l 1
 245 180 m 1
  245 283 l 1
  53 283 l 1
@@ -6602,6 +2686,7 @@ SplineSet
  373 180 l 1
  245 180 l 1
 EndSplineSet
+Refer: 159 8722 S 1 0 0 1 12 -184 2
 EndChar
 
 StartChar: uni00B2
@@ -6610,7 +2695,7 @@ Width: 407
 GlyphClass: 1
 Flags: W
 HStem: 403 87<195 353> 709 76<165.16 248.369>
-VStem: 251 102<622.681 704.724>
+VStem: 251 103<622.681 704.724>
 LayerCount: 2
 Fore
 SplineSet
@@ -6829,7 +2914,6 @@ Encoding: 187 187 103
 Width: 669
 GlyphClass: 1
 Flags: W
-VStem: 53 175<40 215 286 461> 294 174<40 214 287 461>
 LayerCount: 2
 Fore
 SplineSet
@@ -6855,42 +2939,26 @@ Encoding: 188 188 104
 Width: 853
 GlyphClass: 1
 Flags: W
-HStem: 0 21G<110 251.033 641 742> 74 87<563 641 742 800> 535 88<53 136.878> 647 20G<153.5 238 563.967 705>
-VStem: 110 127<0 127> 137 101<292 535> 159 79<637.308 667> 578 127<540 667> 641 101<0 74 161 256>
-DStem2: 110 0 237 0 0.574368 0.818597<72.9447 814.809> 460 152 563 161 0.630199 0.776433<71.8984 194.815>
+HStem: 0 21G<110 251.033> 74 87<563 641 742 800> 535 88<53 136.878> 647 20G<153.5 238 563.967 705>
+VStem: 137 101<292 535> 159 79<637.308 667> 641 101<0 74 161 256>
 LayerCount: 2
 Fore
 SplineSet
-563 161 m 1xf080
- 641 161 l 1
- 641 256 l 1
- 563 161 l 1xf080
-641 0 m 1
- 641 74 l 1
- 460 74 l 1
- 460 152 l 1
- 641 375 l 1
- 742 375 l 1
- 742 161 l 1
- 800 161 l 1
- 800 74 l 1
- 742 74 l 1
- 742 0 l 1
- 641 0 l 1
-53 623 m 1
+53 623 m 1xfa
  124 623 148 633 159 667 c 1
- 238 667 l 1xf2
+ 238 667 l 1xf6
  238 292 l 1
  137 292 l 1
- 137 535 l 1xf4
+ 137 535 l 1
  53 535 l 1
- 53 623 l 1
-110 0 m 1xf9
+ 53 623 l 1xfa
+110 0 m 1
  578 667 l 1
  705 667 l 1
  237 0 l 1
- 110 0 l 1xf9
+ 110 0 l 1
 EndSplineSet
+Refer: 348 8308 S 1 0 0 1 405 -403 2
 LCarets2: 2 0 0
 Ligature2: "'frac' Diagonal Fractions lookup 10 subtable" one slash four
 EndChar
@@ -6901,12 +2969,11 @@ Width: 856
 GlyphClass: 1
 Flags: W
 HStem: 0 87<644 802> 306 75<613.686 696.339> 535 88<53 136.878> 647 20G<153.5 238 563.967 705>
-VStem: 110 127<0 127> 137 101<292 535> 159 79<637.308 667> 578 127<540 667> 700 102<218.286 301.396>
-DStem2: 110 0 237 0 0.574368 0.818597<72.9447 814.809>
+VStem: 137 101<292 535> 159 79<637.308 667> 700 103<218.286 301.396>
 LayerCount: 2
 Fore
 SplineSet
-803 274 m 0xf080
+803 274 m 0xf2
  803 213 769 173 644 87 c 1
  802 87 l 1
  802 0 l 1
@@ -6918,20 +2985,20 @@ SplineSet
  629 306 610 290 603 263 c 1
  512 296 l 1
  533 351 586 381 661 381 c 0
- 750 381 803 341 803 274 c 0xf080
+ 750 381 803 341 803 274 c 0xf2
 53 623 m 1
  124 623 148 633 159 667 c 1
- 238 667 l 1xf2
+ 238 667 l 1xf6
  238 292 l 1
  137 292 l 1
- 137 535 l 1xf4
+ 137 535 l 1xfa
  53 535 l 1
  53 623 l 1
-110 0 m 1xf9
+110 0 m 1
  578 667 l 1
  705 667 l 1
  237 0 l 1
- 110 0 l 1xf9
+ 110 0 l 1
 EndSplineSet
 LCarets2: 2 0 0
 Ligature2: "'frac' Diagonal Fractions lookup 10 subtable" one slash two
@@ -6943,15 +3010,14 @@ Width: 959
 GlyphClass: 1
 Flags: W
 HStem: 0 21G<200 341.033 748 849> 74 87<669 748 849 906> 290 76<154.303 251.67> 446 84<167 242.728> 603 76<130.825 243.564> 647 20G<653.967 795>
-VStem: 200 127<0 127> 247 103<537.18 597.446> 255 105<371.301 437.711> 668 127<540 667> 748 101<0 74 161 256>
-DStem2: 200 0 327 0 0.574368 0.818597<72.9447 814.809> 567 152 669 161 0.630199 0.776433<71.2682 194.815>
+VStem: 247 103<537.18 597.446> 255 105<371.301 437.711> 748 101<0 74 161 256>
 LayerCount: 2
 Fore
 SplineSet
-669 161 m 1xf020
+669 161 m 1xf080
  748 161 l 1
  748 256 l 1
- 669 161 l 1xf020
+ 669 161 l 1xf080
 748 0 m 1
  748 74 l 1
  567 74 l 1
@@ -6964,17 +3030,17 @@ SplineSet
  849 74 l 1
  849 0 l 1
  748 0 l 1
-200 0 m 1xf640
+200 0 m 1
  668 667 l 1
- 795 667 l 1
+ 795 667 l 1xf480
  327 0 l 1
- 200 0 l 1xf640
-360 404 m 0xf880
+ 200 0 l 1
+360 404 m 0xf980
  360 337 295 290 203 290 c 0
  131 290 77 319 53 372 c 1
  144 404 l 1
  153 380 175 366 205 366 c 0
- 237 366 255 380 255 404 c 0xf880
+ 237 366 255 380 255 404 c 0xf980
  255 433 233 446 182 446 c 2
  167 446 l 1
  167 530 l 1
@@ -6984,9 +3050,9 @@ SplineSet
  175 603 154 590 147 569 c 1
  58 602 l 1
  81 653 131 679 208 679 c 0
- 295 679 350 639 350 577 c 0xf9
+ 295 679 350 639 350 577 c 0xfa80
  350 541 331 509 301 494 c 1
- 338 480 360 447 360 404 c 0xf880
+ 338 480 360 447 360 404 c 0xf980
 EndSplineSet
 LCarets2: 2 0 0
 Ligature2: "'frac' Diagonal Fractions lookup 10 subtable" three slash four
@@ -7132,17 +3198,13 @@ VStem: 24 195<25.5485 146.068 352.739 472.875>
 LayerCount: 2
 Fore
 SplineSet
-219 86 m 0
- 219 32 176 -12 122 -12 c 0
- 68 -12 24 32 24 86 c 0
- 24 140 67 183 122 183 c 0
- 177 183 219 141 219 86 c 0
 219 412 m 0
  219 358 176 316 122 316 c 0
  68 316 24 359 24 412 c 0
  24 467 67 510 122 510 c 0
  176 510 219 467 219 412 c 0
 EndSplineSet
+Refer: 133 46 S 1 0 0 1 0 0 2
 EndChar
 
 StartChar: semicolon
@@ -7152,7 +3214,6 @@ GlyphClass: 1
 Flags: W
 HStem: 316 194<61.1255 182.068>
 VStem: 24 195<25.75 146.068 352.739 472.875>
-DStem2: 46 -146 136 -146 0.365652 0.930751<32.9087 146.893>
 LayerCount: 2
 Fore
 SplineSet
@@ -7200,7 +3261,6 @@ Width: 442
 GlyphClass: 1
 Flags: W
 HStem: 0 21G<268.186 427> 648 20G<15 175.754>
-DStem2: 168 668 15 668 0.363926 -0.931428<0 661.498>
 LayerCount: 2
 Fore
 SplineSet
@@ -7240,7 +3300,6 @@ Width: 589
 GlyphClass: 1
 Flags: W
 HStem: 648 20G<227.607 361.393>
-DStem2: 53 312 196 312 0.461117 0.887339<65.9398 283.734> 351 668 295 506 0.461117 -0.887339<117.926 335.26>
 LayerCount: 2
 Fore
 SplineSet
@@ -7298,23 +3357,19 @@ Width: 283
 GlyphClass: 1
 Flags: W
 HStem: -12 195<81.5485 202.068> 648 20G<44 238>
-VStem: 44 195<25.5485 146.068 453.977 668>
+VStem: 44 194<453 668> 44 195<25.5485 146.068>
 LayerCount: 2
 Fore
 SplineSet
-239 86 m 0
- 239 32 196 -12 142 -12 c 0
- 88 -12 44 32 44 86 c 0
- 44 140 87 183 142 183 c 0
- 197 183 239 141 239 86 c 0
-85 243 m 1
+85 243 m 1xe0
  44 495 l 1
  44 668 l 1
  238 668 l 1
  238 495 l 1
  196 243 l 1
- 85 243 l 1
+ 85 243 l 1xe0
 EndSplineSet
+Refer: 133 46 S 1 0 0 1 20 0 2
 EndChar
 
 StartChar: quotedbl
@@ -7327,17 +3382,13 @@ VStem: 54 114<434 551> 243 113<434 543.2>
 LayerCount: 2
 Fore
 SplineSet
-54 434 m 1
- 40 668 l 1
- 182 668 l 1
- 168 434 l 1
- 54 434 l 1
 243 434 m 1
  228 668 l 1
  370 668 l 1
  356 434 l 1
  243 434 l 1
 EndSplineSet
+Refer: 126 39 S 1 0 0 1 0 0 2
 EndChar
 
 StartChar: numbersign
@@ -7346,7 +3397,6 @@ Width: 783
 GlyphClass: 1
 Flags: W
 HStem: 0 21G<134 277.835 411 554.835> 127 140<44 152 313 429 591 699> 401 140<84 192 352 469 630 738> 648 20G<228.008 371 505.008 649>
-DStem2: 134 0 275 0 0.143702 0.989621<20.262 128.269 289.952 405.173 566.712 675.006> 411 0 552 0 0.143702 0.989621<20.262 128.269 290.095 405.173 566.856 675.006>
 LayerCount: 2
 Fore
 SplineSet
@@ -7435,16 +3485,15 @@ Width: 977
 GlyphClass: 1
 Flags: W
 HStem: -12 119<701.675 810.325> 0 21G<192 332.012> 264 118<701.868 810.309> 286 118<167.107 275.325> 561 119<167.107 275.325> 648 20G<645.018 786>
-VStem: 24 119<428.146 536.364> 192 126<0 126> 300 118<428.146 536.364> 559 118<131.636 236.824> 659 127<541 668> 835 118<131.636 236.824>
-DStem2: 192 0 318 0 0.573791 0.819001<72.2977 815.054>
+VStem: 24 119<428.146 536.364> 300 118<428.146 536.364> 559 118<131.636 236.824> 835 118<131.636 236.824>
 LayerCount: 2
 Fore
 SplineSet
-677 186 m 0xa250
+677 186 m 0xa3c0
  677 142 712 107 756 107 c 0
  800 107 835 142 835 186 c 0
  835 229 799 264 756 264 c 0
- 713 264 677 229 677 186 c 0xa250
+ 713 264 677 229 677 186 c 0xa3c0
 953 186 m 0
  953 77 865 -12 756 -12 c 0
  647 -12 559 77 559 186 c 0
@@ -7453,18 +3502,18 @@ SplineSet
 143 482 m 0
  143 439 178 404 221 404 c 0
  265 404 300 439 300 482 c 0
- 300 526 265 561 221 561 c 0x1a90
+ 300 526 265 561 221 561 c 0x1bc0
  178 561 143 526 143 482 c 0
-192 0 m 1x4730
+192 0 m 1x47c0
  659 668 l 1
  786 668 l 1
  318 0 l 1
- 192 0 l 1x4730
-418 482 m 0x1a90
+ 192 0 l 1x47c0
+418 482 m 0
  418 373 330 286 221 286 c 0
  112 286 24 373 24 482 c 0
- 24 591 112 680 221 680 c 0
- 330 680 418 591 418 482 c 0x1a90
+ 24 591 112 680 221 680 c 0x1bc0
+ 330 680 418 591 418 482 c 0
 EndSplineSet
 EndChar
 
@@ -7475,7 +3524,6 @@ GlyphClass: 1
 Flags: W
 HStem: -13 125<216.572 368.607> 0 21G<504.642 698> 592 114<273.421 376.462>
 VStem: 24 159<144.295 250.125> 121 139<480.801 579.832> 394 127<475.967 574.223> 546 127<313.891 389>
-DStem2: 395 352 266 290 0.652386 -0.757887<0 143.176 274.79 349.629>
 LayerCount: 2
 Fore
 SplineSet
@@ -7531,17 +3579,17 @@ Width: 366
 GlyphClass: 1
 Flags: W
 HStem: -161 21G<132.5 331> 648 20G<109 289>
-VStem: 35 141<116.198 454.646> 145 144<524 668> 180 151<-161 -10>
+VStem: 35 141<116.198 454.646>
 LayerCount: 2
 Fore
 SplineSet
-176 276 m 0xe0
+176 276 m 0
  176 131 229 -18 331 -161 c 1
  180 -161 l 1
- 85 -29 35 124 35 280 c 0xe8
+ 85 -29 35 124 35 280 c 0
  35 415 73 549 145 668 c 1
- 289 668 l 1xd0
- 213 554 176 424 176 276 c 0xe0
+ 289 668 l 1
+ 213 554 176 424 176 276 c 0
 EndSplineSet
 Kerns2: 12 31 "'kern' Horizontal Kerning lookup 0 per glyph data 0"
 EndChar
@@ -7552,17 +3600,17 @@ Width: 366
 GlyphClass: 1
 Flags: W
 HStem: -161 21G<35 234> 648 20G<77 257>
-VStem: 35 152<-161 -9> 77 144<524 668> 190 141<115.853 455.962>
+VStem: 190 141<115.853 455.962>
 LayerCount: 2
 Fore
 SplineSet
-331 280 m 0xc8
+331 280 m 0
  331 125 281 -28 187 -161 c 1
  35 -161 l 1
- 137 -20 190 129 190 276 c 0xe8
+ 137 -20 190 129 190 276 c 0
  190 426 153 555 77 668 c 1
- 221 668 l 1xd0
- 293 551 331 417 331 280 c 0xc8
+ 221 668 l 1
+ 293 551 331 417 331 280 c 0
 EndSplineSet
 EndChar
 
@@ -7628,7 +3676,6 @@ GlyphClass: 1
 Flags: W
 HStem: -146 329<99.595 136>
 VStem: 24 195<25.75 145.875>
-DStem2: 46 -146 136 -146 0.365652 0.930751<32.9087 146.893>
 LayerCount: 2
 Fore
 SplineSet
@@ -7686,7 +3733,6 @@ Width: 442
 GlyphClass: 1
 Flags: W
 HStem: 0 21G<15 175.754> 648 20G<268.186 427>
-DStem2: 15 0 168 0 0.363926 0.931428<55.6807 717.178>
 LayerCount: 2
 Fore
 SplineSet
@@ -7912,7 +3958,6 @@ GlyphClass: 1
 Flags: W
 HStem: 102 119<236.762 359.238> 419 120<235.995 359.83>
 VStem: 79 120<259.125 381.839> 397 119<258.752 381.628>
-DStem2: 105 565 53 513 0.707107 -0.707107<0 98.7829 520.601 619.426> 53 127 105 75 0.707107 0.707107<0 98.8229 520.424 619.426>
 LayerCount: 2
 Fore
 SplineSet
@@ -7951,8 +3996,7 @@ Width: 687
 GlyphClass: 1
 Flags: W
 HStem: 0 21G<265 422> 75 74<136 265 422 552> 212 74<136 249 438 552> 647 20G<10 205.641 480.359 677>
-VStem: 10 184<483 667> 265 157<0 75 149 212> 492 185<482 667>
-DStem2: 194 667 10 667 0.531397 -0.847123<0 296.042> 343 411 438 286 0.531397 0.847123<0 296.042>
+VStem: 265 157<0 75 149 212>
 LayerCount: 2
 Fore
 SplineSet
@@ -8013,7 +4057,6 @@ GlyphClass: 1
 Flags: W
 HStem: -173 117<221.108 338.765> 565 115<222.803 344.097>
 VStem: 21 149<271.321 340.538> 68 149<497.668 556.865> 351 151<-43.1759 36.5637> 398 153<195.187 266.551>
-DStem2: 356 184 162 125 0.895856 -0.444345<-215.593 14.0822> 278 474 211 352 0.89735 -0.44132<-19.1946 211.206>
 LayerCount: 2
 Fore
 SplineSet
@@ -8063,12 +4106,8 @@ SplineSet
  285 578 253 609 253 648 c 0
  253 687 285 719 324 719 c 0
  363 719 393 688 393 648 c 0
-200 648 m 0
- 200 609 169 578 130 578 c 0
- 91 578 59 609 59 648 c 0
- 59 687 91 719 130 719 c 0
- 169 719 200 687 200 648 c 0
 EndSplineSet
+Refer: 70 729 S 1 0 0 1 29 0 2
 EndChar
 
 StartChar: copyright
@@ -8175,7 +4214,6 @@ Width: 1016
 GlyphClass: 1
 Flags: W
 HStem: 0 139<639 994> 119 128<341 481> 275 138<639 857> 528 139<639 994>
-DStem2: 5 0 177 0 0.580892 0.813981<99.9134 243.248 396.233 602.496>
 AnchorPoint: "Anchor-0" 698 668 basechar 0
 LayerCount: 2
 Fore
@@ -8341,11 +4379,6 @@ HStem: 0 128<41 553> 490 20G<470.419 553>
 LayerCount: 2
 Fore
 SplineSet
-41 0 m 1
- 41 128 l 1
- 553 128 l 1
- 553 0 l 1
- 41 0 l 1
 553 136 m 1
  41 260 l 1
  41 386 l 1
@@ -8355,6 +4388,7 @@ SplineSet
  553 265 l 1
  553 136 l 1
 EndSplineSet
+Refer: 159 8722 S 1 0 0 1 0 -184 2
 EndChar
 
 StartChar: greaterequal
@@ -8366,11 +4400,6 @@ HStem: 0 128<41 553> 490 20G<41 123.581>
 LayerCount: 2
 Fore
 SplineSet
-41 0 m 1
- 41 128 l 1
- 553 128 l 1
- 553 0 l 1
- 41 0 l 1
 41 136 m 1
  41 265 l 1
  378 324 l 1
@@ -8380,6 +4409,7 @@ SplineSet
  553 260 l 1
  41 136 l 1
 EndSplineSet
+Refer: 159 8722 S 1 0 0 1 0 -184 2
 EndChar
 
 StartChar: lozenge
@@ -8387,7 +4417,6 @@ Encoding: 9674 9674 157
 Width: 607
 GlyphClass: 1
 Flags: W
-DStem2: 41 313 179 313 0.546521 0.837445<75.4199 302.012> 179 313 41 313 0.545572 -0.838064<0 226.591> 304 716 304 502 0.545061 -0.838396<179.417 405.461> 304 124 304 -91 0.544112 0.839013<0 226.043>
 LayerCount: 2
 Fore
 SplineSet
@@ -8410,7 +4439,6 @@ Width: 617
 GlyphClass: 1
 Flags: W
 HStem: -162 128<211 576> 540 128<211 576>
-DStem2: 211 540 41 540 0.641239 -0.767341<0 262.423> 41 -34 211 -34 0.638606 0.769534<108.563 372.975>
 LayerCount: 2
 Fore
 SplineSet
@@ -8453,8 +4481,6 @@ Width: 651
 GlyphClass: 1
 Flags: W
 HStem: 0 21G<15 182.012> 648 20G<468.988 636>
-VStem: 15 153<0 153> 483 153<515 668>
-DStem2: 15 0 168 0 0.573791 0.819001<87.7901 815.627>
 LayerCount: 2
 Fore
 SplineSet
@@ -8491,7 +4517,6 @@ GlyphClass: 1
 Flags: W
 HStem: -162 21G<284.373 454.277> 93 132<41 183> 648 20G<518.679 668>
 VStem: 524 144<524 668>
-DStem2: 354 29 449 -162 0.255124 0.966908<0 661.226>
 LayerCount: 2
 Fore
 SplineSet
@@ -8634,7 +4659,6 @@ Width: 715
 GlyphClass: 1
 Flags: W
 HStem: 0 115<229 485> 660 20G<347.706 366.324>
-DStem2: 41 0 229 115 0.421425 0.906863<183.517 512.239> 357 680 357 418 0.422521 -0.906353<237.465 566.172>
 LayerCount: 2
 Fore
 SplineSet
@@ -8791,7 +4815,6 @@ GlyphClass: 1
 Flags: W
 HStem: 301 367<162 271 415 522 787 894> 575 93<41 162 271 391>
 VStem: 162 109<301 575> 415 107<301 558> 787 107<301 558>
-DStem2: 654 432 703 301 0.310675 0.950516<0 161.085>
 LayerCount: 2
 Fore
 SplineSet
@@ -8859,9 +4882,8 @@ Encoding: 321 321 176
 Width: 586
 GlyphClass: 1
 Flags: W
-HStem: 0 139<251 571> 416 122<289 411> 648 20G<93 251>
+HStem: 0 139<251 571> 648 20G<93 251>
 VStem: 93 158<139 226 441 668>
-DStem2: 13 300 93 226 0.858253 0.513227<0 30.6815 276.629 401.119>
 LayerCount: 2
 Fore
 SplineSet
@@ -8920,7 +4942,6 @@ GlyphClass: 1
 Flags: W
 HStem: -12 118<224.287 351.121> 392 118<222.516 340.597>
 VStem: 24 155<194.39 347.309> 394 155<153.29 315.26>
-DStem2: 36 22 92 -26 0.653148 0.75723<0.229281 74.9024 227.563 451.228 600.298 662.943>
 AnchorPoint: "Anchor-0" 287 496 basechar 0
 LayerCount: 2
 Fore
@@ -8959,7 +4980,6 @@ GlyphClass: 1
 Flags: W
 HStem: -12 130<296.636 464.841> 549 130<296.203 465.241>
 VStem: 35 167<223.537 443.955> 560 168<223.465 446.053>
-DStem2: 70 36 126 -12 0.652053 0.758174<0.122628 79.6465 238.95 621.956 777.628 848.091>
 AnchorPoint: "Anchor-0" 382 668 basechar 0
 LayerCount: 2
 Fore
@@ -9069,7 +5089,6 @@ GlyphClass: 1
 Flags: W
 HStem: -12 113<221.557 349.98> 338 114<221.882 352.319> 604 122<163 273.392>
 VStem: 24 156<142.612 295.032> 394 160<167.97 383.09 403 470.862>
-DStem2: 223 530 271 483 0.705367 0.708842<0.542056 74.9531 220.453 287.627>
 LayerCount: 2
 Fore
 SplineSet
@@ -9130,7 +5149,6 @@ Encoding: 215 215 184
 Width: 539
 GlyphClass: 1
 Flags: W
-DStem2: 44 112 135 22 0.706133 0.708079<0.531059 192.158 318.904 513.89> 270 337 180 248 0.706133 -0.708079<-195.692 -0.533004 126.746 317.667>
 LayerCount: 2
 Fore
 SplineSet
@@ -9165,17 +5183,13 @@ SplineSet
  253 -12 218 24 218 68 c 0
  218 111 254 147 297 147 c 0
  340 147 376 111 376 68 c 0
-41 186 m 1
- 41 314 l 1
- 553 314 l 1
- 553 186 l 1
- 41 186 l 1
 376 431 m 0
  376 387 341 351 297 351 c 0
  253 351 218 387 218 431 c 0
  218 475 253 510 297 510 c 0
  341 510 376 475 376 431 c 0
 EndSplineSet
+Refer: 159 8722 S 1 0 0 1 0 2 2
 EndChar
 
 StartChar: OE
@@ -9256,7 +5270,6 @@ Width: 690
 GlyphClass: 2
 Flags: W
 HStem: 0 21G<5 183.723 506.277 685> 119 128<260 430> 648 20G<250.425 439.575> 807 91<299.5 390.5>
-DStem2: 5 0 177 0 0.35419 0.935173<60.9207 186.374 321.306 484.629> 432 668 344 501 0.35419 -0.935173<125.005 393> 685 0 473 119 0.35419 -0.935173<-558.903 -321.306 -186.374 -60.9207>
 AnchorPoint: "Anchor-2" 654 0 basechar 0
 AnchorPoint: "Anchor-1" 345 0 basechar 0
 AnchorPoint: "Anchor-0" 345 883 basechar 0
@@ -9272,7 +5285,6 @@ Width: 690
 GlyphClass: 2
 Flags: W
 HStem: 0 21G<5 183.723 506.277 685> 119 128<260 430> 648 20G<250.425 439.575> 741 79<349.99 449.122> 779 82<253.697 348.378>
-DStem2: 5 0 177 0 0.35419 0.935173<60.9207 186.374 321.306 484.629> 432 668 344 501 0.35419 -0.935173<125.005 393> 685 0 473 119 0.35419 -0.935173<-558.903 -321.306 -186.374 -60.9207>
 AnchorPoint: "Anchor-2" 654 0 basechar 0
 AnchorPoint: "Anchor-1" 345 0 basechar 0
 AnchorPoint: "Anchor-0" 345 849 basechar 0
@@ -9289,7 +5301,6 @@ GlyphClass: 2
 Flags: W
 HStem: 0 21G<5 183.723 506.277 685> 119 128<260 430> 648 20G<250.425 439.575> 750 141<198.875 298.625 392.875 493.271>
 VStem: 178 141<770.375 870.125> 372 140<770.375 870.125>
-DStem2: 5 0 177 0 0.35419 0.935173<60.9207 186.374 321.306 484.629> 432 668 344 501 0.35419 -0.935173<125.005 393> 685 0 473 119 0.35419 -0.935173<-558.903 -321.306 -186.374 -60.9207>
 AnchorPoint: "Anchor-2" 654 0 basechar 0
 AnchorPoint: "Anchor-1" 345 0 basechar 0
 AnchorPoint: "Anchor-0" 345 867 basechar 0
@@ -9306,7 +5317,6 @@ GlyphClass: 2
 Flags: W
 HStem: 0 21G<5 183.723 506.277 685> 119 128<260 430> 776 85<304.552 383.804>
 VStem: 212 85<689.321 768.448> 391 86<689.355 768.572>
-DStem2: 5 0 177 0 0.354169 0.935181<60.917 186.37 321.303 425.148> 247 639 344 501 0.354169 0.935181<-361.987 -94.7007> 443 640 344 501 0.353685 -0.935365<95.0009 363> 443 640 430 247 0.353685 -0.935365<95.0009 363 497.936 540.186>
 AnchorPoint: "Anchor-2" 654 0 basechar 0
 AnchorPoint: "Anchor-1" 345 0 basechar 0
 AnchorPoint: "Anchor-0" 345 796 basechar 0
@@ -9344,7 +5354,6 @@ GlyphClass: 2
 Flags: W
 HStem: 0 21G<5 183.723 506.277 685> 119 128<260 430> 648 20G<250.425 439.575> 746 154<272.028 305.719>
 VStem: 206 208
-DStem2: 5 0 177 0 0.35419 0.935173<60.9207 186.374 321.306 484.629> 432 668 344 501 0.35419 -0.935173<125.005 393> 685 0 473 119 0.35419 -0.935173<-558.903 -321.306 -186.374 -60.9207>
 AnchorPoint: "Anchor-2" 654 0 basechar 0
 AnchorPoint: "Anchor-1" 345 0 basechar 0
 AnchorPoint: "Anchor-0" 308 885 basechar 0
@@ -9361,7 +5370,6 @@ GlyphClass: 2
 Flags: W
 HStem: 0 21G<5 183.723 506.277 685> 119 128<260 430> 648 20G<250.425 439.575> 746 153<385.049 418.972>
 VStem: 277 208
-DStem2: 5 0 177 0 0.35419 0.935173<60.9207 186.374 321.306 484.629> 432 668 344 501 0.35419 -0.935173<125.005 393> 685 0 473 119 0.35419 -0.935173<-558.903 -321.306 -186.374 -60.9207>
 AnchorPoint: "Anchor-2" 654 0 basechar 0
 AnchorPoint: "Anchor-1" 345 0 basechar 0
 AnchorPoint: "Anchor-0" 384 885 basechar 0
@@ -9378,7 +5386,6 @@ GlyphClass: 2
 Flags: W
 HStem: 0 21G<5 183.723 506.277 685> 119 128<260 430> 648 20G<250.425 439.575> 742 98<195 494>
 VStem: 195 299<742 840>
-DStem2: 5 0 177 0 0.35419 0.935173<60.9207 186.374 321.306 484.629> 432 668 344 501 0.35419 -0.935173<125.005 393> 685 0 473 119 0.35419 -0.935173<-558.903 -321.306 -186.374 -60.9207>
 AnchorPoint: "Anchor-2" 654 0 basechar 0
 AnchorPoint: "Anchor-1" 345 0 basechar 0
 AnchorPoint: "Anchor-0" 345 845 basechar 0
@@ -9842,7 +5849,6 @@ GlyphClass: 2
 Flags: W
 HStem: 0 21G<44 196 443.16 656> 648 20G<44 255.84 503 656> 741 79<369.99 469.122> 779 82<273.697 368.378>
 VStem: 44 152<0 476> 503 153<192 668>
-DStem2: 245 668 196 476 0.476521 -0.879163<145.45 541.424>
 AnchorPoint: "Anchor-1" 322 0 basechar 0
 AnchorPoint: "Anchor-0" 365 849 basechar 0
 LayerCount: 2
@@ -10001,8 +6007,7 @@ Width: 687
 GlyphClass: 2
 Flags: W
 HStem: 0 21G<265 422> 648 20G<10 205.595 480.405 677> 746 153<384.049 417.972>
-VStem: 10 184<484 668> 265 157<0 260> 276 208 492 185<483 668>
-DStem2: 194 668 10 668 0.529999 -0.847998<0 296.905> 343 411 422 260 0.529999 0.847998<0 296.905>
+VStem: 265 157<0 260> 276 208
 AnchorPoint: "Anchor-1" 344 0 basechar 0
 AnchorPoint: "Anchor-0" 383 885 basechar 0
 LayerCount: 2
@@ -10177,7 +6182,6 @@ GlyphClass: 2
 Flags: W
 HStem: -161 110<65 175.51> 476 20G<0 169.258 348.871 518> 574 153<300.049 333.972>
 VStem: 192 208
-DStem2: 190 3 328 0 0.357717 0.93383<-59.2602 0 195.931 384.733>
 AnchorPoint: "Anchor-1" 259 0 basechar 0
 AnchorPoint: "Anchor-0" 296 727 basechar 0
 LayerCount: 2
@@ -10193,7 +6197,6 @@ GlyphClass: 2
 Flags: W
 HStem: -161 110<65 175.51> 476 20G<0 169.258 348.871 518> 578 141<113.875 213.625 307.875 408.271>
 VStem: 93 141<598.375 698.125> 287 140<598.375 698.125>
-DStem2: 190 3 328 0 0.357717 0.93383<-59.2602 0 195.931 384.733>
 AnchorPoint: "Anchor-1" 259 0 basechar 0
 AnchorPoint: "Anchor-0" 260 719 basechar 0
 LayerCount: 2
@@ -10209,7 +6212,6 @@ GlyphClass: 2
 Flags: W
 HStem: -12 127<225.087 406.039> 553 127<214.341 383.39> 740 91<258.5 349.5>
 VStem: 28 162<446.124 528.51> 434 162<141.32 229.246>
-DStem2: 266 421 231 285 0.980581 -0.196116<-67.5686 186.398>
 AnchorPoint: "Anchor-1" 329 0 basechar 0
 AnchorPoint: "Anchor-0" 304 877 basechar 0
 LayerCount: 2
@@ -10225,7 +6227,6 @@ GlyphClass: 2
 Flags: W
 HStem: -12 111<181.583 348.656> 399 111<186.224 337.56> 568 91<222.5 313.5>
 VStem: 33 145<331.088 388.379> 361 146<114.359 173.732>
-DStem2: 239 319 195 205 0.983353 -0.181706<-64.6669 148.388>
 AnchorPoint: "Anchor-1" 267 0 basechar 0
 AnchorPoint: "Anchor-0" 268 720 basechar 0
 LayerCount: 2
@@ -10240,8 +6241,7 @@ Width: 687
 GlyphClass: 2
 Flags: W
 HStem: 0 21G<265 422> 648 20G<10 205.595 480.405 677> 750 141<197.875 297.625 391.875 492.271>
-VStem: 10 184<484 668> 177 141<770.375 870.125> 265 157<0 260> 371 140<770.375 870.125> 492 185<483 668>
-DStem2: 194 668 10 668 0.529999 -0.847998<0 296.905> 343 411 422 260 0.529999 0.847998<0 296.905>
+VStem: 177 141<770.375 870.125> 265 157<0 260> 371 140<770.375 870.125>
 AnchorPoint: "Anchor-1" 344 0 basechar 0
 AnchorPoint: "Anchor-0" 344 867 basechar 0
 LayerCount: 2
@@ -10256,7 +6256,6 @@ Width: 621
 GlyphClass: 2
 Flags: W
 HStem: 0 139<240 589> 529 139<47 369> 740 91<265.5 356.5>
-DStem2: 32 121 240 139 0.636833 0.771002<146.339 529.181>
 AnchorPoint: "Anchor-1" 311 0 basechar 0
 AnchorPoint: "Anchor-0" 311 877 basechar 0
 LayerCount: 2
@@ -10271,7 +6270,6 @@ Width: 516
 GlyphClass: 2
 Flags: W
 HStem: 0 121<226 496> 375 121<44 287> 568 91<222.5 313.5>
-DStem2: 30 121 226 121 0.711246 0.702943<139.404 361.338>
 AnchorPoint: "Anchor-1" 258 0 basechar 0
 AnchorPoint: "Anchor-0" 268 720 basechar 0
 LayerCount: 2
@@ -10282,7 +6280,7 @@ EndChar
 
 StartChar: Eth
 Encoding: 208 208 248
-AltUni2: 000189.ffffffff.0 000110.ffffffff.0
+AltUni2: 000110.ffffffff.0 000189.ffffffff.0
 Width: 773
 GlyphClass: 2
 Flags: W
@@ -10323,7 +6321,6 @@ GlyphClass: 1
 Flags: W
 HStem: -12 113<251.594 380.355> 567 113<251.252 381.078>
 VStem: 30 156<189.019 425.999> 446 157<247.51 482.783>
-DStem2: 239 534 194 431 0.570817 -0.821077<58.8842 351.204>
 LayerCount: 2
 Fore
 Refer: 5 48 N 1 0 0 1 -15 0 2
@@ -10394,7 +6391,6 @@ GlyphClass: 1
 Flags: W
 HStem: 0 21G<357 509> 141 134<197 357 509 601> 648 20G<341.375 509>
 VStem: 357 152<0 141 275 469>
-DStem2: 32 252 197 275 0.615644 0.788024<119.706 371.086>
 LayerCount: 2
 Fore
 Refer: 9 52 N 1 0 0 1 9 0 2
@@ -10477,7 +6473,6 @@ Width: 690
 GlyphClass: 2
 Flags: W
 HStem: 0 21G<5 183.723 506.277 685> 119 128<260 430> 648 20G<250.425 439.575> 741 85<290.7 398.153>
-DStem2: 5 0 177 0 0.35419 0.935173<60.9207 186.374 321.306 484.629> 432 668 344 501 0.35419 -0.935173<125.005 393> 685 0 473 119 0.35419 -0.935173<-558.903 -321.306 -186.374 -60.9207>
 AnchorPoint: "Anchor-2" 654 0 basechar 0
 AnchorPoint: "Anchor-1" 345 0 basechar 0
 AnchorPoint: "Anchor-0" 345 851 basechar 0
@@ -10510,7 +6505,6 @@ GlyphClass: 2
 Flags: W
 HStem: -174 76<592.635 684.313> 0 21G<5 183.723> 119 128<260 430> 648 20G<250.425 439.575>
 VStem: 464 126<-93.5099 -39.5503>
-DStem2: 5 0 177 0 0.35419 0.935173<60.9207 186.374 321.306 484.629> 432 668 344 501 0.35419 -0.935173<125.005 393> 685 0 473 119 0.35419 -0.935173<-558.903 -321.306 -186.374 -60.9207>
 AnchorPoint: "Anchor-2" 654 0 basechar 0
 AnchorPoint: "Anchor-1" 345 0 basechar 0
 AnchorPoint: "Anchor-0" 345 668 basechar 0
@@ -10863,11 +6857,6 @@ VStem: 50 126<-93.5099 -39.5503> 105 180<608.982 725.786> 118 153<0 380>
 LayerCount: 2
 Fore
 SplineSet
-285 668 m 0xe8
- 285 618 245 578 195 578 c 0
- 145 578 105 618 105 668 c 0
- 105 718 145 758 195 758 c 0
- 246 758 285 719 285 668 c 0xe8
 271 -164 m 1xe4
  257 -169 218 -174 192 -174 c 0
  106 -174 50 -139 50 -85 c 0xf0
@@ -10883,6 +6872,7 @@ SplineSet
  245 -98 256 -91 271 -89 c 1
  271 -164 l 1xe4
 EndSplineSet
+Refer: 544 803 S 1 0 0 1 105 826 2
 EndChar
 
 StartChar: Cacute
@@ -10952,7 +6942,6 @@ GlyphClass: 2
 Flags: W
 HStem: -12 127<225.087 406.039> 553 127<214.341 383.39> 746 153<344.049 377.972>
 VStem: 28 162<446.124 528.51> 236 208 434 162<141.32 229.246>
-DStem2: 266 421 231 285 0.980581 -0.196116<-67.5686 186.398>
 AnchorPoint: "Anchor-1" 329 0 basechar 0
 AnchorPoint: "Anchor-0" 343 885 basechar 0
 LayerCount: 2
@@ -10968,7 +6957,6 @@ GlyphClass: 2
 Flags: W
 HStem: -12 111<181.583 348.656> 399 111<186.224 337.56> 574 153<308.049 341.972>
 VStem: 33 145<331.088 388.379> 200 208 361 146<114.359 173.732>
-DStem2: 239 319 195 205 0.983353 -0.181706<-64.6669 148.388>
 AnchorPoint: "Anchor-1" 267 0 basechar 0
 AnchorPoint: "Anchor-0" 304 727 basechar 0
 LayerCount: 2
@@ -11146,7 +7134,6 @@ GlyphClass: 2
 Flags: W
 HStem: 0 21G<44 196 443.16 656> 648 20G<44 255.84 503 656> 746 153<405.049 438.972>
 VStem: 44 152<0 476> 297 208 503 153<192 668>
-DStem2: 245 668 196 476 0.476521 -0.879163<145.45 541.424>
 AnchorPoint: "Anchor-1" 322 0 basechar 0
 AnchorPoint: "Anchor-0" 404 885 basechar 0
 LayerCount: 2
@@ -11177,7 +7164,6 @@ GlyphClass: 2
 Flags: W
 HStem: 0 21G<44 196 443.16 656> 648 20G<44 255.84 503 656> 740 91<319.5 410.5>
 VStem: 44 152<0 476> 503 153<192 668>
-DStem2: 245 668 196 476 0.476521 -0.879163<145.45 541.424>
 AnchorPoint: "Anchor-1" 322 0 basechar 0
 AnchorPoint: "Anchor-0" 365 877 basechar 0
 LayerCount: 2
@@ -11208,7 +7194,6 @@ GlyphClass: 2
 Flags: W
 HStem: 0 139<240 589> 529 139<47 369> 746 153<351.049 384.972>
 VStem: 243 208
-DStem2: 32 121 240 139 0.636833 0.771002<146.339 529.181>
 AnchorPoint: "Anchor-1" 311 0 basechar 0
 AnchorPoint: "Anchor-0" 350 885 basechar 0
 LayerCount: 2
@@ -11224,7 +7209,6 @@ GlyphClass: 2
 Flags: W
 HStem: 0 121<226 496> 375 121<44 287> 574 153<308.049 341.972>
 VStem: 200 208
-DStem2: 30 121 226 121 0.711246 0.702943<139.404 361.338>
 AnchorPoint: "Anchor-1" 258 0 basechar 0
 AnchorPoint: "Anchor-0" 304 727 basechar 0
 LayerCount: 2
@@ -11240,7 +7224,6 @@ GlyphClass: 2
 Flags: W
 HStem: 0 139<240 589> 529 139<47 369> 750 141<260.875 360.625>
 VStem: 240 141<770.375 870.125>
-DStem2: 32 121 240 139 0.636833 0.771002<146.339 529.181>
 AnchorPoint: "Anchor-1" 311 0 basechar 0
 AnchorPoint: "Anchor-0" 311 867 basechar 0
 LayerCount: 2
@@ -11256,7 +7239,6 @@ GlyphClass: 2
 Flags: W
 HStem: 0 121<226 496> 375 121<44 287> 578 141<217.875 317.625>
 VStem: 197 141<598.375 698.125>
-DStem2: 30 121 226 121 0.711246 0.702943<139.404 361.338>
 AnchorPoint: "Anchor-1" 258 0 basechar 0
 AnchorPoint: "Anchor-0" 268 719 basechar 0
 LayerCount: 2
@@ -11512,7 +7494,6 @@ GlyphClass: 2
 Flags: W
 HStem: -251 45<241 268.714> 0 21G<44 196 443.16 656> 648 20G<44 255.84 503 656>
 VStem: 44 152<0 476> 291 118<-186.022 -106.314> 503 153<192 668>
-DStem2: 245 668 196 476 0.476521 -0.879163<145.45 541.424>
 AnchorPoint: "Anchor-1" 299 -251 basechar 0
 AnchorPoint: "Anchor-0" 365 668 basechar 0
 LayerCount: 2
@@ -11542,8 +7523,7 @@ Width: 654
 GlyphClass: 2
 Flags: W
 HStem: 0 21G<44 202 439.635 637> 252 132<202 273> 535 133<202 406.943> 746 153<347.049 380.972>
-VStem: 44 158<0 252 384 535> 239 208 437 167<409.621 507.976> 454 183<0 183>
-DStem2: 443 269 273 252 0.58494 -0.811077<0 224.614>
+VStem: 44 158<0 252 384 535> 239 208 437 167<409.621 507.976>
 AnchorPoint: "Anchor-1" 327 0 basechar 0
 AnchorPoint: "Anchor-0" 346 885 basechar 0
 LayerCount: 2
@@ -11573,8 +7553,7 @@ Width: 654
 GlyphClass: 2
 Flags: W
 HStem: 0 21G<44 202 439.635 637> 252 132<202 273> 535 133<202 406.943> 740 91<261.5 352.5>
-VStem: 44 158<0 252 384 535> 437 167<409.621 507.976> 454 183<0 183>
-DStem2: 443 269 273 252 0.58494 -0.811077<0 224.614>
+VStem: 44 158<0 252 384 535> 437 167<409.621 507.976>
 AnchorPoint: "Anchor-1" 327 0 basechar 0
 AnchorPoint: "Anchor-0" 307 877 basechar 0
 LayerCount: 2
@@ -11602,7 +7581,7 @@ StartChar: Dcroat
 Encoding: 272 272 318
 Width: 773
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 0 133<289 482.891> 275 137<13 131 289 426> 537 131<289 479.088>
 VStem: 131 158<133 275 412 537> 575 163<220.052 448.2>
 AnchorPoint: "Anchor-1" 430 0 basechar 0
@@ -11685,8 +7664,7 @@ Width: 659
 GlyphClass: 2
 Flags: W
 HStem: -251 45<238 265.714> 0 21G<44 202 451.588 649> 648 20G<44 202 424.811 636>
-VStem: 44 158<0 197 403 668> 288 118<-186.022 -106.314> 443 193<475 668> 466 183<0 183>
-DStem2: 202 403 372 382 0.677631 0.735402<99.7539 358.191> 372 382 270 272 0.587037 -0.80956<29.1738 364.433>
+VStem: 44 158<0 197 403 668> 288 118<-186.022 -106.314>
 AnchorPoint: "Anchor-1" 296 -251 basechar 0
 AnchorPoint: "Anchor-0" 330 668 basechar 0
 LayerCount: 2
@@ -11701,8 +7679,7 @@ Width: 567
 GlyphClass: 2
 Flags: W
 HStem: -251 45<203 230.714> 0 21G<50 202 368.667 563> 476 20G<350.34 548> 648 20G<50 202>
-VStem: 50 152<0 125 308 668> 253 118<-186.022 -106.314> 368 180<316 496> 383 180<0 180>
-DStem2: 354 289 254 180 0.586002 -0.810309<29.7235 251.173>
+VStem: 50 152<0 125 308 668> 253 118<-186.022 -106.314>
 AnchorPoint: "Anchor-1" 261 -251 basechar 0
 AnchorPoint: "Anchor-0" 284 796 basechar 0
 LayerCount: 2
@@ -11763,7 +7740,6 @@ GlyphClass: 2
 Flags: W
 HStem: -187 50<232.021 340.797> 553 127<214.341 383.39>
 VStem: 28 162<446.124 528.51> 342 94<-134.571 -85.93> 434 162<140.609 229.246>
-DStem2: 266 421 231 285 0.980581 -0.196116<-67.5686 186.398>
 AnchorPoint: "Anchor-1" 329 -187 basechar 0
 AnchorPoint: "Anchor-0" 304 668 basechar 0
 LayerCount: 2
@@ -11811,7 +7787,6 @@ GlyphClass: 2
 Flags: W
 HStem: -187 50<170.021 278.797> -12 111<277 345.614> 399 111<186.224 337.56>
 VStem: 33 145<331.088 388.379> 280 94<-134.571 -85.93> 361 146<114.983 173.732>
-DStem2: 239 319 195 205 0.983353 -0.181706<-64.6669 148.388>
 AnchorPoint: "Anchor-1" 267 -187 basechar 0
 AnchorPoint: "Anchor-0" 268 496 basechar 0
 LayerCount: 2
@@ -11859,7 +7834,6 @@ GlyphClass: 2
 Flags: W
 HStem: -251 45<248 275.714> -12 127<225.087 406.039> 553 127<214.341 383.39>
 VStem: 28 162<446.124 528.51> 298 118<-186.022 -106.314> 434 162<141.32 229.246>
-DStem2: 266 421 231 285 0.980581 -0.196116<-67.5686 186.398>
 AnchorPoint: "Anchor-1" 306 -251 basechar 0
 AnchorPoint: "Anchor-0" 304 668 basechar 0
 LayerCount: 2
@@ -11935,15 +7909,7 @@ AnchorPoint: "Anchor-4" 68 496 mark 0
 AnchorPoint: "Anchor-0" 68 496 mark 0
 LayerCount: 2
 Fore
-SplineSet
-152 727 m 0
- 184 727 208 703 208 671 c 0
- 208 654 202 640 189 629 c 0
- 184 626 184 626 114 574 c 1
- 0 574 l 1
- 1 575 110 708 111 709 c 0
- 121 721 135 727 152 727 c 0
-EndSplineSet
+Refer: 96 180 S 1 0 0 1 -53 0 2
 Substitution2: "'case' Case-Sensitive Forms lookup 15 subtable" acutecomb.case
 Substitution2: "Single Substitution lookup 7 subtable" acutecomb.case
 Substitution2: "Single Substitution lookup 6 subtable" acutecomb.case
@@ -12029,17 +7995,7 @@ AnchorPoint: "Anchor-4" 197 496 mark 0
 AnchorPoint: "Anchor-0" 197 496 mark 0
 LayerCount: 2
 Fore
-SplineSet
-197 568 m 0
- 177 568 161 574 147 587 c 2
- 0 720 l 1
- 129 720 l 1
- 197 659 l 1
- 265 720 l 1
- 393 720 l 1
- 247 587 l 2
- 232 574 216 568 197 568 c 0
-EndSplineSet
+Refer: 68 711 S 1 0 0 1 -37 0 2
 Substitution2: "'case' Case-Sensitive Forms lookup 15 subtable" uni030C.case
 Substitution2: "Single Substitution lookup 7 subtable" uni030C.case
 Substitution2: "Single Substitution lookup 6 subtable" uni030C.case
@@ -12094,23 +8050,7 @@ AnchorPoint: "Anchor-3" 108 0 mark 0
 AnchorPoint: "Anchor-1" 108 0 mark 0
 LayerCount: 2
 Fore
-SplineSet
-50 -90 m 0
- 39 -90 30 -80 30 -68 c 0
- 30 -63 30 -61 32 -59 c 2
- 84 25 l 1
- 125 0 l 1
- 95 -48 l 1
- 104 -46 116 -45 129 -45 c 0
- 181 -45 215 -70 215 -107 c 0
- 215 -156 166 -187 88 -187 c 0
- 59 -187 28 -182 0 -174 c 1
- 16 -124 l 1
- 32 -131 58 -137 77 -137 c 0
- 106 -137 121 -128 121 -110 c 0
- 121 -94 107 -84 84 -84 c 0
- 71 -84 63 -90 50 -90 c 0
-EndSplineSet
+Refer: 100 184 S 1 0 0 1 -73 0 2
 EndChar
 
 StartChar: uni0302
@@ -12124,17 +8064,7 @@ AnchorPoint: "Anchor-4" 197 496 mark 0
 AnchorPoint: "Anchor-0" 197 496 mark 0
 LayerCount: 2
 Fore
-SplineSet
-0 574 m 1
- 147 706 l 2
- 163 720 179 726 197 726 c 0
- 215 726 233 719 247 706 c 2
- 393 574 l 1
- 265 574 l 1
- 197 635 l 1
- 129 574 l 1
- 0 574 l 1
-EndSplineSet
+Refer: 67 710 S 1 0 0 1 -37 0 2
 Substitution2: "'case' Case-Sensitive Forms lookup 15 subtable" uni0302.case
 Substitution2: "Single Substitution lookup 7 subtable" uni0302.case
 Substitution2: "Single Substitution lookup 6 subtable" uni0302.case
@@ -12202,18 +8132,7 @@ AnchorPoint: "Anchor-4" 167 496 mark 0
 AnchorPoint: "Anchor-0" 167 496 mark 0
 LayerCount: 2
 Fore
-SplineSet
-334 648 m 0
- 334 609 304 578 265 578 c 0
- 226 578 194 609 194 648 c 0
- 194 687 226 719 265 719 c 0
- 304 719 334 688 334 648 c 0
-141 648 m 0
- 141 609 110 578 71 578 c 0
- 32 578 0 609 0 648 c 0
- 0 687 32 719 71 719 c 0
- 110 719 141 687 141 648 c 0
-EndSplineSet
+Refer: 146 168 S 1 0 0 1 -59 0 2
 Substitution2: "'case' Case-Sensitive Forms lookup 15 subtable" uni0308.case
 Substitution2: "Single Substitution lookup 7 subtable" uni0308.case
 Substitution2: "Single Substitution lookup 6 subtable" uni0308.case
@@ -12249,13 +8168,7 @@ AnchorPoint: "Anchor-4" 71 496 mark 0
 AnchorPoint: "Anchor-0" 71 496 mark 0
 LayerCount: 2
 Fore
-SplineSet
-141 648 m 0
- 141 609 110 578 71 578 c 0
- 32 578 0 609 0 648 c 0
- 0 687 32 719 71 719 c 0
- 110 719 141 687 141 648 c 0
-EndSplineSet
+Refer: 70 729 S 1 0 0 1 -30 0 2
 Substitution2: "'case' Case-Sensitive Forms lookup 15 subtable" uni0307.case
 Substitution2: "Single Substitution lookup 7 subtable" uni0307.case
 Substitution2: "Single Substitution lookup 6 subtable" uni0307.case
@@ -12325,7 +8238,6 @@ GlyphClass: 1
 Flags: W
 HStem: 477 87<158 236 337 395>
 VStem: 236 101<403 477 564 659>
-DStem2: 55 555 158 564 0.630199 0.776433<71.8984 194.815>
 LayerCount: 2
 Fore
 SplineSet
@@ -12360,15 +8272,7 @@ AnchorPoint: "Anchor-4" 139 496 mark 0
 AnchorPoint: "Anchor-0" 139 496 mark 0
 LayerCount: 2
 Fore
-SplineSet
-0 671 m 0
- 0 702 25 728 56 728 c 0
- 73 728 87 722 98 709 c 2
- 208 574 l 1
- 94 574 l 1
- 24 626 24 626 19 629 c 0
- 6 642 0 656 0 671 c 0
-EndSplineSet
+Refer: 119 96 S 1 0 0 1 -53 0 2
 Substitution2: "'case' Case-Sensitive Forms lookup 15 subtable" gravecomb.case
 Substitution2: "Single Substitution lookup 7 subtable" gravecomb.case
 Substitution2: "Single Substitution lookup 6 subtable" gravecomb.case
@@ -12411,22 +8315,7 @@ AnchorPoint: "Anchor-4" 158 496 mark 0
 AnchorPoint: "Anchor-0" 158 496 mark 0
 LayerCount: 2
 Fore
-SplineSet
-355 727 m 0
- 387 727 411 703 411 671 c 0
- 411 653 405 638 392 629 c 2
- 317 574 l 1
- 203 574 l 1
- 312 707 l 2
- 323 720 338 727 355 727 c 0
-152 727 m 0
- 184 727 208 703 208 671 c 0
- 208 653 202 638 189 629 c 2
- 114 574 l 1
- 0 574 l 1
- 109 707 l 2
- 120 720 135 727 152 727 c 0
-EndSplineSet
+Refer: 170 733 S 1 0 0 1 -37 0 2
 Substitution2: "'case' Case-Sensitive Forms lookup 15 subtable" uni030B.case
 Substitution2: "Single Substitution lookup 7 subtable" uni030B.case
 Substitution2: "Single Substitution lookup 6 subtable" uni030B.case
@@ -12484,13 +8373,7 @@ AnchorPoint: "Anchor-4" 150 496 mark 0
 AnchorPoint: "Anchor-0" 150 496 mark 0
 LayerCount: 2
 Fore
-SplineSet
-0 570 m 1
- 0 668 l 1
- 299 668 l 1
- 299 570 l 1
- 0 570 l 1
-EndSplineSet
+Refer: 91 175 S 1 0 0 1 -53 0 2
 Substitution2: "'case' Case-Sensitive Forms lookup 15 subtable" uni0304.case
 Substitution2: "Single Substitution lookup 7 subtable" uni0304.case
 Substitution2: "Single Substitution lookup 6 subtable" uni0304.case
@@ -12557,17 +8440,7 @@ VStem: 0 126<-93.5099 -39.5503>
 AnchorPoint: "Anchor-2" 221 0 mark 0
 LayerCount: 2
 Fore
-SplineSet
-221 -164 m 1
- 207 -169 168 -174 142 -174 c 0
- 56 -174 0 -139 0 -85 c 0
- 0 -46 28 -16 80 0 c 1
- 221 0 l 1
- 137 -43 126 -50 126 -68 c 0
- 126 -87 142 -98 172 -98 c 0
- 195 -98 206 -91 221 -89 c 1
- 221 -164 l 1
-EndSplineSet
+Refer: 72 731 S 1 0 0 1 -37 0 2
 Substitution2: "'case' Case-Sensitive Forms lookup 15 subtable" uni0328.case
 Substitution2: "Single Substitution lookup 7 subtable" uni0328.case
 Substitution2: "Single Substitution lookup 6 subtable" uni0328.case
@@ -12611,18 +8484,7 @@ AnchorPoint: "Anchor-4" 133 496 mark 0
 AnchorPoint: "Anchor-0" 133 496 mark 0
 LayerCount: 2
 Fore
-SplineSet
-85 668 m 0
- 85 642 106 621 132 621 c 0
- 158 621 179 642 179 668 c 0
- 179 695 159 715 132 715 c 0
- 106 715 85 694 85 668 c 0
-265 668 m 0
- 265 595 205 535 132 535 c 0
- 60 535 0 595 0 668 c 0
- 0 741 59 800 132 800 c 0
- 206 800 265 741 265 668 c 0
-EndSplineSet
+Refer: 71 730 S 1 0 0 1 -15 0 2
 Substitution2: "'case' Case-Sensitive Forms lookup 15 subtable" uni030A.case
 Substitution2: "Single Substitution lookup 7 subtable" uni030A.case
 Substitution2: "Single Substitution lookup 6 subtable" uni030A.case
@@ -12653,7 +8515,6 @@ GlyphClass: 2
 Flags: W
 HStem: -251 45<186 213.714> -12 111<181.583 348.656> 399 111<186.224 337.56>
 VStem: 33 145<331.088 388.379> 236 118<-186.022 -106.314> 361 146<114.359 173.732>
-DStem2: 239 319 195 205 0.983353 -0.181706<-64.6669 148.388>
 AnchorPoint: "Anchor-1" 244 -251 basechar 0
 AnchorPoint: "Anchor-0" 268 496 basechar 0
 LayerCount: 2
@@ -12753,17 +8614,7 @@ AnchorPoint: "Anchor-4" 185 496 mark 0
 AnchorPoint: "Anchor-0" 185 496 mark 0
 LayerCount: 2
 Fore
-SplineSet
-370 649 m 0x40
- 370 610 313 569 258 569 c 0x80
- 204 569 186 607 132 607 c 0
- 109 607 93 594 89 574 c 1
- 0 574 l 1
- 12 649 56 689 125 689 c 0x40
- 184 689 190 648 249 648 c 0x80
- 286 648 291 689 328 689 c 0
- 353 689 370 673 370 649 c 0x40
-EndSplineSet
+Refer: 171 732 S 1 0 0 1 -37 0 2
 Substitution2: "'case' Case-Sensitive Forms lookup 15 subtable" tildecomb.case
 Substitution2: "Single Substitution lookup 7 subtable" tildecomb.case
 Substitution2: "Single Substitution lookup 6 subtable" tildecomb.case
@@ -12792,7 +8643,6 @@ Width: 652
 Flags: W
 HStem: -12 113<267.645 396.406> 567 113<266.922 396.748>
 VStem: 45 157<247.51 482.783> 462 156<189.019 425.999>
-DStem2: 208 246 251 139 0.570817 0.821077<0 292.32>
 LayerCount: 2
 Fore
 SplineSet
@@ -12859,11 +8709,6 @@ VStem: 87 152<0 380 496 601.93> 406 180<608.982 725.786> 419 153<0 380>
 LayerCount: 2
 Fore
 SplineSet
-586 668 m 0xec
- 586 618 546 578 496 578 c 0
- 446 578 406 618 406 668 c 0
- 406 718 446 758 496 758 c 0
- 547 758 586 719 586 668 c 0xec
 305 608 m 2xda
  251 608 239 600 239 563 c 2
  239 496 l 1
@@ -12884,6 +8729,7 @@ SplineSet
  347 608 l 1
  305 608 l 2xda
 EndSplineSet
+Refer: 544 803 S 1 0 0 1 406 826 2
 LCarets2: 1 350
 Ligature2: "'liga' Standard Ligatures lookup 0-1" f i
 EndChar
@@ -12940,11 +8786,6 @@ VStem: 87 152<0 380 496 601.93> 419 152<0 380 496 601.93> 738 180<608.982 725.78
 LayerCount: 2
 Fore
 SplineSet
-918 668 m 0xee
- 918 618 878 578 828 578 c 0
- 778 578 738 618 738 668 c 0
- 738 718 778 758 828 758 c 0
- 879 758 918 719 918 668 c 0xee
 637 608 m 2xdd
  583 608 571 600 571 563 c 2
  571 496 l 1
@@ -12977,6 +8818,7 @@ SplineSet
  679 608 l 1
  637 608 l 2xdd
 EndSplineSet
+Refer: 544 803 S 1 0 0 1 738 826 2
 LCarets2: 2 346 678
 Ligature2: "'liga' Standard Ligatures lookup 0-1" f f i
 EndChar
@@ -12999,50 +8841,22 @@ StartChar: f_f_l
 Encoding: 64260 64260 373
 Width: 1013
 Flags: W
-HStem: 0 124<907.022 1010> 380 116<5 87 239 419 571 679> 608 120<246.6 347 578.6 679> 648 20G<749 901>
+HStem: 0 21G<87 239 419 571> 0 124<907.022 1010> 380 116<5 87 239 419 571 679> 608 120<246.6 347 578.6 679> 648 20G<749 901>
 VStem: 87 152<0 380 496 601.93> 419 152<0 380 496 601.93> 749 152<134.902 668>
 LayerCount: 2
 Fore
 SplineSet
-637 608 m 2xee
- 583 608 571 600 571 563 c 2
- 571 496 l 1
- 679 496 l 1
- 679 380 l 1
- 571 380 l 1
- 571 0 l 1
- 419 0 l 1
- 419 380 l 1
- 239 380 l 1
- 239 0 l 1
- 87 0 l 1
- 87 380 l 1
- 5 380 l 1
- 5 496 l 1
- 87 496 l 1
- 87 577 l 2
- 87 689 137 728 278 728 c 2
- 347 728 l 1
- 347 608 l 1
- 305 608 l 2
- 251 608 239 600 239 563 c 2
- 239 496 l 1
- 419 496 l 1
- 419 577 l 2
- 419 689 469 728 610 728 c 2
- 679 728 l 1
- 679 608 l 1
- 637 608 l 2xee
-901 180 m 2
+901 180 m 2x6f
  901 136 915 124 967 124 c 2
  1010 124 l 1
  1010 0 l 1
  913 0 l 2
  784 0 749 30 749 140 c 2
  749 668 l 1
- 901 668 l 1xde
- 901 180 l 2
+ 901 668 l 1
+ 901 180 l 2x6f
 EndSplineSet
+Refer: 370 64256 S 1 0 0 1 0 0 2
 LCarets2: 2 348 716
 Ligature2: "'liga' Standard Ligatures lookup 0-1" f f l
 EndChar
@@ -13144,7 +8958,6 @@ Encoding: 7808 7808 381
 Width: 883
 HStem: 0 21G<166.18 344.298 538.66 716.82> 648 20G<10 172.017 354.767 527.276 710.983 873> 746 154<368.028 401.719>
 VStem: 10 158<510 668> 302 208 715 158<510 668>
-DStem2: 261 205 340 0 0.210097 0.97768<0 296.903> 523 668 441 470 0.212084 -0.977251<176.105 473.464>
 LayerCount: 2
 Fore
 Refer: 349 768 N 1 0 0 1 302 172 2
@@ -13156,7 +8969,6 @@ Encoding: 7810 7810 382
 Width: 883
 HStem: 0 21G<166.18 344.298 538.66 716.82> 648 20G<10 172.017 354.767 527.276 710.983 873> 746 153<481.049 514.972>
 VStem: 10 158<510 668> 373 208 715 158<510 668>
-DStem2: 261 205 340 0 0.210097 0.97768<0 296.903> 523 668 441 470 0.212084 -0.977251<176.105 473.464>
 LayerCount: 2
 Fore
 Refer: 332 769 N 1 0 0 1 373 172 2
@@ -13167,8 +8979,7 @@ StartChar: Ygrave
 Encoding: 7922 7922 383
 Width: 687
 HStem: 0 21G<265 422> 648 20G<10 205.595 480.405 677> 746 154<271.028 304.719>
-VStem: 10 184<484 668> 205 208 265 157<0 260> 492 185<483 668>
-DStem2: 194 668 10 668 0.529999 -0.847998<0 296.905> 343 411 422 260 0.529999 0.847998<0 296.905>
+VStem: 205 208 265 157<0 260>
 LayerCount: 2
 Fore
 Refer: 349 768 N 1 0 0 1 205 172 2
@@ -13180,7 +8991,6 @@ Encoding: 7744 7744 384
 Width: 842
 HStem: 0 21G<44 197 348.981 491.057 644 798> 648 20G<44 286.804 555.113 798> 750 141<369.875 469.625>
 VStem: 44 153<0 525> 349 141<770.375 870.125> 644 154<0 525>
-DStem2: 281 668 197 525 0.288184 -0.957575<112.726 498.736> 420 189 485 0 0.289856 0.95707<0 386.503>
 LayerCount: 2
 Fore
 Refer: 345 775 N 1 0 0 1 349 172 2
@@ -13214,7 +9024,6 @@ Encoding: 7809 7809 387
 Width: 723
 HStem: 0 21G<119 293.989 428.955 604> 476 20G<0 154.464 285.19 436.81 567.536 723> 570 154<276.028 309.719>
 VStem: 0 150<346 496> 210 208 572 151<345 496>
-DStem2: 150 496 0 496 0.242536 -0.970143<0 344.158> 225 160 290 0 0.195586 0.980686<0 218.814> 433 496 361 356 0.198234 -0.980155<122.949 342.019> 497 160 599 0 0.242536 0.970143<0 344.158>
 LayerCount: 2
 Fore
 Refer: 349 768 N 1 0 0 1 210 -4 2
@@ -13237,7 +9046,6 @@ Encoding: 7811 7811 389
 Width: 723
 HStem: 0 21G<119 293.989 428.955 604> 476 20G<0 154.464 285.19 436.81 567.536 723> 570 153<356.049 389.972>
 VStem: 0 150<346 496> 248 208 572 151<345 496>
-DStem2: 150 496 0 496 0.242536 -0.970143<0 344.158> 225 160 290 0 0.195586 0.980686<0 218.814> 433 496 361 356 0.198234 -0.980155<122.949 342.019> 497 160 599 0 0.242536 0.970143<0 344.158>
 LayerCount: 2
 Fore
 Refer: 332 769 N 1 0 0 1 248 -4 2
@@ -13249,7 +9057,6 @@ Encoding: 7776 7776 390
 Width: 619
 HStem: -12 127<225.087 406.039> 553 127<214.341 383.39> 750 141<253.875 353.625>
 VStem: 28 162<446.124 528.51> 233 141<770.375 870.125> 434 162<141.32 229.246>
-DStem2: 266 421 231 285 0.980581 -0.196116<-67.5686 186.398>
 LayerCount: 2
 Fore
 Refer: 345 775 N 1 0 0 1 233 172 2
@@ -13261,7 +9068,6 @@ Encoding: 7923 7923 391
 Width: 518
 HStem: -161 110<65 175.51> 476 20G<0 169.258 348.871 518> 574 154<187.028 220.719>
 VStem: 121 208
-DStem2: 190 3 328 0 0.357717 0.93383<-59.2602 0 195.931 384.733>
 LayerCount: 2
 Fore
 Refer: 349 768 N 1 0 0 1 121 0 2
@@ -13273,7 +9079,6 @@ Encoding: 7812 7812 392
 Width: 883
 HStem: 0 21G<166.18 344.298 538.66 716.82> 648 20G<10 172.017 354.767 527.276 710.983 873> 750 141<294.875 394.625 488.875 589.271>
 VStem: 10 158<510 668> 274 141<770.375 870.125> 468 140<770.375 870.125> 715 158<510 668>
-DStem2: 261 205 340 0 0.210097 0.97768<0 296.903> 523 668 441 470 0.212084 -0.977251<176.105 473.464>
 LayerCount: 2
 Fore
 Refer: 343 776 N 1 0 0 1 274 172 2
@@ -13285,7 +9090,6 @@ Encoding: 7813 7813 393
 Width: 723
 HStem: 0 21G<119 293.989 428.955 604> 476 20G<0 154.464 285.19 436.81 567.536 723> 570 141<214.875 314.625 408.875 509.271>
 VStem: 0 150<346 496> 194 141<590.375 690.125> 388 140<590.375 690.125> 572 151<345 496>
-DStem2: 150 496 0 496 0.242536 -0.970143<0 344.158> 225 160 290 0 0.195586 0.980686<0 218.814> 433 496 361 356 0.198234 -0.980155<122.949 342.019> 497 160 599 0 0.242536 0.970143<0 344.158>
 LayerCount: 2
 Fore
 Refer: 343 776 N 1 0 0 1 194 -8 2
@@ -13297,7 +9101,6 @@ Encoding: 7777 7777 394
 Width: 534
 HStem: -12 111<181.583 348.656> 399 111<186.224 337.56> 578 141<217.875 317.625>
 VStem: 33 145<331.088 388.379> 197 141<598.375 698.125> 361 146<114.359 173.732>
-DStem2: 239 319 195 205 0.983353 -0.181706<-64.6669 148.388>
 LayerCount: 2
 Fore
 Refer: 345 775 N 1 0 0 1 197 0 2
@@ -13309,7 +9112,6 @@ Encoding: 372 372 395
 Width: 883
 HStem: 0 21G<166.18 344.298 538.66 716.82> 648 20G<10 172.017 354.767 527.276 710.983 873> 807 91<395.5 486.5>
 VStem: 10 158<510 668> 715 158<510 668>
-DStem2: 261 205 340 0 0.210097 0.97768<0 296.903> 523 668 441 470 0.212084 -0.977251<176.105 473.464>
 LayerCount: 2
 Fore
 Refer: 340 770 N 1 0 0 1 244 172 2
@@ -13331,8 +9133,7 @@ StartChar: Ycircumflex
 Encoding: 374 374 397
 Width: 687
 HStem: 0 21G<265 422> 648 20G<10 205.595 480.405 677> 807 91<298.5 389.5>
-VStem: 10 184<484 668> 265 157<0 260> 492 185<483 668>
-DStem2: 194 668 10 668 0.529999 -0.847998<0 296.905> 343 411 422 260 0.529999 0.847998<0 296.905>
+VStem: 265 157<0 260>
 LayerCount: 2
 Fore
 Refer: 340 770 N 1 0 0 1 147 172 2
@@ -13344,7 +9145,6 @@ Encoding: 373 373 398
 Width: 723
 HStem: 0 21G<119 293.989 428.955 604> 476 20G<0 154.464 285.19 436.81 567.536 723> 631 91<316.5 407.5>
 VStem: 0 150<346 496> 572 151<345 496>
-DStem2: 150 496 0 496 0.242536 -0.970143<0 344.158> 225 160 290 0 0.195586 0.980686<0 218.814> 433 496 361 356 0.198234 -0.980155<122.949 342.019> 497 160 599 0 0.242536 0.970143<0 344.158>
 LayerCount: 2
 Fore
 Refer: 340 770 N 1 0 0 1 165 -4 2
@@ -13366,7 +9166,6 @@ StartChar: ycircumflex
 Encoding: 375 375 400
 Width: 518
 HStem: -161 110<65 175.51> 476 20G<0 169.258 348.871 518> 635 91<214.5 305.5>
-DStem2: 190 3 328 0 0.357717 0.93383<-59.2602 0 195.931 384.733>
 LayerCount: 2
 Fore
 Refer: 340 770 N 1 0 0 1 63 0 2
@@ -13377,8 +9176,7 @@ StartChar: uni0156
 Encoding: 342 342 401
 Width: 654
 HStem: -251 45<246 273.714> 0 21G<44 202 439.635 637> 252 132<202 273> 535 133<202 406.943>
-VStem: 44 158<0 252 384 535> 296 118<-186.022 -106.314> 437 167<409.621 507.976> 454 183<0 183>
-DStem2: 443 269 273 252 0.58494 -0.811077<0 224.614>
+VStem: 44 158<0 252 384 535> 296 118<-186.022 -106.314> 437 167<409.621 507.976>
 LayerCount: 2
 Fore
 Refer: 342 806 N 1 0 0 1 194 0 2
@@ -13578,7 +9376,6 @@ Encoding: 348 348 418
 Width: 619
 HStem: -12 127<225.087 406.039> 553 127<214.341 383.39> 807 91<258.5 349.5>
 VStem: 28 162<446.124 528.51> 434 162<141.32 229.246>
-DStem2: 266 421 231 285 0.980581 -0.196116<-67.5686 186.398>
 LayerCount: 2
 Fore
 Refer: 340 770 N 1 0 0 1 107 172 2
@@ -13623,7 +9420,6 @@ Encoding: 349 349 422
 Width: 534
 HStem: -12 111<181.583 348.656> 399 111<186.224 337.56> 635 91<222.5 313.5>
 VStem: 33 145<331.088 388.379> 361 146<114.359 173.732>
-DStem2: 239 319 195 205 0.983353 -0.181706<-64.6669 148.388>
 LayerCount: 2
 Fore
 Refer: 340 770 N 1 0 0 1 71 0 2
@@ -13799,7 +9595,6 @@ Encoding: 508 508 436
 Width: 1016
 HStem: 0 139<639 994> 119 128<341 481> 275 138<639 857> 528 139<639 994> 746 153<738.049 771.972>
 VStem: 630 208
-DStem2: 5 0 177 0 0.580892 0.813981<99.9134 243.248 396.233 602.496>
 LayerCount: 2
 Fore
 Refer: 332 769 N 1 0 0 1 630 172 2
@@ -13822,7 +9617,6 @@ Encoding: 510 510 438
 Width: 763
 HStem: -12 130<296.636 464.841> 549 130<296.203 465.241> 746 153<422.049 455.972>
 VStem: 35 167<223.537 443.955> 314 208 560 168<223.465 446.053>
-DStem2: 70 36 126 -12 0.652053 0.758174<0.122628 79.6465 238.95 621.956 777.628 848.091>
 LayerCount: 2
 Fore
 Refer: 332 769 N 1 0 0 1 314 172 2
@@ -13834,7 +9628,6 @@ Encoding: 511 511 439
 Width: 573
 HStem: -12 118<224.287 351.121> 392 118<222.516 340.597> 574 153<327.049 360.972>
 VStem: 24 155<194.39 347.309> 219 208 394 155<153.29 315.26>
-DStem2: 36 22 92 -26 0.653148 0.75723<0.229281 74.9024 227.563 451.228 600.298 662.943>
 LayerCount: 2
 Fore
 Refer: 332 769 N 1 0 0 1 219 0 2
@@ -13889,8 +9682,7 @@ StartChar: uni0232
 Encoding: 562 562 444
 Width: 687
 HStem: 0 21G<265 422> 648 20G<10 205.595 480.405 677> 742 98<194 493>
-VStem: 10 184<484 668> 194 299<742 840> 265 157<0 260> 492 185<483 668>
-DStem2: 194 668 10 668 0.529999 -0.847998<0 296.905> 343 411 422 260 0.529999 0.847998<0 296.905>
+VStem: 194 299<742 840> 265 157<0 260>
 LayerCount: 2
 Fore
 Refer: 354 772 N 1 0 0 1 194 172 2
@@ -13902,7 +9694,6 @@ Encoding: 563 563 445
 Width: 518
 HStem: -161 110<65 175.51> 476 20G<0 169.258 348.871 518> 570 98<110 409>
 VStem: 110 299<570 668>
-DStem2: 190 3 328 0 0.357717 0.93383<-59.2602 0 195.931 384.733>
 LayerCount: 2
 Fore
 Refer: 354 772 N 1 0 0 1 110 0 2
@@ -13913,8 +9704,7 @@ StartChar: uni1EF8
 Encoding: 7928 7928 446
 Width: 687
 HStem: 0 21G<265 422> 648 20G<10 205.595 480.405 677> 741 79<348.99 448.122> 779 82<252.697 347.378>
-VStem: 10 184<484 668> 265 157<0 260> 492 185<483 668>
-DStem2: 194 668 10 668 0.529999 -0.847998<0 296.905> 343 411 422 260 0.529999 0.847998<0 296.905>
+VStem: 265 157<0 260>
 LayerCount: 2
 Fore
 Refer: 365 771 N 1 0 0 1 159 172 2
@@ -13925,7 +9715,6 @@ StartChar: uni1EF9
 Encoding: 7929 7929 447
 Width: 518
 HStem: -161 110<65 175.51> 476 20G<0 169.258 348.871 518> 569 79<264.99 364.122> 607 82<168.697 263.378>
-DStem2: 190 3 328 0 0.357717 0.93383<-59.2602 0 195.931 384.733>
 LayerCount: 2
 Fore
 Refer: 365 771 N 1 0 0 1 75 0 2
@@ -13936,7 +9725,6 @@ StartChar: uni01CD
 Encoding: 461 461 448
 Width: 690
 HStem: 0 21G<5 183.723 506.277 685> 119 128<260 430> 648 20G<250.425 439.575> 740 91<299.5 390.5>
-DStem2: 5 0 177 0 0.35419 0.935173<60.9207 186.374 321.306 484.629> 432 668 344 501 0.35419 -0.935173<125.005 393> 685 0 473 119 0.35419 -0.935173<-558.903 -321.306 -186.374 -60.9207>
 LayerCount: 2
 Fore
 Refer: 336 780 N 1 0 0 1 148 172 2
@@ -14161,7 +9949,6 @@ Width: 690
 Flags: W
 HStem: -248 180<285.982 402.786> 0 21G<5 183.723 506.277 685> 119 128<260 430> 648 20G<250.425 439.575>
 VStem: 255 180<-217.018 -100.214>
-DStem2: 5 0 177 0 0.35419 0.935173<60.9207 186.374 321.306 484.629> 432 668 344 501 0.35419 -0.935173<125.005 393> 685 0 473 119 0.35419 -0.935173<-558.903 -321.306 -186.374 -60.9207>
 AnchorPoint: "Anchor-0" 345 668 basechar 0
 LayerCount: 2
 Fore
@@ -14188,7 +9975,6 @@ Width: 690
 Flags: W
 HStem: 0 21G<5 183.723 506.277 685> 119 128<260 430> 648 20G<250.425 439.575> 841 76<264.687 357.2>
 VStem: 359 106<769.599 836.51>
-DStem2: 5 0 177 0 0.35419 0.935173<60.9207 186.374 321.306 484.629> 432 668 344 501 0.35419 -0.935173<125.005 393> 685 0 473 119 0.35419 -0.935173<-558.903 -321.306 -186.374 -60.9207>
 LayerCount: 2
 Fore
 Refer: 545 777 N 1 0 0 1 278 172 2
@@ -14213,7 +9999,6 @@ Width: 690
 Flags: W
 HStem: 0 21G<5 183.723 506.277 685> 119 128<260 430> 648 20G<250.425 439.575> 807 91<299.5 390.5> 853 153<582.049 615.972>
 VStem: 474 208
-DStem2: 5 0 177 0 0.35419 0.935173<60.9207 186.374 321.306 484.629> 432 668 344 501 0.35419 -0.935173<125.005 393> 685 0 473 119 0.35419 -0.935173<-558.903 -321.306 -186.374 -60.9207>
 LayerCount: 2
 Fore
 Refer: 332 769 N 1 0 0 1 474 279 2
@@ -14238,7 +10023,6 @@ Width: 690
 Flags: W
 HStem: 0 21G<5 183.723 506.277 685> 119 128<260 430> 648 20G<250.425 439.575> 807 91<299.5 390.5> 833 154<530.028 563.719>
 VStem: 464 208
-DStem2: 5 0 177 0 0.35419 0.935173<60.9207 186.374 321.306 484.629> 432 668 344 501 0.35419 -0.935173<125.005 393> 685 0 473 119 0.35419 -0.935173<-558.903 -321.306 -186.374 -60.9207>
 LayerCount: 2
 Fore
 Refer: 349 768 S 1 0 0 1 464 259 2
@@ -14263,7 +10047,6 @@ Width: 690
 Flags: W
 HStem: 0 21G<5 183.723 506.277 685> 119 128<260 430> 648 20G<250.425 439.575> 807 91<299.5 390.5> 928 76<455.687 548.2>
 VStem: 550 106<856.599 923.51>
-DStem2: 5 0 177 0 0.35419 0.935173<60.9207 186.374 321.306 484.629> 432 668 344 501 0.35419 -0.935173<125.005 393> 685 0 473 119 0.35419 -0.935173<-558.903 -321.306 -186.374 -60.9207>
 LayerCount: 2
 Fore
 Refer: 545 777 S 1 0 0 1 469 259 2
@@ -14287,7 +10070,6 @@ Encoding: 7850 7850 470
 Width: 690
 Flags: W
 HStem: 0 21G<5 183.723 506.277 685> 119 128<260 430> 648 20G<250.425 439.575> 807 91<299.5 390.5> 956 79<349.99 449.122> 994 82<253.697 348.378>
-DStem2: 5 0 177 0 0.35419 0.935173<60.9207 186.374 321.306 484.629> 432 668 344 501 0.35419 -0.935173<125.005 393> 685 0 473 119 0.35419 -0.935173<-558.903 -321.306 -186.374 -60.9207>
 LayerCount: 2
 Fore
 Refer: 365 771 N 1 0 0 1 160 387 2
@@ -14312,7 +10094,6 @@ Width: 690
 Flags: W
 HStem: -248 180<285.982 402.786> 0 21G<5 183.723 506.277 685> 119 128<260 430> 648 20G<250.425 439.575> 807 91<299.5 390.5>
 VStem: 255 180<-217.018 -100.214>
-DStem2: 5 0 177 0 0.35419 0.935173<60.9207 186.374 321.306 484.629> 432 668 344 501 0.35419 -0.935173<125.005 393> 685 0 473 119 0.35419 -0.935173<-558.903 -321.306 -186.374 -60.9207>
 LayerCount: 2
 Fore
 Refer: 340 770 N 1 0 0 1 148 172 2
@@ -14337,7 +10118,6 @@ Width: 690
 Flags: W
 HStem: 0 21G<5 183.723 506.277 685> 119 128<260 430> 648 20G<250.425 439.575> 741 85<290.7 398.153> 929 153<385.049 418.972>
 VStem: 277 208
-DStem2: 5 0 177 0 0.35419 0.935173<60.9207 186.374 321.306 484.629> 432 668 344 501 0.35419 -0.935173<125.005 393> 685 0 473 119 0.35419 -0.935173<-558.903 -321.306 -186.374 -60.9207>
 LayerCount: 2
 Fore
 Refer: 332 769 N 1 0 0 1 277 355 2
@@ -14362,7 +10142,6 @@ Width: 690
 Flags: W
 HStem: 0 21G<5 183.723 506.277 685> 119 128<260 430> 648 20G<250.425 439.575> 741 85<290.7 398.153> 929 154<272.028 305.719>
 VStem: 206 208
-DStem2: 5 0 177 0 0.35419 0.935173<60.9207 186.374 321.306 484.629> 432 668 344 501 0.35419 -0.935173<125.005 393> 685 0 473 119 0.35419 -0.935173<-558.903 -321.306 -186.374 -60.9207>
 LayerCount: 2
 Fore
 Refer: 349 768 N 1 0 0 1 206 355 2
@@ -14387,7 +10166,6 @@ Width: 690
 Flags: W
 HStem: 0 21G<5 183.723 506.277 685> 119 128<260 430> 648 20G<250.425 439.575> 741 85<290.7 398.153> 1024 76<264.687 357.2>
 VStem: 359 106<952.599 1019.51>
-DStem2: 5 0 177 0 0.35419 0.935173<60.9207 186.374 321.306 484.629> 432 668 344 501 0.35419 -0.935173<125.005 393> 685 0 473 119 0.35419 -0.935173<-558.903 -321.306 -186.374 -60.9207>
 LayerCount: 2
 Fore
 Refer: 545 777 N 1 0 0 1 278 355 2
@@ -14411,7 +10189,6 @@ Encoding: 7860 7860 480
 Width: 690
 Flags: W
 HStem: 0 21G<5 183.723 506.277 685> 119 128<260 430> 648 20G<250.425 439.575> 741 85<290.7 398.153> 924 79<349.99 449.122> 962 82<253.697 348.378>
-DStem2: 5 0 177 0 0.35419 0.935173<60.9207 186.374 321.306 484.629> 432 668 344 501 0.35419 -0.935173<125.005 393> 685 0 473 119 0.35419 -0.935173<-558.903 -321.306 -186.374 -60.9207>
 LayerCount: 2
 Fore
 Refer: 365 771 N 1 0 0 1 160 355 2
@@ -14436,7 +10213,6 @@ Width: 690
 Flags: W
 HStem: -248 180<285.982 402.786> 0 21G<5 183.723 506.277 685> 119 128<260 430> 648 20G<250.425 439.575> 741 85<290.7 398.153>
 VStem: 255 180<-217.018 -100.214>
-DStem2: 5 0 177 0 0.35419 0.935173<60.9207 186.374 321.306 484.629> 432 668 344 501 0.35419 -0.935173<125.005 393> 685 0 473 119 0.35419 -0.935173<-558.903 -321.306 -186.374 -60.9207>
 LayerCount: 2
 Fore
 Refer: 334 774 N 1 0 0 1 201 172 2
@@ -15136,8 +10912,7 @@ Encoding: 7924 7924 540
 Width: 687
 Flags: W
 HStem: -248 180<284.982 401.786> 0 21G<265 422> 648 20G<10 205.595 480.405 677>
-VStem: 10 184<484 668> 254 180<-217.018 -100.214> 265 157<0 260> 492 185<483 668>
-DStem2: 194 668 10 668 0.529999 -0.847998<0 296.905> 343 411 422 260 0.529999 0.847998<0 296.905>
+VStem: 254 180<-217.018 -100.214> 265 157<0 260>
 LayerCount: 2
 Fore
 Refer: 544 803 N 1 0 0 1 254 0 2
@@ -15150,7 +10925,6 @@ Width: 518
 Flags: W
 HStem: -248 180<369.982 486.786> -161 110<65 175.51> 476 20G<0 169.258 348.871 518>
 VStem: 339 180<-217.018 -100.214>
-DStem2: 190 3 328 0 0.357717 0.93383<-59.2602 0 195.931 384.733>
 LayerCount: 2
 Fore
 Refer: 544 803 N 1 0 0 1 339 0 2
@@ -15162,8 +10936,7 @@ Encoding: 7926 7926 542
 Width: 687
 Flags: W
 HStem: 0 21G<265 422> 648 20G<10 205.595 480.405 677> 841 76<263.687 356.2>
-VStem: 10 184<484 668> 265 157<0 260> 358 106<769.599 836.51> 492 185<483 668>
-DStem2: 194 668 10 668 0.529999 -0.847998<0 296.905> 343 411 422 260 0.529999 0.847998<0 296.905>
+VStem: 265 157<0 260> 358 106<769.599 836.51>
 LayerCount: 2
 Fore
 Refer: 545 777 N 1 0 0 1 277 172 2
@@ -15176,7 +10949,6 @@ Width: 518
 Flags: W
 HStem: -161 110<65 175.51> 476 20G<0 169.258 348.871 518> 669 76<179.687 272.2>
 VStem: 274 106<597.599 664.51>
-DStem2: 190 3 328 0 0.357717 0.93383<-59.2602 0 195.931 384.733>
 LayerCount: 2
 Fore
 Refer: 545 777 N 1 0 0 1 193 0 2
@@ -15259,7 +11031,6 @@ Width: 527
 Flags: W
 HStem: 0 21<79 449> 680 20<78 449>
 VStem: 50 21<49 650> 457 20<47 652>
-DStem2: 78 680 71 650 0.513698 -0.857971<22.1432 360.147 396.696 737.787> 71 49 79 21 0.513896 0.857853<0 339.381 374.897 715.649>
 LayerCount: 2
 Fore
 SplineSet
@@ -15292,7 +11063,6 @@ Encoding: 452 452 548
 Width: 1307
 HStem: 0 133<202 395.891> 0 139<926 1275> 529 139<733 1055> 537 131<202 392.088> 740 91<951.5 1042.5>
 VStem: 44 158<133 537> 488 163<220.052 448.2>
-DStem2: 718 121 926 139 0.636833 0.771002<146.339 529.181>
 LayerCount: 2
 Fore
 Refer: 246 381 N 1 0 0 1 686 0 2
@@ -15304,7 +11074,6 @@ Encoding: 453 453 549
 Width: 1202
 HStem: 0 121<912 1182> 0 133<202 395.891> 375 121<730 973> 537 131<202 392.088> 568 91<908.5 999.5>
 VStem: 44 158<133 537> 488 163<220.052 448.2>
-DStem2: 716 121 912 121 0.711246 0.702943<139.404 361.338>
 LayerCount: 2
 Fore
 Refer: 247 382 N 1 0 0 1 686 0 2
@@ -15316,7 +11085,6 @@ Encoding: 454 454 550
 Width: 1112
 HStem: -12 118<230.795 332.852> 0 21G<412.03 563> 0 121<822 1092> 375 121<640 883> 392 118<230.529 329.571> 568 91<818.5 909.5> 648 20G<394 546>
 VStem: 24 158<162.066 340.812> 394 152<428 668> 401 145<155.628 341.949>
-DStem2: 626 121 822 121 0.711246 0.702943<139.404 361.338>
 LayerCount: 2
 Fore
 Refer: 247 382 N 1 0 0 1 596 0 2
@@ -15361,7 +11129,6 @@ Encoding: 458 458 554
 Width: 1260
 HStem: -12 125<899.804 1021.13> 0 21G<44 196 443.16 656> 648 20G<44 255.84 503 656 1058 1216>
 VStem: 44 152<0 476> 503 153<192 668> 1058 158<154.645 668>
-DStem2: 245 668 196 476 0.476521 -0.879163<145.45 541.424>
 LayerCount: 2
 Fore
 Refer: 24 74 N 1 0 0 1 700 0 2
@@ -15373,7 +11140,6 @@ Encoding: 459 459 555
 Width: 959
 HStem: -161 120<630 752.649> 0 21G<44 196 443.16 656> 476 20G<755 907> 578 180<772.982 891.018> 648 20G<44 255.84 503 656>
 VStem: 44 152<0 476> 503 153<192 668> 742 180<608.982 727.018> 755 152<-37.0977 496>
-DStem2: 245 668 196 476 0.476521 -0.879163<145.45 541.424>
 LayerCount: 2
 Fore
 Refer: 50 106 N 1 0 0 1 700 0 2
@@ -15396,7 +11162,6 @@ Encoding: 497 497 557
 Width: 1307
 HStem: 0 133<202 395.891> 0 139<926 1275> 529 139<733 1055> 537 131<202 392.088>
 VStem: 44 158<133 537> 488 163<220.052 448.2>
-DStem2: 718 121 926 139 0.636833 0.771002<146.339 529.181>
 LayerCount: 2
 Fore
 Refer: 40 90 N 1 0 0 1 686 0 2
@@ -15408,7 +11173,6 @@ Encoding: 498 498 558
 Width: 1202
 HStem: 0 121<912 1182> 0 133<202 395.891> 375 121<730 973> 537 131<202 392.088>
 VStem: 44 158<133 537> 488 163<220.052 448.2>
-DStem2: 716 121 912 121 0.711246 0.702943<139.404 361.338>
 LayerCount: 2
 Fore
 Refer: 66 122 N 1 0 0 1 686 0 2
@@ -15420,7 +11184,6 @@ Encoding: 499 499 559
 Width: 1112
 HStem: -12 118<230.795 332.852> 0 21G<412.03 563> 0 121<822 1092> 375 121<640 883> 392 118<230.529 329.571> 648 20G<394 546>
 VStem: 24 158<162.066 340.812> 394 152<428 668> 401 145<155.628 341.949>
-DStem2: 626 121 822 121 0.711246 0.702943<139.404 361.338>
 LayerCount: 2
 Fore
 Refer: 66 122 N 1 0 0 1 596 0 2
@@ -15432,7 +11195,6 @@ Encoding: 506 506 560
 Width: 690
 HStem: 0 21G<5 183.723 506.277 685> 119 128<260 430> 776 85<304.552 383.804> 874 153<385.049 418.972>
 VStem: 212 85<689.321 768.448> 277 208 391 86<689.355 768.572>
-DStem2: 5 0 177 0 0.354169 0.935181<60.917 186.37 321.303 425.148> 247 639 344 501 0.354169 0.935181<-361.987 -94.7007> 443 640 344 501 0.353685 -0.935365<95.0009 363> 443 640 430 247 0.353685 -0.935365<95.0009 363 497.936 540.186>
 LayerCount: 2
 Fore
 Refer: 332 769 N 1 0 0 1 277 300 2
@@ -15476,8 +11238,7 @@ StartChar: uni1E8C
 Encoding: 7820 7820 564
 Width: 699
 HStem: 0 21G<10 214.123 484.782 689> 648 20G<24 227.167 471.729 675> 750 141<202.875 302.625 396.875 497.271>
-VStem: 10 190<0 190> 24 189<479 668> 182 141<770.375 870.125> 376 140<770.375 870.125> 486 189<479 668> 499 190<0 190>
-DStem2: 10 0 200 0 0.580315 0.814392<110.26 368.564 584.377 820.244> 213 668 24 668 0.580315 -0.814392<0 235.286 451.1 709.984>
+VStem: 182 141<770.375 870.125> 376 140<770.375 870.125>
 LayerCount: 2
 Fore
 Refer: 343 776 N 1 0 0 1 182 172 2
@@ -15488,8 +11249,7 @@ StartChar: uni1E8D
 Encoding: 7821 7821 565
 Width: 533
 HStem: 0 21G<0 180.126 353.014 533> 476 20G<15 195.215 337.95 518> 578 141<120.875 220.625 314.875 415.271>
-VStem: 0 166<0 166> 100 141<598.375 698.125> 294 140<598.375 698.125> 367 166<0 166>
-DStem2: 0 0 166 0 0.578747 0.815507<96.072 271.143 460.341 608.21> 181 496 15 496 0.578747 -0.815507<0 148.449 337.646 512.138>
+VStem: 100 141<598.375 698.125> 294 140<598.375 698.125>
 LayerCount: 2
 Fore
 Refer: 343 776 N 1 0 0 1 100 0 2
@@ -15590,7 +11350,6 @@ Encoding: 7778 7778 574
 Width: 619
 HStem: -248 180<269.982 386.786> -12 127<225.087 406.039> 553 127<214.341 383.39>
 VStem: 28 162<446.124 528.51> 239 180<-217.018 -100.214> 434 162<141.32 229.246>
-DStem2: 266 421 231 285 0.980581 -0.196116<-67.5686 186.398>
 LayerCount: 2
 Fore
 Refer: 544 803 N 1 0 0 1 239 0 2
@@ -15602,7 +11361,6 @@ Encoding: 7779 7779 575
 Width: 534
 HStem: -248 180<207.982 324.786> -12 111<181.583 348.656> 399 111<186.224 337.56>
 VStem: 33 145<331.088 388.379> 177 180<-217.018 -100.214> 361 146<114.359 173.732>
-DStem2: 239 319 195 205 0.983353 -0.181706<-64.6669 148.388>
 LayerCount: 2
 Fore
 Refer: 544 803 N 1 0 0 1 177 0 2
@@ -15614,7 +11372,7 @@ Encoding: 598 598 576
 Width: 610
 Flags: W
 HStem: -161 124<552.433 675> -12 118<230.795 332.852> 392 118<230.529 329.571> 648 20G<394 546>
-VStem: 24 158<162.066 340.812> 394 152
+VStem: 24 158<162.066 340.812> 394 152<nan 668>
 AnchorPoint: "Anchor-1" 243 0 basechar 0
 AnchorPoint: "Anchor-0" 240 496 basechar 0
 LayerCount: 2
@@ -15659,7 +11417,6 @@ Width: 700
 Flags: W
 HStem: -161 124<395 497.474> 0 21G<44 196> 648 20G<44 255.84 503 656>
 VStem: 44 152<0 476> 503 153<-29.4453 0 192 668>
-DStem2: 245 668 196 476 0.476521 -0.879163<145.45 541.424>
 AnchorPoint: "Anchor-1" 322 0 basechar 0
 AnchorPoint: "Anchor-0" 365 668 basechar 0
 LayerCount: 2
@@ -15752,7 +11509,6 @@ Width: 700
 Flags: W
 HStem: -161 124<-65 38.0623> 0 21G<443.16 656> 648 20G<44 255.84 503 656>
 VStem: 44 152<-29.4453 476> 503 153<192 668>
-DStem2: 245 668 196 476 0.476521 -0.879163<145.45 541.424>
 AnchorPoint: "Anchor-1" 322 0 basechar 0
 AnchorPoint: "Anchor-0" 365 668 basechar 0
 LayerCount: 2
@@ -15906,12 +11662,7 @@ AnchorPoint: "Anchor-2" 271 0 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-285 668 m 0xf8
- 285 618 245 578 195 578 c 0
- 145 578 105 618 105 668 c 0
- 105 718 145 758 195 758 c 0
- 246 758 285 719 285 668 c 0xf8
-24 205 m 1
+24 205 m 1xf4
  24 321 l 1
  118 321 l 1
  118 380 l 1
@@ -15924,9 +11675,10 @@ SplineSet
  271 205 l 1
  271 0 l 1
  118 0 l 1
- 118 205 l 1xf4
- 24 205 l 1
+ 118 205 l 1
+ 24 205 l 1xf4
 EndSplineSet
+Refer: 544 803 S 1 0 0 1 105 826 2
 EndChar
 
 StartChar: Tbar
