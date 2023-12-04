@@ -23,7 +23,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1618935638
-ModificationTime: 1700621601
+ModificationTime: 1701655578
 PfmFamily: 33
 TTFWeight: 700
 TTFWidth: 5
@@ -104,7 +104,7 @@ KernClass2: 47+ 32 "'kern' Horizontal Kerning lookup 0 kerning class 1"
  32 J IJ Jcircumflex uni01C7 uni01CA
  56 j ij uni0237 jcircumflex uni01C8 uni01C9 uni01CB uni01CC
  9 K uni0136
- 9 k uni0137
+ 22 k uni0137 kgreenlandic
  36 L Lslash uni013B Lacute Ldot uni1E36
  49 l lacute uni013C lslash uni0256 uni1E37 f_l f_f_l
  20 lcaron tcaron dcaron
@@ -141,7 +141,7 @@ KernClass2: 47+ 32 "'kern' Horizontal Kerning lookup 0 kerning class 1"
  459 c d e o q ccedilla egrave eacute ecircumflex edieresis eth ograve oacute ocircumflex otilde odieresis oslash cacute ccircumflex cdotaccent ccaron dcaron dcroat emacron ebreve edotaccent eogonek ecaron omacron obreve ohungarumlaut oe ohorn uni01EB oslashacute uni0256 uni1E0B uni1E0D uni1EB9 uni1EBB uni1EBD uni1EBF uni1EC1 uni1EC3 uni1EC5 uni1EC7 uni1ECD uni1ECF uni1ED1 uni1ED3 uni1ED5 uni1ED7 uni1ED9 uni1EDB uni1EDD uni1EDF uni1EE1 uni1EE3 dong partialdiff
  46 f longs florin uni1E1F f_f f_i f_l f_f_i f_f_l
  46 g gbreve gdotaccent uni0123 gcircumflex gcaron
- 52 h k hcircumflex hbar uni0137 uni021F uni1E25 uni1E27
+ 65 h k hcircumflex hbar uni0137 kgreenlandic uni021F uni1E25 uni1E27
  105 I Igrave Iacute Icircumflex Idieresis Imacron Iogonek Idotaccent IJ Itilde Ibreve uni1EC8 uni1ECA uni0197
  103 i igrave iacute icircumflex idieresis imacron iogonek dotlessi ij itilde ibreve uni1EC9 uni1ECB uni0268
  13 J Jcircumflex
@@ -232,11 +232,11 @@ NameList: AGL For New Fonts
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 25 17
+WinInfo: 25 25 17
 BeginPrivate: 0
 EndPrivate
 AnchorClass2: "Anchor-0" "'mark' Mark Positioning lookup 1 subtable" "Anchor-1" "'mark' Mark Positioning lookup 1 subtable" "Anchor-2" "'mark' Mark Positioning lookup 1 subtable" "Anchor-3" "'mkmk' Mark to Mark lookup 2 subtable" "Anchor-4" "'mkmk' Mark to Mark lookup 3 subtable"
-BeginChars: 1114139 590
+BeginChars: 1114139 591
 
 StartChar: .notdef
 Encoding: 1114112 -1 0
@@ -7556,10 +7556,9 @@ StartChar: Dcroat
 Encoding: 272 272 317
 Width: 746
 GlyphClass: 1
-Flags: HW
+Flags: W
 HStem: 0 133<222 401.803> 275 137<44 90 281 407> 537 131<308 483.11>
 VStem: 546 168<283.555 484.585>
-DStem2: 32 0 193.73 0 0.207912 0.978148<169.597 281.049 454.767 582.649>
 LayerCount: 2
 Fore
 Refer: 249 208 N 1 0 0 1 8 0 2
@@ -11709,6 +11708,33 @@ SplineSet
  333 205 l 1
  224 205 l 1
  219 185 217 171 217 160 c 0
+EndSplineSet
+EndChar
+
+StartChar: kgreenlandic
+Encoding: 312 312 590
+Width: 562
+Flags: W
+VStem: 84 155<341 496>
+AnchorPoint: "Anchor-1" 308 496 basechar 0
+AnchorPoint: "Anchor-0" 218 0 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+84 496 m 17
+ -21 0 l 1
+ 135 0 l 1
+ 161 124 l 1
+ 229 184 l 1
+ 324 0 l 1
+ 487 0 l 1
+ 342 283 l 1
+ 586 496 l 1
+ 388 496 l 1
+ 203 327 l 1
+ 239 496 l 1
+ 84 496 l 17
+84 496 m 1025
 EndSplineSet
 EndChar
 EndChars
