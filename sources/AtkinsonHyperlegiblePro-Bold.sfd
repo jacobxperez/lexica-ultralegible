@@ -23,7 +23,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1615339189
-ModificationTime: 1701757871
+ModificationTime: 1701841775
 PfmFamily: 33
 TTFWeight: 700
 TTFWidth: 5
@@ -236,7 +236,7 @@ BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 335544 167772 111848 520094 1048576 111848 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "Anchor-0" "'mark' Mark Positioning lookup 1 subtable" "Anchor-1" "'mark' Mark Positioning lookup 1 subtable" "Anchor-2" "'mark' Mark Positioning lookup 1 subtable" "Anchor-3" "'mkmk' Mark to Mark lookup 2 subtable" "Anchor-4" "'mkmk' Mark to Mark lookup 3 subtable"
-BeginChars: 728 597
+BeginChars: 728 599
 
 StartChar: .notdef
 Encoding: 256 -1 0
@@ -6296,7 +6296,7 @@ EndChar
 
 StartChar: Eth
 Encoding: 387 208 248
-AltUni2: 000189.ffffffff.0 000110.ffffffff.0
+AltUni2: 000110.ffffffff.0 000189.ffffffff.0
 Width: 773
 GlyphClass: 2
 Flags: W
@@ -11932,6 +11932,56 @@ SplineSet
  536 529 l 1
  22 529 l 1
  22 668 l 17
+EndSplineSet
+EndChar
+
+StartChar: Sigma
+Encoding: 211 931 597
+Width: 575
+Flags: W
+HStem: 0 128<188 553> 540 128<188 553>
+VStem: 235 172<248 420>
+LayerCount: 2
+Fore
+SplineSet
+18 0 m 1
+ 18 128 l 1
+ 235 334 l 1
+ 18 540 l 1
+ 18 668 l 1
+ 553 668 l 1
+ 553 540 l 1
+ 188 540 l 1
+ 407 334 l 1
+ 188 128 l 1
+ 553 128 l 1
+ 553 0 l 1
+ 18 0 l 1
+EndSplineSet
+EndChar
+
+StartChar: lambda
+Encoding: 235 955 598
+Width: 518
+Flags: W
+HStem: 0 21G<0 169.258 348.871 518> 547 110<65 175.51>
+AnchorPoint: "Anchor-1" 429 0 basechar 0
+AnchorPoint: "Anchor-0" 260 496 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+65 657 m 1
+ 114 657 l 2
+ 238 657 278 627 328 496 c 2
+ 518 0 l 1
+ 355 0 l 1
+ 260 310 l 1
+ 163 0 l 1
+ 0 0 l 1
+ 190 493 l 1
+ 175 541 164 547 95 547 c 2
+ 65 547 l 1
+ 65 657 l 1
 EndSplineSet
 EndChar
 EndChars

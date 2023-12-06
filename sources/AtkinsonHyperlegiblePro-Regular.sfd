@@ -23,7 +23,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1615339189
-ModificationTime: 1701758071
+ModificationTime: 1701842009
 PfmFamily: 33
 TTFWeight: 400
 TTFWidth: 5
@@ -231,12 +231,12 @@ NameList: AGL For New Fonts
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 50 25 17
+WinInfo: 0 25 17
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 293601 146800 97867 519045 1048576 97867 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "Anchor-0" "'mark' Mark Positioning lookup 1 subtable" "Anchor-1" "'mark' Mark Positioning lookup 1 subtable" "Anchor-2" "'mark' Mark Positioning lookup 1 subtable" "Anchor-3" "'mkmk' Mark to Mark lookup 2 subtable" "Anchor-4" "'mkmk' Mark to Mark lookup 3 subtable"
-BeginChars: 727 597
+BeginChars: 727 599
 
 StartChar: .notdef
 Encoding: 256 -1 0
@@ -1152,7 +1152,7 @@ SplineSet
 232 0 m 1
  232 587 l 1
  10 587 l 1
- 10 668 l 1
+ 10 668 l 5
  548 668 l 1
  548 587 l 1
  326 587 l 1
@@ -11943,6 +11943,57 @@ SplineSet
  157 587 l 1
  473 587 l 1
  473 668 l 17
+EndSplineSet
+EndChar
+
+StartChar: Sigma
+Encoding: 211 931 597
+Width: 553
+Flags: W
+HStem: 0 81<135 515> 587 81<135 515>
+VStem: 270 100<284 384>
+LayerCount: 2
+Fore
+SplineSet
+34 0 m 5
+ 34 81 l 1
+ 270 334 l 1
+ 34 587 l 1
+ 34 668 l 1
+ 515 668 l 1
+ 515 587 l 1
+ 135 587 l 1
+ 370 334 l 1
+ 135 81 l 1
+ 515 81 l 1
+ 515 0 l 1
+ 34 0 l 5
+EndSplineSet
+EndChar
+
+StartChar: lambda
+Encoding: 235 955 598
+Width: 429
+Flags: W
+HStem: 0 21G<0 99.3874 330.613 429> 582 74<37 148.767>
+VStem: 0 93<0 93> 337 92<0 92>
+AnchorPoint: "Anchor-1" 215 0 basechar 0
+AnchorPoint: "Anchor-0" 220 496 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+37 656 m 1
+ 80 656 l 2
+ 184 656 214 632 253 517 c 2
+ 429 0 l 1
+ 337 0 l 1
+ 215 382 l 1
+ 93 0 l 1
+ 0 0 l 1
+ 179 496 l 1
+ 158 570 143 582 71 582 c 2
+ 37 582 l 1
+ 37 656 l 1
 EndSplineSet
 EndChar
 EndChars
