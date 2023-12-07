@@ -23,7 +23,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1618935638
-ModificationTime: 1701845146
+ModificationTime: 1701928495
 PfmFamily: 33
 TTFWeight: 700
 TTFWidth: 5
@@ -115,7 +115,7 @@ KernClass2: 47+ 32 "'kern' Horizontal Kerning lookup 0 kerning class 1"
  23 r racute rcaron uni0157
  60 S Sacute Scircumflex Scedilla Scaron uni0218 uni1E60 uni1E62
  60 s sacute scircumflex scedilla scaron uni0219 uni1E61 uni1E63
- 37 T Tcaron uni0162 uni021A uni1E6A Tbar
+ 43 T Gamma Tcaron uni0162 uni021A uni1E6A Tbar
  30 t uni0163 uni021B uni1E6B tbar
  95 U Ugrave Uacute Ucircumflex Udieresis Umacron Uring Uhungarumlaut Uogonek Ubreve Utilde uni01D3
  95 u ugrave uacute ucircumflex udieresis umacron uring uhungarumlaut uogonek ubreve utilde uni01D4
@@ -231,11 +231,11 @@ NameList: AGL For New Fonts
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 25 17
+WinInfo: 50 25 17
 BeginPrivate: 0
 EndPrivate
 AnchorClass2: "Anchor-0" "'mark' Mark Positioning lookup 1 subtable" "Anchor-1" "'mark' Mark Positioning lookup 1 subtable" "Anchor-2" "'mark' Mark Positioning lookup 1 subtable" "Anchor-3" "'mkmk' Mark to Mark lookup 2 subtable" "Anchor-4" "'mkmk' Mark to Mark lookup 3 subtable"
-BeginChars: 728 600
+BeginChars: 728 601
 
 StartChar: .notdef
 Encoding: 256 -1 0
@@ -4512,36 +4512,33 @@ EndChar
 
 StartChar: uni03A9
 Encoding: 217 937 164
-Width: 744
+Width: 705
 GlyphClass: 1
 Flags: W
-HStem: 0 115<5 142 454 567> 564 116<296.679 463.716>
-VStem: 57 124<281.753 437.095> 532 123<344.317 498.512>
+HStem: 0 115<24 161 473 586> 564 116<319.865 485.853>
+VStem: 76 124<281.572 436.261> 551 123<344.239 498.954>
 LayerCount: 2
 Fore
 SplineSet
-185 392 m 0
- 183 380 181 368 181 357 c 0
- 181 287 227 233 296 223 c 1
- 249 0 l 1
- -19 0 l 1
- 5 115 l 1
- 142 115 l 1
- 147 139 l 1
- 88 182 57 247 57 324 c 0
- 57 509 223 680 406 680 c 4
- 548 680 655 580 655 444 c 0
- 655 425 653 405 649 386 c 0
- 628 286 556 193 459 139 c 1
- 454 115 l 1
- 591 115 l 1
- 567 0 l 1
- 299 0 l 1
- 346 223 l 1
- 432 235 510 307 528 392 c 0
- 530 403 532 414 532 425 c 0
- 532 505 467 564 382 564 c 4
- 289 564 206 491 185 392 c 0
+200 357 m 0
+ 200 286.799804688 246.196289062 232.971679688 315 223 c 1
+ 268 0 l 1
+ 0 0 l 1
+ 24 115 l 1
+ 161 115 l 1
+ 166 139 l 1
+ 107.48046875 181.649414062 76 246.359375 76 324 c 0
+ 76 508.784179688 245.7734375 680 429 680 c 0
+ 570.6015625 680 674 580.400390625 674 444 c 0
+ 674 325.891601562 596.176757812 204.7890625 478 139 c 1
+ 473 115 l 1
+ 610 115 l 1
+ 586 0 l 1
+ 318 0 l 1
+ 365 223 l 1
+ 463.807617188 236.787109375 551 331.479492188 551 425 c 0
+ 551 505.474609375 489.52734375 564 405 564 c 0
+ 299.314453125 564 200 463.716796875 200 357 c 0
 EndSplineSet
 EndChar
 
@@ -4603,21 +4600,21 @@ EndChar
 
 StartChar: uni0394
 Encoding: 196 916 167
-Width: 715
+Width: 643
 GlyphClass: 1
 Flags: W
-HStem: 0 115<111 367> 660 20G<345.471 364.088>
+HStem: 0 115<147 403> 660 20G<381.471 400.088>
 LayerCount: 2
 Fore
 SplineSet
-111 115 m 1
- 367 115 l 1
- 304 418 l 1
- 111 115 l 1
--101 0 m 1
- 359 680 l 1
- 532 0 l 1
- -101 0 l 1
+147 115 m 1
+ 403 115 l 1
+ 340 418 l 1
+ 147 115 l 1
+-65 0 m 1
+ 395 680 l 1
+ 568 0 l 1
+ -65 0 l 1
 EndSplineSet
 EndChar
 
@@ -11811,65 +11808,65 @@ EndChar
 
 StartChar: Pi
 Encoding: 208 928 594
-Width: 790
+Width: 629
 Flags: W
-HStem: 0 21G<42 174.239 446 578.251> 552 116<287 563>
-VStem: 42 128<0 128> 184 532<136 668> 446 128<0 128>
+HStem: 0 21G<-23 109.239 381 513.251> 552 116<222 498>
+VStem: -23 128<0 128> 119 532<136 668> 381 128<0 128>
 LayerCount: 2
 Fore
 SplineSet
-42 0 m 1xe8
- 184 668 l 1
- 716 668 l 1xf0
- 574 0 l 1
- 446 0 l 1
- 563 552 l 1
- 287 552 l 1
- 170 0 l 1
- 42 0 l 1xe8
+-23 0 m 1xe8
+ 119 668 l 1
+ 651 668 l 1xf0
+ 509 0 l 1
+ 381 0 l 1
+ 498 552 l 1
+ 222 552 l 1
+ 105 0 l 1
+ -23 0 l 1xe8
 EndSplineSet
 EndChar
 
 StartChar: Sigma
 Encoding: 211 931 595
-Width: 575
+Width: 632
 Flags: W
-HStem: 0 128<144 482> 540 128<232 597>
+HStem: 0 128<174 512> 540 128<262 627>
 LayerCount: 2
 Fore
 SplineSet
--53 0 m 1
- -26 128 l 1
- 235 334 l 1
- 62 540 l 1
- 89 668 l 1
- 624 668 l 1
- 597 540 l 1
- 232 540 l 1
- 407 334 l 1
- 144 128 l 1
- 509 128 l 1
- 482 0 l 1
- -53 0 l 1
+-23 0 m 1
+ 4 128 l 1
+ 265 334 l 1
+ 92 540 l 1
+ 119 668 l 1
+ 654 668 l 1
+ 627 540 l 1
+ 262 540 l 1
+ 437 334 l 1
+ 174 128 l 1
+ 539 128 l 1
+ 512 0 l 1
+ -23 0 l 1
 EndSplineSet
 EndChar
 
 StartChar: Gamma
 Encoding: 195 915 596
-Width: 591
+Width: 596
 Flags: W
-HStem: 0 21G<-27 105.239> 552 116<218 622>
-VStem: -27 128<0 128>
+HStem: 0 21G<-23 109.239> 552 116<222 626>
+VStem: -23 128<0 128>
 LayerCount: 2
 Fore
 SplineSet
-622 552 m 1
- 218 552 l 1
- 101 0 l 1
- -27 0 l 1
- 115 668 l 1
- 647 668 l 9
- 622 552 l 1
+626 552 m 1
+ 222 552 l 1
+ 105 0 l 1
+ -23 0 l 1
+ 119 668 l 1
+ 651 668 l 9
+ 626 552 l 1
 EndSplineSet
 EndChar
 
@@ -11898,30 +11895,30 @@ EndChar
 
 StartChar: Xi
 Encoding: 206 926 598
-Width: 558
+Width: 578
 Flags: W
-HStem: 0 139<-19 465> 275 136<116 445> 529 139<93 577>
-AnchorPoint: "Anchor-2" 429 0 basechar 0
-AnchorPoint: "Anchor-1" 197 0 basechar 0
-AnchorPoint: "Anchor-0" 352 668 basechar 0
+HStem: 0 139<7 491> 275 136<142 471> 529 139<119 603>
+AnchorPoint: "Anchor-2" 455 0 basechar 0
+AnchorPoint: "Anchor-1" 223 0 basechar 0
+AnchorPoint: "Anchor-0" 378 668 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-116 411 m 1
- 474 411 l 1
- 445 275 l 1
- 87 275 l 9
- 116 411 l 1
--19 139 m 17
- 495 139 l 1
- 465 0 l 1
- -49 0 l 1
- -19 139 l 17
-93 668 m 17
- 607 668 l 1
- 577 529 l 1
- 63 529 l 1
- 93 668 l 17
+142 411 m 1
+ 500 411 l 1
+ 471 275 l 1
+ 113 275 l 9
+ 142 411 l 1
+7 139 m 17
+ 521 139 l 1
+ 491 0 l 1
+ -23 0 l 1
+ 7 139 l 17
+119 668 m 17
+ 633 668 l 1
+ 603 529 l 1
+ 89 529 l 1
+ 119 668 l 17
 EndSplineSet
 EndChar
 
@@ -11947,6 +11944,31 @@ SplineSet
  220 541 210 547 141 547 c 2
  111 547 l 1
  135 657 l 1
+EndSplineSet
+EndChar
+
+StartChar: iota
+Encoding: 233 953 600
+Width: 302
+Flags: W
+HStem: -18 124<163.317 235> 476 20G<83.7303 240>
+VStem: 4 158<41.5 202.469> 88 152<344 496>
+AnchorPoint: "Anchor-1" 99 0 basechar 0
+AnchorPoint: "Anchor-0" 167 496 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+165 162 m 2xd0
+ 163 153 162 145 162 139 c 0
+ 162 114 176 106 219 106 c 2
+ 262 106 l 1
+ 235 -18 l 1
+ 138 -18 l 2
+ 41 -18 4 8 4 75 c 0xe0
+ 4 93 7 114 12 140 c 2
+ 88 496 l 1
+ 240 496 l 1
+ 165 162 l 2xd0
 EndSplineSet
 EndChar
 EndChars
