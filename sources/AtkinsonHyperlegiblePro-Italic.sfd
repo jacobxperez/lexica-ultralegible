@@ -23,7 +23,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1618935638
-ModificationTime: 1701928447
+ModificationTime: 1702183294
 PfmFamily: 33
 TTFWeight: 400
 TTFWidth: 5
@@ -236,7 +236,7 @@ BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 -562637 293601 146800 97867 520094 1048576 97867 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "Anchor-0" "'mark' Mark Positioning lookup 1 subtable" "Anchor-1" "'mark' Mark Positioning lookup 1 subtable" "Anchor-2" "'mark' Mark Positioning lookup 1 subtable" "Anchor-3" "'mkmk' Mark to Mark lookup 2 subtable" "Anchor-4" "'mkmk' Mark to Mark lookup 3 subtable"
-BeginChars: 728 601
+BeginChars: 728 603
 
 StartChar: .notdef
 Encoding: 256 -1 0
@@ -1809,7 +1809,7 @@ SplineSet
  322 60 396 159 396 281 c 0
  396 376 351 433 276 433 c 0
  188 433 118 329 118 198 c 0xec
-352 59 m 1
+352 59 m 5
  327 16 270 -12 207 -12 c 0
  97 -12 28 69 28 198 c 0
  28 375 131 505 271 505 c 0xec
@@ -1822,7 +1822,7 @@ SplineSet
  534 -154 l 1
  518 -165 479 -174 447 -174 c 0
  371 -174 328 -137 328 -72 c 0
- 328 -58 328 -58 352 59 c 1
+ 328 -58 328 -58 352 59 c 5
 EndSplineSet
 EndChar
 
@@ -6307,7 +6307,7 @@ EndChar
 
 StartChar: Eth
 Encoding: 387 208 249
-AltUni2: 000110.ffffffff.0 000189.ffffffff.0
+AltUni2: 000189.ffffffff.0 000110.ffffffff.0
 Width: 710
 GlyphClass: 1
 Flags: W
@@ -12001,8 +12001,8 @@ Width: 223
 Flags: W
 HStem: 0 74<119.117 163> 476 20G<110.753 199>
 VStem: 27 90<39.5 182.438> 115 84<412 496>
-AnchorPoint: "Anchor-1" 84 0 basechar 0
-AnchorPoint: "Anchor-0" 162 497 basechar 0
+AnchorPoint: "Anchor-0" 84 0 basechar 0
+AnchorPoint: "Anchor-1" 162 496 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -12018,6 +12018,48 @@ SplineSet
  199 496 l 1
  123 138 l 2xd0
 EndSplineSet
+EndChar
+
+StartChar: alpha
+Encoding: 225 945 601
+Width: 547
+Flags: W
+HStem: -12 72<163.591 302.786> 0 74<464.949 518> 433 72<209.05 345.172> 476 20G<468.923 543>
+VStem: 28 90<109.37 318.714> 396 66<101 281>
+LayerCount: 2
+Fore
+SplineSet
+207 -12 m 0x8c
+ 97.5209677846 -12 28 69.560911926 28 198 c 0
+ 28 374.936218646 130.949507716 505 271 505 c 0xac
+ 345.168696115 505 408.645494664 470.484490789 431 418 c 1
+ 482 496 l 1
+ 543 496 l 1
+ 467 139 l 2
+ 463.00245048 117.679735893 462 110.061112245 462 101 c 0
+ 462 79.8926826426 471.166395222 74 504 74 c 2
+ 533 74 l 1
+ 518 0 l 1
+ 471 0 l 2x5c
+ 404.993333115 0 385.999596054 16.0059581972 382 75 c 1
+ 343.168691905 18.2465497079 282.327930999 -12 207 -12 c 0x8c
+118 198 m 0
+ 118 109.815699136 159.152099287 60 232 60 c 256
+ 322.267118225 60 396 159.359554099 396 281 c 0
+ 396 377.133376096 351.894770602 433 276 433 c 256
+ 185.953186641 433 118 331.930386958 118 198 c 0
+EndSplineSet
+EndChar
+
+StartChar: iotadieresis
+Encoding: 250 970 602
+Width: 223
+HStem: 0 74<119.117 163> 476 20G<110.753 199> 590 107<31.676 117.846 244.079 328.846>
+VStem: 21 108<600.676 685.921> 27 90<39.5 182.438> 115 84<412 496> 233 107<600.676 686.685>
+LayerCount: 2
+Fore
+Refer: 341 776 N 1 0 0 1 -66 0 2
+Refer: 600 953 N 1 0 0 1 0 0 3
 EndChar
 EndChars
 EndSplineFont

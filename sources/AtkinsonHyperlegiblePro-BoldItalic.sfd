@@ -23,7 +23,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1618935638
-ModificationTime: 1701928495
+ModificationTime: 1702182063
 PfmFamily: 33
 TTFWeight: 700
 TTFWidth: 5
@@ -231,11 +231,11 @@ NameList: AGL For New Fonts
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 50 25 17
+WinInfo: 0 25 17
 BeginPrivate: 0
 EndPrivate
 AnchorClass2: "Anchor-0" "'mark' Mark Positioning lookup 1 subtable" "Anchor-1" "'mark' Mark Positioning lookup 1 subtable" "Anchor-2" "'mark' Mark Positioning lookup 1 subtable" "Anchor-3" "'mkmk' Mark to Mark lookup 2 subtable" "Anchor-4" "'mkmk' Mark to Mark lookup 3 subtable"
-BeginChars: 728 601
+BeginChars: 728 602
 
 StartChar: .notdef
 Encoding: 256 -1 0
@@ -1799,7 +1799,7 @@ SplineSet
  381 354 346 393 291 393 c 0
  221 393 156 308 156 218 c 0xec
 326 56 m 1
- 290 12 239 -12 183 -12 c 0
+ 290 12 239 -12 183 -12 c 4
  74 -12 4 69 4 196 c 0
  4 374 117 510 263 510 c 0xec
  326 510 377 480 404 427 c 1
@@ -6282,7 +6282,7 @@ EndChar
 
 StartChar: Eth
 Encoding: 387 208 249
-AltUni2: 000189.ffffffff.0 000110.ffffffff.0
+AltUni2: 000110.ffffffff.0 000189.ffffffff.0
 Width: 738
 GlyphClass: 1
 Flags: W
@@ -11969,6 +11969,37 @@ SplineSet
  88 496 l 1
  240 496 l 1
  165 162 l 2xd0
+EndSplineSet
+EndChar
+
+StartChar: alpha
+Encoding: 225 945 601
+Width: 601
+Flags: W
+HStem: -12 118<145.646 287.785> 0 21G<451 562.19> 393 117<242.061 364.841> 476 20G<454.059 599>
+VStem: 18 152<147.867 312.53> 395 128<131 293>
+LayerCount: 2
+Fore
+SplineSet
+197 -12 m 0x8c
+ 84 -12 18 65 18 196 c 0
+ 18 374 130 510 277 510 c 0xac
+ 343 510 403 476 423 428 c 1
+ 467 496 l 1
+ 599 496 l 1
+ 525 151 l 2
+ 523 142 523 140 523 131 c 0
+ 523 112 532 105 557 105 c 2
+ 580 105 l 1
+ 558 0 l 1
+ 503 0 l 2x5c
+ 399 0 369 15 365 70 c 1
+ 329 22 259 -12 197 -12 c 0x8c
+170 218 m 0
+ 170 155 211 106 264 106 c 0
+ 338 106 395 187 395 293 c 0
+ 395 355 361 393 305 393 c 0
+ 231 393 170 314 170 218 c 0
 EndSplineSet
 EndChar
 EndChars

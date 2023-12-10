@@ -23,7 +23,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1615339189
-ModificationTime: 1701928519
+ModificationTime: 1702175906
 PfmFamily: 33
 TTFWeight: 700
 TTFWidth: 5
@@ -138,7 +138,7 @@ KernClass2: 47+ 32 "'kern' Horizontal Kerning lookup 0 kerning class 1"
  10 AE AEacute
  199 a ae amacron agrave acircumflex atilde adieresis aring aacute abreve aogonek aeacute uni01CE uni1EA1 uni1EA3 uni1EA5 uni1EA7 uni1EA9 uni1EAB uni1EAD uni1EAF uni1EB1 uni1EB3 uni1EB5 uni1EB7 aringacute
  310 C G O Q uni03A9 Oslash OE Ccedilla Ograve Oacute Ocircumflex Otilde Odieresis Ohungarumlaut Cacute Cdotaccent Gbreve Gdotaccent uni0122 Ccaron Omacron Ccircumflex Gcircumflex Obreve Oslashacute Gcaron Ohorn uni1ECC uni1ECE uni1ED0 uni1ED2 uni1ED4 uni1ED6 uni1ED8 uni1EDA uni1EDC uni1EDE uni1EE0 uni1EE2 uni01EA
- 459 c d e o q ccedilla egrave eacute ecircumflex edieresis eth ograve oacute ocircumflex otilde odieresis oslash cacute ccircumflex cdotaccent ccaron dcaron dcroat emacron ebreve edotaccent eogonek ecaron omacron obreve ohungarumlaut oe ohorn uni01EB oslashacute uni0256 uni1E0B uni1E0D uni1EB9 uni1EBB uni1EBD uni1EBF uni1EC1 uni1EC3 uni1EC5 uni1EC7 uni1ECD uni1ECF uni1ED1 uni1ED3 uni1ED5 uni1ED7 uni1ED9 uni1EDB uni1EDD uni1EDF uni1EE1 uni1EE3 dong partialdiff
+ 465 c d e o q alpha partialdiff oslash eth oe ccedilla egrave eacute ecircumflex edieresis ograve oacute ocircumflex otilde odieresis emacron edotaccent eogonek ecaron ohungarumlaut cacute cdotaccent dcroat dcaron ccaron dong uni1E0B omacron ccircumflex ebreve obreve oslashacute uni1EBD ohorn uni1EB9 uni1EBB uni1EBF uni1EC1 uni1EC3 uni1EC5 uni1EC7 uni1ECD uni1ECF uni1ED1 uni1ED3 uni1ED5 uni1ED7 uni1ED9 uni1EDB uni1EDD uni1EDF uni1EE1 uni1EE3 uni1E0D uni0256 uni01EB
  46 f longs florin uni1E1F f_f f_i f_l f_f_i f_f_l
  46 g gbreve gdotaccent uni0123 gcircumflex gcaron
  65 h k hcircumflex hbar uni0137 kgreenlandic uni021F uni1E25 uni1E27
@@ -231,12 +231,12 @@ NameList: AGL For New Fonts
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 52 26 17
+WinInfo: 0 26 17
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 335544 167772 111848 520094 1048576 111848 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "Anchor-0" "'mark' Mark Positioning lookup 1 subtable" "Anchor-1" "'mark' Mark Positioning lookup 1 subtable" "Anchor-2" "'mark' Mark Positioning lookup 1 subtable" "Anchor-3" "'mkmk' Mark to Mark lookup 2 subtable" "Anchor-4" "'mkmk' Mark to Mark lookup 3 subtable"
-BeginChars: 728 600
+BeginChars: 728 602
 
 StartChar: .notdef
 Encoding: 256 -1 0
@@ -4721,8 +4721,8 @@ VStem: 104 128<0 380> 386 128<109.479 380>
 LayerCount: 2
 Fore
 SplineSet
-524 0 m 2
- 416 0 386 25 386 118 c 2
+524 0 m 6
+ 416 0 386 25 386 118 c 6
  386 380 l 1
  232 380 l 1
  232 0 l 1
@@ -4733,11 +4733,11 @@ SplineSet
  602 496 l 1
  602 380 l 1
  514 380 l 1
- 514 151 l 2
- 514 115 526 105 569 105 c 2
- 602 105 l 1
- 602 0 l 1
- 524 0 l 2
+ 514 151 l 6
+ 514 115 526 105 569 105 c 6
+ 602 105 l 5
+ 602 0 l 5
+ 524 0 l 6
 EndSplineSet
 EndChar
 
@@ -6296,7 +6296,7 @@ EndChar
 
 StartChar: Eth
 Encoding: 387 208 248
-AltUni2: 000189.ffffffff.0 000110.ffffffff.0
+AltUni2: 000110.ffffffff.0 000189.ffffffff.0
 Width: 773
 GlyphClass: 2
 Flags: W
@@ -12005,6 +12005,47 @@ SplineSet
  50 496 l 1
  202 496 l 5
  198 162 l 2
+EndSplineSet
+EndChar
+
+StartChar: iotadieresis
+Encoding: 250 970 600
+Width: 314
+HStem: -18 124<204.433 307> 476 20G<50 202> 578 141<-17.125 82.625 176.875 277.271>
+VStem: -38 141<598.375 698.125> 50 148<113.555 496> 156 140<598.375 698.125>
+LayerCount: 2
+Fore
+Refer: 343 776 N 1 0 0 1 -38 0 2
+Refer: 599 953 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: alpha
+Encoding: 225 945 601
+Width: 601
+Flags: W
+HStem: -12 118<230.348 327.727> 0 105<551.001 611> 392 118<230.801 329.733> 476 20G<408.118 546>
+VStem: 24 158<158.039 336.845> 401 145<156.975 345.84>
+LayerCount: 2
+Fore
+SplineSet
+394 70 m 1x5c
+ 365.054847448 21.0926732748 304.11590032 -12 243 -12 c 0
+ 109.957689373 -12 24 90.0502248263 24 248 c 0
+ 24 405.958906417 110.965646927 510 243 510 c 0xac
+ 306.036590018 510 365.016819207 477.971001368 394 428 c 1
+ 414 496 l 1
+ 546 496 l 1
+ 546 151 l 2
+ 546 116.014618009 556.056825138 105 588 105 c 2
+ 611 105 l 1
+ 611 0 l 1
+ 556 0 l 2
+ 448.327346519 0 405.925768582 18.3216694791 394 70 c 1x5c
+292 392 m 0
+ 227.034718334 392 182 333.045459636 182 248 c 0
+ 182 161.754393124 225.190022843 106 292 106 c 0
+ 360.203586434 106 401 160.270458414 401 251 c 0
+ 401 341.27542691 361.78738676 392 292 392 c 0
 EndSplineSet
 EndChar
 EndChars
