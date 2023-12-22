@@ -23,7 +23,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1615339189
-ModificationTime: 1703136136
+ModificationTime: 1703233094
 PfmFamily: 33
 TTFWeight: 400
 TTFWidth: 5
@@ -236,6 +236,7 @@ EndFPST
 LangName: 1033 "" "" "" "" "" "Version 1.5.1" "" "" "Braille Institute" "Elliott Scott, Megan Eiswerth, Linus Boman, Theodore Petrosky, Jacob Perez" "" "https://www.BrailleInstitute.org/" "http://helloapplied.com" "This Font Software is licensed under the SIL Open Font License, Version 1.1.+AAoA-This license is copied below, and is also available with a FAQ at:+AAoA-http://scripts.sil.org/OFL+AAoACgAK------------------------------------------------------------+AAoA-SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007+AAoA------------------------------------------------------------+AAoACgAA-PREAMBLE+AAoA-The goals of the Open Font License (OFL) are to stimulate worldwide+AAoA-development of collaborative font projects, to support the font creation+AAoA-efforts of academic and linguistic communities, and to provide a free and+AAoA-open framework in which fonts may be shared and improved in partnership+AAoA-with others.+AAoACgAA-The OFL allows the licensed fonts to be used, studied, modified and+AAoA-redistributed freely as long as they are not sold by themselves. The+AAoA-fonts, including any derivative works, can be bundled, embedded, +AAoA-redistributed and/or sold with any software provided that any reserved+AAoA-names are not used by derivative works. The fonts and derivatives,+AAoA-however, cannot be released under any other type of license. The+AAoA-requirement for fonts to remain under this license does not apply+AAoA-to any document created using the fonts or their derivatives.+AAoACgAA-DEFINITIONS+AAoAIgAA-Font Software+ACIA refers to the set of files released by the Copyright+AAoA-Holder(s) under this license and clearly marked as such. This may+AAoA-include source files, build scripts and documentation.+AAoACgAi-Reserved Font Name+ACIA refers to any names specified as such after the+AAoA-copyright statement(s).+AAoACgAi-Original Version+ACIA refers to the collection of Font Software components as+AAoA-distributed by the Copyright Holder(s).+AAoACgAi-Modified Version+ACIA refers to any derivative made by adding to, deleting,+AAoA-or substituting -- in part or in whole -- any of the components of the+AAoA-Original Version, by changing formats or by porting the Font Software to a+AAoA-new environment.+AAoACgAi-Author+ACIA refers to any designer, engineer, programmer, technical+AAoA-writer or other person who contributed to the Font Software.+AAoACgAA-PERMISSION & CONDITIONS+AAoA-Permission is hereby granted, free of charge, to any person obtaining+AAoA-a copy of the Font Software, to use, study, copy, merge, embed, modify,+AAoA-redistribute, and sell modified and unmodified copies of the Font+AAoA-Software, subject to the following conditions:+AAoACgAA-1) Neither the Font Software nor any of its individual components,+AAoA-in Original or Modified Versions, may be sold by itself.+AAoACgAA-2) Original or Modified Versions of the Font Software may be bundled,+AAoA-redistributed and/or sold with any software, provided that each copy+AAoA-contains the above copyright notice and this license. These can be+AAoA-included either as stand-alone text files, human-readable headers or+AAoA-in the appropriate machine-readable metadata fields within text or+AAoA-binary files as long as those fields can be easily viewed by the user.+AAoACgAA-3) No Modified Version of the Font Software may use the Reserved Font+AAoA-Name(s) unless explicit written permission is granted by the corresponding+AAoA-Copyright Holder. This restriction only applies to the primary font name as+AAoA-presented to the users.+AAoACgAA-4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font+AAoA-Software shall not be used to promote, endorse or advertise any+AAoA-Modified Version, except to acknowledge the contribution(s) of the+AAoA-Copyright Holder(s) and the Author(s) or with their explicit written+AAoA-permission.+AAoACgAA-5) The Font Software, modified or unmodified, in part or in whole,+AAoA-must be distributed entirely under this license, and must not be+AAoA-distributed under any other license. The requirement for fonts to+AAoA-remain under this license does not apply to any document created+AAoA-using the Font Software.+AAoACgAA-TERMINATION+AAoA-This license becomes null and void if any of the above conditions are+AAoA-not met.+AAoACgAA-DISCLAIMER+AAoA-THE FONT SOFTWARE IS PROVIDED +ACIA-AS IS+ACIA, WITHOUT WARRANTY OF ANY KIND,+AAoA-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF+AAoA-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT+AAoA-OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE+AAoA-COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,+AAoA-INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL+AAoA-DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING+AAoA-FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM+AAoA-OTHER DEALINGS IN THE FONT SOFTWARE." "http://scripts.sil.org/OFL"
 GaspTable: 1 65535 15 1
 Encoding: iso8859-7
+Compacted: 1
 UnicodeInterp: none
 NameList: AGL For New Fonts
 DisplaySize: -36
@@ -244,6 +245,14 @@ FitToEm: 0
 WinInfo: 0 25 17
 BeginPrivate: 0
 EndPrivate
+Grid
+-1000 668 m 0
+ 2000 668 l 1024
+  Named: "Capheight"
+-1000 496 m 4
+ 2000 496 l 1028
+  Named: "x-height"
+EndSplineSet
 TeXData: 1 0 0 293601 146800 97867 519045 1048576 97867 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "Anchor-0" "'mark' Mark Positioning lookup 1 subtable" "Anchor-1" "'mark' Mark Positioning lookup 1 subtable" "Anchor-2" "'mark' Mark Positioning lookup 1 subtable" "Anchor-3" "'mkmk' Mark to Mark lookup 2 subtable" "Anchor-4" "'mkmk' Mark to Mark lookup 3 subtable"
 BeginChars: 728 640
@@ -2792,7 +2801,7 @@ Fore
 SplineSet
 254 -12 m 0xdc
  215 -12 181 6 154 41 c 1
- 154 -162 l 1
+ 154 -162 l 5
  70 -162 l 1
  70 497 l 1
  154 497 l 1
@@ -4694,8 +4703,8 @@ VStem: 104 81<0 414> 383 84<78.5552 414>
 LayerCount: 2
 Fore
 SplineSet
-500 0 m 6
- 405 0 383 23 383 124 c 6
+500 0 m 2
+ 405 0 383 23 383 124 c 2
  383 414 l 1
  185 414 l 1
  185 0 l 1
@@ -4706,11 +4715,11 @@ SplineSet
  551 496 l 1
  551 414 l 1
  467 414 l 1
- 467 139 l 6
- 467 83 474 74 518 74 c 6
- 551 74 l 5
- 551 0 l 5
- 500 0 l 6
+ 467 139 l 2
+ 467 83 474 74 518 74 c 2
+ 551 74 l 1
+ 551 0 l 1
+ 500 0 l 2
 EndSplineSet
 EndChar
 
@@ -6289,7 +6298,7 @@ EndChar
 
 StartChar: Eth
 Encoding: 387 208 248
-AltUni2: 000189.ffffffff.0 000110.ffffffff.0
+AltUni2: 000110.ffffffff.0 000189.ffffffff.0
 Width: 712
 GlyphClass: 2
 Flags: W
@@ -12313,7 +12322,7 @@ SplineSet
  38 386 120 488 245 502 c 1
  128 582 l 1
  128 656 l 1
- 424 656 l 1
+ 424 656 l 5
  424 582 l 1
  237 582 l 1
  399 472 l 1
@@ -12725,8 +12734,8 @@ StartChar: epsilon
 Encoding: 229 949 634
 Width: 419
 Flags: W
-HStem: -12 69<147.095 300.046> 227 60<151.691 275> 436 68<150.325 295.671>
-VStem: 30 84<88.7135 199.135> 39 84<313.088 410.041>
+HStem: -12 69<147.161 301.618> 227 60<151.81 275> 436 68<150.305 295.705>
+VStem: 30 84<88.6541 199.125> 39 84<314.615 410.023>
 AnchorPoint: "Anchor-0" 205 516 basechar 0
 LayerCount: 2
 Fore
@@ -12737,8 +12746,8 @@ StartChar: epsilontonos
 Encoding: 221 941 635
 Width: 419
 Flags: W
-HStem: -12 69<147.095 300.046> 227 60<151.691 275> 436 68<150.325 295.671> 599 183<197.646 218>
-VStem: 30 84<88.7135 199.135> 39 84<313.088 410.041> 195 74<679.156 778.698>
+HStem: -12 69<147.161 301.618> 227 60<151.81 275> 436 68<150.305 295.705> 599 183<197.646 218>
+VStem: 30 84<88.6541 199.125> 39 84<314.615 410.023> 195 74<679.156 778.698>
 LayerCount: 2
 Fore
 Refer: 613 900 N 1 0 0 1 169 104 2
@@ -12749,8 +12758,8 @@ StartChar: uni025B
 Encoding: 727 603 636
 Width: 419
 Flags: W
-HStem: -12 69<147.095 300.046> 227 60<151.691 275> 436 68<150.325 295.671>
-VStem: 30 84<88.7135 199.135> 39 84<313.088 410.041>
+HStem: -12 69<147.161 301.618> 227 60<151.81 275> 436 68<150.305 295.705>
+VStem: 30 84<88.6541 199.125> 39 84<314.615 410.023>
 AnchorPoint: "Anchor-2" 355 0 basechar 0
 AnchorPoint: "Anchor-1" 276 0 basechar 0
 AnchorPoint: "Anchor-0" 205 496 basechar 0
@@ -12758,23 +12767,23 @@ LayerCount: 2
 Fore
 SplineSet
 30 142 m 0xf0
- 30 196.090944654 58.0821826033 238.031866724 107 257 c 1
- 66.4850289917 274.787060443 39 318.439753547 39 365 c 0
- 39 443.855474168 110.827275454 504 205 504 c 0
- 290.911786409 504 353.96914937 474.056559488 384 419 c 1
+ 30 196 58 238 107 257 c 1
+ 66 275 39 318 39 365 c 0
+ 39 444 111 504 205 504 c 0
+ 291 504 354 474 384 419 c 1
  326 381 l 1
- 317.990886524 410.03303635 267.945465671 436 220 436 c 0
- 162.282601121 436 123 405.221879534 123 360 c 0xe8
- 123 315.212166536 166.670887925 287 236 287 c 2
+ 318 410 268 436 220 436 c 0
+ 162 436 123 405 123 360 c 0xe8
+ 123 315 167 287 236 287 c 2
  275 287 l 1
  275 227 l 1
  232 227 l 2
- 153.903585041 227 114 198.932224082 114 144 c 0
- 114 93.3377715153 156.602904535 57 216 57 c 0
- 276.573701462 57 310.844878242 74.4362127477 330 115 c 1
+ 154 227 114 199 114 144 c 0
+ 114 93 157 57 216 57 c 0
+ 277 57 311 74 330 115 c 1
  389 77 l 1
- 360.144986116 19.2899722311 295.455605323 -12 205 -12 c 0
- 106.06817256 -12 30 54.939991853 30 142 c 0xf0
+ 360 19 295 -12 205 -12 c 0
+ 106 -12 30 55 30 142 c 0xf0
 EndSplineSet
 EndChar
 
@@ -12782,8 +12791,10 @@ StartChar: xi
 Encoding: 238 958 637
 Width: 483
 Flags: W
-HStem: 330 76<252.998 356> 592 69<375 444> 611 69<242.49 442.743>
-VStem: 76 90<121.874 273.298> 115 85<451.301 571.143> 393 79<-125 -41.6828>
+HStem: 330 76<252.998 356> 592 69<375 444> 611 69<242.49 442.72>
+VStem: 76 90<121.217 273.298> 115 85<451.301 571.143> 393 75<-129 -39.188>
+AnchorPoint: "Anchor-1" 270 0 basechar 0
+AnchorPoint: "Anchor-0" 275 496 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -12793,18 +12804,18 @@ SplineSet
  115 617 197 680 323 680 c 0xac
  372 680 417 673 444 661 c 1
  444 592 l 1xcc
- 418 603 370 611 324 611 c 0
+ 417 603 369 611 324 611 c 0
  250 611 200 571 200 511 c 0xac
  200 444 257 406 356 406 c 1
  356 330 l 1
  223 330 166 290 166 195 c 0
- 166 117 200 90 333 62 c 0
- 427 42 468 1 472 -80 c 1
- 472 -138 l 1
- 393 -125 l 1
- 393 -90 l 2
- 393 -46 365 -24 293 -12 c 0
- 143 13 76 78 76 197 c 0xb4
+ 166 116 201.051434177 89.2502472895 333 62 c 4
+ 425 43 468 -1 468 -80 c 2
+ 468 -142 l 1
+ 393 -129 l 1
+ 393 -110 l 2
+ 393 -41 376 -25 293 -12 c 0
+ 144 11 76 77 76 197 c 0xb4
 444 661 m 1025xc4
 444 592 m 1025
 EndSplineSet
@@ -12814,52 +12825,54 @@ StartChar: sigma1
 Encoding: 242 962 638
 Width: 497
 Flags: W
-HStem: 430 74<200.003 346.018>
-VStem: 38 91<144.642 350.666> 354 79<-90 -40.1666>
+HStem: 430 74<200.04 346.018>
+VStem: 38 91<146.53 350.472> 354 75<-110 -38.9595>
 AnchorPoint: "Anchor-1" 270 0 basechar 0
 AnchorPoint: "Anchor-0" 275 496 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-272 62 m 0
- 168.02080205 97.1973204378 129 136 129 247 c 0
+272 62 m 4
+ 189.849008966 90.6397950392 129 121 129 247 c 0
  129 359 185 430 272 430 c 0
  322 430 366 405 388 364 c 1
  465 392 l 1
  428 462 358 504 278 504 c 0
- 135 504 38 399 38 246 c 0
- 38 91 108.394116883 31.5298106129 263 -12 c 0
- 312.160655353 -25.8413492034 354 -35.630859375 354 -90 c 2
- 354 -125 l 1
- 433 -138 l 1
- 433 -80 l 1
- 429.321289062 8.421875 348.651449641 36.0532174875 272 62 c 0
+ 135 504 38.8595369977 398.997585589 38 246 c 0
+ 37 68 145.00505664 18.873665609 262 -12 c 0
+ 334 -31 354 -37 354 -110 c 2
+ 354 -129 l 1
+ 429 -142 l 1
+ 429 -80 l 1
+ 429 4 381 24 272 62 c 4
 EndSplineSet
 EndChar
 
 StartChar: zeta
 Encoding: 230 950 639
-Width: 461
+Width: 449
 Flags: W
-HStem: 594 74<50 326>
-VStem: 34 84<151.789 335.477> 342 79<-125 -43.8547>
+HStem: 582 74<50 326>
+VStem: 34 84<155.447 325.806> 342 75<-129 -39.4235>
+AnchorPoint: "Anchor-1" 270 0 basechar 0
+AnchorPoint: "Anchor-0" 275 496 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-282 60 m 0
- 389 27 418 -2 421 -80 c 1
- 421 -138 l 1
- 342 -125 l 1
- 342 -93 l 2
- 342 -47 326 -35 242 -12 c 0
- 117 21 34 110 34 210 c 0
- 34 382 96 464 326 594 c 1
- 50 594 l 1
- 50 668 l 1
- 421 668 l 1
- 421 594 l 1
- 197 456 118 361 118 231 c 0
- 118 149 171 94 282 60 c 0
+282 62 m 4
+ 383 29 417 -6 417 -80 c 2
+ 417 -142 l 1
+ 342 -129 l 1
+ 342 -110 l 2
+ 342 -43 332 -33 242 -9 c 0
+ 116 25 34 111 34 210 c 0
+ 34 371 99 454 326 582 c 1
+ 50 582 l 1
+ 50 656 l 1
+ 421 656 l 1
+ 421 582 l 1
+ 201 447 118 350 118 231 c 0
+ 118 151 169.268763382 98.832978301 282 62 c 4
 EndSplineSet
 EndChar
 EndChars
