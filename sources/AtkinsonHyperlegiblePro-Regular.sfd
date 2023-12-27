@@ -23,7 +23,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1615339189
-ModificationTime: 1703661984
+ModificationTime: 1703666325
 PfmFamily: 33
 TTFWeight: 400
 TTFWidth: 5
@@ -88,20 +88,20 @@ MarkAttachSets: 2
 DEI: 91125
 KernClass2: 50+ 35 "'kern' Horizontal Kerning lookup 0 kerning class 1"
  307 h m n etatonos eta amacron agrave acircumflex atilde adieresis aring aacute ntilde abreve aogonek nacute ncaron hbar uni0146 hcircumflex uni01CE uni021F uni1EA1 uni1EA3 uni1EA5 uni1EA7 uni1EA9 uni1EAB uni1EAD uni1EAF uni1EB1 uni1EB3 uni1EB5 uni1EB7 aringacute uni1E27 uni1E25 napostrophe eng uni019E uni0272
- 195 A Lambda Acircumflex Atilde Adieresis Aring Agrave Aacute Amacron Abreve Aogonek uni01CD uni1EA0 uni1EA2 uni1EA4 uni1EA6 uni1EA8 uni1EAA uni1EAC uni1EAE uni1EB0 uni1EB2 uni1EB4 uni1EB6 Aringacute
+ 206 A Alphatonos Lambda Acircumflex Atilde Adieresis Aring Agrave Aacute Amacron Abreve Aogonek uni01CD uni1EA0 uni1EA2 uni1EA4 uni1EA6 uni1EA8 uni1EAA uni1EAC uni1EAE uni1EB0 uni1EB2 uni1EB4 uni1EB6 Aringacute
  1 a
  17 B uni1E02 uni1E04
- 189 b o p delta phi omicrontonos oslash thorn ograve oacute ocircumflex otilde odieresis ohungarumlaut uni1E03 uni1E57 omacron obreve oslashacute uni1ECD uni1ECF uni1ED7 uni1ED9 uni1E05 uni01EB
+ 206 b o p delta phi omega omicrontonos omegatonos oslash thorn ograve oacute ocircumflex otilde odieresis ohungarumlaut uni1E03 uni1E57 omacron obreve oslashacute uni1ECD uni1ECF uni1ED7 uni1ED9 uni1E05 uni01EB
  47 C Ccedilla Cacute Cdotaccent Ccaron Ccircumflex
  54 c sigma1 ccedilla cacute cdotaccent ccaron ccircumflex
  231 D O Omicrontonos Omegatonos Theta Phi uni03A9 Oslash eth Ograve Oacute Ocircumflex Otilde Odieresis Eth Ohungarumlaut Dcaron uni1E0A Omacron Obreve Oslashacute uni1ECC uni1ECE uni1ED0 uni1ED2 uni1ED4 uni1ED6 uni1ED8 uni1E0C uni01EA
- 165 E Xi Sigma AE OE Egrave Eacute Ecircumflex Edieresis Emacron Edotaccent Eogonek Ecaron Ebreve AEacute uni1EBC uni1EB8 uni1EBA uni1EBE uni1EC0 uni1EC2 uni1EC4 uni1EC6
+ 178 E Epsilontonos Xi Sigma AE OE Egrave Eacute Ecircumflex Edieresis Emacron Edotaccent Eogonek Ecaron Ebreve AEacute uni1EBC uni1EB8 uni1EBA uni1EBE uni1EC0 uni1EC2 uni1EC4 uni1EC6
  124 e ae oe egrave eacute ecircumflex edieresis emacron edotaccent eogonek ecaron ebreve aeacute uni1EBD uni1EB9 uni1EBB uni1EC7
  9 F uni1E1E
  38 f dcroat longs florin uni1E1F dong f_f
  46 G Gbreve Gdotaccent uni0122 Gcircumflex Gcaron
  46 g gbreve gdotaccent uni0123 gcircumflex gcaron
- 115 I Iotadieresis Igrave Iacute Icircumflex Idieresis Imacron Iogonek Idotaccent Itilde Ibreve uni1EC8 uni1ECA uni0197
+ 125 I Iotatonos Iotadieresis Igrave Iacute Icircumflex Idieresis Imacron Iogonek Idotaccent Itilde Ibreve uni1EC8 uni1ECA uni0197
  32 J IJ Jcircumflex uni01C7 uni01CA
  56 j ij uni0237 jcircumflex uni01C8 uni01C9 uni01CB uni01CC
  9 K uni0136
@@ -118,8 +118,8 @@ KernClass2: 50+ 35 "'kern' Horizontal Kerning lookup 0 kerning class 1"
  60 s sacute scircumflex scedilla scaron uni0219 uni1E61 uni1E63
  43 T Gamma Tcaron uni0162 uni021A uni1E6A Tbar
  25 t uni1E6B uni0163 uni021B
- 95 U Ugrave Uacute Ucircumflex Udieresis Umacron Uring Uhungarumlaut Uogonek Ubreve Utilde uni01D3
- 103 u uni03BC ugrave uacute ucircumflex udieresis umacron uring uhungarumlaut uogonek ubreve utilde uni01D4
+ 99 U Psi Ugrave Uacute Ucircumflex Udieresis Umacron Uring Uhungarumlaut Uogonek Ubreve Utilde uni01D3
+ 165 u upsilondieresistonos uni03BC upsilon psi upsilondieresis upsilontonos ugrave uacute ucircumflex udieresis umacron uring uhungarumlaut uogonek ubreve utilde uni01D4
  1 V
  77 v y gamma yacute ydieresis ygrave ycircumflex uni0233 uni1EF9 uni1EF5 uni1EF7
  25 W Wgrave Wacute Wdieresis
@@ -136,12 +136,12 @@ KernClass2: 50+ 35 "'kern' Horizontal Kerning lookup 0 kerning class 1"
  45 Uhorn uni1EE8 uni1EEA uni1EEC uni1EEE uni1EF0
  45 uhorn uni1EE9 uni1EEB uni1EED uni1EEF uni1EF1
  14 uni0394 lambda
- 2 pi
+ 6 pi tau
  195 A Lambda Acircumflex Atilde Adieresis Aring Agrave Aacute Amacron Abreve Aogonek uni01CD uni1EA0 uni1EA2 uni1EA4 uni1EA6 uni1EA8 uni1EAA uni1EAC uni1EAE uni1EB0 uni1EB2 uni1EB4 uni1EB6 Aringacute
  10 AE AEacute
  199 a ae amacron agrave acircumflex atilde adieresis aring aacute abreve aogonek aeacute uni01CE uni1EA1 uni1EA3 uni1EA5 uni1EA7 uni1EA9 uni1EAB uni1EAD uni1EAF uni1EB1 uni1EB3 uni1EB5 uni1EB7 aringacute
  320 C G O Q Theta Phi uni03A9 Oslash OE Ccedilla Ograve Oacute Ocircumflex Otilde Odieresis Ohungarumlaut Cacute Cdotaccent Gbreve Gdotaccent uni0122 Ccaron Omacron Ccircumflex Gcircumflex Obreve Oslashacute Gcaron Ohorn uni1ECC uni1ECE uni1ED0 uni1ED2 uni1ED4 uni1ED6 uni1ED8 uni1EDA uni1EDC uni1EDE uni1EE0 uni1EE2 uni01EA
- 528 c d e o q alphatonos alpha delta sigma1 sigma phi omicrontonos partialdiff oslash eth oe ccedilla egrave eacute ecircumflex edieresis ograve oacute ocircumflex otilde odieresis emacron edotaccent eogonek ecaron ohungarumlaut cacute cdotaccent dcroat dcaron ccaron dong uni1E0B omacron ccircumflex ebreve obreve oslashacute uni1EBD ohorn uni1EB9 uni1EBB uni1EBF uni1EC1 uni1EC3 uni1EC5 uni1EC7 uni1ECD uni1ECF uni1ED1 uni1ED3 uni1ED5 uni1ED7 uni1ED9 uni1EDB uni1EDD uni1EDF uni1EE1 uni1EE3 uni01C6 uni01F3 uni1E0D uni0256 uni01EB
+ 545 c d e o q alphatonos alpha delta sigma1 sigma phi omega omicrontonos omegatonos partialdiff oslash eth oe ccedilla egrave eacute ecircumflex edieresis ograve oacute ocircumflex otilde odieresis emacron edotaccent eogonek ecaron ohungarumlaut cacute cdotaccent dcroat dcaron ccaron dong uni1E0B omacron ccircumflex ebreve obreve oslashacute uni1EBD ohorn uni1EB9 uni1EBB uni1EBF uni1EC1 uni1EC3 uni1EC5 uni1EC7 uni1ECD uni1ECF uni1ED1 uni1ED3 uni1ED5 uni1ED7 uni1ED9 uni1EDB uni1EDD uni1EDF uni1EE1 uni1EE3 uni01C6 uni01F3 uni1E0D uni0256 uni01EB
  31 f longs uni1E1F f_f f_f_i f_f_l
  46 g gbreve gdotaccent uni0123 gcircumflex gcaron
  65 h k kgreenlandic hbar uni0137 hcircumflex uni021F uni1E27 uni1E25
@@ -155,8 +155,8 @@ KernClass2: 50+ 35 "'kern' Horizontal Kerning lookup 0 kerning class 1"
  60 s sacute scircumflex scedilla scaron uni0219 uni1E61 uni1E63
  37 T Tcaron uni0162 uni021A uni1E6A Tbar
  37 t tcaron uni0163 uni021B uni1E6B tbar
- 151 U Ugrave Uacute Ucircumflex Udieresis Utilde Umacron Ubreve Uring Uhungarumlaut Uogonek uni01D3 uni1EE4 uni1EE6 uni1EE8 uni1EEA uni1EEC uni1EEE uni1EF0
- 151 u ugrave uacute ucircumflex udieresis utilde umacron ubreve uring uhungarumlaut uogonek uni01D4 uni1EE5 uni1EE7 uni1EE9 uni1EEB uni1EED uni1EEF uni1EF1
+ 155 U Psi Ugrave Uacute Ucircumflex Udieresis Umacron Uring Uhungarumlaut Uogonek Ubreve Utilde uni01D3 uni1EE4 uni1EE6 uni1EE8 uni1EEA uni1EEC uni1EEE uni1EF0
+ 213 u upsilondieresistonos upsilon psi upsilondieresis upsilontonos ugrave uacute ucircumflex udieresis umacron uring uhungarumlaut uogonek ubreve utilde uni01D4 uni1EE5 uni1EE7 uni1EE9 uni1EEB uni1EED uni1EEF uni1EF1
  1 V
  77 v y gamma yacute ydieresis ygrave ycircumflex uni0233 uni1EF9 uni1EF5 uni1EF7
  25 W Wgrave Wacute Wdieresis
@@ -170,7 +170,7 @@ KernClass2: 50+ 35 "'kern' Horizontal Kerning lookup 0 kerning class 1"
  49 comma period quotesinglbase quotedblbase ellipsis
  14 uni0394 lambda
  11 Xi Sigma xi
- 2 pi
+ 6 pi tau
  0 {} 0 {} -19 {} 0 {} 0 {} -11 {} 0 {} -14 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -97 {} -13 {} 0 {} 0 {} -22 {} 0 {} -28 {} 0 {} 0 {} 0 {} -66 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 19 {} 0 {} 0 {} -37 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -21 {} 0 {} 0 {} 0 {} -66 {} -27 {} -28 {} -24 {} -67 {} -40 {} -47 {} -44 {} 0 {} 20 {} -66 {} 0 {} 0 {} 0 {} 0 {} 19 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -84 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -56 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -19 {} -42 {} -14 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -19 {} 0 {} 0 {} 0 {} -19 {} 0 {} -28 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -40 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -86 {} 0 {} 0 {} 0 {} -47 {} 0 {} -23 {} 0 {} -20 {} 0 {} -86 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -42 {} 0 {} -19 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -23 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -12 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -67 {} 0 {} 0 {} 0 {} 0 {} 0 {} -28 {} 0 {} 0 {} 0 {} -76 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -38 {} -70 {} -28 {} 0 {} 0 {} 0 {} 0 {} 0 {} -28 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -38 {} 0 {} 0 {} 0 {} -28 {} 0 {} -19 {} 0 {} -19 {} 0 {} -47 {} -19 {} -19 {} 0 {} 0 {} -47 {} -19 {} 0 {} 0 {} 0 {} 0 {} 0 {} -19 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 17 {} 0 {} 18 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 19 {} 0 {} 0 {} 0 {} -31 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -66 {} 0 {} 0 {} 0 {} -38 {} 0 {} -28 {} 0 {} -19 {} 0 {} -76 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -38 {} -114 {} -22 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -32 {} 0 {} 0 {} 0 {} 0 {} 0 {} 23 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -82 {} -31 {} 0 {} -21 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 28 {} 0 {} 0 {} 0 {} 0 {} 0 {} 19 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -19 {} 0 {} 0 {} 0 {} -28 {} 0 {} 0 {} 0 {} 0 {} 0 {} -47 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -76 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -47 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -27 {} 0 {} -28 {} 0 {} -21 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -28 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -28 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 24 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -47 {} -19 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -43 {} 0 {} -50 {} 0 {} -50 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 28 {} 0 {} 0 {} -19 {} -15 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -12 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 28 {} 0 {} 0 {} -37 {} 0 {} 0 {} 0 {} 0 {} 0 {} -19 {} 28 {} 0 {} 0 {} 0 {} 0 {} 0 {} -104 {} 0 {} -21 {} 0 {} -66 {} -38 {} -38 {} -47 {} 28 {} 28 {} -85 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 12 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -19 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 12 {} 0 {} 0 {} 19 {} 0 {} 0 {} 0 {} 0 {} 0 {} 34 {} 0 {} 0 {} 0 {} 0 {} 0 {} 12 {} 0 {} 27 {} 0 {} 50 {} 0 {} 40 {} 40 {} 20 {} 0 {} 40 {} 40 {} 30 {} 30 {} 0 {} 100 {} 40 {} 40 {} 0 {} 93 {} 67 {} 93 {} 53 {} 80 {} 53 {} 90 {} 54 {} 40 {} 53 {} 34 {} 0 {} 0 {} 0 {} 0 {} -82 {} -147 {} -28 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -67 {} 0 {} 0 {} 0 {} 0 {} -19 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -29 {} 0 {} -19 {} -19 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 28 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -6 {} 0 {} 0 {} 0 {} 0 {} 0 {} 19 {} 19 {} -38 {} 0 {} 19 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -47 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -28 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 18 {} 0 {} 0 {} -21 {} 0 {} 0 {} -19 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -19 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -16 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -120 {} -15 {} 0 {} 0 {} 19 {} 0 {} 0 {} 0 {} 0 {} -80 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} 16 {} 0 {} 0 {} 0 {} 26 {} 28 {} 24 {} 0 {} 21 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -27 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -19 {} 0 {} 0 {} 0 {} -14 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -7 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 21 {} 0 {} 0 {} 0 {} 0 {} 0 {} -58 {} 0 {} 0 {} 0 {} -19 {} 0 {} 0 {} 0 {} 0 {} 0 {} -56 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -66 {} -125 {} -84 {} -38 {} -86 {} 19 {} -77 {} 0 {} 0 {} 0 {} -104 {} 0 {} 0 {} -76 {} 0 {} -58 {} 22 {} 0 {} 0 {} -80 {} 38 {} -10 {} 28 {} -10 {} 0 {} -20 {} 19 {} 0 {} -60 {} 0 {} 0 {} -76 {} 0 {} -26 {} 0 {} 24 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -28 {} 0 {} 0 {} 0 {} 0 {} 19 {} 0 {} 0 {} 0 {} -28 {} -89 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -33 {} 0 {} 0 {} 0 {} 0 {} -27 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -80 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -39 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -67 {} -94 {} -38 {} -28 {} -47 {} 0 {} -36 {} 0 {} 0 {} 0 {} -38 {} 0 {} 0 {} -19 {} 0 {} -19 {} 38 {} 0 {} 0 {} 0 {} 19 {} 0 {} 19 {} 0 {} 0 {} 0 {} 19 {} 0 {} 0 {} 0 {} 0 {} -84 {} 17 {} 0 {} 0 {} -40 {} -101 {} -19 {} 0 {} 0 {} 21 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 21 {} -10 {} 0 {} 0 {} 0 {} 0 {} 10 {} 0 {} 10 {} -19 {} 0 {} 0 {} -19 {} 0 {} 0 {} 0 {} -45 {} 0 {} 0 {} 0 {} -47 {} -88 {} -28 {} -19 {} -23 {} 0 {} -28 {} 0 {} 0 {} 0 {} -28 {} 0 {} 0 {} 0 {} 0 {} 0 {} 28 {} 0 {} 0 {} 0 {} 19 {} 0 {} 19 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -57 {} 18 {} 0 {} 0 {} -44 {} -100 {} 0 {} 0 {} 0 {} 13 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} 0 {} 10 {} 0 {} 10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -40 {} 0 {} 0 {} 0 {} 0 {} 0 {} -19 {} -28 {} -20 {} 0 {} -19 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -28 {} 0 {} -19 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -19 {} 0 {} 0 {} 0 {} 0 {} 20 {} 0 {} 0 {} 0 {} -66 {} -162 {} -76 {} -47 {} -86 {} 0 {} -85 {} 0 {} 0 {} 0 {} -57 {} 0 {} 0 {} -44 {} 0 {} -57 {} 19 {} 0 {} 0 {} -38 {} 19 {} 0 {} 0 {} 0 {} 0 {} -19 {} 0 {} 0 {} -19 {} 0 {} 0 {} -76 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -28 {} 0 {} 0 {} -28 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -28 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -30 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -19 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -28 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -21 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -27 {} -53 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 40 {} 0 {} 0 {} 0 {} 27 {} 0 {} 27 {} 0 {} 13 {} 0 {} 13 {} 0 {} 0 {} 0 {} -67 {} 0 {} 0 {} 0 {} 0 {} -27 {} -40 {} 0 {} 0 {} 0 {} 0 {} 0 {} 13 {} 0 {} 13 {} 0 {} 0 {} 13 {} 0 {} 27 {} 0 {} 27 {} 26 {} 0 {} 0 {} 27 {} 40 {} 27 {} 40 {} 0 {} 27 {} 0 {} 0 {} 0 {} 0 {} -67 {} 0 {} 0 {} 0 {} 0 {} -53 {} -67 {} -27 {} 0 {} -13 {} 0 {} -14 {} 0 {} 0 {} 0 {} -13 {} 0 {} 0 {} 0 {} 0 {} 0 {} 53 {} 0 {} 0 {} -13 {} 40 {} 0 {} 40 {} 0 {} 13 {} 0 {} 27 {} 0 {} -13 {} 0 {} -67 {} 0 {} 0 {} 0 {} 0 {} -27 {} -40 {} -13 {} 0 {} -13 {} 27 {} -13 {} 0 {} 0 {} 0 {} -27 {} 0 {} 0 {} 0 {} 27 {} -13 {} 40 {} 27 {} 0 {} 0 {} 40 {} 40 {} 40 {} 40 {} 0 {} 40 {} 0 {} 0 {} 0 {} 0 {} -40 {} 0 {} 0 {} 0 {} 0 {} 19 {} 0 {} 0 {} -47 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -21 {} 0 {} 0 {} 0 {} -76 {} -27 {} -33 {} -24 {} -84 {} -45 {} -57 {} -44 {} 0 {} 20 {} -76 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -38 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {}
 ChainSub2: coverage "'ordn' Ordinals lookup 11 contextual 1" 0 0 0 1
  1 1 0
@@ -12156,34 +12156,34 @@ EndChar
 
 StartChar: psi
 Encoding: 248 968 604
-Width: 690
+Width: 674
 Flags: W
-HStem: -161 21G<303 387> -11 72<224.013 303 387 466.341> 476 20G<76 160 530 614> 648 20G<303 387>
-VStem: 76 84<127.192 496> 303 84<-161 -11 61 668> 530 84<126.728 496>
+HStem: -161 21G<295 379> -11 72<216.013 295 379 458.341> 476 20G<68 152 522 606> 648 20G<295 379>
+VStem: 68 84<127.192 496> 295 84<-161 -11 61 668> 522 84<126.728 496>
 CounterMasks: 1 0e
-AnchorPoint: "Anchor-2" 427 -161 basechar 0
-AnchorPoint: "Anchor-1" 345 -161 basechar 0
-AnchorPoint: "Anchor-0" 345 668 basechar 0
+AnchorPoint: "Anchor-2" 419 -161 basechar 0
+AnchorPoint: "Anchor-1" 337 -161 basechar 0
+AnchorPoint: "Anchor-0" 337 668 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-303 668 m 1
- 387 668 l 1
- 387 61 l 1
- 495 70 530 118 530 262 c 2
- 530 496 l 1
- 614 496 l 1
- 614 269 l 2
- 614 63 561 -3 387 -11 c 1
- 387 -161 l 1
- 303 -161 l 1
- 303 -11 l 1
- 130 -2 76 64 76 269 c 2
- 76 496 l 1
- 160 496 l 1
- 160 262 l 2
- 160 118 195 70 303 61 c 1
- 303 668 l 1
+295 668 m 1
+ 379 668 l 1
+ 379 61 l 1
+ 487 70 522 118 522 262 c 2
+ 522 496 l 1
+ 606 496 l 1
+ 606 269 l 2
+ 606 63 553 -3 379 -11 c 1
+ 379 -161 l 1
+ 295 -161 l 1
+ 295 -11 l 1
+ 122 -2 68 64 68 269 c 2
+ 68 496 l 1
+ 152 496 l 1
+ 152 262 l 2
+ 152 118 187 70 295 61 c 1
+ 295 668 l 1
 EndSplineSet
 EndChar
 
@@ -12214,31 +12214,31 @@ EndChar
 
 StartChar: phi
 Encoding: 246 966 606
-Width: 552
+Width: 592
 Flags: W
-HStem: -9 75<186.246 234 318 371.363>
-VStem: 18 90<148.545 349.564> 444 90<146.129 347.329>
+HStem: -9 75<206.246 254 338 391.363>
+VStem: 38 90<148.545 349.564> 464 90<146.129 347.329>
 LayerCount: 2
 Fore
 SplineSet
-76 420 m 17
- 38 375 18 314 18 246 c 0
- 18 105 100 8 234 -9 c 1
- 234 -161 l 1
- 318 -161 l 1
- 318 -10 l 1
- 452 6 534 103 534 246 c 0
- 534 404 434 504 276 504 c 0
- 262 504 248 503 234 501 c 1
- 234 66 l 1
- 155 83 108 150 108 246 c 0
- 108 294 118 333 136 360 c 1
- 76 420 l 17
-136 360 m 1025
-318 66 m 1
- 318 426 l 1
- 398 409 444 343 444 246 c 0
- 444 149 398 83 318 66 c 1
+96 420 m 17
+ 58 375 38 314 38 246 c 0
+ 38 105 120 8 254 -9 c 1
+ 254 -161 l 1
+ 338 -161 l 1
+ 338 -10 l 1
+ 472 6 554 103 554 246 c 0
+ 554 404 454 504 296 504 c 0
+ 282 504 268 503 254 501 c 1
+ 254 66 l 1
+ 175 83 128 150 128 246 c 0
+ 128 294 138 333 156 360 c 1
+ 96 420 l 17
+156 360 m 1025
+338 66 m 1
+ 338 426 l 1
+ 418 409 464 343 464 246 c 0
+ 464 149 418 83 338 66 c 1
 EndSplineSet
 EndChar
 
