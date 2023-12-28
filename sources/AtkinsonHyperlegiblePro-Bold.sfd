@@ -23,7 +23,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1615339189
-ModificationTime: 1703663798
+ModificationTime: 1703740739
 PfmFamily: 33
 TTFWeight: 700
 TTFWidth: 5
@@ -231,7 +231,7 @@ NameList: AGL For New Fonts
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 26 17
+WinInfo: 50 25 17
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 335544 167772 111848 520094 1048576 111848 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
@@ -6296,7 +6296,7 @@ EndChar
 
 StartChar: Eth
 Encoding: 387 208 248
-AltUni2: 000189.ffffffff.0 000110.ffffffff.0
+AltUni2: 000110.ffffffff.0 000189.ffffffff.0
 Width: 773
 GlyphClass: 2
 Flags: W
@@ -12136,9 +12136,9 @@ EndChar
 
 StartChar: sigma
 Encoding: 243 963 605
-Width: 592
+Width: 602
 Flags: W
-HStem: -12 74<202.179 350.007> 414 82<461 582> 430 66<202.68 349.32>
+HStem: -12 74<202.179 350.007> 414 82<461 592> 430 66<202.68 349.32>
 VStem: 38 90<145.313 348.602> 424 90<144.886 347.874>
 AnchorPoint: "Anchor-2" 355 0 basechar 0
 AnchorPoint: "Anchor-1" 276 0 basechar 0
@@ -12149,8 +12149,8 @@ SplineSet
  514 92 418 -12 276 -12 c 0
  135 -12 38 93 38 246 c 0
  38 397 133 496 276 496 c 2xb8
- 582 496 l 5
- 582 414 l 1
+ 592 496 l 1
+ 592 414 l 1
  461 414 l 1
  496 371 514 313 514 246 c 0xd8
 128 246 m 0
@@ -12163,26 +12163,26 @@ EndChar
 
 StartChar: tau
 Encoding: 244 964 606
-Width: 322
+Width: 362
 Flags: W
-HStem: 0 74<202.381 249>
-VStem: 114 84<78.5552 139>
+HStem: 0 74<212.381 259>
+VStem: 124 84<78.5552 139>
 LayerCount: 2
 Fore
 SplineSet
-20 414 m 17
- 114 414 l 1
- 114 124 l 2
- 114 23 136 0 231 0 c 2
- 282 0 l 1
- 282 74 l 1
- 249 74 l 2
- 205 74 198 83 198 139 c 2
- 198 414 l 1
- 302 414 l 5
- 302 496 l 1
- 20 496 l 1
- 20 414 l 17
+10 414 m 17
+ 124 414 l 1
+ 124 124 l 2
+ 124 23 146 0 241 0 c 2
+ 292 0 l 1
+ 292 74 l 1
+ 259 74 l 2
+ 215 74 208 83 208 139 c 2
+ 208 414 l 1
+ 342 414 l 1
+ 342 496 l 1
+ 10 496 l 1
+ 10 414 l 17
 EndSplineSet
 EndChar
 
