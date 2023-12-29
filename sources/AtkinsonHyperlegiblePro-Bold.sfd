@@ -23,7 +23,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1615339189
-ModificationTime: 1703751457
+ModificationTime: 1703835680
 PfmFamily: 33
 TTFWeight: 700
 TTFWidth: 5
@@ -226,17 +226,18 @@ EndFPST
 LangName: 1033 "" "" "" "" "" "Version 1.5.1" "" "" "Braille Institute" "Elliott Scott, Megan Eiswerth, Linus Boman, Theodore Petrosky, Jacob Perez" "" "https://www.BrailleInstitute.org/" "http://helloapplied.com" "This Font Software is licensed under the SIL Open Font License, Version 1.1.+AAoA-This license is copied below, and is also available with a FAQ at:+AAoA-http://scripts.sil.org/OFL+AAoACgAK------------------------------------------------------------+AAoA-SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007+AAoA------------------------------------------------------------+AAoACgAA-PREAMBLE+AAoA-The goals of the Open Font License (OFL) are to stimulate worldwide+AAoA-development of collaborative font projects, to support the font creation+AAoA-efforts of academic and linguistic communities, and to provide a free and+AAoA-open framework in which fonts may be shared and improved in partnership+AAoA-with others.+AAoACgAA-The OFL allows the licensed fonts to be used, studied, modified and+AAoA-redistributed freely as long as they are not sold by themselves. The+AAoA-fonts, including any derivative works, can be bundled, embedded, +AAoA-redistributed and/or sold with any software provided that any reserved+AAoA-names are not used by derivative works. The fonts and derivatives,+AAoA-however, cannot be released under any other type of license. The+AAoA-requirement for fonts to remain under this license does not apply+AAoA-to any document created using the fonts or their derivatives.+AAoACgAA-DEFINITIONS+AAoAIgAA-Font Software+ACIA refers to the set of files released by the Copyright+AAoA-Holder(s) under this license and clearly marked as such. This may+AAoA-include source files, build scripts and documentation.+AAoACgAi-Reserved Font Name+ACIA refers to any names specified as such after the+AAoA-copyright statement(s).+AAoACgAi-Original Version+ACIA refers to the collection of Font Software components as+AAoA-distributed by the Copyright Holder(s).+AAoACgAi-Modified Version+ACIA refers to any derivative made by adding to, deleting,+AAoA-or substituting -- in part or in whole -- any of the components of the+AAoA-Original Version, by changing formats or by porting the Font Software to a+AAoA-new environment.+AAoACgAi-Author+ACIA refers to any designer, engineer, programmer, technical+AAoA-writer or other person who contributed to the Font Software.+AAoACgAA-PERMISSION & CONDITIONS+AAoA-Permission is hereby granted, free of charge, to any person obtaining+AAoA-a copy of the Font Software, to use, study, copy, merge, embed, modify,+AAoA-redistribute, and sell modified and unmodified copies of the Font+AAoA-Software, subject to the following conditions:+AAoACgAA-1) Neither the Font Software nor any of its individual components,+AAoA-in Original or Modified Versions, may be sold by itself.+AAoACgAA-2) Original or Modified Versions of the Font Software may be bundled,+AAoA-redistributed and/or sold with any software, provided that each copy+AAoA-contains the above copyright notice and this license. These can be+AAoA-included either as stand-alone text files, human-readable headers or+AAoA-in the appropriate machine-readable metadata fields within text or+AAoA-binary files as long as those fields can be easily viewed by the user.+AAoACgAA-3) No Modified Version of the Font Software may use the Reserved Font+AAoA-Name(s) unless explicit written permission is granted by the corresponding+AAoA-Copyright Holder. This restriction only applies to the primary font name as+AAoA-presented to the users.+AAoACgAA-4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font+AAoA-Software shall not be used to promote, endorse or advertise any+AAoA-Modified Version, except to acknowledge the contribution(s) of the+AAoA-Copyright Holder(s) and the Author(s) or with their explicit written+AAoA-permission.+AAoACgAA-5) The Font Software, modified or unmodified, in part or in whole,+AAoA-must be distributed entirely under this license, and must not be+AAoA-distributed under any other license. The requirement for fonts to+AAoA-remain under this license does not apply to any document created+AAoA-using the Font Software.+AAoACgAA-TERMINATION+AAoA-This license becomes null and void if any of the above conditions are+AAoA-not met.+AAoACgAA-DISCLAIMER+AAoA-THE FONT SOFTWARE IS PROVIDED +ACIA-AS IS+ACIA, WITHOUT WARRANTY OF ANY KIND,+AAoA-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF+AAoA-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT+AAoA-OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE+AAoA-COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,+AAoA-INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL+AAoA-DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING+AAoA-FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM+AAoA-OTHER DEALINGS IN THE FONT SOFTWARE." "http://scripts.sil.org/OFL"
 GaspTable: 1 65535 15 1
 Encoding: iso8859-7
+Compacted: 1
 UnicodeInterp: none
 NameList: AGL For New Fonts
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 325 25 17
+WinInfo: 0 25 17
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 335544 167772 111848 520094 1048576 111848 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "Anchor-0" "'mark' Mark Positioning lookup 1 subtable" "Anchor-1" "'mark' Mark Positioning lookup 1 subtable" "Anchor-2" "'mark' Mark Positioning lookup 1 subtable" "Anchor-3" "'mkmk' Mark to Mark lookup 2 subtable" "Anchor-4" "'mkmk' Mark to Mark lookup 3 subtable"
-BeginChars: 728 620
+BeginChars: 729 622
 
 StartChar: .notdef
 Encoding: 256 -1 0
@@ -11388,7 +11389,7 @@ Encoding: 713 598 576
 Width: 610
 Flags: W
 HStem: -161 124<552.433 675> -12 118<230.795 332.852> 392 118<230.529 329.571> 648 20G<394 546>
-VStem: 24 158<162.066 340.812> 394 152<nan 668>
+VStem: 24 158<162.066 340.812> 394 152
 AnchorPoint: "Anchor-1" 243 0 basechar 0
 AnchorPoint: "Anchor-0" 240 496 basechar 0
 LayerCount: 2
@@ -11549,7 +11550,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni019E
-Encoding: 727 414 582
+Encoding: 719 414 582
 Width: 572
 Flags: W
 HStem: -161 21G<370 522> 0 21G<50 202> 392 118<266.512 414> 476 20G<50 188.758>
@@ -11768,7 +11769,7 @@ EndSplineSet
 EndChar
 
 StartChar: kgreenlandic
-Encoding: 726 312 589
+Encoding: 234 312 589
 AltUni2: 0003ba.ffffffff.0
 Width: 567
 Flags: W
@@ -11940,7 +11941,7 @@ Encoding: 211 931 597
 Width: 575
 Flags: W
 HStem: 0 128<208 553> 540 128<208 553>
-VStem: 235 192<238 430>
+VStem: 235 190<239 429>
 LayerCount: 2
 Fore
 SplineSet
@@ -11951,9 +11952,9 @@ SplineSet
  18 668 l 1
  553 668 l 1
  553 540 l 1
- 208 540 l 5
- 427 334 l 5
- 208 128 l 5
+ 208 540 l 1
+ 425 334 l 5
+ 208 128 l 1
  553 128 l 1
  553 0 l 1
  18 0 l 1
@@ -12570,6 +12571,50 @@ SplineSet
  394 -125 l 1
  394 -85 l 2
  394 -30 388 -26 293 -8 c 0
+EndSplineSet
+EndChar
+
+StartChar: uni025B
+Encoding: 727 603 620
+Width: 419
+Flags: W
+HStem: -12 69<147.161 301.618> 227 60<151.81 275> 436 68<150.305 295.705>
+VStem: 30 84<88.6541 199.125> 39 84<314.615 410.023>
+AnchorPoint: "Anchor-2" 355 0 basechar 0
+AnchorPoint: "Anchor-1" 276 0 basechar 0
+AnchorPoint: "Anchor-0" 205 496 basechar 0
+LayerCount: 2
+Fore
+Refer: 618 949 S 1 0 0 1 -8 0 2
+EndChar
+
+StartChar: uni025C
+Encoding: 728 604 621
+Width: 419
+Flags: W
+HStem: -12 69<117.382 271.839> 227 60<144 267.19> 436 68<123.295 268.695>
+VStem: 296 84<314.615 410.023> 305 84<88.6541 199.125>
+LayerCount: 2
+Fore
+SplineSet
+389 142 m 0xe8
+ 389 55 313 -12 214 -12 c 0
+ 124 -12 59 19 30 77 c 1
+ 89 115 l 1
+ 108 74 142 57 203 57 c 0
+ 262 57 305 93 305 144 c 0xe8
+ 305 199 265 227 187 227 c 2
+ 144 227 l 1
+ 144 287 l 1
+ 183 287 l 2
+ 252 287 296 315 296 360 c 0
+ 296 405 257 436 199 436 c 0
+ 151 436 101 410 93 381 c 1
+ 35 419 l 1
+ 65 474 128 504 214 504 c 0
+ 308 504 380 444 380 365 c 0xf0
+ 380 318 353 275 312 257 c 1
+ 361 238 389 196 389 142 c 0xe8
 EndSplineSet
 EndChar
 EndChars
