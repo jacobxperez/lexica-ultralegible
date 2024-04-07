@@ -1,5 +1,0 @@
-@media screen and (max-width: $screen-small-max-width) {
-    @include _small-grid();
-    @include _small-screen();
-    @include _small-display();
-}
