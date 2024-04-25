@@ -27,13 +27,13 @@
         "@parcel/optimizer-terser": "^2.10.1",
         "parcel": "^2.10.1",
         "parcel-optimizer-friendly-urls": "^0.2.0",
-        "postcss": "^8.4.31",
-        "postcss-advanced-variables": "^3.0.1",
-        "postcss-custom-selectors": "^7.1.6",
-        "postcss-import": "^15.1.0",
-        "postcss-mixins": "^9.0.4",
-        "postcss-nesting": "^12.0.1",
+        "postcss": "^8.4.38",
+        "postcss-advanced-variables": "^4.0.0",
+        "postcss-custom-selectors": "^7.1.8",
+        "postcss-import": "^16.1.0",
+        "postcss-mixins": "^10.0.1",
+        "postcss-nesting": "^12.1.2",
         "postcss-variable-compress": "^3.0.0",
-        "prettier": "3.0.3"
+        "prettier": "3.2.5"
     }
 }
