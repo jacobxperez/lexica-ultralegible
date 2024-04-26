@@ -24,8 +24,8 @@
     "homepage": "https://github.com/jacobxperez/rams/",
     "devDependencies": {
         "@mischnic/parcel-namer-preserve-structure": "^0.2.0",
-        "@parcel/optimizer-terser": "^2.10.1",
-        "parcel": "^2.10.1",
+        "@parcel/optimizer-terser": "^2.11.0",
+        "parcel": "^2.11.0",
         "parcel-optimizer-friendly-urls": "^0.2.0",
         "postcss": "^8.4.38",
         "postcss-advanced-variables": "^4.0.0",
