@@ -118,7 +118,7 @@ Licensed under the SIL Open Font License, v1.1. See [LICENSE.txt](LICENSE.txt) f
 
 ### Code
 
-Copyright (C) 2023 [Jacob Perez](https://jacobxperez.github.io/blog/)
+Copyright (C) 2024 [Jacob Perez](https://jacobxperez.github.io/blog/)
 
 Licensed under the [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0) (the "License");
 you may not use this file except in compliance with the License.
