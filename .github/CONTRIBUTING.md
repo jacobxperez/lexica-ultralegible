@@ -43,20 +43,19 @@ npm install
 On your terminal run these scripts to compile
 
 * `npm run dev` serve current development build
-* `npm run watch` watch for changes but does not start server
 * `npm run build` makes current build
 
 ### Framework
 
-We are using [Rams](https://github.com/jacobxperez/rams) as our website framework. Do **not** edit the [core](https://github.com/jacobxperez/atkinson-hyperlegible-pro/tree/main/website/css/core) files because they are part of the Rams core framework files. However, you can edit the [custom](https://github.com/jacobxperez/atkinson-hyperlegible-pro/tree/main/website/css/custom) folder files the [main.css](https://github.com/jacobxperez/atkinson-hyperlegible-pro/blob/main/website/css/main.css) or the [var.css](https://github.com/jacobxperez/atkinson-hyperlegible-pro/blob/main/website/css/var.css) if any change is accepted by the maintainers. Any new CSS file should be added in the [custom](https://github.com/jacobxperez/atkinson-hyperlegible-pro/tree/main/website/css/custom) folder then linked in the [main.css](https://github.com/jacobxperez/atkinson-hyperlegible-pro/blob/main/website/css/main.css) file for compiling.
+We are using [Rams](https://github.com/jacobxperez/rams) as our website framework. Do **not** edit the [core](https://github.com/jacobxperez/atkinson-hyperlegible-pro/tree/main/sources/website/css/core) files because they are part of the Rams core framework files. However, you can edit the [custom](https://github.com/jacobxperez/atkinson-hyperlegible-pro/tree/main/sources/website/css/custom) folder files the [main.css](https://github.com/jacobxperez/atkinson-hyperlegible-pro/blob/main/sources/website/css/main.css) or the [var.css](https://github.com/jacobxperez/atkinson-hyperlegible-pro/blob/main/sources/website/css/var.css) if any change is accepted by the maintainers. Any new CSS file should be added in the [custom](https://github.com/jacobxperez/atkinson-hyperlegible-pro/tree/main/sources/website/css/custom) folder then linked in the [main.css](https://github.com/jacobxperez/atkinson-hyperlegible-pro/blob/main/sources/website/css/main.css) file for compiling.
 
 ### CSS Files
 
-* [/css](https://github.com/jacobxperez/atkinson-hyperlegible-pro/tree/main/website/css/)
-  * [core](https://github.com/jacobxperez/atkinson-hyperlegible-pro/tree/main/website/css/core) (important files for compiling)
-  * [custom](https://github.com/jacobxperez/atkinson-hyperlegible-pro/tree/main/website/css/custom) (add custom modules here)
-  * [main.css](https://github.com/jacobxperez/atkinson-hyperlegible-pro/blob/main/website/css/main.css) (compile to produce the final CSS)
-  * [var.css](https://github.com/jacobxperez/atkinson-hyperlegible-pro/blob/main/website/css/var.css) (variables for font, colors, and more)
+* [/css](https://github.com/jacobxperez/atkinson-hyperlegible-pro/tree/main/sources/website/css/)
+  * [core](https://github.com/jacobxperez/atkinson-hyperlegible-pro/tree/main/sources/website/css/core) (important files for compiling)
+  * [custom](https://github.com/jacobxperez/atkinson-hyperlegible-pro/tree/main/sources/website/css/custom) (add custom modules here)
+  * [main.css](https://github.com/jacobxperez/atkinson-hyperlegible-pro/blob/main/sources/website/css/main.css) (compile to produce the final CSS)
+  * [var.css](https://github.com/jacobxperez/atkinson-hyperlegible-pro/blob/main/sources/website/css/var.css) (variables for font, colors, and more)
 
 ## Pull Requests
 
