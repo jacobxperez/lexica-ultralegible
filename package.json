@@ -1,13 +1,10 @@
 {
     "name": "atkinson-hyperlegible-pro",
-    "version": "1.0.0",
+    "version": "1.5.1",
     "description": "An updated and extended version of Atkinson Hyperlegible",
-    "source": [
-        "website/index.html"
-    ],
 	"targets": {
         "dev": {
-            "source": "website/index.html",
+            "source": "./sources/website/index.html",
             "distDir": "./docs/"
         }
       },
