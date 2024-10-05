@@ -1,38 +1,38 @@
 @font-face {
-    font-family: "Atkinson Hyperlegible Pro";
+    font-family: "Lexica Ultralegible";
     src:
-        local("Atkinson Hyperlegible Pro"),
-        url("/src/fonts/atkinson-hyperlegible-pro/AtkinsonHyperPro-Regular.woff2")
+        local("Lexica Ultralegible"),
+        url("/src/fonts/lexica-ultralegible/AtkinsonHyperPro-Regular.woff2")
             format("woff2");
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
-    font-family: "Atkinson Hyperlegible Pro";
+    font-family: "Lexica Ultralegible";
     src:
-        local("Atkinson Hyperlegible Pro"),
-        url("/src/fonts/atkinson-hyperlegible-pro/AtkinsonHyperPro-Italic.woff2")
+        local("Lexica Ultralegible"),
+        url("/src/fonts/lexica-ultralegible/AtkinsonHyperPro-Italic.woff2")
             format("woff2");
     font-weight: 400;
     font-style: italic;
 }
 
 @font-face {
-    font-family: "Atkinson Hyperlegible Pro";
+    font-family: "Lexica Ultralegible";
     src:
-        local("Atkinson Hyperlegible Pro"),
-        url("/src/fonts/atkinson-hyperlegible-pro/AtkinsonHyperPro-Bold.woff2")
+        local("Lexica Ultralegible"),
+        url("/src/fonts/lexica-ultralegible/AtkinsonHyperPro-Bold.woff2")
             format("woff2");
     font-weight: 700;
     font-style: normal;
 }
 
 @font-face {
-    font-family: "Atkinson Hyperlegible Pro";
+    font-family: "Lexica Ultralegible";
     src:
-        local("Atkinson Hyperlegible Pro"),
-        url("/src/fonts/atkinson-hyperlegible-pro/AtkinsonHyperPro-BoldItalic.woff2")
+        local("Lexica Ultralegible"),
+        url("/src/fonts/lexica-ultralegible/AtkinsonHyperPro-BoldItalic.woff2")
             format("woff2");
     font-weight: 700;
     font-style: italic;
