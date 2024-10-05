@@ -1,39 +1,39 @@
 {
-    "name": "atkinson-hyperlegible-pro",
+    "name": "lexica-ultralegible",
     "version": "1.5.1",
     "description": "An updated and extended version of Atkinson Hyperlegible",
-	"targets": {
+    "targets": {
         "dev": {
             "source": "./sources/website/index.html",
             "distDir": "./docs/"
         }
-      },
+    },
     "scripts": {
         "dev": "parcel serve --target dev --no-source-maps",
-        "build": "parcel build --target dev --no-source-maps --no-content-hash --public-url /atkinson-hyperlegible-pro/"
+        "build": "parcel build --target dev --no-source-maps --no-content-hash --public-url /lexica-ultralegible/"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/jacobxperez/atkinson-hyperlegible-pro.git"
+        "url": "git+https://github.com/jacobxperez/lexica-ultralegible.git"
     },
     "author": "Jacob Perez",
     "license": "Apache-2.0",
     "bugs": {
-        "url": "https://github.com/jacobxperez/atkinson-hyperlegible-pro/issues"
+        "url": "https://github.com/jacobxperez/lexica-ultralegible/issues"
     },
-    "homepage": "https://github.com/jacobxperez/atkinson-hyperlegible-pro/",
+    "homepage": "https://github.com/jacobxperez/lexica-ultralegible/",
     "devDependencies": {
         "@mischnic/parcel-namer-preserve-structure": "^0.2.0",
-        "@parcel/optimizer-terser": "^2.11.0",
-        "parcel": "^2.11.0",
+        "@parcel/optimizer-terser": "^2.12.0",
+        "parcel": "^2.12.0",
         "parcel-optimizer-friendly-urls": "^0.2.0",
-        "postcss": "^8.4.38",
+        "postcss": "^8.4.47",
         "postcss-advanced-variables": "^4.0.0",
-        "postcss-custom-selectors": "^7.1.8",
+        "postcss-custom-selectors": "^8.0.1",
         "postcss-import": "^16.1.0",
-        "postcss-mixins": "^10.0.1",
-        "postcss-nesting": "^12.1.2",
+        "postcss-mixins": "^11.0.3",
+        "postcss-nesting": "^13.0.0",
         "postcss-variable-compress": "^3.0.0",
-        "prettier": "3.2.5"
+        "prettier": "3.3.3"
     }
 }

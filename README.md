@@ -1,6 +1,4 @@
-# [Atkinson Hyperlegible Pro](https://jacobxperez.github.io/atkinson-hyperlegible-pro/)
-
-An updated and extended version of [Atkinson Hyperlegible](https://github.com/googlefonts/atkinson-hyperlegible).
+# [Lexica Ultralegible](https://jacobxperez.github.io/lexica-ultralegible/)
 
 ---
 ![banner](docs/banner.jpg)
@@ -22,7 +20,7 @@ An updated and extended version of [Atkinson Hyperlegible](https://github.com/go
 
 ## Overview
 
-Atkinson Hyperlegible Pro is an updated and extended version of the original typeface, which was initially designed for The Braille Institute and named after its founder, J. Robert Atkinson. It was specifically designed to improve character recognition and legibility for low-vision readers by incorporating distinctive and unambiguous letterform’s. The typeface was a Winner of Fast Company’s 2019 Innovation By Design Award.
+Lexica Ultralegible was specifically designed to improve character recognition and legibility for low-vision readers by incorporating distinctive and unambiguous letterform’s.
 
 * Four fonts, including two weights (regular, italic, bold, bold italic)
 * An additional 222 glyphs supporting 102 languages
@@ -35,7 +33,7 @@ Atkinson Hyperlegible Pro is an updated and extended version of the original typ
 
 ### Design Features
 
-Designed for low-vision readers, certain letters and numbers can be hard to distinguish from one another. Atkinson Hyperlegible Pro differentiates common misinterpreted letters and numbers using various design techniques: B vs. 8, 1 vs. L vs. l vs. I. Recognizable Footprints: Character boundaries are clearly defined, ensuring understanding across the visual-ability spectrum.
+Designed for low-vision readers, certain letters and numbers can be hard to distinguish from one another. Lexica Ultralegible differentiates common misinterpreted letters and numbers using various design techniques: B vs. 8, 1 vs. L vs. l vs. I. Recognizable Footprints: Character boundaries are clearly defined, ensuring understanding across the visual-ability spectrum.
 
 > `Q vs G, E vs F, p vs q, i vs r, O vs 0`
 
@@ -51,8 +49,8 @@ Angled spurs and differentiated tails: Increase recognition and define distincti
 
 ### Installing the Font
 
-* [Download](https://github.com/jacobxperez/atkinson-hyperlegible-pro/archive/refs/heads/release.zip) the font from the release branch.
-* Extract the file to reveal additional folders inside. Find the Open Type Format (.otf) files for the four Atkinson Hyperlegible Pro fonts (regular, italic, bold, bold italic) inside the “[fonts/otf](https://github.com/jacobxperez/atkinson-hyperlegible-pro/tree/main/fonts/otf)” folder.
+* [Download](https://github.com/jacobxperez/lexica-ultralegible/archive/refs/heads/release.zip) the font from the release branch.
+* Extract the file to reveal additional folders inside. Find the Open Type Format (.otf) files for the four Lexica Ultralegible fonts (regular, italic, bold, bold italic) inside the “[fonts/otf](https://github.com/jacobxperez/lexica-ultralegible/tree/main/fonts/otf)” folder.
 * Note: Only the otf files are needed to install the font on a computer.
 * On Windows 10: Double-click the font file, then click the “Install” button in the font preview window that opens. The font will be installed. Alternatively, right-click on the file and choose “Install” from the pop-up menu.
 * On Mac: Double-click the font file in the Finder, then click “Install Font” in the font preview window that opens. After your Mac validates the font and opens the Font Book app, the font is installed and available for use.
@@ -71,7 +69,7 @@ By default the zero remains with a backslash `\` this was done to prevent confus
 
 ```css
 body {
-  font-family: "Atkinson Hyperlegible Pro", "Atkinson Hyperlegible", Helvetica, Arial, sans-serif;
+  font-family: "Lexica Ultralegible", "Atkinson Hyperlegible", Helvetica, Arial, sans-serif;
   font-size: 100%;
   font-weight: 400;
   font-variant-numeric: slashed-zero;
@@ -104,8 +102,8 @@ h1, h2, h3 {
 
 ## Contributing
 
-Help us improve Atkinson Hyperlegible Pro for everyone, any contribution or feedback is welcome.
-Please read our [contributing guidelines](https://github.com/jacobxperez/atkinson-hyperlegible-pro/blob/main/.github/CONTRIBUTING.md)
+Help us improve Lexica Ultralegible for everyone, any contribution or feedback is welcome.
+Please read our [contributing guidelines](https://github.com/jacobxperez/lexica-ultralegible/blob/main/.github/CONTRIBUTING.md)
 before embarking on any significant pull request.
 
 ## LICENSE
@@ -116,7 +114,7 @@ Copyright (C) 2020 [Braille Institute of America, Inc](https://brailleinstitute.
 
 Licensed under the SIL Open Font License, v1.1. See [LICENSE.txt](LICENSE.txt) for details.
 
-### Code
+### Website Code
 
 Copyright (C) 2024 [Jacob Perez](https://jacobxperez.github.io/blog/)
 

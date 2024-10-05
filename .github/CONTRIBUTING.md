@@ -1,6 +1,6 @@
 # Contributing
 
-Welcome designers, help us improve Atkinson Hyperlegible Pro for everyone. Before you start contributing to this project, it's important to read the following sections to better understand it's vision. If you come across any [font issue](#font-issue) or have any [feature requests](#feature-requests), please use the [issue tracker](https://github.com/jacobxperez/atkinson-hyperlegible-pro/issues). You can also submit a project [proposal](#proposals) and engage with the community by opening a [discussion](https://github.com/jacobxperez/atkinson-hyperlegible-pro/discussions). Any contribution or feedback is welcome.
+Welcome designers, help us improve Lexica Ultralegible for everyone. Before you start contributing to this project, it's important to read the following sections to better understand it's vision. If you come across any [font issue](#font-issue) or have any [feature requests](#feature-requests), please use the [issue tracker](https://github.com/jacobxperez/lexica-ultralegible/issues). You can also submit a project [proposal](#proposals) and engage with the community by opening a [discussion](https://github.com/jacobxperez/lexica-ultralegible/discussions). Any contribution or feedback is welcome.
 
 ---
 
@@ -47,24 +47,24 @@ On your terminal run these scripts to compile
 
 ### Framework
 
-We are using [Rams](https://github.com/jacobxperez/rams) as our website framework. Do **not** edit the [core](https://github.com/jacobxperez/atkinson-hyperlegible-pro/tree/main/sources/website/css/core) files because they are part of the Rams core framework files. However, you can edit the [custom](https://github.com/jacobxperez/atkinson-hyperlegible-pro/tree/main/sources/website/css/custom) folder files the [main.css](https://github.com/jacobxperez/atkinson-hyperlegible-pro/blob/main/sources/website/css/main.css) or the [var.css](https://github.com/jacobxperez/atkinson-hyperlegible-pro/blob/main/sources/website/css/var.css) if any change is accepted by the maintainers. Any new CSS file should be added in the [custom](https://github.com/jacobxperez/atkinson-hyperlegible-pro/tree/main/sources/website/css/custom) folder then linked in the [main.css](https://github.com/jacobxperez/atkinson-hyperlegible-pro/blob/main/sources/website/css/main.css) file for compiling.
+We are using [Rams](https://github.com/jacobxperez/rams) as our website framework. Do **not** edit the [core](https://github.com/jacobxperez/lexica-ultralegible/tree/main/sources/website/css/core) files because they are part of the Rams core framework files. However, you can edit the [custom](https://github.com/jacobxperez/lexica-ultralegible/tree/main/sources/website/css/custom) folder files the [main.css](https://github.com/jacobxperez/lexica-ultralegible/blob/main/sources/website/css/main.css) or the [var.css](https://github.com/jacobxperez/lexica-ultralegible/blob/main/sources/website/css/var.css) if any change is accepted by the maintainers. Any new CSS file should be added in the [custom](https://github.com/jacobxperez/lexica-ultralegible/tree/main/sources/website/css/custom) folder then linked in the [main.css](https://github.com/jacobxperez/lexica-ultralegible/blob/main/sources/website/css/main.css) file for compiling.
 
 ### CSS Files
 
-* [/css](https://github.com/jacobxperez/atkinson-hyperlegible-pro/tree/main/sources/website/css/)
-  * [core](https://github.com/jacobxperez/atkinson-hyperlegible-pro/tree/main/sources/website/css/core) (important files for compiling)
-  * [custom](https://github.com/jacobxperez/atkinson-hyperlegible-pro/tree/main/sources/website/css/custom) (add custom modules here)
-  * [main.css](https://github.com/jacobxperez/atkinson-hyperlegible-pro/blob/main/sources/website/css/main.css) (compile to produce the final CSS)
-  * [var.css](https://github.com/jacobxperez/atkinson-hyperlegible-pro/blob/main/sources/website/css/var.css) (variables for font, colors, and more)
+* [/css](https://github.com/jacobxperez/lexica-ultralegible/tree/main/sources/website/css/)
+  * [core](https://github.com/jacobxperez/lexica-ultralegible/tree/main/sources/website/css/core) (important files for compiling)
+  * [custom](https://github.com/jacobxperez/lexica-ultralegible/tree/main/sources/website/css/custom) (add custom modules here)
+  * [main.css](https://github.com/jacobxperez/lexica-ultralegible/blob/main/sources/website/css/main.css) (compile to produce the final CSS)
+  * [var.css](https://github.com/jacobxperez/lexica-ultralegible/blob/main/sources/website/css/var.css) (variables for font, colors, and more)
 
 ## Pull Requests
 
 Before embarking on any significant pull request, ask first by submitting an
-[issue](https://github.com/jacobxperez/atkinson-hyperlegible-pro/issues/new/choose)
-or starting a [discussion](https://github.com/jacobxperez/atkinson-hyperlegible-pro/discussions).
+[issue](https://github.com/jacobxperez/lexica-ultralegible/issues/new/choose)
+or starting a [discussion](https://github.com/jacobxperez/lexica-ultralegible/discussions).
 Otherwise, you may end up spending a lot of time working on something that we might
 not want to merge into the project. Any contribution to this project will be subject
-to the same terms and conditions of the [license agreement](https://github.com/jacobxperez/atkinson-hyperlegible-pro#license).
+to the same terms and conditions of the [license agreement](https://github.com/jacobxperez/lexica-ultralegible#license).
 Be precise on your pull request, and do **not** try to submit changes that were
 not agreed upon. When contributing to this project, ask yourself these questions:
 
@@ -76,20 +76,20 @@ not agreed upon. When contributing to this project, ask yourself these questions
 
 When submitting an issue, it is crucial to provide us with as much detail as
 possible so that we can find the best solution to your problem. Please use the
-[issue](https://github.com/jacobxperez/atkinson-hyperlegible-pro/issues/new/choose)
+[issue](https://github.com/jacobxperez/lexica-ultralegible/issues/new/choose)
 template that best describes your concern.
 
 **note**: Submitting an issue does **not** guarantee that your issue will be solved.
 
 ## Help Us Fix An Issue
 
-There might be a couple of [issues](https://github.com/jacobxperez/atkinson-hyperlegible-pro/issues)
+There might be a couple of [issues](https://github.com/jacobxperez/lexica-ultralegible/issues)
 that need your help. If no one is working on an issue, you can ask to get assigned one.
 
 ## Font Issue
 
 Before submitting a font issue make sure your issue is not already reported on the
-[issue](https://github.com/jacobxperez/atkinson-hyperlegible-pro/issues) tracker.
+[issue](https://github.com/jacobxperez/lexica-ultralegible/issues) tracker.
 If not, use the font issue template to report any problem you may have encountered.
 
 ## Feature Requests
@@ -108,7 +108,7 @@ the project maintainers might have. If your proposal is approved, we will assign
 
 ## Projects
 
-We might have a couple of [projects](https://github.com/jacobxperez/atkinson-hyperlegible-pro/projects?query=is%3Aopen)
+We might have a couple of [projects](https://github.com/jacobxperez/lexica-ultralegible/projects?query=is%3Aopen)
 open that need your help. Let us know if you want to contribute to any of them by opening
-an [issue](https://github.com/jacobxperez/atkinson-hyperlegible-pro/issues/new/choose)
-or starting a [discussion](https://github.com/jacobxperez/atkinson-hyperlegible-pro/discussions).
+an [issue](https://github.com/jacobxperez/lexica-ultralegible/issues/new/choose)
+or starting a [discussion](https://github.com/jacobxperez/lexica-ultralegible/discussions).

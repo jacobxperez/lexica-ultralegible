@@ -50,7 +50,7 @@ let templateURL;
 location.hostname === 'localhost' || location.hostname === '127.0.0.1'
     ? (templateURL = window.location.origin + '/templates/a.d8a682f1.html')
     : (templateURL =
-          window.location.origin + '/atkinson-hyperlegible-pro/templates/a.a2e7043d.html');
+          window.location.origin + '/lexica-ultralegible/templates/a.a2e7043d.html');
 
 // create main layout
 let layout = `
