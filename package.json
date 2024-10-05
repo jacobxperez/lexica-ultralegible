@@ -1,7 +1,8 @@
 {
+    "type": "module",
     "name": "lexica-ultralegible",
-    "version": "1.5.1",
-    "description": "An updated and extended version of Atkinson Hyperlegible",
+    "version": "1",
+    "description": "Lexica Ultralegible is a modern typeface inspired by the principles of legibility and clarity, building on the foundation of the Atkinson Hyperlegible typeface.",
     "targets": {
         "dev": {
             "source": "./sources/website/index.html",
