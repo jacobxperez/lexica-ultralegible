@@ -20,8 +20,6 @@
 
 ## Overview
 
-Lexica Ultralegible was specifically designed to improve character recognition and legibility for low-vision readers by incorporating distinctive and unambiguous letterform’s.
-
 * Four fonts, including two weights (regular, italic, bold, bold italic)
 * An additional 222 glyphs supporting 102 languages
 * Supports 340 orthographies according to [Hyperglot](https://hyperglot.rosettatype.com/)
