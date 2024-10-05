@@ -23,7 +23,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1618935638
-ModificationTime: 1728102232
+ModificationTime: 1728110204
 PfmFamily: 33
 TTFWeight: 400
 TTFWidth: 5
@@ -223,7 +223,7 @@ ChainSub2: coverage "'ccmp' Glyph Composition/Decomposition lookup 2 contextual 
  1
   SeqLookup: 0 "Single Substitution lookup 3"
 EndFPST
-LangName: 1033 "" "" "" "" "" "Version 1" "" "" "Braille Institute" "Elliott Scott, Megan Eiswerth, Linus Boman, Theodore Petrosky, Jacob Perez" "" "https://www.BrailleInstitute.org/" "https://jacobxperez.github.io/blog/" "This Font Software is licensed under the SIL Open Font License, Version 1.1.+AAoA-This license is copied below, and is also available with a FAQ at:+AAoA-http://scripts.sil.org/OFL+AAoACgAK------------------------------------------------------------+AAoA-SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007+AAoA------------------------------------------------------------+AAoACgAA-PREAMBLE+AAoA-The goals of the Open Font License (OFL) are to stimulate worldwide+AAoA-development of collaborative font projects, to support the font creation+AAoA-efforts of academic and linguistic communities, and to provide a free and+AAoA-open framework in which fonts may be shared and improved in partnership+AAoA-with others.+AAoACgAA-The OFL allows the licensed fonts to be used, studied, modified and+AAoA-redistributed freely as long as they are not sold by themselves. The+AAoA-fonts, including any derivative works, can be bundled, embedded, +AAoA-redistributed and/or sold with any software provided that any reserved+AAoA-names are not used by derivative works. The fonts and derivatives,+AAoA-however, cannot be released under any other type of license. The+AAoA-requirement for fonts to remain under this license does not apply+AAoA-to any document created using the fonts or their derivatives.+AAoACgAA-DEFINITIONS+AAoAIgAA-Font Software+ACIA refers to the set of files released by the Copyright+AAoA-Holder(s) under this license and clearly marked as such. This may+AAoA-include source files, build scripts and documentation.+AAoACgAi-Reserved Font Name+ACIA refers to any names specified as such after the+AAoA-copyright statement(s).+AAoACgAi-Original Version+ACIA refers to the collection of Font Software components as+AAoA-distributed by the Copyright Holder(s).+AAoACgAi-Modified Version+ACIA refers to any derivative made by adding to, deleting,+AAoA-or substituting -- in part or in whole -- any of the components of the+AAoA-Original Version, by changing formats or by porting the Font Software to a+AAoA-new environment.+AAoACgAi-Author+ACIA refers to any designer, engineer, programmer, technical+AAoA-writer or other person who contributed to the Font Software.+AAoACgAA-PERMISSION & CONDITIONS+AAoA-Permission is hereby granted, free of charge, to any person obtaining+AAoA-a copy of the Font Software, to use, study, copy, merge, embed, modify,+AAoA-redistribute, and sell modified and unmodified copies of the Font+AAoA-Software, subject to the following conditions:+AAoACgAA-1) Neither the Font Software nor any of its individual components,+AAoA-in Original or Modified Versions, may be sold by itself.+AAoACgAA-2) Original or Modified Versions of the Font Software may be bundled,+AAoA-redistributed and/or sold with any software, provided that each copy+AAoA-contains the above copyright notice and this license. These can be+AAoA-included either as stand-alone text files, human-readable headers or+AAoA-in the appropriate machine-readable metadata fields within text or+AAoA-binary files as long as those fields can be easily viewed by the user.+AAoACgAA-3) No Modified Version of the Font Software may use the Reserved Font+AAoA-Name(s) unless explicit written permission is granted by the corresponding+AAoA-Copyright Holder. This restriction only applies to the primary font name as+AAoA-presented to the users.+AAoACgAA-4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font+AAoA-Software shall not be used to promote, endorse or advertise any+AAoA-Modified Version, except to acknowledge the contribution(s) of the+AAoA-Copyright Holder(s) and the Author(s) or with their explicit written+AAoA-permission.+AAoACgAA-5) The Font Software, modified or unmodified, in part or in whole,+AAoA-must be distributed entirely under this license, and must not be+AAoA-distributed under any other license. The requirement for fonts to+AAoA-remain under this license does not apply to any document created+AAoA-using the Font Software.+AAoACgAA-TERMINATION+AAoA-This license becomes null and void if any of the above conditions are+AAoA-not met.+AAoACgAA-DISCLAIMER+AAoA-THE FONT SOFTWARE IS PROVIDED +ACIA-AS IS+ACIA, WITHOUT WARRANTY OF ANY KIND,+AAoA-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF+AAoA-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT+AAoA-OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE+AAoA-COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,+AAoA-INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL+AAoA-DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING+AAoA-FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM+AAoA-OTHER DEALINGS IN THE FONT SOFTWARE." "http://scripts.sil.org/OFL"
+LangName: 1033 "" "" "" "" "" "Version 1" "" "" "Braille Institute" "Jacob Perez, Elliott Scott, Megan Eiswerth, Linus Boman, Theodore Petrosky" "" "https://www.BrailleInstitute.org/" "https://jacobxperez.github.io/blog/" "This Font Software is licensed under the SIL Open Font License, Version 1.1.+AAoA-This license is copied below, and is also available with a FAQ at:+AAoA-http://scripts.sil.org/OFL+AAoACgAK------------------------------------------------------------+AAoA-SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007+AAoA------------------------------------------------------------+AAoACgAA-PREAMBLE+AAoA-The goals of the Open Font License (OFL) are to stimulate worldwide+AAoA-development of collaborative font projects, to support the font creation+AAoA-efforts of academic and linguistic communities, and to provide a free and+AAoA-open framework in which fonts may be shared and improved in partnership+AAoA-with others.+AAoACgAA-The OFL allows the licensed fonts to be used, studied, modified and+AAoA-redistributed freely as long as they are not sold by themselves. The+AAoA-fonts, including any derivative works, can be bundled, embedded, +AAoA-redistributed and/or sold with any software provided that any reserved+AAoA-names are not used by derivative works. The fonts and derivatives,+AAoA-however, cannot be released under any other type of license. The+AAoA-requirement for fonts to remain under this license does not apply+AAoA-to any document created using the fonts or their derivatives.+AAoACgAA-DEFINITIONS+AAoAIgAA-Font Software+ACIA refers to the set of files released by the Copyright+AAoA-Holder(s) under this license and clearly marked as such. This may+AAoA-include source files, build scripts and documentation.+AAoACgAi-Reserved Font Name+ACIA refers to any names specified as such after the+AAoA-copyright statement(s).+AAoACgAi-Original Version+ACIA refers to the collection of Font Software components as+AAoA-distributed by the Copyright Holder(s).+AAoACgAi-Modified Version+ACIA refers to any derivative made by adding to, deleting,+AAoA-or substituting -- in part or in whole -- any of the components of the+AAoA-Original Version, by changing formats or by porting the Font Software to a+AAoA-new environment.+AAoACgAi-Author+ACIA refers to any designer, engineer, programmer, technical+AAoA-writer or other person who contributed to the Font Software.+AAoACgAA-PERMISSION & CONDITIONS+AAoA-Permission is hereby granted, free of charge, to any person obtaining+AAoA-a copy of the Font Software, to use, study, copy, merge, embed, modify,+AAoA-redistribute, and sell modified and unmodified copies of the Font+AAoA-Software, subject to the following conditions:+AAoACgAA-1) Neither the Font Software nor any of its individual components,+AAoA-in Original or Modified Versions, may be sold by itself.+AAoACgAA-2) Original or Modified Versions of the Font Software may be bundled,+AAoA-redistributed and/or sold with any software, provided that each copy+AAoA-contains the above copyright notice and this license. These can be+AAoA-included either as stand-alone text files, human-readable headers or+AAoA-in the appropriate machine-readable metadata fields within text or+AAoA-binary files as long as those fields can be easily viewed by the user.+AAoACgAA-3) No Modified Version of the Font Software may use the Reserved Font+AAoA-Name(s) unless explicit written permission is granted by the corresponding+AAoA-Copyright Holder. This restriction only applies to the primary font name as+AAoA-presented to the users.+AAoACgAA-4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font+AAoA-Software shall not be used to promote, endorse or advertise any+AAoA-Modified Version, except to acknowledge the contribution(s) of the+AAoA-Copyright Holder(s) and the Author(s) or with their explicit written+AAoA-permission.+AAoACgAA-5) The Font Software, modified or unmodified, in part or in whole,+AAoA-must be distributed entirely under this license, and must not be+AAoA-distributed under any other license. The requirement for fonts to+AAoA-remain under this license does not apply to any document created+AAoA-using the Font Software.+AAoACgAA-TERMINATION+AAoA-This license becomes null and void if any of the above conditions are+AAoA-not met.+AAoACgAA-DISCLAIMER+AAoA-THE FONT SOFTWARE IS PROVIDED +ACIA-AS IS+ACIA, WITHOUT WARRANTY OF ANY KIND,+AAoA-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF+AAoA-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT+AAoA-OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE+AAoA-COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,+AAoA-INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL+AAoA-DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING+AAoA-FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM+AAoA-OTHER DEALINGS IN THE FONT SOFTWARE." "http://scripts.sil.org/OFL"
 GaspTable: 1 65535 15 1
 Encoding: iso8859-7
 UnicodeInterp: none
@@ -231,7 +231,7 @@ NameList: AGL For New Fonts
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 25 17
+WinInfo: 50 25 17
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 -562637 293601 146800 97867 520094 1048576 97867 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
@@ -669,7 +669,7 @@ SplineSet
  308 79 l 2
  397 79 468 139 468 213 c 0xf0
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: C
@@ -696,7 +696,7 @@ SplineSet
  410 67 467 98 516 171 c 1
  595 140 l 1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: D
@@ -726,7 +726,7 @@ SplineSet
  235 588 l 1
  127 79 l 1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: E
@@ -781,7 +781,7 @@ SplineSet
  110 0 l 1
  14 0 l 1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: G
@@ -814,7 +814,7 @@ SplineSet
  566 498 l 1
  549 561 490 600 411 600 c 0xbe
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: H
@@ -843,7 +843,7 @@ SplineSet
  110 0 l 1
  14 0 l 1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: I
@@ -899,7 +899,7 @@ SplineSet
  83 214 l 1
  79 192 78 181 78 166 c 0
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: K
@@ -928,7 +928,7 @@ SplineSet
  110 0 l 1
  14 0 l 1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: L
@@ -950,7 +950,7 @@ SplineSet
  469 0 l 1
  14 0 l 1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: M
@@ -979,7 +979,7 @@ SplineSet
  110 0 l 1
  14 0 l 1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: N
@@ -1006,7 +1006,7 @@ SplineSet
  110 0 l 1
  14 0 l 1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: O
@@ -1066,7 +1066,7 @@ SplineSet
  184 346 l 1
  311 346 l 2
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: Q
@@ -1131,7 +1131,7 @@ SplineSet
  311 360 l 2
  447 360 503 399 503 495 c 0
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: S
@@ -1162,7 +1162,7 @@ SplineSet
  182 440 213 418 353 376 c 0
  495 334 544 288 544 197 c 0
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: T
@@ -1187,7 +1187,7 @@ SplineSet
  266 0 l 1
  169 0 l 1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: U
@@ -1268,7 +1268,7 @@ SplineSet
  227 0 l 1
  116 0 l 1xd8
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: X
@@ -1297,7 +1297,7 @@ SplineSet
  73 0 l 1
  -52 0 l 1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: Y
@@ -1323,7 +1323,7 @@ SplineSet
  274 0 l 1
  177 0 l 1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: Z
@@ -1350,7 +1350,7 @@ SplineSet
  506 0 l 1
  -18 0 l 1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: a
@@ -1420,7 +1420,7 @@ SplineSet
  419 381 379 432 307 432 c 0
  214 432 138 332 138 211 c 0
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: c
@@ -1447,7 +1447,7 @@ SplineSet
  292 62 333 84 365 127 c 1
  436 99 l 1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: d
@@ -1479,7 +1479,7 @@ SplineSet
  324 60 398 155 398 281 c 0
  398 377 355 432 280 432 c 0
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: e
@@ -1545,7 +1545,7 @@ SplineSet
  123 0 l 1
  37 0 l 1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: g
@@ -1580,7 +1580,7 @@ SplineSet
  400 378 351 432 276 432 c 0xe8
  185 432 121 346 121 226 c 0
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: h
@@ -1611,7 +1611,7 @@ SplineSet
  398 309 401 333 401 352 c 0
  401 407 377 430 318 430 c 0
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: i
@@ -1632,7 +1632,7 @@ SplineSet
  264 716 292 688 292 653 c 0xe8
 EndSplineSet
 Refer: 351 305 S 1 0 0 1 0 0 2
-Validated: 1048577
+Validated: 1
 Substitution2: "Single Substitution lookup 4 subtable" dotlessi
 Substitution2: "Single Substitution lookup 3 subtable" dotlessi
 EndChar
@@ -1682,7 +1682,7 @@ SplineSet
  93 0 l 1
  7 0 l 1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: l
@@ -1709,7 +1709,7 @@ SplineSet
  123 140 l 1
  118 112 118 110 118 104 c 4
 EndSplineSet
-Validated: 1048577
+Validated: 1
 Kerns2: 56 21 "'kern' Horizontal Kerning lookup 0 per glyph data 0" 388 21 "'kern' Horizontal Kerning lookup 0 per glyph data 0"
 EndChar
 
@@ -1748,7 +1748,7 @@ SplineSet
  386 316 389 338 389 356 c 0
  389 407 365 431 313 431 c 0xd8
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: n
@@ -1779,7 +1779,7 @@ SplineSet
  399 309 402 333 402 352 c 0
  402 407 378 430 319 430 c 0xd4
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: o
@@ -1840,7 +1840,7 @@ SplineSet
  420 382 378 432 307 432 c 0xec
  214 432 139 332 139 209 c 0
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: q
@@ -1900,7 +1900,7 @@ SplineSet
  176 496 l 1
  184 403 l 1xb8
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: s
@@ -1931,7 +1931,7 @@ SplineSet
  134 329 154 316 263 286 c 0
  373 255 413 217 413 143 c 0
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: t
@@ -1966,7 +1966,7 @@ SplineSet
  154 130 151 115 151 104 c 0
  151 81 160 75 194 75 c 2
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: u
@@ -2048,7 +2048,7 @@ SplineSet
  154 0 l 1
  80 0 l 1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: x
@@ -2077,7 +2077,7 @@ SplineSet
  46 0 l 1
  -63 0 l 1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: y
@@ -2105,7 +2105,7 @@ SplineSet
  123 -146 100 -161 -19 -161 c 2
  -62 -161 l 1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: z
@@ -2131,7 +2131,7 @@ SplineSet
  375 0 l 1
  -21 0 l 1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: circumflex
@@ -4333,7 +4333,7 @@ SplineSet
  548 529 l 1
  267 226 l 1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: florin
@@ -4692,7 +4692,7 @@ SplineSet
  514.230662584 205.061001675 606 316.218227277 606 431 c 0
  606 532.974804784 523.794494528 606 409 606 c 0xb8
 EndSplineSet
-Validated: 524289
+Validated: 1
 EndChar
 
 StartChar: estimated
@@ -5096,7 +5096,7 @@ SplineSet
  196 0 l 1
  140 0 l 2
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: oslash
@@ -5134,7 +5134,7 @@ SplineSet
  145 102 l 1
  166 75 197 62 238 62 c 0
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: Oslash
@@ -5172,7 +5172,7 @@ SplineSet
  594 437 588 472 575 498 c 1
  187 134 l 1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: Thorn
@@ -5249,7 +5249,7 @@ SplineSet
  267 57 337 120 359 224 c 1
  170 224 100 196 100 120 c 0
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: eth
@@ -5748,7 +5748,7 @@ SplineSet
  285 -43 290 -43 301 -43 c 0
  343 -43 367 -63 367 -96 c 0
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: ccedilla
@@ -5789,7 +5789,7 @@ SplineSet
  185 -43 190 -43 201 -43 c 0
  243 -43 267 -63 267 -96 c 0
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: Egrave
@@ -6076,7 +6076,7 @@ LayerCount: 2
 Fore
 Refer: 365 771 N 1 0 0 1 186 172 2
 Refer: 28 78 N 1 0 0 1 0 0 3
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: Ograve
@@ -6245,7 +6245,7 @@ LayerCount: 2
 Fore
 Refer: 331 769 N 1 0 0 1 221 172 2
 Refer: 39 89 N 1 0 0 1 0 0 3
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: ntilde
@@ -6261,7 +6261,7 @@ LayerCount: 2
 Fore
 Refer: 365 771 N 1 0 0 1 78 0 2
 Refer: 54 110 N 1 0 0 1 0 0 3
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: ograve
@@ -6430,7 +6430,7 @@ LayerCount: 2
 Fore
 Refer: 331 769 N 1 0 0 1 125 0 2
 Refer: 65 121 N 1 0 0 1 0 0 3
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: ydieresis
@@ -6446,7 +6446,7 @@ LayerCount: 2
 Fore
 Refer: 341 776 N 1 0 0 1 38 0 2
 Refer: 65 121 N 1 0 0 1 0 0 3
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: Scaron
@@ -6462,7 +6462,7 @@ LayerCount: 2
 Fore
 Refer: 336 780 N 1 0 0 1 120 172 2
 Refer: 33 83 N 1 0 0 1 0 0 3
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: scaron
@@ -6478,7 +6478,7 @@ LayerCount: 2
 Fore
 Refer: 336 780 N 1 0 0 1 24 0 2
 Refer: 59 115 N 1 0 0 1 0 0 3
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: Ydieresis
@@ -6494,7 +6494,7 @@ LayerCount: 2
 Fore
 Refer: 341 776 N 1 0 0 1 134 172 2
 Refer: 39 89 N 1 0 0 1 0 0 3
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: Zcaron
@@ -6510,7 +6510,7 @@ LayerCount: 2
 Fore
 Refer: 336 780 N 1 0 0 1 152 172 2
 Refer: 40 90 N 1 0 0 1 0 0 3
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: zcaron
@@ -6526,12 +6526,12 @@ LayerCount: 2
 Fore
 Refer: 336 780 N 1 0 0 1 53 0 2
 Refer: 66 122 N 1 0 0 1 0 0 3
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: Eth
 Encoding: 387 208 249
-AltUni2: 000189.ffffffff.0 000110.ffffffff.0
+AltUni2: 000110.ffffffff.0 000189.ffffffff.0
 Width: 710
 GlyphClass: 1
 Flags: W
@@ -6563,7 +6563,7 @@ SplineSet
  211 303 l 1
  163 79 l 1
 EndSplineSet
-Validated: 4194305
+Validated: 1
 EndChar
 
 StartChar: zero.tf
@@ -7178,7 +7178,7 @@ LayerCount: 2
 Fore
 Refer: 331 769 N 1 0 0 1 279 172 2
 Refer: 17 67 N 1 0 0 1 0 0 3
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: cacute
@@ -7194,7 +7194,7 @@ LayerCount: 2
 Fore
 Refer: 331 769 N 1 0 0 1 160 0 2
 Refer: 43 99 N 1 0 0 1 0 0 3
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: Cdotaccent
@@ -7210,7 +7210,7 @@ LayerCount: 2
 Fore
 Refer: 343 775 N 1 0 0 1 275 172 2
 Refer: 17 67 N 1 0 0 1 0 0 3
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: cdotaccent
@@ -7226,7 +7226,7 @@ LayerCount: 2
 Fore
 Refer: 343 775 N 1 0 0 1 156 0 2
 Refer: 43 99 N 1 0 0 1 0 0 3
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: uni0326
@@ -7267,7 +7267,7 @@ LayerCount: 2
 Fore
 Refer: 331 769 N 1 0 0 1 215 172 2
 Refer: 33 83 N 1 0 0 1 0 0 3
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: sacute
@@ -7283,7 +7283,7 @@ LayerCount: 2
 Fore
 Refer: 331 769 N 1 0 0 1 119 0 2
 Refer: 59 115 N 1 0 0 1 0 0 3
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: Umacron
@@ -7477,7 +7477,7 @@ LayerCount: 2
 Fore
 Refer: 331 769 N 1 0 0 1 295 172 2
 Refer: 28 78 N 1 0 0 1 0 0 3
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: nacute
@@ -7493,7 +7493,7 @@ LayerCount: 2
 Fore
 Refer: 331 769 N 1 0 0 1 187 0 2
 Refer: 54 110 N 1 0 0 1 0 0 3
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: Ncaron
@@ -7509,7 +7509,7 @@ LayerCount: 2
 Fore
 Refer: 336 780 N 1 0 0 1 200 172 2
 Refer: 28 78 N 1 0 0 1 0 0 3
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: ncaron
@@ -7525,7 +7525,7 @@ LayerCount: 2
 Fore
 Refer: 336 780 N 1 0 0 1 92 0 2
 Refer: 54 110 N 1 0 0 1 0 0 3
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: Zacute
@@ -7541,7 +7541,7 @@ LayerCount: 2
 Fore
 Refer: 331 769 N 1 0 0 1 247 172 2
 Refer: 40 90 N 1 0 0 1 0 0 3
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: zacute
@@ -7557,7 +7557,7 @@ LayerCount: 2
 Fore
 Refer: 331 769 N 1 0 0 1 148 0 2
 Refer: 66 122 N 1 0 0 1 0 0 3
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: Zdotaccent
@@ -7573,7 +7573,7 @@ LayerCount: 2
 Fore
 Refer: 343 775 N 1 0 0 1 243 172 2
 Refer: 40 90 N 1 0 0 1 0 0 3
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: zdotaccent
@@ -7589,7 +7589,7 @@ LayerCount: 2
 Fore
 Refer: 343 775 N 1 0 0 1 144 0 2
 Refer: 66 122 N 1 0 0 1 0 0 3
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: Hbar
@@ -7681,7 +7681,7 @@ LayerCount: 2
 Fore
 Refer: 333 774 N 1 0 0 1 214 172 2
 Refer: 21 71 N 1 0 0 1 0 0 3
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: gbreve
@@ -7697,7 +7697,7 @@ LayerCount: 2
 Fore
 Refer: 333 774 N 1 0 0 1 83 0 2
 Refer: 47 103 N 1 0 0 1 0 0 3
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: Gdotaccent
@@ -7713,7 +7713,7 @@ LayerCount: 2
 Fore
 Refer: 343 775 N 1 0 0 1 300 172 2
 Refer: 21 71 N 1 0 0 1 0 0 3
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: gdotaccent
@@ -7729,7 +7729,7 @@ LayerCount: 2
 Fore
 Refer: 343 775 N 1 0 0 1 169 0 2
 Refer: 47 103 N 1 0 0 1 0 0 3
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: Tcaron
@@ -7745,7 +7745,7 @@ LayerCount: 2
 Fore
 Refer: 336 780 N 1 0 0 1 120 172 2
 Refer: 34 84 N 1 0 0 1 0 0 3
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: lcaron
@@ -7761,7 +7761,7 @@ LayerCount: 2
 Fore
 Refer: 52 108 N 1 0 0 1 0 0 3
 Refer: 335 -1 N 1 0 0 1 144 -2 2
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: Lcaron
@@ -7777,7 +7777,7 @@ LayerCount: 2
 Fore
 Refer: 26 76 N 1 0 0 1 0 0 3
 Refer: 335 -1 N 1 0 0 1 305 -1 2
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: tcaron
@@ -7793,7 +7793,7 @@ LayerCount: 2
 Fore
 Refer: 60 116 N 1 0 0 1 0 0 3
 Refer: 335 -1 N 1 0 0 1 197 53 2
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: uni0145
@@ -7809,7 +7809,7 @@ LayerCount: 2
 Fore
 Refer: 282 806 N 1 0 0 1 191 0 2
 Refer: 28 78 N 1 0 0 1 0 0 3
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: uni0146
@@ -7825,7 +7825,7 @@ LayerCount: 2
 Fore
 Refer: 282 806 N 1 0 0 1 139 0 2
 Refer: 54 110 N 1 0 0 1 0 0 3
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: Racute
@@ -7841,7 +7841,7 @@ LayerCount: 2
 Fore
 Refer: 331 769 N 1 0 0 1 233 172 2
 Refer: 32 82 N 1 0 0 1 0 0 3
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: racute
@@ -7857,7 +7857,7 @@ LayerCount: 2
 Fore
 Refer: 331 769 N 1 0 0 1 99 0 2
 Refer: 58 114 N 1 0 0 1 0 0 3
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: Rcaron
@@ -7873,7 +7873,7 @@ LayerCount: 2
 Fore
 Refer: 336 780 N 1 0 0 1 138 172 2
 Refer: 32 82 N 1 0 0 1 0 0 3
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: rcaron
@@ -7889,7 +7889,7 @@ LayerCount: 2
 Fore
 Refer: 336 780 N 1 0 0 1 4 0 2
 Refer: 58 114 N 1 0 0 1 0 0 3
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: Dcroat
@@ -7902,7 +7902,7 @@ VStem: 600 95<273.74 502.876>
 LayerCount: 2
 Fore
 Refer: 249 208 N 1 0 0 1 20 0 2
-Validated: 4194305
+Validated: 1
 EndChar
 
 StartChar: dcroat
@@ -7957,7 +7957,7 @@ LayerCount: 2
 Fore
 Refer: 336 780 N 1 0 0 1 142 172 2
 Refer: 18 68 N 1 0 0 1 0 0 3
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: dcaron
@@ -7973,7 +7973,7 @@ LayerCount: 2
 Fore
 Refer: 44 100 N 1 0 0 1 0 0 2
 Refer: 335 -1 N 1 0 0 1 484 2 2
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: Ccaron
@@ -7989,7 +7989,7 @@ LayerCount: 2
 Fore
 Refer: 336 780 N 1 0 0 1 184 172 2
 Refer: 17 67 N 1 0 0 1 0 0 3
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: ccaron
@@ -8005,7 +8005,7 @@ LayerCount: 2
 Fore
 Refer: 336 780 N 1 0 0 1 65 0 2
 Refer: 43 99 N 1 0 0 1 0 0 3
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: Scedilla
@@ -8049,7 +8049,7 @@ SplineSet
  267 -43 272 -43 283 -43 c 0
  325 -43 349 -63 349 -96 c 0
 EndSplineSet
-Validated: 1048577
+Validated: 1
 Substitution2: "'locl' Localized Forms in Latin lookup 8 subtable" uni0218
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" uni0218
 EndChar
@@ -8095,7 +8095,7 @@ SplineSet
  197 -43 202 -43 213 -43 c 0
  255 -43 279 -63 279 -96 c 0
 EndSplineSet
-Validated: 1048577
+Validated: 1
 Substitution2: "'locl' Localized Forms in Latin lookup 8 subtable" uni0219
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" uni0219
 EndChar
@@ -8113,7 +8113,7 @@ LayerCount: 2
 Fore
 Refer: 282 806 N 1 0 0 1 230 0 2
 Refer: 21 71 N 1 0 0 1 0 0 3
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: uni0136
@@ -8129,7 +8129,7 @@ LayerCount: 2
 Fore
 Refer: 282 806 N 1 0 0 1 186 0 2
 Refer: 25 75 N 1 0 0 1 0 0 3
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: uni013B
@@ -8145,7 +8145,7 @@ LayerCount: 2
 Fore
 Refer: 282 806 N 1 0 0 1 145 0 2
 Refer: 26 76 N 1 0 0 1 0 0 3
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: uni0218
@@ -8161,7 +8161,7 @@ LayerCount: 2
 Fore
 Refer: 282 806 N 1 0 0 1 204 0 2
 Refer: 33 83 N 1 0 0 1 0 0 3
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: uni0162
@@ -8200,7 +8200,7 @@ SplineSet
  208 -43 213 -43 224 -43 c 0
  266 -43 290 -63 290 -96 c 0
 EndSplineSet
-Validated: 1048577
+Validated: 1
 Substitution2: "'locl' Localized Forms in Latin lookup 8 subtable" uni021A
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" uni021A
 EndChar
@@ -8218,7 +8218,7 @@ LayerCount: 2
 Fore
 Refer: 282 806 N 1 0 0 1 145 0 2
 Refer: 34 84 N 1 0 0 1 0 0 3
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: acutecomb
@@ -8537,7 +8537,7 @@ LayerCount: 2
 Fore
 Refer: 47 103 N 1 0 0 1 0 0 3
 Refer: 282 806 N -1 0 0 -1 392 521 2
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: gravecomb
@@ -8660,7 +8660,7 @@ LayerCount: 2
 Fore
 Refer: 282 806 N 1 0 0 1 148 0 2
 Refer: 51 107 N 1 0 0 1 0 0 3
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: uni013C
@@ -8676,7 +8676,7 @@ LayerCount: 2
 Fore
 Refer: 282 806 N 1 0 0 1 24 0 2
 Refer: 52 108 N 1 0 0 1 0 0 3
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: uni0304
@@ -8750,7 +8750,7 @@ SplineSet
  372 0 345 27 342 73 c 1
  300 18 242 -11 173 -11 c 0
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: uni0328
@@ -8838,7 +8838,7 @@ LayerCount: 2
 Fore
 Refer: 282 806 N 1 0 0 1 134 0 2
 Refer: 59 115 N 1 0 0 1 0 0 3
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: uni00AD
@@ -8900,7 +8900,7 @@ SplineSet
  99 -43 104 -43 115 -43 c 0
  157 -43 181 -63 181 -96 c 0xf4
 EndSplineSet
-Validated: 1048577
+Validated: 1
 Substitution2: "'locl' Localized Forms in Latin lookup 8 subtable" uni021B
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" uni021B
 EndChar
@@ -8918,7 +8918,7 @@ LayerCount: 2
 Fore
 Refer: 282 806 N 1 0 0 1 36 0 2
 Refer: 60 116 N 1 0 0 1 0 0 3
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: tildecomb
@@ -9214,7 +9214,7 @@ SplineSet
  -27 -129 l 1x9f
 EndSplineSet
 Refer: 318 273 N 1 0 0 1 0 0 2
-Validated: 8388609
+Validated: 1
 EndChar
 
 StartChar: uni1E02
@@ -9657,7 +9657,7 @@ SplineSet
  115 8 l 1
  86 -134 54 -161 -85 -161 c 0
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: Hcircumflex
@@ -10394,7 +10394,7 @@ LayerCount: 2
 Fore
 Refer: 545 803 N 1 0 0 1 171 0 2
 Refer: 15 65 N 1 0 0 1 0 0 3
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: uni1EA1
@@ -10408,7 +10408,7 @@ LayerCount: 2
 Fore
 Refer: 545 803 N 1 0 0 1 118 0 2
 Refer: 41 97 N 1 0 0 1 0 0 3
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: uni1EA2
@@ -10708,7 +10708,7 @@ LayerCount: 2
 Fore
 Refer: 545 803 N 1 0 0 1 140 0 2
 Refer: 19 69 N 1 0 0 1 0 0 3
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: uni1EB9
@@ -10722,7 +10722,7 @@ LayerCount: 2
 Fore
 Refer: 545 803 N 1 0 0 1 128 0 2
 Refer: 45 101 N 1 0 0 1 0 0 3
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: uni1EBA
@@ -10944,7 +10944,7 @@ LayerCount: 2
 Fore
 Refer: 545 803 N 1 0 0 1 221 0 2
 Refer: 29 79 N 1 0 0 1 0 0 3
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: uni1ECD
@@ -10958,7 +10958,7 @@ LayerCount: 2
 Fore
 Refer: 545 803 N 1 0 0 1 131 0 2
 Refer: 55 111 N 1 0 0 1 0 0 3
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: uni1ECE
@@ -11550,7 +11550,7 @@ SplineSet
  123 0 l 1
  37 0 l 1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: uniFFFD
@@ -11956,7 +11956,7 @@ SplineSet
  567 668 l 1
  428 -21 l 2
 EndSplineSet
-Validated: 1048609
+Validated: 33
 EndChar
 
 StartChar: napostrophe
@@ -11999,7 +11999,7 @@ SplineSet
  391 -87 l 2
  434 -87 445 -77 456 -24 c 2
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: eng
@@ -12033,7 +12033,7 @@ SplineSet
  444 504 490 457 490 365 c 0
  490 342 487 316 481 287 c 0xec
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: uni019D
@@ -12062,7 +12062,7 @@ SplineSet
  418 0 l 1
  233 576 l 1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: uni019E
@@ -12092,7 +12092,7 @@ SplineSet
  399 309 402 333 402 352 c 0
  402 407 378 430 319 430 c 0xee
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: uni0272
@@ -12125,7 +12125,7 @@ SplineSet
  402 407 378 430 319 430 c 0
  232 430 172 370 148 257 c 1xea
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: uni01EA
@@ -12253,7 +12253,7 @@ SplineSet
  167 688 195 716 229 716 c 0
  264 716 292 688 292 653 c 0
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: Tbar
@@ -12284,7 +12284,7 @@ SplineSet
  232 297 l 1
  139 297 l 1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: tbar
@@ -12326,7 +12326,7 @@ SplineSet
  94 252 l 1
  12 252 l 1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: kgreenlandic
@@ -12383,7 +12383,7 @@ SplineSet
  399 309 402 333 402 352 c 0
  402 407 378 430 319 430 c 0xee
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: lambda
@@ -12577,7 +12577,7 @@ SplineSet
  199 496 l 1
  123 138 l 2
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: alpha
@@ -12681,7 +12681,7 @@ SplineSet
  110 428 l 1
  43 428 l 1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: delta
@@ -12855,7 +12855,7 @@ SplineSet
  337 -38.8593414433 323.713765904 -29.5273436857 253 -12 c 0
  133.692319658 17.5719891446 77 72.6537315394 77 159 c 0
 EndSplineSet
-Validated: 524289
+Validated: 1
 EndChar
 
 StartChar: sigma1

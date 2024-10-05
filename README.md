@@ -1,6 +1,6 @@
 # [Lexica Ultralegible](https://jacobxperez.github.io/lexica-ultralegible/)
 
-Lexica Ultralegible is a modern typeface inspired by the principles of legibility and clarity, building on the foundation of Atkinson Hyperlegible typeface. Designed specifically to enhance readability for low vision readers, this typeface focused on improving character recognition through distinctive letterforms.
+Lexica Ultralegible is a modern typeface inspired by the principles of legibility and clarity, building on the foundation of the Atkinson Hyperlegible typeface. Designed specifically to enhance readability for low-vision readers, this typeface focused on improving character recognition through distinctive letterforms.
 
 ---
 ![banner](docs/banner.jpg)
@@ -35,7 +35,7 @@ With Lexica Ultralegible, we aim to continue the mission of the original typefac
 
 ### Design Features
 
-Designed for low-vision readers, certain letters and numbers can be hard to distinguish from one another. Lexica Ultralegible differentiates common misinterpreted letters and numbers using various design techniques: B vs. 8, 1 vs. L vs. l vs. I. Recognizable Footprints: Character boundaries are clearly defined, ensuring understanding across the visual-ability spectrum.
+Designed for low-vision readers, certain letters and numbers can be hard to distinguish. Lexica Ultralegible differentiates common misinterpreted letters and numbers using various design techniques: B vs. 8, 1 vs. L vs. l vs. I. Recognizable Footprints:  Character boundaries are clearly defined, ensuring understanding across the visual-ability spectrum.
 
 > `Q vs G, E vs F, p vs q, i vs r, O vs 0`
 
@@ -116,7 +116,7 @@ Copyright (C) 2020 [Braille Institute of America, Inc](https://brailleinstitute.
 
 Licensed under the SIL Open Font License, v1.1. See [LICENSE.txt](LICENSE.txt) for details.
 
-### Website Code
+### Code
 
 Copyright (C) 2024 [Jacob Perez](https://jacobxperez.github.io/blog/)
 
