@@ -1,6 +1,6 @@
 # [Lexica Ultralegible](https://jacobxperez.github.io/lexica-ultralegible/)
 
-Lexica Ultralegible is a modern typeface inspired by the principles of legibility and clarity, building on the foundation laid by the original Atkinson Hyperlegible typeface. Designed specifically to enhance readability for low vision readers, Atkinson Hyperlegible was a groundbreaking project developed by the Braille Institute, founded by J. Robert Atkinson. This typeface focused on improving character recognition through distinctive letterforms, making text more accessible and inclusive.
+Lexica Ultralegible is a modern typeface inspired by the principles of legibility and clarity, building on the foundation laid by the original Atkinson Hyperlegible typeface. Designed specifically to enhance readability for low vision readers, this typeface focused on improving character recognition through distinctive letterforms, making text more accessible and inclusive.
 
 ---
 ![banner](docs/banner.jpg)
