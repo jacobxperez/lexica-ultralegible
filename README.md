@@ -18,7 +18,7 @@ Lexica Ultralegible is a modern typeface inspired by the principles of legibilit
 * [Contributing](#contributing)
 * [License](#license)
   * [Font](#font)
-  * [Website Code](#code)
+  * [Code](#website-code)
 
 ## Overview
 
