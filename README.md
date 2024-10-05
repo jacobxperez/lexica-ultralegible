@@ -116,7 +116,7 @@ Copyright (C) 2020 [Braille Institute of America, Inc](https://brailleinstitute.
 
 Licensed under the SIL Open Font License, v1.1. See [LICENSE.txt](LICENSE.txt) for details.
 
-### Website Code
+### Code
 
 Copyright (C) 2024 [Jacob Perez](https://jacobxperez.github.io/blog/)
 
