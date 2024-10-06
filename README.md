@@ -1,6 +1,6 @@
 # [Lexica Ultralegible](https://jacobxperez.github.io/lexica-ultralegible/)
 
-Lexica Ultralegible is a modern typeface inspired by the principles of legibility and clarity, building on the foundation of the Atkinson Hyperlegible typeface. Designed specifically to enhance readability for low-vision readers, this typeface focused on improving character recognition through distinctive letterforms.
+Lexica Ultralegible is a modern typeface inspired by the principles of legibility and readability, building on the foundation of the Atkinson Hyperlegible typeface. Designed specifically to enhance readability for low-vision readers, this typeface focused on improving character recognition through distinctive letterforms.
 
 ---
 ![banner](docs/banner.jpg)
@@ -22,7 +22,7 @@ Lexica Ultralegible is a modern typeface inspired by the principles of legibilit
 
 ## Overview
 
-With Lexica Ultralegible, we aim to continue the mission of the original typeface by maintaining the core values of clarity and functionality while introducing a fresh identity. By honoring the original design while evolving its character, Lexica Ultralegible stands as a testament to the importance of accessibility in typography.
+With Lexica Ultralegible, we aim to continue the mission of the original typeface by maintaining the core values of legibility and readability while introducing a fresh identity. By honoring the original design while evolving its character, Lexica Ultralegible stands as a testament to the importance of accessibility in typography.
 
 * Four fonts, including two weights (regular, italic, bold, bold italic)
 * An additional 222 glyphs supporting 102 languages
