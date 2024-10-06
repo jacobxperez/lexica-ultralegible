@@ -8,9 +8,9 @@ import {sidebar} from './modules/sidebar.js';
 import {rams} from './rams/rams.js';
 
 if (meta.title === '') {
-    meta.title = `<h1>Rams</h1>`;
+	meta.title = `<h1>Rams</h1>`;
 } else {
-    meta.title = `<h1 data-text="h0">${meta.title}</h1>`;
+	meta.title = `<h1 data-text="h0">${meta.title}</h1>`;
 }
 
 let nav = `
@@ -31,7 +31,7 @@ let main = `
         `;
 
 if (meta.type === 'fullPage') {
-    main = `
+	main = `
         <div data-container data-grid="main">
             <div id="content" data-column="large-12 medium-12 small-4"></div>
         </div>
@@ -48,9 +48,10 @@ let footer = `
 // check and set template url for localhost or for public url
 let templateURL;
 location.hostname === 'localhost' || location.hostname === '127.0.0.1'
-    ? (templateURL = window.location.origin + '/templates/a.d8a682f1.html')
-    : (templateURL =
-          window.location.origin + '/lexica-ultralegible/templates/a.a2e7043d.html');
+	? (templateURL = window.location.origin + '/templates/a.d8a682f1.html')
+	: (templateURL =
+			window.location.origin +
+			'/lexica-ultralegible/templates/a.a2e7043d.html');
 
 // create main layout
 let layout = `
@@ -66,11 +67,11 @@ let layout = `
 
 // parse everything together
 template
-    .fromString(layout, 'body')
-    .setTemplate('#headerTemplate', '#header')
-    .setTemplate('#contentTemplate', '#content', sidebar)
-    .fetchTemplate(templateURL, '#nav')
-    .fetchTemplate(templateURL, '#footer');
+	.fromString(layout, 'body')
+	.setTemplate('#headerTemplate', '#header')
+	.setTemplate('#contentTemplate', '#content', sidebar)
+	.fetchTemplate(templateURL, '#nav')
+	.fetchTemplate(templateURL, '#footer');
 
 rams.toggle();
 // .carousel()
