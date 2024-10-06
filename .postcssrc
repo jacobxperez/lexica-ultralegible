@@ -4,7 +4,6 @@
         "postcss-import": true,
         "postcss-advanced-variables": true,
         "postcss-nesting": true,
-        "postcss-custom-selectors": true,
-        "postcss-variable-compress": true
+        "postcss-custom-selectors": true
     }
 }
