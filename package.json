@@ -1,8 +1,8 @@
 {
     "type": "module",
     "name": "lexica-ultralegible",
-    "version": "1",
-    "description": "Lexica Ultralegible is a modern typeface inspired by the principles of legibility and clarity, building on the foundation of the Atkinson Hyperlegible typeface.",
+    "version": "1.0.0",
+    "description": "Lexica Ultralegible is a modern typeface inspired by the principles of legibility and readability, building on the foundation of the Atkinson Hyperlegible typeface.",
     "targets": {
         "dev": {
             "source": "./sources/website/index.html",
@@ -18,7 +18,7 @@
         "url": "git+https://github.com/jacobxperez/lexica-ultralegible.git"
     },
     "author": "Jacob Perez",
-    "license": "Apache-2.0",
+    "license": "OFL-1.1",
     "bugs": {
         "url": "https://github.com/jacobxperez/lexica-ultralegible/issues"
     },
@@ -35,7 +35,7 @@
         "postcss-import": "^16.1.0",
         "postcss-mixins": "^11.0.3",
         "postcss-nesting": "^13.0.0",
-        "postcss-variable-compress": "^3.0.0",
+        "postcss-url": "^10.1.3",
         "prettier": "3.3.3"
     }
 }

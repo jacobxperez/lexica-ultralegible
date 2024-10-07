@@ -1,6 +1,7 @@
 {
     "plugins": {
         "postcss-mixins": true,
+        "postcss-url": true,
         "postcss-import": true,
         "postcss-advanced-variables": true,
         "postcss-nesting": true,
