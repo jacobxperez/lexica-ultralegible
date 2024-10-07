@@ -18,7 +18,7 @@ Lexica Ultralegible is a modern typeface inspired by the principles of legibilit
 * [Contributing](#contributing)
 * [License](#license)
   * [Font](#font)
-  * [Code](#code)
+  * [Code](#website-code)
 
 ## Overview
 
@@ -116,7 +116,7 @@ Copyright (C) 2020 [Braille Institute of America, Inc](https://brailleinstitute.
 
 Licensed under the SIL Open Font License, v1.1. See [LICENSE.txt](LICENSE.txt) for details.
 
-### Code
+### Website Code
 
 Copyright (C) 2024 [Jacob Perez](https://jacobxperez.github.io/blog/)
 
