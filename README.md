@@ -18,7 +18,7 @@ Lexica Ultralegible is a modern typeface inspired by the principles of legibilit
 * [Contributing](#contributing)
 * [License](#license)
   * [Font](#font)
-  * [Code](#website-code)
+  * [Code](#code)
 
 ## Overview
 
@@ -67,7 +67,7 @@ OpenType features refer to different glyphs or character styles contained within
 
 ### Flip the Zero
 
-By default the zero remains with a backslash `\` this was done to prevent confusion with the Danish Ø however, when pairing the typeface with a monospace that only supports a forwardslash `/` zero, this may create a cognitive dissonance problem. On that occasion you might want to flip the zero:
+By default the zero remains with a backslash `\` this was done to prevent confusion with the Danish Ø however, when pairing the typeface with a monospace that only supports a forwardslash `/` zero, this may create a cognitive dissonance problem. On that occasion, you might want to flip the zero:
 
 ```css
 body {
@@ -116,7 +116,7 @@ Copyright (C) 2020 [Braille Institute of America, Inc](https://brailleinstitute.
 
 Licensed under the SIL Open Font License, v1.1. See [LICENSE.txt](LICENSE.txt) for details.
 
-### Website Code
+### Code
 
 Copyright (C) 2024 [Jacob Perez](https://jacobxperez.github.io/blog/)
 
