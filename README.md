@@ -67,7 +67,7 @@ OpenType features refer to different glyphs or character styles contained within
 
 ### Flip the Zero
 
-By default the zero remains with a backslash `\` this was done to prevent confusion with the Danish Ø however, when pairing the typeface with a monospace that only supports a forwardslash `/` zero, this may create a cognitive dissonance problem. On that occasion you might want to flip the zero:
+By default the zero remains with a backslash `\` this was done to prevent confusion with the Danish Ø however, when pairing the typeface with a monospace that only supports a forwardslash `/` zero, this may create a cognitive dissonance problem. On that occasion, you might want to flip the zero:
 
 ```css
 body {
