@@ -8,16 +8,13 @@
     transition: $anchor-transition;
 
     &:where([data-state="active"], :hover, :active) {
-        color: $anchor-active-color;
+        color: $anchor-color-active;
         text-decoration: none;
     }
 
     &:focus {
-        outline: thin dotted;
-        outline-offset: -0.125rem;
+        @include _link-focus;
     }
 }
 
-@if $rams-menu == true {
-    @include _anchor-menu();
-}
+@include _anchor-menu();

@@ -1,12 +1,12 @@
 [data-section~="header"] {
     margin-bottom: $leading;
     padding-top: calc($leading * 4);
-    padding-bottom: calc($leading * 2);
-    background-color: var(--primary-040);
-    color: var(--neutral-100);
+    padding-bottom: calc($leading * 3);
+    background-color: var(--secondary-00);
+    color: var(--neutral-10);
 
     & :--headings, a {
-        color: var(--neutral-100);
+        color: var(--neutral-10);
     }
 
     & h1 {
@@ -18,8 +18,17 @@
     margin-bottom: $container-margin-bottom;
 }
 
+[data-container~="header"] {
+    width: clamp(20rem, 100%, 75rem);
+}
+
 [data-filter="blur"] {
     filter: blur(.3rem);
+}
+
+[data-text="title"] {
+    font-size: clamp(3.4375rem, 9vw + 1rem, 8.5rem);
+    line-height: 1;
 }
 
 [data-text="flip-zero"] {

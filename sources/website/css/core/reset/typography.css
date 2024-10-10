@@ -7,41 +7,17 @@
     }
 }
 
-h1,
-[data-text~="h1"] {
-    font-size: $h1-font-size;
-    line-height: $h1-line-height;
-}
+@include _heading(h1, $h1-font-size, $h1-line-height);
 
-h2,
-[data-text~="h2"] {
-    font-size: $h2-font-size;
-    line-height: $h2-line-height;
-}
+@include _heading(h2, $h2-font-size, $h2-line-height);
 
-h3,
-[data-text~="h3"] {
-    font-size: $h3-font-size;
-    line-height: $h3-line-height;
-}
+@include _heading(h3, $h3-font-size, $h3-line-height);
 
-h4,
-[data-text~="h4"] {
-    font-size: $h4-font-size;
-    line-height: $h4-line-height;
-}
+@include _heading(h4, $h4-font-size, $h4-line-height);
 
-h5,
-[data-text~="h5"] {
-    font-size: $h5-font-size;
-    line-height: $h5-line-height;
-}
+@include _heading(h5, $h5-font-size, $h5-line-height);
 
-h6,
-[data-text~="h6"] {
-    font-size: $h6-font-size;
-    line-height: $h6-line-height;
-}
+@include _heading(h6, $h6-font-size, $h6-line-height);
 
 b,
 strong {

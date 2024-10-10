@@ -1,0 +1,297 @@
+:root {
+    --neutral-10: hsl(0, 0%, 100%);
+    --neutral-09: hsl(0, 0%, 90%);
+    --neutral-08: hsl(0, 0%, 80%);
+    --neutral-07: hsl(0, 0%, 70%);
+    --neutral-06: hsl(0, 0%, 60%);
+    --neutral-05: hsl(0, 0%, 50%);
+    --neutral-04: hsl(0, 0%, 40%);
+    --neutral-03: hsl(0, 0%, 30%);
+    --neutral-02: hsl(0, 0%, 20%);
+    --neutral-01: hsl(0, 0%, 10%);
+    --neutral-00: hsl(0, 0%, 0%);
+
+    --primary-04: hsl(19, 100%, 70%);
+    --primary-03: hsl(19, 100%, 65%);
+    --primary-02: hsl(19, 100%, 60%);
+    --primary-01: hsl(19, 100%, 55%);
+    --primary-00: hsl(19, 100%, 50%);
+
+    --secondary-04: hsl(19, 100%, 45%);
+    --secondary-03: hsl(19, 100%, 40%);
+    --secondary-02: hsl(201, 100%, 24%);
+    --secondary-01: hsl(201, 100%, 20%);
+    --secondary-00: hsl(201, 100%, 14%);
+
+    --tertiary-04: var(--neutral-04);
+    --tertiary-03: var(--neutral-03);
+    --tertiary-02: var(--neutral-02);
+    --tertiary-01: hsl(205, 41%, 12%);
+    --tertiary-00: hsl(205, 41%, 8%);
+
+    --success-04: hsl(145, 80%, 45%);
+    --success-03: hsl(145, 80%, 40%);
+    --success-02: hsl(145, 80%, 35%);
+    --success-01: hsl(145, 80%, 30%);
+    --success-00: hsl(145, 80%, 25%);
+
+    --warning-04: hsl(40, 100%, 70%);
+    --warning-03: hsl(40, 100%, 65%);
+    --warning-02: hsl(40, 100%, 60%);
+    --warning-01: hsl(40, 100%, 55%);
+    --warning-00: hsl(40, 100%, 50%);
+
+    --danger-04: hsl(0, 75%, 65%);
+    --danger-03: hsl(0, 75%, 60%);
+    --danger-02: hsl(0, 75%, 55%);
+    --danger-01: hsl(0, 75%, 50%);
+    --danger-00: hsl(0, 75%, 45%);
+
+    --font-sans: "Atkinson Hyperlegible Pro", "Atkinson Hyperlegible", Helvetica,
+        Arial, sans-serif;
+    --font-serif: Xcharter, Charter, Georgia, Times, "Times New Roman", serif;
+    --font-mono: "Fira Mono", "Lucida Console", "Lucida Sans Typewriter", monaco,
+        "Bitstream Vera Sans Mono", monospace;
+    --font-ui: "Atkinson Hyperlegible Pro", "Atkinson Hyperlegible", system-ui,
+        "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+/* @media (prefers-color-scheme: dark) {
+    :root {
+        --neutral-10: hsl(0, 0%, 0%);
+        --neutral-09: hsl(0, 0%, 10%);
+        --neutral-08: hsl(0, 0%, 20%);
+        --neutral-07: hsl(0, 0%, 30%);
+        --neutral-06: hsl(0, 0%, 40%);
+        --neutral-05: hsl(0, 0%, 50%);
+        --neutral-04: hsl(0, 0%, 60%);
+        --neutral-03: hsl(0, 0%, 70%);
+        --neutral-02: hsl(0, 0%, 80%);
+        --neutral-01: hsl(0, 0%, 90%);
+        --neutral-00: hsl(0, 0%, 100%);
+    }
+} */
+
+/* Colors */
+$body-font-color: var(--neutral-00);
+$background: var(--neutral-10);
+$background-gradient: false;
+
+$primary: var(--primary-00);
+$primary-active: var(--primary-02);
+$primary-text: var(--neutral-10);
+$primary-text-active: var(--neutral-10);
+
+$secondary: var(--secondary-00);
+$secondary-active: var(--secondary-02);
+$secondary-text: var(--neutral-10);
+$secondary-text-active: var(--neutral-10);
+
+$tertiary: var(--tertiary-00);
+$tertiary-active: var(--tertiary-02);
+$tertiary-text: var(--neutral-10);
+$tertiary-text-active: var(--neutral-10);
+
+/* Box Model */
+$space-y: 0.5rem;
+$space-x: 0.75rem;
+$border-width: 0.0625em;
+$border-color: var(--neutral-05);
+$border-radius: 0.25rem;
+
+/* Typography */
+$root-font-size: clamp(100%, 5vw + 1rem, 110%);
+$body-font-size: 1rem;
+$body-font-family: var(--font-sans);
+$body-font-weight: 400;
+$body-line-height: 1.5;
+$body-font-variant-numeric: false;
+$leading: 1.5rem;
+
+/* link */
+$link-color: $body-font-color;
+$link-color-active: $primary;
+$link-text-decoration: underline solid $primary;
+$link-text-decoration-thickness: 0.125rem;
+$link-text-decoration-active: none;
+$link-underline-offset: 0.3125em;
+
+/* headings */
+$headings-font-family: var(--font-sans);
+$headings-font-weight: 400;
+$headings-color: false;
+$headings-ligatures: no-common-ligatures;
+
+$h1-font-size: clamp(2.488rem, 3vw + 1rem, 4.209rem);
+$h1-line-height: 1.2;
+
+$h2-font-size: clamp(2.074rem, 3vw + 1rem, 3.157rem);
+$h2-line-height: 1.2;
+
+$h3-font-size: clamp(1.728rem, 3vw + 1rem, 2.369rem);
+$h3-line-height: 1.3;
+
+$h4-font-size: clamp(1.44rem, 3vw + 1rem, 1.777rem);
+$h4-line-height: 1.4;
+
+$h5-font-size: clamp(1.2rem, 3vw + 1rem, 1.333rem);
+$h5-line-height: 1.4;
+
+$h6-font-size: $body-font-size;
+$h6-line-height: 1.5;
+
+/* small */
+$small-font-size: 0.833rem;
+
+/* blockquote */
+$blockquote-font-family: var(--font-serif);
+$blockquote-font-style: italic;
+
+/* pre/code/kdb/samp */
+$pre-font-family: var(--font-mono);
+
+/* mark */
+$mark-background: var(--warning-01);
+$mark-text: var(--neutral-00);
+
+/* hr */
+$hr-border-style: solid;
+$hr-border-width: 0.125rem;
+$hr-border-color: var(--neutral-00);
+
+/* Lists */
+$ol-list-style-type: decimal;
+$ol-list-style-type-child: lower-alpha;
+$ul-list-style-type: disc;
+$ul-list-style-type-child: circle;
+
+/* Table */
+$table-cell-padding: $space-y $space-x;
+
+/* Form */
+$form-font-family: var(--font-ui);
+$form-padding: $space-y $space-x;
+$form-border-width: $border-width;
+$form-border-color: $border-color;
+$form-border-active: $primary;
+$form-border-radius: $border-radius;
+$form-background: transparent;
+$form-text: var(--neutral-05);
+$form-text-active: $body-font-color;
+$form-text-area-min-height: 6.25rem;
+$form-transition:
+    color 0.2s ease,
+    border-color 0.2s ease,
+    background-color 0.2s ease;
+
+/* Button */
+$button-font-family: var(--font-ui);
+$button-padding: $space-y $space-x;
+$button-border-width: $border-width;
+$button-border-color: transparent;
+$button-border-radius: $border-radius;
+$button-background: var(--neutral-00);
+$button-background-active: var(--neutral-02);
+$button-text-color: var(--neutral-10);
+$button-transition:
+    color 0.2s ease,
+    border-color 0.2s ease,
+    background-color 0.2s ease;
+
+/* outline */
+$button-outline-text-color: var(--neutral-00);
+$button-outline-text-color-active: var(--neutral-10);
+$button-outline-background-active: var(--neutral-00);
+$button-outline-border-color: var(--neutral-00);
+
+/* Feedback */
+$success: var(--success-00);
+$success-active: var(--success-01);
+$success-text: var(--neutral-10);
+$success-text-active: var(--neutral-10);
+
+$warning: var(--warning-00);
+$warning-active: var(--warning-01);
+$warning-text: var(--neutral-00);
+$warning-text-active: var(--neutral-00);
+
+$danger: var(--danger-00);
+$danger-active: var(--danger-01);
+$danger-text: var(--neutral-10);
+$danger-text-active: var(--neutral-10);
+
+/* Disabled */
+$disabled: var(--neutral-09);
+$disabled-text: var(--neutral-05);
+
+/* Navbar */
+$navbar-background: var(--tertiary-00);
+$navbar-dropbox-background: var(--tertiary-01);
+$navbar-anchor-text: var(--neutral-10);
+$navbar-anchor-text-active: $primary;
+
+/* Anchor */
+$anchor-font-family: var(--font-ui);
+$anchor-padding: $space-y $space-x;
+$anchor-color: $primary;
+$anchor-color-active: $body-font-color;
+$anchor-transition:
+    color 0.2s ease,
+    border-color 0.2s ease,
+    background-color 0.2s ease;
+
+/* Line Tab */
+$anchor-line-border-width: 0.125em;
+$anchor-line-border-color: var(--neutral-00);
+$anchor-line-text: $primary;
+$anchor-line-text-active: $body-font-color;
+$anchor-line-border-active: $primary;
+
+/* Breadcrumb */
+$breadcrumb-separator: "/";
+$breadcrumb-gap: 0.375em;
+
+/* Dropbox */
+$dropbox-min-width: 10rem;
+$dropbox-transition:
+    opacity 0.3s ease,
+    visibility 0.3s ease;
+
+/* Dropbox Menu */
+$dropbox-menu-background: var(--neutral-10);
+$dropbox-menu-border: $border-width solid var(--neutral-00);
+/* anchor menu */
+$anchor-menu-background: $dropbox-menu-background;
+$anchor-menu-text: var(--neutral-00);
+$anchor-menu-background-active: var(--neutral-00);
+$anchor-menu-text-active: var(--neutral-10);
+
+/* Tooltip */
+$tooltip-min-width: 24ch;
+$tooltip-background: var(--neutral-00);
+$tooltip-text: var(--neutral-10);
+$tooltip-text-decoration: underline dotted 0.125rem;
+$tooltip-underline-offset: $link-underline-offset;
+
+/* Grid */
+$grid-name: main;
+$grid-gap: 1.25rem;
+$grid-columns-small: 4;
+$grid-columns-medium: 12;
+$grid-columns-large: 12;
+
+/* Container */
+$container-width: clamp(20rem, 100%, 60rem);
+$container-margin-top: calc($leading * 3);
+$container-margin-bottom: calc($leading * 2);
+$container-gap: 1.25rem;
+
+/* Breakpoints */
+$screen-small-max-width: 42.5em; /* 680px */
+$screen-medium-min-width: 42.5625em; /* 681px*/
+$screen-medium-max-width: 61.1875em; /* 979px */
+$screen-large-min-width: 61.25em; /* 980px */
+
+/* Selection */
+$selection: #ffd23f;
+$selection-text: hsl(0, 0%, 0%);

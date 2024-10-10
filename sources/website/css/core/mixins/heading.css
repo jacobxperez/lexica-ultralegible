@@ -1,0 +1,7 @@
+@mixin _heading($name, $font-size, $line-height) {
+    $(name),
+    [data-text~="$(name)"] {
+        font-size: $font-size;
+        line-height: $line-height;
+    }
+}

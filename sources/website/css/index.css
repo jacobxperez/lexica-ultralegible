@@ -5,8 +5,8 @@
  * http://www.apache.org/licenses/LICENSE-2.0
  */
 
-/* Variables */
-@import "var.css";
+/* Theme Settings */
+@import "settings.css";
 
 /* Mixins */
 @import "core/mixins/import.css";

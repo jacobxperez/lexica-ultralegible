@@ -1,97 +1,109 @@
 [data-button~="outline"] {
-    border-color: $border-color;
-}
-
-[data-button~="tertiary"] {
-    background-color: $tertiary;
-    color: $tertiary-text;
+    color: $button-outline-text-color;
+    border-color: $button-outline-border-color;
 
     &:is([data-state="active"], :hover, :active) {
-        background-color: $tertiary-active;
-        color: $tertiary-text;
+        background-color: $button-outline-background-active;
+        color: $button-outline-text-color-active;
     }
 }
 
-[data-button="tertiary outline"] {
-    border-color: $tertiary;
-    color: $tertiary;
-}
+/* Tertiary */
+@include button(
+    tertiary,
+    $tertiary,
+    $tertiary-text,
+    $tertiary-active,
+    $tertiary-text-active
+);
 
-[data-button~="secondary"] {
-    background-color: $secondary;
-    color: $secondary-text;
+@include button-outline(
+    tertiary,
+    $tertiary,
+    $tertiary,
+    $tertiary,
+    $tertiary-text-active
+);
 
-    &:is([data-state="active"], :hover, :active) {
-        background-color: $secondary-active;
-        color: $secondary-text;
-    }
-}
+/* Secondary */
+@include button(
+    secondary,
+    $secondary,
+    $secondary-text,
+    $secondary-active,
+    $secondary-text-active
+);
 
-[data-button="secondary outline"] {
-    border-color: $secondary;
-    color: $secondary;
-}
+@include button-outline(
+    secondary,
+    $secondary,
+    $secondary,
+    $secondary,
+    $secondary-text-active
+);
 
-[data-button~="primary"] {
-    background-color: $primary;
-    color: $primary-text;
+/* Primary */
+@include button(
+    primary,
+    $primary,
+    $primary-text,
+    $primary-active,
+    $primary-text-active
+);
 
-    &:is([data-state="active"], :hover, :active) {
-        background-color: $primary-active;
-        color: $primary-text;
-    }
-}
+@include button-outline(
+    primary,
+    $primary,
+    $primary,
+    $primary,
+    $primary-text-active
+);
 
-[data-button="primary outline"] {
-    border-color: $primary;
-    color: $primary;
-}
+/* Success */
+@include button(
+    success,
+    $success,
+    $success-text,
+    $success-active,
+    $success-text-active
+);
 
-[data-button~="success"] {
-    background-color: $success;
-    color: $success-text;
+@include button-outline(
+    success,
+    $success,
+    $success,
+    $success,
+    $success-text-active
+);
 
-    &:is([data-state="active"], :hover, :active) {
-        background-color: $success-active;
-        color: $success-text;
-    }
-}
+/* Warning */
+@include button(
+    warning,
+    $warning,
+    $warning-text,
+    $warning-active,
+    $warning-text-active
+);
+@include button-outline(
+    warning,
+    $warning,
+    $warning,
+    $warning,
+    $warning-text-active
+);
 
-[data-button="success outline"] {
-    border-color: $success;
-    color: $success;
-}
+/* Danger */
+@include button(
+    danger,
+    $danger,
+    $danger-text,
+    $danger-active,
+    $danger-text-active
+);
 
-[data-button~="warning"] {
-    background-color: $warning;
-    color: $warning-text;
+@include button-outline(danger, $danger, $danger, $danger, $danger-text-active);
 
-    &:is([data-state="active"], :hover, :active) {
-        background-color: $warning-active;
-        color: $warning-text;
-    }
-}
-
-[data-button="warning outline"] {
-    border-color: $warning;
-    color: $warning;
-}
-
-[data-button~="danger"] {
-    background-color: $danger;
-    color: $danger-text;
-
-    &:is([data-state="active"], :hover, :active) {
-        background-color: $danger-active;
-        color: $danger-text;
-    }
-}
-
-[data-button="danger outline"] {
-    border-color: $danger;
-    color: $danger;
-}
-
+/* Outline */
 [data-button~="outline"] {
     background-color: transparent;
 }

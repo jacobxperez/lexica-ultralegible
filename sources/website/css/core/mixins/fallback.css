@@ -1,29 +1,34 @@
-/* Fall-Back: prevents error when removing imports from theme stylesheets */
+/* Fall-Back: prevents error when removing imports from the main index.css stylesheets */
 
 /* Custom Modules */
-@mixin _small-screen() {
+@mixin small-screen() {
     /* leve empty */
 }
 
-@mixin _medium-screen() {
+@mixin medium-screen() {
     /* leve empty */
 }
 
-@mixin _large-screen() {
+@mixin large-screen() {
     /* leve empty */
 }
 
 /* Grid */
-@mixin _small-grid() {
+@mixin _grid-small-screen() {
     /* leve empty */
 }
 
-@mixin _medium-grid() {
+@mixin _grid-medium-screen() {
     /* leve empty */
 }
 
-@mixin _large-grid() {
+@mixin _grid-large-screen() {
     /* leve empty */
+}
+
+/* Anchor */
+@mixin _anchor-menu {
+/* leve empty */
 }
 
 /* Display */
