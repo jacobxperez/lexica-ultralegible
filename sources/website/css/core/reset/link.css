@@ -1,19 +1,12 @@
 :where(a) {
-    text-decoration: none;
-    background-color: transparent;
-    @if $link-color != false {
-        color: $link-color;
-    }
-    text-decoration: $link-text-decoration;
-    text-underline-offset: $link-underline-offset;
+    @include _link;
     cursor: pointer;
 }
 
 :where(a:hover, a:active) {
-    text-decoration: $link-text-decoration-hover;
+    @include _link-active;
 }
 
 :where(a:focus) {
-    outline: thin dotted;
-    outline-offset: -0.125rem;
+    @include _link-focus;
 }

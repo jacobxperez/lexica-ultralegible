@@ -1,0 +1,35 @@
+@mixin button(
+    $name,
+    $background,
+    $text-color,
+    $background-active,
+    $text-active
+) {
+    [data-button~="$(name)"] {
+        background-color: $background;
+        color: $text-color;
+
+        &:is([data-state="active"], :hover, :active) {
+            background-color: $background-active;
+            color: $text-active;
+        }
+    }
+}
+
+@mixin button-outline(
+    $name,
+    $border-color,
+    $text-color,
+    $background-active,
+    $text-active
+) {
+    [data-button^="$(name) outline"] {
+        border-color: $border-color;
+        color: $text-color;
+
+        &:is([data-state="active"], :hover, :active) {
+            background-color: $background-active;
+            color: $text-active;
+        }
+    }
+}

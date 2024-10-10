@@ -10,6 +10,7 @@
     content: attr(data-icon);
     display: inline-block;
     font-family: icons;
+    font-weight: normal;
     line-height: 1;
     vertical-align: middle;
     text-transform: none;

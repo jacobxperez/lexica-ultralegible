@@ -1,0 +1,21 @@
+@mixin _link() {
+    text-decoration: none;
+    background-color: transparent;
+    color: $link-color;
+    text-decoration: $link-text-decoration;
+    text-decoration-thickness: $link-text-decoration-thickness;
+    -webkit-text-decoration: $link-text-decoration;
+    text-underline-offset: $link-underline-offset;
+}
+
+@mixin _link-active() {
+    @if $link-color-active != $link-color {
+        color: $link-color-active;
+    }
+    text-decoration: $link-text-decoration-active;
+}
+
+@mixin _link-focus() {
+    outline: thin dotted;
+    outline-offset: -0.125rem;
+}

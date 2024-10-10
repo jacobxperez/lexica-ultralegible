@@ -37,3 +37,7 @@
 [data-dropbox~="navbar"] {
     background-color: $navbar-dropbox-background;
 }
+
+/* [data-container~="navbar"] {
+    padding: 0 calc($grid-gap - $space-x);
+} */

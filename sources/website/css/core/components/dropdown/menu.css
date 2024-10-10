@@ -1,13 +1,18 @@
-$rams-menu: true;
-
 [data-dropbox~="menu"] {
-    background-color: $dropbox-menu-background-color;
+    background-color: $dropbox-menu-background;
     border: $dropbox-menu-border;
 }
 
 @mixin _anchor-menu {
-    [data-anchor~="menu"]:where([data-state="active"], :hover, :active) {
-        background-color: $anchor-menu-background-color;
-        color: $anchor-menu-color;
+    [data-anchor~="menu"] {
+        @if $anchor-menu-background != $dropbox-menu-background {
+            background-color: $anchor-menu-background;
+        }
+        color: $anchor-menu-text;
+
+        &:where([data-state="active"], :hover, :active) {
+            background-color: $anchor-menu-background-active;
+            color: $anchor-menu-text-active;
+        }
     }
 }

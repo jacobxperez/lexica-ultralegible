@@ -1,0 +1,37 @@
+@mixin columns($columns, $prefix: false) {
+	@if $prefix == false {
+		@for $i from 1 to $columns {
+            [data-grid~="$(i)"] {
+				grid-template-columns: repeat($(i), 1fr);
+			}
+
+			[data-column~="$(i)"] {
+				grid-column: span $(i);
+			}
+		}
+	} @else  {
+		@for $i from 1 to $columns {
+			[data-grid~="$(prefix)-$(i)"] {
+				grid-template-columns: repeat($(i), 1fr);
+			}
+
+			[data-column~="$(prefix)-$(i)"] {
+				grid-column: span $(i);
+			}
+		}
+	}
+}
+
+@mixin grid-columns($name, $columns, $prefix: false) {
+	[data-grid~="$(name)"] {
+		grid-template-columns: repeat($(columns), 1fr);
+	}
+
+	@include columns($columns, $prefix);
+}
+
+@mixin grid($name, $columns) {
+	[data-grid~="$(name)"] {
+		grid-template-columns: repeat($(columns), 1fr);
+	}
+}

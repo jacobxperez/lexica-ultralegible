@@ -2,8 +2,7 @@
 	font-family: "Lexica Ultralegible";
 	src:
 		local("Lexica Ultralegible"),
-		url("/src/fonts/lexica-ultralegible/LexicaUltralegible-Regular.woff2")
-			format("woff2");
+		url("/src/fonts/lexica-ultralegible/LexicaUltralegible-Regular.woff2") format("woff2");
 	font-weight: 400;
 	font-style: normal;
 }
@@ -12,8 +11,7 @@
 	font-family: "Lexica Ultralegible";
 	src:
 		local("Lexica Ultralegible"),
-		url("/src/fonts/lexica-ultralegible/LexicaUltralegible-Italic.woff2")
-			format("woff2");
+		url("/src/fonts/lexica-ultralegible/LexicaUltralegible-Italic.woff2") format("woff2");
 	font-weight: 400;
 	font-style: italic;
 }
@@ -22,8 +20,7 @@
 	font-family: "Lexica Ultralegible";
 	src:
 		local("Lexica Ultralegible"),
-		url("/src/fonts/lexica-ultralegible/LexicaUltralegible-Bold.woff2")
-			format("woff2");
+		url("/src/fonts/lexica-ultralegible/LexicaUltralegible-Bold.woff2") format("woff2");
 	font-weight: 700;
 	font-style: normal;
 }
@@ -32,8 +29,7 @@
 	font-family: "Lexica Ultralegible";
 	src:
 		local("Lexica Ultralegible"),
-		url("/src/fonts/lexica-ultralegible/LexicaUltralegible-BoldItalic.woff2")
-			format("woff2");
+		url("/src/fonts/lexica-ultralegible/LexicaUltralegible-BoldItalic.woff2") format("woff2");
 	font-weight: 700;
 	font-style: italic;
 }
