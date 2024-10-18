@@ -1,6 +1,7 @@
 # [Lexica Ultralegible](https://jacobxperez.github.io/lexica-ultralegible/)
 
-Lexica Ultralegible is a modern typeface inspired by the principles of legibility and readability, building on the foundation of the Atkinson Hyperlegible typeface. Designed specifically to enhance readability for low-vision readers, this typeface focused on improving character recognition through distinctive letterforms.
+Lexica Ultralegible is a modern typeface designed to enhance readability for low-vision readers by
+improving character recognition through distinctive letterforms. Build on the foundation of Atkinson Hyperlegible.
 
 ---
 ![banner](docs/banner.jpg)
@@ -22,7 +23,10 @@ Lexica Ultralegible is a modern typeface inspired by the principles of legibilit
 
 ## Overview
 
-With Lexica Ultralegible, we aim to continue the mission of the original typeface by maintaining the core values of legibility and readability while introducing a fresh identity. By honoring the original design while evolving its character, Lexica Ultralegible stands as a testament to the importance of accessibility in typography.
+With Lexica Ultralegible, we aim to continue the mission of the original typeface by maintaining the
+core values of legibility and readability while introducing a fresh identity. By honoring the original
+design while evolving its character, Lexica Ultralegible stands as a testament to the importance of
+accessibility in typography.
 
 * Four fonts, including two weights (regular, italic, bold, bold italic)
 * An additional 222 glyphs supporting 102 languages
@@ -35,19 +39,25 @@ With Lexica Ultralegible, we aim to continue the mission of the original typefac
 
 ### Design Features
 
-Designed for low-vision readers, certain letters and numbers can be hard to distinguish. Lexica Ultralegible differentiates common misinterpreted letters and numbers using various design techniques: B vs. 8, 1 vs. L vs. l vs. I. Recognizable Footprints:  Character boundaries are clearly defined, ensuring understanding across the visual-ability spectrum.
+Designed for low-vision readers, certain letters and numbers can be hard to distinguish.
+Lexica Ultralegible differentiates common misinterpreted letters and numbers using various
+design techniques: B vs. 8, 1 vs. L vs. l vs. I. Recognizable Footprints:  Character boundaries
+are clearly defined, ensuring understanding across the visual-ability spectrum.
 
 > `Q vs G, E vs F, p vs q, i vs r, O vs 0`
 
-Differentiated letterform’s: Similar letter pairs are differentiated from each other to dramatically increase legibility. Unambiguous Characters: designed to increase legibility and distinction.
+Differentiated letterform’s: Similar letter pairs are differentiated from each other to dramatically
+increase legibility. Unambiguous Characters: designed to increase legibility and distinction.
 
 > `ER79jr Vsa36`
 
-Exaggerated forms: Shaping of letters is exaggerated to provide better clarity. Opened Counterspace: Open areas of certain letters are expanded to provide greater distinction.
+Exaggerated forms: Shaping of letters is exaggerated to provide better clarity.
+Opened Counterspace: Open areas of certain letters are expanded to provide greater distinction.
 
 > `aGbgrpqu Åö8ij%?¡:`
 
-Angled spurs and differentiated tails: Increase recognition and define distinctive style. Circular Details: Links to the history of Braille Institute and braille dots.
+Angled spurs and differentiated tails: Increase recognition and define distinctive style.
+Circular Details: Links to the history of Braille Institute and braille dots.
 
 ### Installing the Font
 
