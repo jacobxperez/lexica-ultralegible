@@ -1,7 +1,8 @@
 # [Lexica Ultralegible](https://jacobxperez.github.io/lexica-ultralegible/)
 
-Lexica Ultralegible is a modern typeface designed to enhance readability for low-vision readers by
-improving character recognition through distinctive letterforms. Build on the foundation of Atkinson Hyperlegible.
+Lexica Ultralegible is a modern typeface designed specifically to enhance readability for low-vision readers
+by increasing character recognition with unique letter shapes. Building on the foundation of the Atkinson
+Hyperlegible typeface, we have improved it with more features.
 
 ---
 ![banner](docs/banner.jpg)
