@@ -2,7 +2,7 @@
     "type": "module",
     "name": "lexica-ultralegible",
     "version": "1.0.0",
-    "description": "Lexica Ultralegible is a modern typeface inspired by the principles of legibility and readability, building on the foundation of the Atkinson Hyperlegible typeface.",
+    "description": "Lexica Ultralegible is a modern typeface designed specifically to enhance readability for low-vision readers by increasing character recognition with unique letter shapes. Building on the foundation of the Atkinson Hyperlegible typeface, we have improved it with more features.",
     "targets": {
         "dev": {
             "source": "./sources/website/index.html",
